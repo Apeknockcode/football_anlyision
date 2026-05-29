@@ -1,0 +1,111 @@
+{
+  "range_label": "2026年",
+  "date_from": null,
+  "date_to": null,
+  "year": 2026,
+  "export_timestamp": "2026-03-14T06:19:29.176325Z",
+  "n": 645,
+  "outcome_correct": 299,
+  "outcome_accuracy": 0.4635658914728682,
+  "exact_score_correct": 90,
+  "exact_score_accuracy": 0.13953488372093023,
+  "single_rec_ok": 367,
+  "single_rec_n": 645,
+  "single_rec_accuracy": 0.5689922480620155,
+  "n_high_conf": 386,
+  "outcome_correct_high_conf": 192,
+  "outcome_accuracy_high_conf": 0.49740932642487046,
+  "by_single_rec_tier": [
+    {
+      "threshold": 0.5,
+      "n": 642,
+      "correct": 365,
+      "accuracy": 0.5685358255451713
+    },
+    {
+      "threshold": 0.55,
+      "n": 642,
+      "correct": 365,
+      "accuracy": 0.5685358255451713
+    },
+    {
+      "threshold": 0.6,
+      "n": 630,
+      "correct": 359,
+      "accuracy": 0.5698412698412698
+    },
+    {
+      "threshold": 0.65,
+      "n": 328,
+      "correct": 197,
+      "accuracy": 0.600609756097561
+    },
+    {
+      "threshold": 0.7,
+      "n": 85,
+      "correct": 57,
+      "accuracy": 0.6705882352941176
+    },
+    {
+      "threshold": 0.72,
+      "n": 78,
+      "correct": 52,
+      "accuracy": 0.6666666666666666
+    },
+    {
+      "threshold": 0.75,
+      "n": 73,
+      "correct": 49,
+      "accuracy": 0.6712328767123288
+    }
+  ],
+  "by_confidence_tier": [
+    {
+      "threshold": 0.5,
+      "n": 275,
+      "correct": 143,
+      "accuracy": 0.52
+    },
+    {
+      "threshold": 0.55,
+      "n": 202,
+      "correct": 114,
+      "accuracy": 0.5643564356435643
+    },
+    {
+      "threshold": 0.6,
+      "n": 123,
+      "correct": 80,
+      "accuracy": 0.6504065040650406
+    },
+    {
+      "threshold": 0.65,
+      "n": 72,
+      "correct": 48,
+      "accuracy": 0.6666666666666666
+    },
+    {
+      "threshold": 0.7,
+      "n": 38,
+      "correct": 29,
+      "accuracy": 0.7631578947368421
+    },
+    {
+      "threshold": 0.72,
+      "n": 26,
+      "correct": 22,
+      "accuracy": 0.8461538461538461
+    },
+    {
+      "threshold": 0.75,
+      "n": 19,
+      "correct": 18,
+      "accuracy": 0.9473684210526315
+    }
+  ],
+  "n_rq": 641,
+  "rq_ok_odds": 338,
+  "rq_accuracy_odds": 0.5273010920436817,
+  "rq_ok_model": 348,
+  "rq_accuracy_model": 0.5429017160686428
+}

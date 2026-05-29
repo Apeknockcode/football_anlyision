@@ -1,0 +1,149 @@
+{
+  "Serie A": {
+    "last_n": 8,
+    "PREDICT_DRAW_BOOST_COEF": 0.2,
+    "PREDICT_INJURY_KEY_PLAYER_WEIGHT": 3.0
+  },
+  "La Liga": {
+    "last_n": 12,
+    "PREDICT_DRAW_BOOST_COEF": 0.28,
+    "PREDICT_HOME_ADVANTAGE": 1.05,
+    "PREDICT_ODDS_FUSION_WEIGHT_MODEL": 0.52,
+    "PREDICT_INJURY_KEY_PLAYER_WEIGHT": 3.0
+  },
+  "Primera División": {
+    "last_n": 10,
+    "PREDICT_DRAW_BOOST_COEF": 0.28,
+    "PREDICT_HOME_ADVANTAGE": 1.05,
+    "PREDICT_ODDS_FUSION_WEIGHT_MODEL": 0.52
+  },
+  "Bundesliga": {
+    "last_n": 8,
+    "PREDICT_DRAW_BOOST_COEF": 0.22,
+    "PREDICT_INJURY_KEY_PLAYER_WEIGHT": 3.0
+  },
+  "Ligue 1": {
+    "last_n": 8,
+    "PREDICT_DRAW_BOOST_COEF": 0.22,
+    "PREDICT_INJURY_KEY_PLAYER_WEIGHT": 3.0
+  },
+  "Premier League": {
+    "last_n": 8,
+    "PREDICT_DRAW_BOOST_COEF": 0.22,
+    "PREDICT_INJURY_KEY_PLAYER_WEIGHT": 3.0
+  },
+  "Championship": {
+    "last_n": 8,
+    "PREDICT_DRAW_BOOST_COEF": 0.26,
+    "PREDICT_HOME_ADVANTAGE": 1.05,
+    "PREDICT_ODDS_FUSION_WEIGHT_MODEL": 0.34,
+    "PREDICT_INJURY_KEY_PLAYER_WEIGHT": 3.0
+  },
+  "Eredivisie": {
+    "last_n": 12,
+    "PREDICT_DRAW_BOOST_COEF": 0.28,
+    "PREDICT_INJURY_KEY_PLAYER_WEIGHT": 3.0
+  },
+  "Primeira Liga": {
+    "last_n": 8,
+    "PREDICT_DRAW_BOOST_COEF": 0.28,
+    "PREDICT_HOME_ADVANTAGE": 1.06,
+    "PREDICT_ODDS_FUSION_WEIGHT_MODEL": 0.52,
+    "PREDICT_INJURY_KEY_PLAYER_WEIGHT": 3.0
+  },
+  "UEFA Champions League": {
+    "last_n": 12,
+    "PREDICT_DRAW_BOOST_COEF": 0.24,
+    "PREDICT_INJURY_KEY_PLAYER_WEIGHT": 3.0
+  },
+  "2. Bundesliga": {
+    "last_n": 10,
+    "PREDICT_DRAW_BOOST_COEF": 0.28,
+    "PREDICT_ODDS_FUSION_WEIGHT_MODEL": 0.4,
+    "PREDICT_INJURY_KEY_PLAYER_WEIGHT": 3.0
+  },
+  "A-League": {
+    "last_n": 10,
+    "PREDICT_DRAW_BOOST_COEF": 0.24,
+    "PREDICT_ODDS_FUSION_WEIGHT_MODEL": 0.26,
+    "PREDICT_H2H_BLEND": 0.35,
+    "PREDICT_INJURY_KEY_PLAYER_WEIGHT": 3.0
+  },
+  "J1 League": {
+    "last_n": 10,
+    "PREDICT_DRAW_BOOST_COEF": 0.26,
+    "PREDICT_ODDS_FUSION_WEIGHT_MODEL": 0.44,
+    "PREDICT_INJURY_KEY_PLAYER_WEIGHT": 3.0
+  },
+  "K League 1": {
+    "last_n": 10,
+    "PREDICT_DRAW_BOOST_COEF": 0.26,
+    "PREDICT_ODDS_FUSION_WEIGHT_MODEL": 0.38,
+    "PREDICT_INJURY_KEY_PLAYER_WEIGHT": 3.0
+  },
+  "UEFA Europa League": {
+    "last_n": 12,
+    "PREDICT_DRAW_BOOST_COEF": 0.24,
+    "PREDICT_INJURY_KEY_PLAYER_WEIGHT": 3.0
+  },
+  "UEFA Europa Conference League": {
+    "last_n": 10,
+    "PREDICT_DRAW_BOOST_COEF": 0.26,
+    "PREDICT_INJURY_KEY_PLAYER_WEIGHT": 3.0
+  },
+  "Saudi Pro League": {
+    "last_n": 10,
+    "PREDICT_DRAW_BOOST_COEF": 0.27,
+    "PREDICT_INJURY_KEY_PLAYER_WEIGHT": 3.0
+  },
+  "MLS": {
+    "last_n": 8,
+    "PREDICT_DRAW_BOOST_COEF": 0.26,
+    "PREDICT_ODDS_FUSION_WEIGHT_MODEL": 0.38,
+    "PREDICT_INJURY_KEY_PLAYER_WEIGHT": 3.0
+  },
+  "Allsvenskan": {
+    "last_n": 12,
+    "PREDICT_DRAW_BOOST_COEF": 0.28,
+    "PREDICT_ODDS_FUSION_WEIGHT_MODEL": 0.5,
+    "PREDICT_INJURY_KEY_PLAYER_WEIGHT": 3.0
+  },
+  "Eliteserien": {
+    "last_n": 12,
+    "PREDICT_DRAW_BOOST_COEF": 0.24,
+    "PREDICT_ODDS_FUSION_WEIGHT_MODEL": 0.5,
+    "PREDICT_INJURY_KEY_PLAYER_WEIGHT": 3.0
+  },
+  "Eerste Divisie": {
+    "last_n": 8,
+    "PREDICT_DRAW_BOOST_COEF": 0.26,
+    "PREDICT_ODDS_FUSION_WEIGHT_MODEL": 0.52,
+    "PREDICT_INJURY_KEY_PLAYER_WEIGHT": 3.0
+  },
+  "Ligue 2": {
+    "last_n": 10,
+    "PREDICT_DRAW_BOOST_COEF": 0.28,
+    "PREDICT_ODDS_FUSION_WEIGHT_MODEL": 0.34,
+    "PREDICT_INJURY_KEY_PLAYER_WEIGHT": 3.0
+  },
+  "J2 League": {
+    "last_n": 10,
+    "PREDICT_DRAW_BOOST_COEF": 0.26,
+    "PREDICT_ODDS_FUSION_WEIGHT_MODEL": 0.28,
+    "PREDICT_H2H_BLEND": 0.35,
+    "PREDICT_INJURY_KEY_PLAYER_WEIGHT": 3.0
+  },
+  "AFC Champions League Elite": {
+    "last_n": 8,
+    "PREDICT_DRAW_BOOST_COEF": 0.2,
+    "PREDICT_INJURY_KEY_PLAYER_WEIGHT": 3.0
+  },
+  "AFC Champions League Two": {
+    "last_n": 8,
+    "PREDICT_DRAW_BOOST_COEF": 0.2,
+    "PREDICT_INJURY_KEY_PLAYER_WEIGHT": 3.0
+  },
+  "Swedish Cup": {
+    "PREDICT_INJURY_KEY_PLAYER_WEIGHT": 3.0
+  }
+}

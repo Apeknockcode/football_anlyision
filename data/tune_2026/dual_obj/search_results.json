@@ -1,0 +1,315 @@
+{
+  "baseline": {
+    "tag": "baseline",
+    "single": 56.2,
+    "outcome": 45.6,
+    "rq_jc": 54.2,
+    "score": 53.02,
+    "env": {}
+  },
+  "best": {
+    "tag": "c07",
+    "single": 56.2,
+    "outcome": 46.0,
+    "rq_jc": 54.2,
+    "score": 53.14,
+    "env": {
+      "PREDICT_OUTCOME_ML_WEIGHT": 0.35,
+      "PREDICT_ODDS_FUSION_WEIGHT_MODEL": 0.52,
+      "PREDICT_RQSPF_ODDS_FUSION_WEIGHT_MODEL": 0.35,
+      "PREDICT_DRAW_BOOST_COEF": 0.22,
+      "PREDICT_RQSPF_BLEND_DC_WEIGHT": 1.0
+    }
+  },
+  "rule": "non_drop_best_score",
+  "results": [
+    {
+      "tag": "c07",
+      "single": 56.2,
+      "outcome": 46.0,
+      "rq_jc": 54.2,
+      "score": 53.14,
+      "env": {
+        "PREDICT_OUTCOME_ML_WEIGHT": 0.35,
+        "PREDICT_ODDS_FUSION_WEIGHT_MODEL": 0.52,
+        "PREDICT_RQSPF_ODDS_FUSION_WEIGHT_MODEL": 0.35,
+        "PREDICT_DRAW_BOOST_COEF": 0.22,
+        "PREDICT_RQSPF_BLEND_DC_WEIGHT": 1.0
+      }
+    },
+    {
+      "tag": "c10",
+      "single": 56.2,
+      "outcome": 46.0,
+      "rq_jc": 54.2,
+      "score": 53.14,
+      "env": {
+        "PREDICT_OUTCOME_ML_WEIGHT": 0.37,
+        "PREDICT_ODDS_FUSION_WEIGHT_MODEL": 0.52,
+        "PREDICT_RQSPF_ODDS_FUSION_WEIGHT_MODEL": 0.35,
+        "PREDICT_DRAW_BOOST_COEF": 0.22,
+        "PREDICT_RQSPF_BLEND_DC_WEIGHT": 1.0
+      }
+    },
+    {
+      "tag": "c01",
+      "single": 56.3,
+      "outcome": 45.7,
+      "rq_jc": 54.2,
+      "score": 53.12,
+      "env": {
+        "PREDICT_OUTCOME_ML_WEIGHT": 0.3,
+        "PREDICT_ODDS_FUSION_WEIGHT_MODEL": 0.52,
+        "PREDICT_RQSPF_ODDS_FUSION_WEIGHT_MODEL": 0.35,
+        "PREDICT_DRAW_BOOST_COEF": 0.22,
+        "PREDICT_RQSPF_BLEND_DC_WEIGHT": 1.0
+      }
+    },
+    {
+      "tag": "c03",
+      "single": 56.4,
+      "outcome": 45.3,
+      "rq_jc": 54.2,
+      "score": 53.07,
+      "env": {
+        "PREDICT_OUTCOME_ML_WEIGHT": 0.3,
+        "PREDICT_ODDS_FUSION_WEIGHT_MODEL": 0.58,
+        "PREDICT_RQSPF_ODDS_FUSION_WEIGHT_MODEL": 0.35,
+        "PREDICT_DRAW_BOOST_COEF": 0.22,
+        "PREDICT_RQSPF_BLEND_DC_WEIGHT": 1.0
+      }
+    },
+    {
+      "tag": "baseline",
+      "single": 56.2,
+      "outcome": 45.6,
+      "rq_jc": 54.2,
+      "score": 53.02,
+      "env": {}
+    },
+    {
+      "tag": "c02",
+      "single": 56.2,
+      "outcome": 45.6,
+      "rq_jc": 54.2,
+      "score": 53.02,
+      "env": {
+        "PREDICT_OUTCOME_ML_WEIGHT": 0.3,
+        "PREDICT_ODDS_FUSION_WEIGHT_MODEL": 0.55,
+        "PREDICT_RQSPF_ODDS_FUSION_WEIGHT_MODEL": 0.35,
+        "PREDICT_DRAW_BOOST_COEF": 0.22,
+        "PREDICT_RQSPF_BLEND_DC_WEIGHT": 1.0
+      }
+    },
+    {
+      "tag": "c08",
+      "single": 56.2,
+      "outcome": 45.6,
+      "rq_jc": 54.2,
+      "score": 53.02,
+      "env": {
+        "PREDICT_OUTCOME_ML_WEIGHT": 0.35,
+        "PREDICT_ODDS_FUSION_WEIGHT_MODEL": 0.55,
+        "PREDICT_RQSPF_ODDS_FUSION_WEIGHT_MODEL": 0.35,
+        "PREDICT_DRAW_BOOST_COEF": 0.22,
+        "PREDICT_RQSPF_BLEND_DC_WEIGHT": 1.0
+      }
+    },
+    {
+      "tag": "c15",
+      "single": 56.0,
+      "outcome": 45.7,
+      "rq_jc": 54.5,
+      "score": 52.91,
+      "env": {
+        "PREDICT_OUTCOME_ML_WEIGHT": 0.33,
+        "PREDICT_ODDS_FUSION_WEIGHT_MODEL": 0.55,
+        "PREDICT_RQSPF_ODDS_FUSION_WEIGHT_MODEL": 0.32,
+        "PREDICT_DRAW_BOOST_COEF": 0.24,
+        "PREDICT_RQSPF_BLEND_DC_WEIGHT": 1.0
+      }
+    },
+    {
+      "tag": "c17",
+      "single": 56.0,
+      "outcome": 45.7,
+      "rq_jc": 54.2,
+      "score": 52.91,
+      "env": {
+        "PREDICT_OUTCOME_ML_WEIGHT": 0.33,
+        "PREDICT_ODDS_FUSION_WEIGHT_MODEL": 0.55,
+        "PREDICT_RQSPF_ODDS_FUSION_WEIGHT_MODEL": 0.35,
+        "PREDICT_DRAW_BOOST_COEF": 0.24,
+        "PREDICT_RQSPF_BLEND_DC_WEIGHT": 1.0
+      }
+    },
+    {
+      "tag": "c20",
+      "single": 56.0,
+      "outcome": 45.7,
+      "rq_jc": 53.8,
+      "score": 52.91,
+      "env": {
+        "PREDICT_OUTCOME_ML_WEIGHT": 0.33,
+        "PREDICT_ODDS_FUSION_WEIGHT_MODEL": 0.55,
+        "PREDICT_RQSPF_ODDS_FUSION_WEIGHT_MODEL": 0.38,
+        "PREDICT_DRAW_BOOST_COEF": 0.24,
+        "PREDICT_RQSPF_BLEND_DC_WEIGHT": 1.0
+      }
+    },
+    {
+      "tag": "c09",
+      "single": 56.2,
+      "outcome": 45.2,
+      "rq_jc": 54.2,
+      "score": 52.9,
+      "env": {
+        "PREDICT_OUTCOME_ML_WEIGHT": 0.35,
+        "PREDICT_ODDS_FUSION_WEIGHT_MODEL": 0.58,
+        "PREDICT_RQSPF_ODDS_FUSION_WEIGHT_MODEL": 0.35,
+        "PREDICT_DRAW_BOOST_COEF": 0.22,
+        "PREDICT_RQSPF_BLEND_DC_WEIGHT": 1.0
+      }
+    },
+    {
+      "tag": "c04",
+      "single": 55.8,
+      "outcome": 45.8,
+      "rq_jc": 54.2,
+      "score": 52.8,
+      "env": {
+        "PREDICT_OUTCOME_ML_WEIGHT": 0.33,
+        "PREDICT_ODDS_FUSION_WEIGHT_MODEL": 0.52,
+        "PREDICT_RQSPF_ODDS_FUSION_WEIGHT_MODEL": 0.35,
+        "PREDICT_DRAW_BOOST_COEF": 0.22,
+        "PREDICT_RQSPF_BLEND_DC_WEIGHT": 1.0
+      }
+    },
+    {
+      "tag": "c11",
+      "single": 55.9,
+      "outcome": 45.5,
+      "rq_jc": 54.2,
+      "score": 52.78,
+      "env": {
+        "PREDICT_OUTCOME_ML_WEIGHT": 0.37,
+        "PREDICT_ODDS_FUSION_WEIGHT_MODEL": 0.55,
+        "PREDICT_RQSPF_ODDS_FUSION_WEIGHT_MODEL": 0.35,
+        "PREDICT_DRAW_BOOST_COEF": 0.22,
+        "PREDICT_RQSPF_BLEND_DC_WEIGHT": 1.0
+      }
+    },
+    {
+      "tag": "c05",
+      "single": 55.8,
+      "outcome": 45.7,
+      "rq_jc": 54.2,
+      "score": 52.77,
+      "env": {
+        "PREDICT_OUTCOME_ML_WEIGHT": 0.33,
+        "PREDICT_ODDS_FUSION_WEIGHT_MODEL": 0.55,
+        "PREDICT_RQSPF_ODDS_FUSION_WEIGHT_MODEL": 0.35,
+        "PREDICT_DRAW_BOOST_COEF": 0.22,
+        "PREDICT_RQSPF_BLEND_DC_WEIGHT": 1.0
+      }
+    },
+    {
+      "tag": "c13",
+      "single": 55.8,
+      "outcome": 45.7,
+      "rq_jc": 54.5,
+      "score": 52.77,
+      "env": {
+        "PREDICT_OUTCOME_ML_WEIGHT": 0.33,
+        "PREDICT_ODDS_FUSION_WEIGHT_MODEL": 0.55,
+        "PREDICT_RQSPF_ODDS_FUSION_WEIGHT_MODEL": 0.32,
+        "PREDICT_DRAW_BOOST_COEF": 0.2,
+        "PREDICT_RQSPF_BLEND_DC_WEIGHT": 1.0
+      }
+    },
+    {
+      "tag": "c14",
+      "single": 55.8,
+      "outcome": 45.7,
+      "rq_jc": 54.5,
+      "score": 52.77,
+      "env": {
+        "PREDICT_OUTCOME_ML_WEIGHT": 0.33,
+        "PREDICT_ODDS_FUSION_WEIGHT_MODEL": 0.55,
+        "PREDICT_RQSPF_ODDS_FUSION_WEIGHT_MODEL": 0.32,
+        "PREDICT_DRAW_BOOST_COEF": 0.22,
+        "PREDICT_RQSPF_BLEND_DC_WEIGHT": 1.0
+      }
+    },
+    {
+      "tag": "c16",
+      "single": 55.8,
+      "outcome": 45.7,
+      "rq_jc": 54.2,
+      "score": 52.77,
+      "env": {
+        "PREDICT_OUTCOME_ML_WEIGHT": 0.33,
+        "PREDICT_ODDS_FUSION_WEIGHT_MODEL": 0.55,
+        "PREDICT_RQSPF_ODDS_FUSION_WEIGHT_MODEL": 0.35,
+        "PREDICT_DRAW_BOOST_COEF": 0.2,
+        "PREDICT_RQSPF_BLEND_DC_WEIGHT": 1.0
+      }
+    },
+    {
+      "tag": "c18",
+      "single": 55.8,
+      "outcome": 45.7,
+      "rq_jc": 53.8,
+      "score": 52.77,
+      "env": {
+        "PREDICT_OUTCOME_ML_WEIGHT": 0.33,
+        "PREDICT_ODDS_FUSION_WEIGHT_MODEL": 0.55,
+        "PREDICT_RQSPF_ODDS_FUSION_WEIGHT_MODEL": 0.38,
+        "PREDICT_DRAW_BOOST_COEF": 0.2,
+        "PREDICT_RQSPF_BLEND_DC_WEIGHT": 1.0
+      }
+    },
+    {
+      "tag": "c19",
+      "single": 55.8,
+      "outcome": 45.7,
+      "rq_jc": 53.8,
+      "score": 52.77,
+      "env": {
+        "PREDICT_OUTCOME_ML_WEIGHT": 0.33,
+        "PREDICT_ODDS_FUSION_WEIGHT_MODEL": 0.55,
+        "PREDICT_RQSPF_ODDS_FUSION_WEIGHT_MODEL": 0.38,
+        "PREDICT_DRAW_BOOST_COEF": 0.22,
+        "PREDICT_RQSPF_BLEND_DC_WEIGHT": 1.0
+      }
+    },
+    {
+      "tag": "c06",
+      "single": 55.8,
+      "outcome": 45.3,
+      "rq_jc": 54.2,
+      "score": 52.65,
+      "env": {
+        "PREDICT_OUTCOME_ML_WEIGHT": 0.33,
+        "PREDICT_ODDS_FUSION_WEIGHT_MODEL": 0.58,
+        "PREDICT_RQSPF_ODDS_FUSION_WEIGHT_MODEL": 0.35,
+        "PREDICT_DRAW_BOOST_COEF": 0.22,
+        "PREDICT_RQSPF_BLEND_DC_WEIGHT": 1.0
+      }
+    },
+    {
+      "tag": "c12",
+      "single": 55.8,
+      "outcome": 45.2,
+      "rq_jc": 54.2,
+      "score": 52.62,
+      "env": {
+        "PREDICT_OUTCOME_ML_WEIGHT": 0.37,
+        "PREDICT_ODDS_FUSION_WEIGHT_MODEL": 0.58,
+        "PREDICT_RQSPF_ODDS_FUSION_WEIGHT_MODEL": 0.35,
+        "PREDICT_DRAW_BOOST_COEF": 0.22,
+        "PREDICT_RQSPF_BLEND_DC_WEIGHT": 1.0
+      }
+    }
+  ]
+}

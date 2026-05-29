@@ -1,0 +1,422 @@
+{
+  "meta": {
+    "source": "lineup_key_absent_analysis",
+    "date_from": "2024-01-01",
+    "date_to": "2026-12-31",
+    "total_matches": 9118
+  },
+  "by_league_cn": {
+    "英超": {
+      "n": 769,
+      "mean_diff": -2.5182,
+      "suggested_PREDICT_INJURY_KEY_PLAYER_WEIGHT": 4.0
+    },
+    "意甲": {
+      "n": 733,
+      "mean_diff": -2.1446,
+      "suggested_PREDICT_INJURY_KEY_PLAYER_WEIGHT": 3.25
+    },
+    "西甲": {
+      "n": 713,
+      "mean_diff": -2.2405,
+      "suggested_PREDICT_INJURY_KEY_PLAYER_WEIGHT": 3.5
+    },
+    "德甲": {
+      "n": 582,
+      "mean_diff": -2.2079,
+      "suggested_PREDICT_INJURY_KEY_PLAYER_WEIGHT": 3.5
+    },
+    "英冠": {
+      "n": 453,
+      "mean_diff": -2.1788,
+      "suggested_PREDICT_INJURY_KEY_PLAYER_WEIGHT": 3.25
+    },
+    "法甲": {
+      "n": 424,
+      "mean_diff": -2.2807,
+      "suggested_PREDICT_INJURY_KEY_PLAYER_WEIGHT": 3.5
+    },
+    "日职": {
+      "n": 350,
+      "mean_diff": -2.1743,
+      "suggested_PREDICT_INJURY_KEY_PLAYER_WEIGHT": 3.25
+    },
+    "美职": {
+      "n": 325,
+      "mean_diff": -2.2015,
+      "suggested_PREDICT_INJURY_KEY_PLAYER_WEIGHT": 3.5
+    },
+    "葡超": {
+      "n": 322,
+      "mean_diff": -2.236,
+      "suggested_PREDICT_INJURY_KEY_PLAYER_WEIGHT": 3.5
+    },
+    "欧冠": {
+      "n": 319,
+      "mean_diff": -2.4248,
+      "suggested_PREDICT_INJURY_KEY_PLAYER_WEIGHT": 3.5
+    },
+    "荷甲": {
+      "n": 310,
+      "mean_diff": -2.0032,
+      "suggested_PREDICT_INJURY_KEY_PLAYER_WEIGHT": 3.25
+    },
+    "世预赛": {
+      "n": 284,
+      "mean_diff": -2.6989,
+      "suggested_PREDICT_INJURY_KEY_PLAYER_WEIGHT": 4.0
+    },
+    "澳超": {
+      "n": 269,
+      "mean_diff": -1.9461,
+      "suggested_PREDICT_INJURY_KEY_PLAYER_WEIGHT": 3.0
+    },
+    "德乙": {
+      "n": 260,
+      "mean_diff": -1.7808,
+      "suggested_PREDICT_INJURY_KEY_PLAYER_WEIGHT": 3.0
+    },
+    "瑞超": {
+      "n": 257,
+      "mean_diff": -1.9319,
+      "suggested_PREDICT_INJURY_KEY_PLAYER_WEIGHT": 3.0
+    },
+    "欧罗巴": {
+      "n": 254,
+      "mean_diff": -2.3071,
+      "suggested_PREDICT_INJURY_KEY_PLAYER_WEIGHT": 3.5
+    },
+    "挪超": {
+      "n": 235,
+      "mean_diff": -1.8447,
+      "suggested_PREDICT_INJURY_KEY_PLAYER_WEIGHT": 3.0
+    },
+    "日乙": {
+      "n": 235,
+      "mean_diff": -1.6362,
+      "suggested_PREDICT_INJURY_KEY_PLAYER_WEIGHT": 3.0
+    },
+    "法乙": {
+      "n": 195,
+      "mean_diff": -1.6769,
+      "suggested_PREDICT_INJURY_KEY_PLAYER_WEIGHT": 3.0
+    },
+    "韩职": {
+      "n": 190,
+      "mean_diff": -2.1974,
+      "suggested_PREDICT_INJURY_KEY_PLAYER_WEIGHT": 3.25
+    },
+    "荷乙": {
+      "n": 150,
+      "mean_diff": -1.4333,
+      "suggested_PREDICT_INJURY_KEY_PLAYER_WEIGHT": 3.0
+    },
+    "英足总杯": {
+      "n": 110,
+      "mean_diff": -2.0955,
+      "suggested_PREDICT_INJURY_KEY_PLAYER_WEIGHT": 3.25
+    },
+    "欧国联": {
+      "n": 104,
+      "mean_diff": -2.3317,
+      "suggested_PREDICT_INJURY_KEY_PLAYER_WEIGHT": 3.5
+    },
+    "亚冠精英": {
+      "n": 96,
+      "mean_diff": -2.5729,
+      "suggested_PREDICT_INJURY_KEY_PLAYER_WEIGHT": 4.0
+    },
+    "欧协联": {
+      "n": 81,
+      "mean_diff": -2.1358,
+      "suggested_PREDICT_INJURY_KEY_PLAYER_WEIGHT": 3.25
+    },
+    "非洲杯": {
+      "n": 63,
+      "mean_diff": -2.381,
+      "suggested_PREDICT_INJURY_KEY_PLAYER_WEIGHT": 3.5
+    },
+    "英甲": {
+      "n": 57,
+      "mean_diff": -1.8246,
+      "suggested_PREDICT_INJURY_KEY_PLAYER_WEIGHT": 3.0
+    },
+    "俱世界杯": {
+      "n": 56,
+      "mean_diff": -2.1696,
+      "suggested_PREDICT_INJURY_KEY_PLAYER_WEIGHT": 3.25
+    },
+    "日联赛杯": {
+      "n": 56,
+      "mean_diff": -1.6875,
+      "suggested_PREDICT_INJURY_KEY_PLAYER_WEIGHT": 3.0
+    },
+    "国际赛": {
+      "n": 51,
+      "mean_diff": -2.3725,
+      "suggested_PREDICT_INJURY_KEY_PLAYER_WEIGHT": 3.5
+    },
+    "英联赛杯": {
+      "n": 49,
+      "mean_diff": -2.3163,
+      "suggested_PREDICT_INJURY_KEY_PLAYER_WEIGHT": 3.5
+    },
+    "亚洲杯": {
+      "n": 48,
+      "mean_diff": -2.3125,
+      "suggested_PREDICT_INJURY_KEY_PLAYER_WEIGHT": 3.5
+    },
+    "德国杯": {
+      "n": 48,
+      "mean_diff": -2.2188,
+      "suggested_PREDICT_INJURY_KEY_PLAYER_WEIGHT": 3.5
+    },
+    "欧洲杯": {
+      "n": 44,
+      "mean_diff": -2.3295,
+      "suggested_PREDICT_INJURY_KEY_PLAYER_WEIGHT": 3.5
+    },
+    "意大利杯": {
+      "n": 43,
+      "mean_diff": -2.2907,
+      "suggested_PREDICT_INJURY_KEY_PLAYER_WEIGHT": 3.5
+    },
+    "法国杯": {
+      "n": 43,
+      "mean_diff": -1.8953,
+      "suggested_PREDICT_INJURY_KEY_PLAYER_WEIGHT": 3.0
+    },
+    "沙职": {
+      "n": 42,
+      "mean_diff": -2.7381,
+      "suggested_PREDICT_INJURY_KEY_PLAYER_WEIGHT": 4.0
+    },
+    "芬超": {
+      "n": 41,
+      "mean_diff": -1.9024,
+      "suggested_PREDICT_INJURY_KEY_PLAYER_WEIGHT": 3.0
+    },
+    "英锦标赛": {
+      "n": 40,
+      "mean_diff": -2.125,
+      "suggested_PREDICT_INJURY_KEY_PLAYER_WEIGHT": 3.25
+    },
+    "西国王杯": {
+      "n": 39,
+      "mean_diff": -2.3462,
+      "suggested_PREDICT_INJURY_KEY_PLAYER_WEIGHT": 3.5
+    },
+    "荷兰杯": {
+      "n": 37,
+      "mean_diff": -1.9054,
+      "suggested_PREDICT_INJURY_KEY_PLAYER_WEIGHT": 3.0
+    },
+    "奥运男足": {
+      "n": 32,
+      "mean_diff": -1.7344,
+      "suggested_PREDICT_INJURY_KEY_PLAYER_WEIGHT": 3.0
+    },
+    "美洲杯": {
+      "n": 30,
+      "mean_diff": -2.1833,
+      "suggested_PREDICT_INJURY_KEY_PLAYER_WEIGHT": 3.25
+    },
+    "解放者杯": {
+      "n": 29,
+      "mean_diff": -2.2241,
+      "suggested_PREDICT_INJURY_KEY_PLAYER_WEIGHT": 3.5
+    },
+    "亚洲杯23": {
+      "n": 28,
+      "mean_diff": -1.4821,
+      "suggested_PREDICT_INJURY_KEY_PLAYER_WEIGHT": 3.0
+    },
+    "金杯赛": {
+      "n": 28,
+      "mean_diff": -1.9464,
+      "suggested_PREDICT_INJURY_KEY_PLAYER_WEIGHT": 3.0
+    },
+    "世界杯20": {
+      "n": 25,
+      "mean_diff": -2.1,
+      "suggested_PREDICT_INJURY_KEY_PLAYER_WEIGHT": 3.25
+    },
+    "奥运女足": {
+      "n": 25,
+      "mean_diff": -2.48,
+      "suggested_PREDICT_INJURY_KEY_PLAYER_WEIGHT": 3.5
+    },
+    "欧锦赛21": {
+      "n": 25,
+      "mean_diff": -1.44,
+      "suggested_PREDICT_INJURY_KEY_PLAYER_WEIGHT": 3.0
+    },
+    "亚冠乙": {
+      "n": 18,
+      "mean_diff": -2.4722,
+      "suggested_PREDICT_INJURY_KEY_PLAYER_WEIGHT": 3.5
+    },
+    "日天皇杯": {
+      "n": 16,
+      "mean_diff": -1.375,
+      "suggested_PREDICT_INJURY_KEY_PLAYER_WEIGHT": 3.0
+    },
+    "巴甲": {
+      "n": 13,
+      "mean_diff": -2.3077,
+      "suggested_PREDICT_INJURY_KEY_PLAYER_WEIGHT": 3.5
+    },
+    "意超杯": {
+      "n": 9,
+      "mean_diff": -1.3889,
+      "suggested_PREDICT_INJURY_KEY_PLAYER_WEIGHT": 3.0
+    },
+    "葡萄牙杯": {
+      "n": 9,
+      "mean_diff": -2.1111,
+      "suggested_PREDICT_INJURY_KEY_PLAYER_WEIGHT": 3.25
+    },
+    "西超杯": {
+      "n": 9,
+      "mean_diff": -1.7222,
+      "suggested_PREDICT_INJURY_KEY_PLAYER_WEIGHT": 3.0
+    },
+    "韩国杯": {
+      "n": 9,
+      "mean_diff": -1.8333,
+      "suggested_PREDICT_INJURY_KEY_PLAYER_WEIGHT": 3.0
+    },
+    "欧预赛": {
+      "n": 7,
+      "mean_diff": -2.0,
+      "suggested_PREDICT_INJURY_KEY_PLAYER_WEIGHT": 3.25
+    },
+    "女东亚锦": {
+      "n": 6,
+      "mean_diff": -2.3333,
+      "suggested_PREDICT_INJURY_KEY_PLAYER_WEIGHT": 3.5
+    },
+    "俄超": {
+      "n": 5,
+      "mean_diff": -2.3,
+      "suggested_PREDICT_INJURY_KEY_PLAYER_WEIGHT": 3.5
+    },
+    "杯赛": {
+      "n": 5,
+      "mean_diff": -2.2,
+      "suggested_PREDICT_INJURY_KEY_PLAYER_WEIGHT": 3.5
+    },
+    "中北美冠": {
+      "n": 3,
+      "mean_diff": -2.0,
+      "suggested_PREDICT_INJURY_KEY_PLAYER_WEIGHT": 3.25
+    },
+    "女亚洲杯": {
+      "n": 2,
+      "mean_diff": -2.0,
+      "suggested_PREDICT_INJURY_KEY_PLAYER_WEIGHT": 3.25
+    },
+    "德超杯": {
+      "n": 2,
+      "mean_diff": -2.75,
+      "suggested_PREDICT_INJURY_KEY_PLAYER_WEIGHT": 4.0
+    },
+    "欧超杯": {
+      "n": 2,
+      "mean_diff": -1.75,
+      "suggested_PREDICT_INJURY_KEY_PLAYER_WEIGHT": 3.0
+    },
+    "英社区盾": {
+      "n": 2,
+      "mean_diff": -2.25,
+      "suggested_PREDICT_INJURY_KEY_PLAYER_WEIGHT": 3.5
+    },
+    "挪威杯": {
+      "n": 1,
+      "mean_diff": -2.5,
+      "suggested_PREDICT_INJURY_KEY_PLAYER_WEIGHT": 4.0
+    },
+    "瑞典杯": {
+      "n": 1,
+      "mean_diff": -1.5,
+      "suggested_PREDICT_INJURY_KEY_PLAYER_WEIGHT": 3.0
+    }
+  },
+  "for_merge": {
+    "Premier League": {
+      "PREDICT_INJURY_KEY_PLAYER_WEIGHT": 4.0
+    },
+    "Serie A": {
+      "PREDICT_INJURY_KEY_PLAYER_WEIGHT": 3.25
+    },
+    "La Liga": {
+      "PREDICT_INJURY_KEY_PLAYER_WEIGHT": 3.5
+    },
+    "Bundesliga": {
+      "PREDICT_INJURY_KEY_PLAYER_WEIGHT": 3.5
+    },
+    "Championship": {
+      "PREDICT_INJURY_KEY_PLAYER_WEIGHT": 3.25
+    },
+    "Ligue 1": {
+      "PREDICT_INJURY_KEY_PLAYER_WEIGHT": 3.5
+    },
+    "J1 League": {
+      "PREDICT_INJURY_KEY_PLAYER_WEIGHT": 3.25
+    },
+    "MLS": {
+      "PREDICT_INJURY_KEY_PLAYER_WEIGHT": 3.5
+    },
+    "Primeira Liga": {
+      "PREDICT_INJURY_KEY_PLAYER_WEIGHT": 3.5
+    },
+    "UEFA Champions League": {
+      "PREDICT_INJURY_KEY_PLAYER_WEIGHT": 3.5
+    },
+    "Eredivisie": {
+      "PREDICT_INJURY_KEY_PLAYER_WEIGHT": 3.25
+    },
+    "A-League": {
+      "PREDICT_INJURY_KEY_PLAYER_WEIGHT": 3.0
+    },
+    "2. Bundesliga": {
+      "PREDICT_INJURY_KEY_PLAYER_WEIGHT": 3.0
+    },
+    "Allsvenskan": {
+      "PREDICT_INJURY_KEY_PLAYER_WEIGHT": 3.0
+    },
+    "UEFA Europa League": {
+      "PREDICT_INJURY_KEY_PLAYER_WEIGHT": 3.5
+    },
+    "Eliteserien": {
+      "PREDICT_INJURY_KEY_PLAYER_WEIGHT": 3.0
+    },
+    "J2 League": {
+      "PREDICT_INJURY_KEY_PLAYER_WEIGHT": 3.0
+    },
+    "Ligue 2": {
+      "PREDICT_INJURY_KEY_PLAYER_WEIGHT": 3.0
+    },
+    "K League 1": {
+      "PREDICT_INJURY_KEY_PLAYER_WEIGHT": 3.25
+    },
+    "Eerste Divisie": {
+      "PREDICT_INJURY_KEY_PLAYER_WEIGHT": 3.0
+    },
+    "AFC Champions League Elite": {
+      "PREDICT_INJURY_KEY_PLAYER_WEIGHT": 4.0
+    },
+    "UEFA Europa Conference League": {
+      "PREDICT_INJURY_KEY_PLAYER_WEIGHT": 3.25
+    },
+    "Saudi Pro League": {
+      "PREDICT_INJURY_KEY_PLAYER_WEIGHT": 4.0
+    },
+    "AFC Champions League Two": {
+      "PREDICT_INJURY_KEY_PLAYER_WEIGHT": 3.5
+    },
+    "Swedish Cup": {
+      "PREDICT_INJURY_KEY_PLAYER_WEIGHT": 3.0
+    }
+  }
+}

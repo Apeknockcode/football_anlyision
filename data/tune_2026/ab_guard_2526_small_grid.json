@@ -1,0 +1,307 @@
+{
+  "baseline": {
+    "tag": "baseline",
+    "params": {},
+    "single_2025": 54.6,
+    "outcome_2025": 44.9,
+    "single_2026": 56.2,
+    "outcome_2026": 46.0,
+    "score_2026": 53.14,
+    "score_avg": 52.415
+  },
+  "best": {
+    "tag": "baseline",
+    "params": {},
+    "single_2025": 54.6,
+    "outcome_2025": 44.9,
+    "single_2026": 56.2,
+    "outcome_2026": 46.0,
+    "score_2026": 53.14,
+    "score_avg": 52.415
+  },
+  "bucket": "guard",
+  "results_sorted": [
+    {
+      "tag": "baseline",
+      "params": {},
+      "single_2025": 54.6,
+      "outcome_2025": 44.9,
+      "single_2026": 56.2,
+      "outcome_2026": 46.0,
+      "score_2026": 53.14,
+      "score_avg": 52.415
+    },
+    {
+      "tag": "c05",
+      "params": {
+        "PREDICT_OUTCOME_ML_WEIGHT": 0.34,
+        "PREDICT_ODDS_FUSION_WEIGHT_MODEL": 0.52,
+        "PREDICT_RQSPF_ODDS_FUSION_WEIGHT_MODEL": 0.35,
+        "PREDICT_DRAW_BOOST_COEF": 0.22,
+        "PREDICT_RQSPF_BLEND_DC_WEIGHT": 1.0
+      },
+      "single_2025": 55.0,
+      "outcome_2025": 44.0,
+      "single_2026": 56.2,
+      "outcome_2026": 45.9,
+      "score_2026": 53.11,
+      "score_avg": 52.405
+    },
+    {
+      "tag": "c17",
+      "params": {
+        "PREDICT_OUTCOME_ML_WEIGHT": 0.34,
+        "PREDICT_ODDS_FUSION_WEIGHT_MODEL": 0.52,
+        "PREDICT_RQSPF_ODDS_FUSION_WEIGHT_MODEL": 0.38,
+        "PREDICT_DRAW_BOOST_COEF": 0.24,
+        "PREDICT_RQSPF_BLEND_DC_WEIGHT": 1.0
+      },
+      "single_2025": 54.7,
+      "outcome_2025": 44.4,
+      "single_2026": 56.2,
+      "outcome_2026": 45.9,
+      "score_2026": 53.11,
+      "score_avg": 52.36
+    },
+    {
+      "tag": "c01",
+      "params": {
+        "PREDICT_OUTCOME_ML_WEIGHT": 0.32,
+        "PREDICT_ODDS_FUSION_WEIGHT_MODEL": 0.5,
+        "PREDICT_RQSPF_ODDS_FUSION_WEIGHT_MODEL": 0.35,
+        "PREDICT_DRAW_BOOST_COEF": 0.22,
+        "PREDICT_RQSPF_BLEND_DC_WEIGHT": 1.0
+      },
+      "single_2025": 55.1,
+      "outcome_2025": 44.3,
+      "single_2026": 56.1,
+      "outcome_2026": 46.0,
+      "score_2026": 53.07,
+      "score_avg": 52.465
+    },
+    {
+      "tag": "c04",
+      "params": {
+        "PREDICT_OUTCOME_ML_WEIGHT": 0.34,
+        "PREDICT_ODDS_FUSION_WEIGHT_MODEL": 0.5,
+        "PREDICT_RQSPF_ODDS_FUSION_WEIGHT_MODEL": 0.35,
+        "PREDICT_DRAW_BOOST_COEF": 0.22,
+        "PREDICT_RQSPF_BLEND_DC_WEIGHT": 1.0
+      },
+      "single_2025": 54.5,
+      "outcome_2025": 44.4,
+      "single_2026": 56.1,
+      "outcome_2026": 45.9,
+      "score_2026": 53.04,
+      "score_avg": 52.255
+    },
+    {
+      "tag": "c02",
+      "params": {
+        "PREDICT_OUTCOME_ML_WEIGHT": 0.32,
+        "PREDICT_ODDS_FUSION_WEIGHT_MODEL": 0.52,
+        "PREDICT_RQSPF_ODDS_FUSION_WEIGHT_MODEL": 0.35,
+        "PREDICT_DRAW_BOOST_COEF": 0.22,
+        "PREDICT_RQSPF_BLEND_DC_WEIGHT": 1.0
+      },
+      "single_2025": 54.6,
+      "outcome_2025": 44.0,
+      "single_2026": 56.0,
+      "outcome_2026": 45.8,
+      "score_2026": 52.94,
+      "score_avg": 52.18
+    },
+    {
+      "tag": "c06",
+      "params": {
+        "PREDICT_OUTCOME_ML_WEIGHT": 0.34,
+        "PREDICT_ODDS_FUSION_WEIGHT_MODEL": 0.55,
+        "PREDICT_RQSPF_ODDS_FUSION_WEIGHT_MODEL": 0.35,
+        "PREDICT_DRAW_BOOST_COEF": 0.22,
+        "PREDICT_RQSPF_BLEND_DC_WEIGHT": 1.0
+      },
+      "single_2025": 54.4,
+      "outcome_2025": 44.0,
+      "single_2026": 55.9,
+      "outcome_2026": 44.8,
+      "score_2026": 52.57,
+      "score_avg": 51.925
+    },
+    {
+      "tag": "c03",
+      "params": {
+        "PREDICT_OUTCOME_ML_WEIGHT": 0.32,
+        "PREDICT_ODDS_FUSION_WEIGHT_MODEL": 0.55,
+        "PREDICT_RQSPF_ODDS_FUSION_WEIGHT_MODEL": 0.35,
+        "PREDICT_DRAW_BOOST_COEF": 0.22,
+        "PREDICT_RQSPF_BLEND_DC_WEIGHT": 1.0
+      },
+      "single_2025": 54.5,
+      "outcome_2025": 44.5,
+      "single_2026": 55.8,
+      "outcome_2026": 45.5,
+      "score_2026": 52.71,
+      "score_avg": 52.105
+    },
+    {
+      "tag": "c16",
+      "params": {
+        "PREDICT_OUTCOME_ML_WEIGHT": 0.34,
+        "PREDICT_ODDS_FUSION_WEIGHT_MODEL": 0.52,
+        "PREDICT_RQSPF_ODDS_FUSION_WEIGHT_MODEL": 0.38,
+        "PREDICT_DRAW_BOOST_COEF": 0.22,
+        "PREDICT_RQSPF_BLEND_DC_WEIGHT": 1.0
+      },
+      "single_2025": 55.0,
+      "outcome_2025": 43.9,
+      "single_2026": 55.8,
+      "outcome_2026": 44.7,
+      "score_2026": 52.47,
+      "score_avg": 52.07
+    },
+    {
+      "tag": "c12",
+      "params": {
+        "PREDICT_OUTCOME_ML_WEIGHT": 0.34,
+        "PREDICT_ODDS_FUSION_WEIGHT_MODEL": 0.52,
+        "PREDICT_RQSPF_ODDS_FUSION_WEIGHT_MODEL": 0.32,
+        "PREDICT_DRAW_BOOST_COEF": 0.24,
+        "PREDICT_RQSPF_BLEND_DC_WEIGHT": 1.0
+      },
+      "single_2025": 55.0,
+      "outcome_2025": 43.9,
+      "single_2026": 55.7,
+      "outcome_2026": 45.1,
+      "score_2026": 52.52,
+      "score_avg": 52.095
+    },
+    {
+      "tag": "c13",
+      "params": {
+        "PREDICT_OUTCOME_ML_WEIGHT": 0.34,
+        "PREDICT_ODDS_FUSION_WEIGHT_MODEL": 0.52,
+        "PREDICT_RQSPF_ODDS_FUSION_WEIGHT_MODEL": 0.35,
+        "PREDICT_DRAW_BOOST_COEF": 0.2,
+        "PREDICT_RQSPF_BLEND_DC_WEIGHT": 1.0
+      },
+      "single_2025": 55.0,
+      "outcome_2025": 44.0,
+      "single_2026": 55.6,
+      "outcome_2026": 45.0,
+      "score_2026": 52.42,
+      "score_avg": 52.06
+    },
+    {
+      "tag": "c14",
+      "params": {
+        "PREDICT_OUTCOME_ML_WEIGHT": 0.34,
+        "PREDICT_ODDS_FUSION_WEIGHT_MODEL": 0.52,
+        "PREDICT_RQSPF_ODDS_FUSION_WEIGHT_MODEL": 0.35,
+        "PREDICT_DRAW_BOOST_COEF": 0.24,
+        "PREDICT_RQSPF_BLEND_DC_WEIGHT": 1.0
+      },
+      "single_2025": 55.0,
+      "outcome_2025": 44.0,
+      "single_2026": 55.6,
+      "outcome_2026": 45.0,
+      "score_2026": 52.42,
+      "score_avg": 52.06
+    },
+    {
+      "tag": "c15",
+      "params": {
+        "PREDICT_OUTCOME_ML_WEIGHT": 0.34,
+        "PREDICT_ODDS_FUSION_WEIGHT_MODEL": 0.52,
+        "PREDICT_RQSPF_ODDS_FUSION_WEIGHT_MODEL": 0.38,
+        "PREDICT_DRAW_BOOST_COEF": 0.2,
+        "PREDICT_RQSPF_BLEND_DC_WEIGHT": 1.0
+      },
+      "single_2025": 55.0,
+      "outcome_2025": 43.9,
+      "single_2026": 55.6,
+      "outcome_2026": 45.0,
+      "score_2026": 52.42,
+      "score_avg": 52.045
+    },
+    {
+      "tag": "c08",
+      "params": {
+        "PREDICT_OUTCOME_ML_WEIGHT": 0.36,
+        "PREDICT_ODDS_FUSION_WEIGHT_MODEL": 0.52,
+        "PREDICT_RQSPF_ODDS_FUSION_WEIGHT_MODEL": 0.35,
+        "PREDICT_DRAW_BOOST_COEF": 0.22,
+        "PREDICT_RQSPF_BLEND_DC_WEIGHT": 1.0
+      },
+      "single_2025": 54.5,
+      "outcome_2025": 44.5,
+      "single_2026": 55.6,
+      "outcome_2026": 44.8,
+      "score_2026": 52.36,
+      "score_avg": 51.93
+    },
+    {
+      "tag": "c11",
+      "params": {
+        "PREDICT_OUTCOME_ML_WEIGHT": 0.34,
+        "PREDICT_ODDS_FUSION_WEIGHT_MODEL": 0.52,
+        "PREDICT_RQSPF_ODDS_FUSION_WEIGHT_MODEL": 0.32,
+        "PREDICT_DRAW_BOOST_COEF": 0.22,
+        "PREDICT_RQSPF_BLEND_DC_WEIGHT": 1.0
+      },
+      "single_2025": 55.1,
+      "outcome_2025": 44.3,
+      "single_2026": 55.5,
+      "outcome_2026": 45.1,
+      "score_2026": 52.38,
+      "score_avg": 52.12
+    },
+    {
+      "tag": "c09",
+      "params": {
+        "PREDICT_OUTCOME_ML_WEIGHT": 0.36,
+        "PREDICT_ODDS_FUSION_WEIGHT_MODEL": 0.55,
+        "PREDICT_RQSPF_ODDS_FUSION_WEIGHT_MODEL": 0.35,
+        "PREDICT_DRAW_BOOST_COEF": 0.22,
+        "PREDICT_RQSPF_BLEND_DC_WEIGHT": 1.0
+      },
+      "single_2025": 54.7,
+      "outcome_2025": 44.0,
+      "single_2026": 55.5,
+      "outcome_2026": 44.8,
+      "score_2026": 52.29,
+      "score_avg": 51.89
+    },
+    {
+      "tag": "c07",
+      "params": {
+        "PREDICT_OUTCOME_ML_WEIGHT": 0.36,
+        "PREDICT_ODDS_FUSION_WEIGHT_MODEL": 0.5,
+        "PREDICT_RQSPF_ODDS_FUSION_WEIGHT_MODEL": 0.35,
+        "PREDICT_DRAW_BOOST_COEF": 0.22,
+        "PREDICT_RQSPF_BLEND_DC_WEIGHT": 1.0
+      },
+      "single_2025": 55.4,
+      "outcome_2025": 44.7,
+      "single_2026": 55.3,
+      "outcome_2026": 44.9,
+      "score_2026": 52.18,
+      "score_avg": 52.185
+    },
+    {
+      "tag": "c10",
+      "params": {
+        "PREDICT_OUTCOME_ML_WEIGHT": 0.34,
+        "PREDICT_ODDS_FUSION_WEIGHT_MODEL": 0.52,
+        "PREDICT_RQSPF_ODDS_FUSION_WEIGHT_MODEL": 0.32,
+        "PREDICT_DRAW_BOOST_COEF": 0.2,
+        "PREDICT_RQSPF_BLEND_DC_WEIGHT": 1.0
+      },
+      "single_2025": 54.9,
+      "outcome_2025": 43.8,
+      "single_2026": 55.2,
+      "outcome_2026": 45.9,
+      "score_2026": 52.41,
+      "score_avg": 51.99
+    }
+  ]
+}

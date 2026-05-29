@@ -1,0 +1,5900 @@
+{
+  "n": 803,
+  "by_confidence_tier": [
+    {
+      "threshold": 0.5,
+      "n": 414,
+      "correct": 228,
+      "accuracy": 0.5507246376811594
+    },
+    {
+      "threshold": 0.55,
+      "n": 320,
+      "correct": 186,
+      "accuracy": 0.58125
+    },
+    {
+      "threshold": 0.6,
+      "n": 197,
+      "correct": 120,
+      "accuracy": 0.6091370558375635
+    },
+    {
+      "threshold": 0.65,
+      "n": 77,
+      "correct": 54,
+      "accuracy": 0.7012987012987013
+    },
+    {
+      "threshold": 0.7,
+      "n": 27,
+      "correct": 24,
+      "accuracy": 0.8888888888888888
+    },
+    {
+      "threshold": 0.72,
+      "n": 22,
+      "correct": 20,
+      "accuracy": 0.9090909090909091
+    },
+    {
+      "threshold": 0.75,
+      "n": 19,
+      "correct": 18,
+      "accuracy": 0.9473684210526315
+    }
+  ],
+  "total_predictions": 833,
+  "outcome_correct": 370,
+  "outcome_accuracy": 0.46077210460772106,
+  "exact_score_correct": 83,
+  "exact_score_accuracy": 0.10336239103362391,
+  "n_high_conf": 509,
+  "outcome_correct_high_conf": 261,
+  "outcome_accuracy_high_conf": 0.5127701375245579,
+  "by_league": [
+    {
+      "league": "德甲",
+      "n": 71,
+      "outcome_correct": 38,
+      "outcome_accuracy": 0.5352112676056338
+    },
+    {
+      "league": "意甲",
+      "n": 70,
+      "outcome_correct": 38,
+      "outcome_accuracy": 0.5428571428571428
+    },
+    {
+      "league": "西甲",
+      "n": 68,
+      "outcome_correct": 38,
+      "outcome_accuracy": 0.5588235294117647
+    },
+    {
+      "league": "英超",
+      "n": 68,
+      "outcome_correct": 27,
+      "outcome_accuracy": 0.39705882352941174
+    },
+    {
+      "league": "英冠",
+      "n": 58,
+      "outcome_correct": 26,
+      "outcome_accuracy": 0.4482758620689655
+    },
+    {
+      "league": "澳超",
+      "n": 53,
+      "outcome_correct": 16,
+      "outcome_accuracy": 0.3018867924528302
+    },
+    {
+      "league": "沙职",
+      "n": 46,
+      "outcome_correct": 24,
+      "outcome_accuracy": 0.5217391304347826
+    },
+    {
+      "league": "荷甲",
+      "n": 44,
+      "outcome_correct": 18,
+      "outcome_accuracy": 0.4090909090909091
+    },
+    {
+      "league": "欧冠",
+      "n": 42,
+      "outcome_correct": 26,
+      "outcome_accuracy": 0.6190476190476191
+    },
+    {
+      "league": "德乙",
+      "n": 35,
+      "outcome_correct": 16,
+      "outcome_accuracy": 0.45714285714285713
+    },
+    {
+      "league": "法甲",
+      "n": 27,
+      "outcome_correct": 13,
+      "outcome_accuracy": 0.48148148148148145
+    },
+    {
+      "league": "葡超",
+      "n": 22,
+      "outcome_correct": 12,
+      "outcome_accuracy": 0.5454545454545454
+    },
+    {
+      "league": "亚洲杯23",
+      "n": 21,
+      "outcome_correct": 6,
+      "outcome_accuracy": 0.2857142857142857
+    },
+    {
+      "league": "女亚洲杯",
+      "n": 19,
+      "outcome_correct": 10,
+      "outcome_accuracy": 0.5263157894736842
+    },
+    {
+      "league": "法乙",
+      "n": 16,
+      "outcome_correct": 4,
+      "outcome_accuracy": 0.25
+    },
+    {
+      "league": "欧罗巴",
+      "n": 16,
+      "outcome_correct": 8,
+      "outcome_accuracy": 0.5
+    },
+    {
+      "league": "英足总杯",
+      "n": 15,
+      "outcome_correct": 5,
+      "outcome_accuracy": 0.3333333333333333
+    },
+    {
+      "league": "亚冠精英",
+      "n": 15,
+      "outcome_correct": 6,
+      "outcome_accuracy": 0.4
+    },
+    {
+      "league": "韩职",
+      "n": 14,
+      "outcome_correct": 4,
+      "outcome_accuracy": 0.2857142857142857
+    },
+    {
+      "league": "荷乙",
+      "n": 13,
+      "outcome_correct": 2,
+      "outcome_accuracy": 0.15384615384615385
+    },
+    {
+      "league": "日职",
+      "n": 13,
+      "outcome_correct": 5,
+      "outcome_accuracy": 0.38461538461538464
+    },
+    {
+      "league": "英甲",
+      "n": 10,
+      "outcome_correct": 4,
+      "outcome_accuracy": 0.4
+    },
+    {
+      "league": "亚冠乙",
+      "n": 8,
+      "outcome_correct": 3,
+      "outcome_accuracy": 0.375
+    },
+    {
+      "league": "法国杯",
+      "n": 6,
+      "outcome_correct": 2,
+      "outcome_accuracy": 0.3333333333333333
+    },
+    {
+      "league": "荷兰杯",
+      "n": 6,
+      "outcome_correct": 2,
+      "outcome_accuracy": 0.3333333333333333
+    },
+    {
+      "league": "美职",
+      "n": 6,
+      "outcome_correct": 2,
+      "outcome_accuracy": 0.3333333333333333
+    },
+    {
+      "league": "西国王杯",
+      "n": 4,
+      "outcome_correct": 4,
+      "outcome_accuracy": 1.0
+    },
+    {
+      "league": "欧协联",
+      "n": 4,
+      "outcome_correct": 2,
+      "outcome_accuracy": 0.5
+    },
+    {
+      "league": "挪超",
+      "n": 4,
+      "outcome_correct": 4,
+      "outcome_accuracy": 1.0
+    },
+    {
+      "league": "非洲杯",
+      "n": 3,
+      "outcome_correct": 1,
+      "outcome_accuracy": 0.3333333333333333
+    },
+    {
+      "league": "意大利杯",
+      "n": 3,
+      "outcome_correct": 1,
+      "outcome_accuracy": 0.3333333333333333
+    },
+    {
+      "league": "英联赛杯",
+      "n": 2,
+      "outcome_correct": 2,
+      "outcome_accuracy": 1.0
+    },
+    {
+      "league": "德国杯",
+      "n": 1,
+      "outcome_correct": 1,
+      "outcome_accuracy": 1.0
+    }
+  ],
+  "by_league_rec": [
+    {
+      "league": "德甲",
+      "n": 71,
+      "single_rec_ok": 34,
+      "single_rec_accuracy": 0.4789,
+      "min_prob_70": 0.6
+    },
+    {
+      "league": "意甲",
+      "n": 70,
+      "single_rec_ok": 45,
+      "single_rec_accuracy": 0.6429,
+      "min_prob_70": 0.5
+    },
+    {
+      "league": "西甲",
+      "n": 68,
+      "single_rec_ok": 40,
+      "single_rec_accuracy": 0.5882,
+      "min_prob_70": 0.64
+    },
+    {
+      "league": "英超",
+      "n": 68,
+      "single_rec_ok": 41,
+      "single_rec_accuracy": 0.6029,
+      "min_prob_70": 0.64
+    },
+    {
+      "league": "英冠",
+      "n": 58,
+      "single_rec_ok": 31,
+      "single_rec_accuracy": 0.5345,
+      "min_prob_70": 0.66
+    },
+    {
+      "league": "澳超",
+      "n": 53,
+      "single_rec_ok": 31,
+      "single_rec_accuracy": 0.5849,
+      "min_prob_70": 0.5
+    },
+    {
+      "league": "沙职",
+      "n": 46,
+      "single_rec_ok": 29,
+      "single_rec_accuracy": 0.6304,
+      "min_prob_70": 0.64
+    },
+    {
+      "league": "荷甲",
+      "n": 44,
+      "single_rec_ok": 24,
+      "single_rec_accuracy": 0.5455,
+      "min_prob_70": 0.5
+    },
+    {
+      "league": "欧冠",
+      "n": 42,
+      "single_rec_ok": 21,
+      "single_rec_accuracy": 0.5,
+      "min_prob_70": 0.64
+    },
+    {
+      "league": "德乙",
+      "n": 35,
+      "single_rec_ok": 19,
+      "single_rec_accuracy": 0.5429,
+      "min_prob_70": 0.5
+    },
+    {
+      "league": "法甲",
+      "n": 27,
+      "single_rec_ok": 12,
+      "single_rec_accuracy": 0.4444,
+      "min_prob_70": 0.6
+    },
+    {
+      "league": "葡超",
+      "n": 22,
+      "single_rec_ok": 8,
+      "single_rec_accuracy": 0.3636,
+      "min_prob_70": 0.5
+    },
+    {
+      "league": "亚洲杯23",
+      "n": 21,
+      "single_rec_ok": 12,
+      "single_rec_accuracy": 0.5714,
+      "min_prob_70": 0.5
+    },
+    {
+      "league": "女亚洲杯",
+      "n": 19,
+      "single_rec_ok": 8,
+      "single_rec_accuracy": 0.4211,
+      "min_prob_70": null
+    },
+    {
+      "league": "法乙",
+      "n": 16,
+      "single_rec_ok": 8,
+      "single_rec_accuracy": 0.5,
+      "min_prob_70": null
+    },
+    {
+      "league": "欧罗巴",
+      "n": 16,
+      "single_rec_ok": 10,
+      "single_rec_accuracy": 0.625,
+      "min_prob_70": null
+    },
+    {
+      "league": "英足总杯",
+      "n": 15,
+      "single_rec_ok": 8,
+      "single_rec_accuracy": 0.5333,
+      "min_prob_70": null
+    },
+    {
+      "league": "亚冠精英",
+      "n": 15,
+      "single_rec_ok": 12,
+      "single_rec_accuracy": 0.8,
+      "min_prob_70": null
+    },
+    {
+      "league": "韩职",
+      "n": 14,
+      "single_rec_ok": 8,
+      "single_rec_accuracy": 0.5714,
+      "min_prob_70": null
+    },
+    {
+      "league": "荷乙",
+      "n": 13,
+      "single_rec_ok": 3,
+      "single_rec_accuracy": 0.2308,
+      "min_prob_70": null
+    },
+    {
+      "league": "日职",
+      "n": 13,
+      "single_rec_ok": 7,
+      "single_rec_accuracy": 0.5385,
+      "min_prob_70": null
+    },
+    {
+      "league": "英甲",
+      "n": 10,
+      "single_rec_ok": 7,
+      "single_rec_accuracy": 0.7,
+      "min_prob_70": null
+    },
+    {
+      "league": "亚冠乙",
+      "n": 8,
+      "single_rec_ok": 6,
+      "single_rec_accuracy": 0.75,
+      "min_prob_70": null
+    },
+    {
+      "league": "法国杯",
+      "n": 6,
+      "single_rec_ok": 3,
+      "single_rec_accuracy": 0.5,
+      "min_prob_70": null
+    },
+    {
+      "league": "荷兰杯",
+      "n": 6,
+      "single_rec_ok": 3,
+      "single_rec_accuracy": 0.5,
+      "min_prob_70": null
+    },
+    {
+      "league": "美职",
+      "n": 6,
+      "single_rec_ok": 2,
+      "single_rec_accuracy": 0.3333,
+      "min_prob_70": null
+    },
+    {
+      "league": "西国王杯",
+      "n": 4,
+      "single_rec_ok": 1,
+      "single_rec_accuracy": 0.25,
+      "min_prob_70": null
+    },
+    {
+      "league": "欧协联",
+      "n": 4,
+      "single_rec_ok": 3,
+      "single_rec_accuracy": 0.75,
+      "min_prob_70": null
+    },
+    {
+      "league": "挪超",
+      "n": 4,
+      "single_rec_ok": 1,
+      "single_rec_accuracy": 0.25,
+      "min_prob_70": null
+    },
+    {
+      "league": "非洲杯",
+      "n": 3,
+      "single_rec_ok": 2,
+      "single_rec_accuracy": 0.6667,
+      "min_prob_70": null
+    },
+    {
+      "league": "意大利杯",
+      "n": 3,
+      "single_rec_ok": 3,
+      "single_rec_accuracy": 1.0,
+      "min_prob_70": null
+    },
+    {
+      "league": "英联赛杯",
+      "n": 2,
+      "single_rec_ok": 1,
+      "single_rec_accuracy": 0.5,
+      "min_prob_70": null
+    },
+    {
+      "league": "德国杯",
+      "n": 1,
+      "single_rec_ok": 1,
+      "single_rec_accuracy": 1.0,
+      "min_prob_70": null
+    }
+  ],
+  "details_sample": [
+    {
+      "home": "那不勒斯",
+      "away": "帕尔马",
+      "league": "意甲",
+      "actual": "0:0",
+      "actual_outcome": "平",
+      "pred_outcome": "主胜",
+      "hit": false
+    },
+    {
+      "home": "国际米兰",
+      "away": "莱切",
+      "league": "意甲",
+      "actual": "1:0",
+      "actual_outcome": "主胜",
+      "pred_outcome": "主胜",
+      "hit": true
+    },
+    {
+      "home": "南特",
+      "away": "巴黎FC",
+      "league": "法甲",
+      "actual": "1:2",
+      "actual_outcome": "客胜",
+      "pred_outcome": "客胜",
+      "hit": true
+    },
+    {
+      "home": "奥格斯堡",
+      "away": "弗赖堡",
+      "league": "德甲",
+      "actual": "2:2",
+      "actual_outcome": "平",
+      "pred_outcome": "主胜",
+      "hit": false
+    },
+    {
+      "home": "都灵",
+      "away": "罗马",
+      "league": "意甲",
+      "actual": "0:2",
+      "actual_outcome": "客胜",
+      "pred_outcome": "客胜",
+      "hit": true
+    },
+    {
+      "home": "塞尔塔",
+      "away": "巴列卡诺",
+      "league": "西甲",
+      "actual": "3:0",
+      "actual_outcome": "主胜",
+      "pred_outcome": "主胜",
+      "hit": true
+    },
+    {
+      "home": "AC米兰",
+      "away": "莱切",
+      "league": "意甲",
+      "actual": "1:0",
+      "actual_outcome": "主胜",
+      "pred_outcome": "主胜",
+      "hit": true
+    },
+    {
+      "home": "里昂",
+      "away": "布雷斯特",
+      "league": "法甲",
+      "actual": "2:1",
+      "actual_outcome": "主胜",
+      "pred_outcome": "主胜",
+      "hit": true
+    },
+    {
+      "home": "维罗纳",
+      "away": "乌迪内斯",
+      "league": "意甲",
+      "actual": "1:3",
+      "actual_outcome": "客胜",
+      "pred_outcome": "客胜",
+      "hit": true
+    },
+    {
+      "home": "埃弗顿",
+      "away": "利兹联",
+      "league": "英超",
+      "actual": "1:1",
+      "actual_outcome": "平",
+      "pred_outcome": "客胜",
+      "hit": false
+    },
+    {
+      "home": "昂热",
+      "away": "梅斯",
+      "league": "法甲",
+      "actual": "1:0",
+      "actual_outcome": "主胜",
+      "pred_outcome": "主胜",
+      "hit": true
+    },
+    {
+      "home": "图卢兹",
+      "away": "欧塞尔",
+      "league": "法甲",
+      "actual": "0:0",
+      "actual_outcome": "平",
+      "pred_outcome": "主胜",
+      "hit": false
+    },
+    {
+      "home": "尼斯",
+      "away": "布雷斯特",
+      "league": "法甲",
+      "actual": "2:2",
+      "actual_outcome": "平",
+      "pred_outcome": "主胜",
+      "hit": false
+    },
+    {
+      "home": "热刺",
+      "away": "曼城",
+      "league": "英超",
+      "actual": "2:2",
+      "actual_outcome": "平",
+      "pred_outcome": "客胜",
+      "hit": false
+    },
+    {
+      "home": "多特蒙德",
+      "away": "海登海姆",
+      "league": "德甲",
+      "actual": "3:2",
+      "actual_outcome": "主胜",
+      "pred_outcome": "主胜",
+      "hit": true
+    }
+  ],
+  "range_label": "2026年",
+  "n_rq": 797,
+  "n_rq_has_odds": 797,
+  "rq_ok_odds": 418,
+  "rq_accuracy_odds": 0.5244667503136763,
+  "rq_ok_model": 310,
+  "rq_accuracy_model": 0.3889585947302384,
+  "n_rq_jc_rqspf": 640,
+  "rq_ok_jc_rqspf": 346,
+  "rq_accuracy_jc_rqspf": 0.540625,
+  "ext_zjqs_n": 671,
+  "ext_zjqs_ok": 163,
+  "ext_zjqs_accuracy": 0.2429210134128167,
+  "ext_bf_n": 671,
+  "ext_bf_ok": 84,
+  "ext_bf_accuracy": 0.12518628912071536,
+  "ext_bqc_n": 666,
+  "ext_bqc_ok": 182,
+  "ext_bqc_accuracy": 0.2732732732732733,
+  "by_league_rq": [
+    {
+      "league": "德甲",
+      "n_rq": 71,
+      "n_rq_odds": 71,
+      "rq_ok_odds": 28,
+      "rq_accuracy_odds": 0.39436619718309857,
+      "rq_ok_model": 27,
+      "rq_accuracy_model": 0.38028169014084506
+    },
+    {
+      "league": "意甲",
+      "n_rq": 70,
+      "n_rq_odds": 70,
+      "rq_ok_odds": 35,
+      "rq_accuracy_odds": 0.5,
+      "rq_ok_model": 28,
+      "rq_accuracy_model": 0.4
+    },
+    {
+      "league": "西甲",
+      "n_rq": 68,
+      "n_rq_odds": 68,
+      "rq_ok_odds": 38,
+      "rq_accuracy_odds": 0.5588235294117647,
+      "rq_ok_model": 30,
+      "rq_accuracy_model": 0.4411764705882353
+    },
+    {
+      "league": "英超",
+      "n_rq": 67,
+      "n_rq_odds": 67,
+      "rq_ok_odds": 40,
+      "rq_accuracy_odds": 0.5970149253731343,
+      "rq_ok_model": 20,
+      "rq_accuracy_model": 0.29850746268656714
+    },
+    {
+      "league": "英冠",
+      "n_rq": 58,
+      "n_rq_odds": 58,
+      "rq_ok_odds": 33,
+      "rq_accuracy_odds": 0.5689655172413793,
+      "rq_ok_model": 20,
+      "rq_accuracy_model": 0.3448275862068966
+    },
+    {
+      "league": "澳超",
+      "n_rq": 52,
+      "n_rq_odds": 52,
+      "rq_ok_odds": 32,
+      "rq_accuracy_odds": 0.6153846153846154,
+      "rq_ok_model": 15,
+      "rq_accuracy_model": 0.28846153846153844
+    },
+    {
+      "league": "沙职",
+      "n_rq": 46,
+      "n_rq_odds": 46,
+      "rq_ok_odds": 23,
+      "rq_accuracy_odds": 0.5,
+      "rq_ok_model": 22,
+      "rq_accuracy_model": 0.4782608695652174
+    },
+    {
+      "league": "荷甲",
+      "n_rq": 44,
+      "n_rq_odds": 44,
+      "rq_ok_odds": 24,
+      "rq_accuracy_odds": 0.5454545454545454,
+      "rq_ok_model": 16,
+      "rq_accuracy_model": 0.36363636363636365
+    },
+    {
+      "league": "欧冠",
+      "n_rq": 42,
+      "n_rq_odds": 42,
+      "rq_ok_odds": 19,
+      "rq_accuracy_odds": 0.4523809523809524,
+      "rq_ok_model": 18,
+      "rq_accuracy_model": 0.42857142857142855
+    },
+    {
+      "league": "德乙",
+      "n_rq": 35,
+      "n_rq_odds": 35,
+      "rq_ok_odds": 19,
+      "rq_accuracy_odds": 0.5428571428571428,
+      "rq_ok_model": 15,
+      "rq_accuracy_model": 0.42857142857142855
+    },
+    {
+      "league": "法甲",
+      "n_rq": 27,
+      "n_rq_odds": 27,
+      "rq_ok_odds": 13,
+      "rq_accuracy_odds": 0.48148148148148145,
+      "rq_ok_model": 14,
+      "rq_accuracy_model": 0.5185185185185185
+    },
+    {
+      "league": "葡超",
+      "n_rq": 22,
+      "n_rq_odds": 22,
+      "rq_ok_odds": 7,
+      "rq_accuracy_odds": 0.3181818181818182,
+      "rq_ok_model": 6,
+      "rq_accuracy_model": 0.2727272727272727
+    },
+    {
+      "league": "亚洲杯23",
+      "n_rq": 21,
+      "n_rq_odds": 21,
+      "rq_ok_odds": 15,
+      "rq_accuracy_odds": 0.7142857142857143,
+      "rq_ok_model": 11,
+      "rq_accuracy_model": 0.5238095238095238
+    },
+    {
+      "league": "女亚洲杯",
+      "n_rq": 18,
+      "n_rq_odds": 18,
+      "rq_ok_odds": 9,
+      "rq_accuracy_odds": 0.5,
+      "rq_ok_model": 8,
+      "rq_accuracy_model": 0.4444444444444444
+    },
+    {
+      "league": "法乙",
+      "n_rq": 16,
+      "n_rq_odds": 16,
+      "rq_ok_odds": 8,
+      "rq_accuracy_odds": 0.5,
+      "rq_ok_model": 4,
+      "rq_accuracy_model": 0.25
+    },
+    {
+      "league": "欧罗巴",
+      "n_rq": 16,
+      "n_rq_odds": 16,
+      "rq_ok_odds": 10,
+      "rq_accuracy_odds": 0.625,
+      "rq_ok_model": 4,
+      "rq_accuracy_model": 0.25
+    },
+    {
+      "league": "英足总杯",
+      "n_rq": 15,
+      "n_rq_odds": 15,
+      "rq_ok_odds": 8,
+      "rq_accuracy_odds": 0.5333333333333333,
+      "rq_ok_model": 3,
+      "rq_accuracy_model": 0.2
+    },
+    {
+      "league": "亚冠精英",
+      "n_rq": 15,
+      "n_rq_odds": 15,
+      "rq_ok_odds": 9,
+      "rq_accuracy_odds": 0.6,
+      "rq_ok_model": 7,
+      "rq_accuracy_model": 0.4666666666666667
+    },
+    {
+      "league": "韩职",
+      "n_rq": 14,
+      "n_rq_odds": 14,
+      "rq_ok_odds": 8,
+      "rq_accuracy_odds": 0.5714285714285714,
+      "rq_ok_model": 4,
+      "rq_accuracy_model": 0.2857142857142857
+    },
+    {
+      "league": "日职",
+      "n_rq": 13,
+      "n_rq_odds": 13,
+      "rq_ok_odds": 6,
+      "rq_accuracy_odds": 0.46153846153846156,
+      "rq_ok_model": 7,
+      "rq_accuracy_model": 0.5384615384615384
+    },
+    {
+      "league": "荷乙",
+      "n_rq": 10,
+      "n_rq_odds": 10,
+      "rq_ok_odds": 2,
+      "rq_accuracy_odds": 0.2,
+      "rq_ok_model": 3,
+      "rq_accuracy_model": 0.3
+    },
+    {
+      "league": "英甲",
+      "n_rq": 10,
+      "n_rq_odds": 10,
+      "rq_ok_odds": 7,
+      "rq_accuracy_odds": 0.7,
+      "rq_ok_model": 4,
+      "rq_accuracy_model": 0.4
+    },
+    {
+      "league": "亚冠乙",
+      "n_rq": 8,
+      "n_rq_odds": 8,
+      "rq_ok_odds": 6,
+      "rq_accuracy_odds": 0.75,
+      "rq_ok_model": 6,
+      "rq_accuracy_model": 0.75
+    },
+    {
+      "league": "法国杯",
+      "n_rq": 6,
+      "n_rq_odds": 6,
+      "rq_ok_odds": 3,
+      "rq_accuracy_odds": 0.5,
+      "rq_ok_model": 2,
+      "rq_accuracy_model": 0.3333333333333333
+    },
+    {
+      "league": "荷兰杯",
+      "n_rq": 6,
+      "n_rq_odds": 6,
+      "rq_ok_odds": 4,
+      "rq_accuracy_odds": 0.6666666666666666,
+      "rq_ok_model": 3,
+      "rq_accuracy_model": 0.5
+    },
+    {
+      "league": "美职",
+      "n_rq": 6,
+      "n_rq_odds": 6,
+      "rq_ok_odds": 2,
+      "rq_accuracy_odds": 0.3333333333333333,
+      "rq_ok_model": 1,
+      "rq_accuracy_model": 0.16666666666666666
+    },
+    {
+      "league": "西国王杯",
+      "n_rq": 4,
+      "n_rq_odds": 4,
+      "rq_ok_odds": 1,
+      "rq_accuracy_odds": 0.25,
+      "rq_ok_model": 2,
+      "rq_accuracy_model": 0.5
+    },
+    {
+      "league": "欧协联",
+      "n_rq": 4,
+      "n_rq_odds": 4,
+      "rq_ok_odds": 3,
+      "rq_accuracy_odds": 0.75,
+      "rq_ok_model": 3,
+      "rq_accuracy_model": 0.75
+    },
+    {
+      "league": "挪超",
+      "n_rq": 4,
+      "n_rq_odds": 4,
+      "rq_ok_odds": 1,
+      "rq_accuracy_odds": 0.25,
+      "rq_ok_model": 2,
+      "rq_accuracy_model": 0.5
+    },
+    {
+      "league": "非洲杯",
+      "n_rq": 3,
+      "n_rq_odds": 3,
+      "rq_ok_odds": 2,
+      "rq_accuracy_odds": 0.6666666666666666,
+      "rq_ok_model": 2,
+      "rq_accuracy_model": 0.6666666666666666
+    },
+    {
+      "league": "意大利杯",
+      "n_rq": 3,
+      "n_rq_odds": 3,
+      "rq_ok_odds": 2,
+      "rq_accuracy_odds": 0.6666666666666666,
+      "rq_ok_model": 2,
+      "rq_accuracy_model": 0.6666666666666666
+    },
+    {
+      "league": "英联赛杯",
+      "n_rq": 2,
+      "n_rq_odds": 2,
+      "rq_ok_odds": 0,
+      "rq_accuracy_odds": 0.0,
+      "rq_ok_model": 0,
+      "rq_accuracy_model": 0.0
+    },
+    {
+      "league": "德国杯",
+      "n_rq": 1,
+      "n_rq_odds": 1,
+      "rq_ok_odds": 1,
+      "rq_accuracy_odds": 1.0,
+      "rq_ok_model": 1,
+      "rq_accuracy_model": 1.0
+    }
+  ],
+  "single_rec_ok": 444,
+  "single_rec_n": 803,
+  "single_rec_accuracy": 0.5529265255292652,
+  "by_single_rec_tier": [
+    {
+      "threshold": 0.5,
+      "n": 799,
+      "correct": 443,
+      "accuracy": 0.5544430538172715
+    },
+    {
+      "threshold": 0.55,
+      "n": 799,
+      "correct": 443,
+      "accuracy": 0.5544430538172715
+    },
+    {
+      "threshold": 0.6,
+      "n": 707,
+      "correct": 398,
+      "accuracy": 0.562942008486563
+    },
+    {
+      "threshold": 0.65,
+      "n": 353,
+      "correct": 209,
+      "accuracy": 0.5920679886685553
+    },
+    {
+      "threshold": 0.7,
+      "n": 93,
+      "correct": 57,
+      "accuracy": 0.6129032258064516
+    },
+    {
+      "threshold": 0.72,
+      "n": 89,
+      "correct": 53,
+      "accuracy": 0.5955056179775281
+    },
+    {
+      "threshold": 0.75,
+      "n": 86,
+      "correct": 51,
+      "accuracy": 0.5930232558139535
+    }
+  ],
+  "missed_single_rec": [
+    {
+      "home_cn": "塞尔塔",
+      "away_cn": "巴列卡诺",
+      "league": "西甲",
+      "jc_date": "2026-01-19",
+      "recommended": "让负",
+      "rec_prob": 62,
+      "actual_score": "3:0",
+      "actual_result": "让胜",
+      "reason": "主队实际表现强于预期（让球）"
+    },
+    {
+      "home_cn": "尼斯",
+      "away_cn": "布雷斯特",
+      "league": "法甲",
+      "jc_date": "2026-02-02",
+      "recommended": "主胜",
+      "rec_prob": 72,
+      "actual_score": "2:2",
+      "actual_result": "平",
+      "reason": "双方实际更接近，或一方未能扩大优势"
+    },
+    {
+      "home_cn": "热刺",
+      "away_cn": "曼城",
+      "league": "英超",
+      "jc_date": "2026-02-02",
+      "recommended": "客胜",
+      "rec_prob": 64,
+      "actual_score": "2:2",
+      "actual_result": "平",
+      "reason": "双方实际更接近，或一方未能扩大优势"
+    },
+    {
+      "home_cn": "马洛卡",
+      "away_cn": "塞维利亚",
+      "league": "西甲",
+      "jc_date": "2026-02-03",
+      "recommended": "让负",
+      "rec_prob": 62,
+      "actual_score": "4:1",
+      "actual_result": "让胜",
+      "reason": "主队实际表现强于预期（让球）"
+    },
+    {
+      "home_cn": "斯特拉斯",
+      "away_cn": "巴黎圣曼",
+      "league": "法甲",
+      "jc_date": "2026-02-02",
+      "recommended": "让胜",
+      "rec_prob": 70,
+      "actual_score": "1:2",
+      "actual_result": "让平",
+      "reason": "双方实际更接近（让球）"
+    },
+    {
+      "home_cn": "亚特兰大",
+      "away_cn": "多特蒙德",
+      "league": "欧冠",
+      "jc_date": "2026-02-26",
+      "recommended": "让负",
+      "rec_prob": 62,
+      "actual_score": "4:1",
+      "actual_result": "让胜",
+      "reason": "主队实际表现强于预期（让球）"
+    },
+    {
+      "home_cn": "阿维SAD",
+      "away_cn": "布拉加",
+      "league": "葡超",
+      "jc_date": "2026-02-03",
+      "recommended": "让胜",
+      "rec_prob": 68,
+      "actual_score": "0:4",
+      "actual_result": "让负",
+      "reason": "客队实际表现强于预期（让球）"
+    },
+    {
+      "home_cn": "赛哈海湾",
+      "away_cn": "胡巴卡德",
+      "league": "沙职",
+      "jc_date": "2026-02-04",
+      "recommended": "让胜",
+      "rec_prob": 68,
+      "actual_score": "0:1",
+      "actual_result": "让平",
+      "reason": "双方实际更接近（让球）"
+    },
+    {
+      "home_cn": "达曼协定",
+      "away_cn": "布赖合作",
+      "league": "沙职",
+      "jc_date": "2026-02-04",
+      "recommended": "让负",
+      "rec_prob": 62,
+      "actual_score": "1:0",
+      "actual_result": "让平",
+      "reason": "双方实际更接近（让球）"
+    },
+    {
+      "home_cn": "多德勒支",
+      "away_cn": "海尔蒙特",
+      "league": "荷乙",
+      "jc_date": "2026-02-04",
+      "recommended": "让负",
+      "rec_prob": 62,
+      "actual_score": "3:0",
+      "actual_result": "让胜",
+      "reason": "主队实际表现强于预期（让球）"
+    },
+    {
+      "home_cn": "兰斯",
+      "away_cn": "勒芒",
+      "league": "法国杯",
+      "jc_date": "2026-02-04",
+      "recommended": "让负",
+      "rec_prob": 77,
+      "actual_score": "3:0",
+      "actual_result": "让胜",
+      "reason": "主队实际表现强于预期（让球）"
+    },
+    {
+      "home_cn": "谢菲联",
+      "away_cn": "牛津联",
+      "league": "英冠",
+      "jc_date": "2026-02-04",
+      "recommended": "让负",
+      "rec_prob": 62,
+      "actual_score": "3:1",
+      "actual_result": "让胜",
+      "reason": "主队实际表现强于预期（让球）"
+    },
+    {
+      "home_cn": "纽伦堡",
+      "away_cn": "卡斯鲁厄",
+      "league": "德乙",
+      "jc_date": "2026-02-14",
+      "recommended": "让负",
+      "rec_prob": 62,
+      "actual_score": "5:1",
+      "actual_result": "让胜",
+      "reason": "主队实际表现强于预期（让球）"
+    },
+    {
+      "home_cn": "圣克拉拉",
+      "away_cn": "本菲卡",
+      "league": "葡超",
+      "jc_date": "2026-02-14",
+      "recommended": "让胜",
+      "rec_prob": 68,
+      "actual_score": "1:2",
+      "actual_result": "让平",
+      "reason": "双方实际更接近（让球）"
+    },
+    {
+      "home_cn": "圣旺红星",
+      "away_cn": "南锡",
+      "league": "法乙",
+      "jc_date": "2026-02-14",
+      "recommended": "让负",
+      "rec_prob": 62,
+      "actual_score": "2:1",
+      "actual_result": "让平",
+      "reason": "双方实际更接近（让球）"
+    },
+    {
+      "home_cn": "赫尔城",
+      "away_cn": "切尔西",
+      "league": "英足总杯",
+      "jc_date": "2026-02-14",
+      "recommended": "让胜",
+      "rec_prob": 59,
+      "actual_score": "0:4",
+      "actual_result": "让负",
+      "reason": "客队实际表现强于预期（让球）"
+    },
+    {
+      "home_cn": "马竞",
+      "away_cn": "布鲁日",
+      "league": "欧冠",
+      "jc_date": "2026-02-25",
+      "recommended": "让负",
+      "rec_prob": 62,
+      "actual_score": "4:1",
+      "actual_result": "让胜",
+      "reason": "主队实际表现强于预期（让球）"
+    },
+    {
+      "home_cn": "坎布尔",
+      "away_cn": "埃因FC",
+      "league": "荷乙",
+      "jc_date": "2026-02-25",
+      "recommended": "让负",
+      "rec_prob": 62,
+      "actual_score": "2:1",
+      "actual_result": "让平",
+      "reason": "双方实际更接近（让球）"
+    },
+    {
+      "home_cn": "沃特福德",
+      "away_cn": "伊普斯",
+      "league": "英冠",
+      "jc_date": "2026-02-25",
+      "recommended": "让胜",
+      "rec_prob": 68,
+      "actual_score": "0:2",
+      "actual_result": "让负",
+      "reason": "客队实际表现强于预期（让球）"
+    },
+    {
+      "home_cn": "雷克斯",
+      "away_cn": "朴次茅斯",
+      "league": "英冠",
+      "jc_date": "2026-02-25",
+      "recommended": "让负",
+      "rec_prob": 62,
+      "actual_score": "2:1",
+      "actual_result": "让平",
+      "reason": "双方实际更接近（让球）"
+    },
+    {
+      "home_cn": "赫尔城",
+      "away_cn": "德比郡",
+      "league": "英冠",
+      "jc_date": "2026-02-25",
+      "recommended": "让负",
+      "rec_prob": 62,
+      "actual_score": "4:2",
+      "actual_result": "让胜",
+      "reason": "主队实际表现强于预期（让球）"
+    },
+    {
+      "home_cn": "南安普敦",
+      "away_cn": "女王巡游",
+      "league": "英冠",
+      "jc_date": "2026-02-25",
+      "recommended": "让负",
+      "rec_prob": 62,
+      "actual_score": "5:0",
+      "actual_result": "让胜",
+      "reason": "主队实际表现强于预期（让球）"
+    },
+    {
+      "home_cn": "欧奈纳伊",
+      "away_cn": "利雅胜利",
+      "league": "沙职",
+      "jc_date": "2026-02-26",
+      "recommended": "让胜",
+      "rec_prob": 88,
+      "actual_score": "0:5",
+      "actual_result": "让负",
+      "reason": "客队实际表现强于预期（让球）"
+    },
+    {
+      "home_cn": "米尔沃尔",
+      "away_cn": "伯明翰",
+      "league": "英冠",
+      "jc_date": "2026-02-26",
+      "recommended": "让负",
+      "rec_prob": 62,
+      "actual_score": "3:0",
+      "actual_result": "让胜",
+      "reason": "主队实际表现强于预期（让球）"
+    },
+    {
+      "home_cn": "尤文图斯",
+      "away_cn": "加拉塔萨",
+      "league": "欧冠",
+      "jc_date": "2026-02-26",
+      "recommended": "让负",
+      "rec_prob": 62,
+      "actual_score": "3:0",
+      "actual_result": "让胜",
+      "reason": "主队实际表现强于预期（让球）"
+    },
+    {
+      "home_cn": "皇马",
+      "away_cn": "本菲卡",
+      "league": "欧冠",
+      "jc_date": "2026-02-26",
+      "recommended": "让负",
+      "rec_prob": 62,
+      "actual_score": "2:1",
+      "actual_result": "让平",
+      "reason": "双方实际更接近（让球）"
+    },
+    {
+      "home_cn": "斯托克城",
+      "away_cn": "牛津联",
+      "league": "英冠",
+      "jc_date": "2026-02-26",
+      "recommended": "让负",
+      "rec_prob": 62,
+      "actual_score": "2:1",
+      "actual_result": "让平",
+      "reason": "双方实际更接近（让球）"
+    },
+    {
+      "home_cn": "塞内加尔",
+      "away_cn": "埃及",
+      "league": "非洲杯",
+      "jc_date": "2026-01-15",
+      "recommended": "让负",
+      "rec_prob": 59,
+      "actual_score": "1:0",
+      "actual_result": "让平",
+      "reason": "双方实际更接近（让球）"
+    },
+    {
+      "home_cn": "吉达国民",
+      "away_cn": "布赖合作",
+      "league": "沙职",
+      "jc_date": "2026-01-15",
+      "recommended": "让负",
+      "rec_prob": 62,
+      "actual_score": "2:1",
+      "actual_result": "让平",
+      "reason": "双方实际更接近（让球）"
+    },
+    {
+      "home_cn": "登博思",
+      "away_cn": "埃因霍温",
+      "league": "荷兰杯",
+      "jc_date": "2026-01-15",
+      "recommended": "让胜",
+      "rec_prob": 84,
+      "actual_score": "1:4",
+      "actual_result": "让负",
+      "reason": "客队实际表现强于预期（让球）"
+    },
+    {
+      "home_cn": "阿尔梅勒",
+      "away_cn": "特尔斯达",
+      "league": "荷兰杯",
+      "jc_date": "2026-01-15",
+      "recommended": "让胜",
+      "rec_prob": 66,
+      "actual_score": "1:3",
+      "actual_result": "让负",
+      "reason": "客队实际表现强于预期（让球）"
+    },
+    {
+      "home_cn": "切尔西",
+      "away_cn": "阿森纳",
+      "league": "英联赛杯",
+      "jc_date": "2026-01-15",
+      "recommended": "让胜",
+      "rec_prob": 60,
+      "actual_score": "2:3",
+      "actual_result": "让平",
+      "reason": "双方实际更接近（让球）"
+    },
+    {
+      "home_cn": "阿拉维斯",
+      "away_cn": "巴列卡诺",
+      "league": "西国王杯",
+      "jc_date": "2026-01-15",
+      "recommended": "让负",
+      "rec_prob": 56,
+      "actual_score": "2:0",
+      "actual_result": "让胜",
+      "reason": "主队实际表现强于预期（让球）"
+    },
+    {
+      "home_cn": "阿尔克马",
+      "away_cn": "阿贾克斯",
+      "league": "荷兰杯",
+      "jc_date": "2026-01-15",
+      "recommended": "让负",
+      "rec_prob": 59,
+      "actual_score": "6:0",
+      "actual_result": "让胜",
+      "reason": "主队实际表现强于预期（让球）"
+    },
+    {
+      "home_cn": "新未来SC",
+      "away_cn": "利雅新月",
+      "league": "沙职",
+      "jc_date": "2026-01-19",
+      "recommended": "让胜",
+      "rec_prob": 68,
+      "actual_score": "1:2",
+      "actual_result": "让平",
+      "reason": "双方实际更接近（让球）"
+    },
+    {
+      "home_cn": "通德拉",
+      "away_cn": "布拉加",
+      "league": "葡超",
+      "jc_date": "2026-01-19",
+      "recommended": "让胜",
+      "rec_prob": 68,
+      "actual_score": "0:1",
+      "actual_result": "让平",
+      "reason": "双方实际更接近（让球）"
+    },
+    {
+      "home_cn": "吉马良斯",
+      "away_cn": "波尔图",
+      "league": "葡超",
+      "jc_date": "2026-01-19",
+      "recommended": "让胜",
+      "rec_prob": 68,
+      "actual_score": "0:1",
+      "actual_result": "让平",
+      "reason": "双方实际更接近（让球）"
+    },
+    {
+      "home_cn": "吉达国民",
+      "away_cn": "赛哈海湾",
+      "league": "沙职",
+      "jc_date": "2026-01-21",
+      "recommended": "让负",
+      "rec_prob": 62,
+      "actual_score": "4:1",
+      "actual_result": "让胜",
+      "reason": "主队实际表现强于预期（让球）"
+    },
+    {
+      "home_cn": "考文垂",
+      "away_cn": "米尔沃尔",
+      "league": "英冠",
+      "jc_date": "2026-01-21",
+      "recommended": "让负",
+      "rec_prob": 62,
+      "actual_score": "2:1",
+      "actual_result": "让平",
+      "reason": "双方实际更接近（让球）"
+    },
+    {
+      "home_cn": "皇马",
+      "away_cn": "摩纳哥",
+      "league": "欧冠",
+      "jc_date": "2026-01-21",
+      "recommended": "让负",
+      "rec_prob": 85,
+      "actual_score": "6:1",
+      "actual_result": "让胜",
+      "reason": "主队实际表现强于预期（让球）"
+    },
+    {
+      "home_cn": "国际米兰",
+      "away_cn": "阿森纳",
+      "league": "欧冠",
+      "jc_date": "2026-01-21",
+      "recommended": "让胜",
+      "rec_prob": 68,
+      "actual_score": "1:3",
+      "actual_result": "让负",
+      "reason": "客队实际表现强于预期（让球）"
+    },
+    {
+      "home_cn": "热刺",
+      "away_cn": "多特蒙德",
+      "league": "欧冠",
+      "jc_date": "2026-01-21",
+      "recommended": "让负",
+      "rec_prob": 62,
+      "actual_score": "2:0",
+      "actual_result": "让胜",
+      "reason": "主队实际表现强于预期（让球）"
+    },
+    {
+      "home_cn": "尤文图斯",
+      "away_cn": "本菲卡",
+      "league": "欧冠",
+      "jc_date": "2026-01-22",
+      "recommended": "让负",
+      "rec_prob": 62,
+      "actual_score": "2:0",
+      "actual_result": "让胜",
+      "reason": "主队实际表现强于预期（让球）"
+    },
+    {
+      "home_cn": "拜仁",
+      "away_cn": "圣吉联合",
+      "league": "欧冠",
+      "jc_date": "2026-01-22",
+      "recommended": "让负",
+      "rec_prob": 85,
+      "actual_score": "2:0",
+      "actual_result": "让平",
+      "reason": "双方实际更接近（让球）"
+    },
+    {
+      "home_cn": "斯拉维亚",
+      "away_cn": "巴萨",
+      "league": "欧冠",
+      "jc_date": "2026-01-22",
+      "recommended": "让胜",
+      "rec_prob": 68,
+      "actual_score": "2:4",
+      "actual_result": "让负",
+      "reason": "客队实际表现强于预期（让球）"
+    },
+    {
+      "home_cn": "马赛",
+      "away_cn": "利物浦",
+      "league": "欧冠",
+      "jc_date": "2026-01-22",
+      "recommended": "让胜",
+      "rec_prob": 68,
+      "actual_score": "0:3",
+      "actual_result": "让负",
+      "reason": "客队实际表现强于预期（让球）"
+    },
+    {
+      "home_cn": "纽卡斯尔",
+      "away_cn": "埃因霍温",
+      "league": "欧冠",
+      "jc_date": "2026-01-22",
+      "recommended": "让负",
+      "rec_prob": 62,
+      "actual_score": "3:0",
+      "actual_result": "让胜",
+      "reason": "主队实际表现强于预期（让球）"
+    },
+    {
+      "home_cn": "斯托克城",
+      "away_cn": "米堡",
+      "league": "英冠",
+      "jc_date": "2026-01-22",
+      "recommended": "让胜",
+      "rec_prob": 68,
+      "actual_score": "1:2",
+      "actual_result": "让平",
+      "reason": "双方实际更接近（让球）"
+    },
+    {
+      "home_cn": "勒芒",
+      "away_cn": "敦刻尔克",
+      "league": "法乙",
+      "jc_date": "2026-01-27",
+      "recommended": "让负",
+      "rec_prob": 62,
+      "actual_score": "1:0",
+      "actual_result": "让平",
+      "reason": "双方实际更接近（让球）"
+    },
+    {
+      "home_cn": "波尔图",
+      "away_cn": "吉维森特",
+      "league": "葡超",
+      "jc_date": "2026-01-27",
+      "recommended": "让负",
+      "rec_prob": 62,
+      "actual_score": "3:0",
+      "actual_result": "让胜",
+      "reason": "主队实际表现强于预期（让球）"
+    },
+    {
+      "home_cn": "布莱克本",
+      "away_cn": "雷克斯",
+      "league": "英冠",
+      "jc_date": "2026-01-01",
+      "recommended": "主胜",
+      "rec_prob": 62,
+      "actual_score": "0:2",
+      "actual_result": "客胜",
+      "reason": "客队实际表现强于预期"
+    },
+    {
+      "home_cn": "沃特福德",
+      "away_cn": "伯明翰",
+      "league": "英冠",
+      "jc_date": "2026-01-01",
+      "recommended": "让负",
+      "rec_prob": 62,
+      "actual_score": "3:0",
+      "actual_result": "让胜",
+      "reason": "主队实际表现强于预期（让球）"
+    },
+    {
+      "home_cn": "女王巡游",
+      "away_cn": "诺维奇",
+      "league": "英冠",
+      "jc_date": "2026-01-01",
+      "recommended": "主胜",
+      "rec_prob": 68,
+      "actual_score": "1:2",
+      "actual_result": "客胜",
+      "reason": "客队实际表现强于预期"
+    },
+    {
+      "home_cn": "布城",
+      "away_cn": "朴次茅斯",
+      "league": "英冠",
+      "jc_date": "2026-01-01",
+      "recommended": "让负",
+      "rec_prob": 62,
+      "actual_score": "5:0",
+      "actual_result": "让胜",
+      "reason": "主队实际表现强于预期（让球）"
+    },
+    {
+      "home_cn": "雷丁",
+      "away_cn": "伯顿",
+      "league": "英甲",
+      "jc_date": "2026-01-01",
+      "recommended": "让负",
+      "rec_prob": 59,
+      "actual_score": "2:0",
+      "actual_result": "让胜",
+      "reason": "主队实际表现强于预期（让球）"
+    },
+    {
+      "home_cn": "罗瑟汉姆",
+      "away_cn": "彼得堡联",
+      "league": "英甲",
+      "jc_date": "2026-01-01",
+      "recommended": "让胜",
+      "rec_prob": 66,
+      "actual_score": "0:2",
+      "actual_result": "让负",
+      "reason": "客队实际表现强于预期（让球）"
+    },
+    {
+      "home_cn": "维冈",
+      "away_cn": "巴恩斯利",
+      "league": "英甲",
+      "jc_date": "2026-01-01",
+      "recommended": "主胜",
+      "rec_prob": 59,
+      "actual_score": "1:1",
+      "actual_result": "平",
+      "reason": "双方实际更接近，或一方未能扩大优势"
+    },
+    {
+      "home_cn": "墨胜利",
+      "away_cn": "珀斯",
+      "league": "澳超",
+      "jc_date": "2026-01-02",
+      "recommended": "让负",
+      "rec_prob": 62,
+      "actual_score": "3:2",
+      "actual_result": "让平",
+      "reason": "双方实际更接近（让球）"
+    },
+    {
+      "home_cn": "特鲁瓦",
+      "away_cn": "圣旺红星",
+      "league": "法乙",
+      "jc_date": "2026-01-03",
+      "recommended": "让负",
+      "rec_prob": 62,
+      "actual_score": "1:0",
+      "actual_result": "让平",
+      "reason": "双方实际更接近（让球）"
+    },
+    {
+      "home_cn": "穆拜征服",
+      "away_cn": "利雅青年",
+      "league": "沙职",
+      "jc_date": "2026-01-03",
+      "recommended": "让负",
+      "rec_prob": 62,
+      "actual_score": "2:0",
+      "actual_result": "让胜",
+      "reason": "主队实际表现强于预期（让球）"
+    },
+    {
+      "home_cn": "迈季宽广",
+      "away_cn": "拉斯永恒",
+      "league": "沙职",
+      "jc_date": "2026-01-03",
+      "recommended": "主胜",
+      "rec_prob": 66,
+      "actual_score": "0:5",
+      "actual_result": "客胜",
+      "reason": "客队实际表现强于预期"
+    },
+    {
+      "home_cn": "狼队",
+      "away_cn": "西汉姆联",
+      "league": "英超",
+      "jc_date": "2026-01-03",
+      "recommended": "让负",
+      "rec_prob": 66,
+      "actual_score": "3:0",
+      "actual_result": "让胜",
+      "reason": "主队实际表现强于预期（让球）"
+    },
+    {
+      "home_cn": "通德拉",
+      "away_cn": "阿罗卡",
+      "league": "葡超",
+      "jc_date": "2026-01-03",
+      "recommended": "让负",
+      "rec_prob": 62,
+      "actual_score": "3:1",
+      "actual_result": "让胜",
+      "reason": "主队实际表现强于预期（让球）"
+    },
+    {
+      "home_cn": "拉齐奥",
+      "away_cn": "那不勒斯",
+      "league": "意甲",
+      "jc_date": "2026-01-04",
+      "recommended": "让胜",
+      "rec_prob": 64,
+      "actual_score": "0:2",
+      "actual_result": "让负",
+      "reason": "客队实际表现强于预期（让球）"
+    },
+    {
+      "home_cn": "谢菲联",
+      "away_cn": "牛津联",
+      "league": "英冠",
+      "jc_date": "2026-01-04",
+      "recommended": "主胜",
+      "rec_prob": 78,
+      "actual_score": "-1:-1",
+      "actual_result": "平",
+      "reason": "双方实际更接近，或一方未能扩大优势"
+    },
+    {
+      "home_cn": "塞维利亚",
+      "away_cn": "莱万特",
+      "league": "西甲",
+      "jc_date": "2026-01-04",
+      "recommended": "主胜",
+      "rec_prob": 62,
+      "actual_score": "0:3",
+      "actual_result": "客胜",
+      "reason": "客队实际表现强于预期"
+    },
+    {
+      "home_cn": "佛罗伦萨",
+      "away_cn": "克雷莫纳",
+      "league": "意甲",
+      "jc_date": "2026-01-04",
+      "recommended": "让负",
+      "rec_prob": 60,
+      "actual_score": "1:0",
+      "actual_result": "让平",
+      "reason": "双方实际更接近（让球）"
+    },
+    {
+      "home_cn": "纽卡斯尔",
+      "away_cn": "水晶宫",
+      "league": "英超",
+      "jc_date": "2026-01-04",
+      "recommended": "让负",
+      "rec_prob": 60,
+      "actual_score": "2:0",
+      "actual_result": "让胜",
+      "reason": "主队实际表现强于预期（让球）"
+    },
+    {
+      "home_cn": "米尔沃尔",
+      "away_cn": "斯旺西",
+      "league": "英冠",
+      "jc_date": "2026-01-04",
+      "recommended": "让负",
+      "rec_prob": 62,
+      "actual_score": "2:1",
+      "actual_result": "让平",
+      "reason": "双方实际更接近（让球）"
+    },
+    {
+      "home_cn": "米堡",
+      "away_cn": "南安普敦",
+      "league": "英冠",
+      "jc_date": "2026-01-04",
+      "recommended": "让负",
+      "rec_prob": 62,
+      "actual_score": "4:0",
+      "actual_result": "让胜",
+      "reason": "主队实际表现强于预期（让球）"
+    },
+    {
+      "home_cn": "拉斯决心",
+      "away_cn": "新未来SC",
+      "league": "沙职",
+      "jc_date": "2026-01-04",
+      "recommended": "让胜",
+      "rec_prob": 68,
+      "actual_score": "1:2",
+      "actual_result": "让平",
+      "reason": "双方实际更接近（让球）"
+    },
+    {
+      "home_cn": "里奥阿维",
+      "away_cn": "卡萨皮亚",
+      "league": "葡超",
+      "jc_date": "2026-01-04",
+      "recommended": "让负",
+      "rec_prob": 62,
+      "actual_score": "3:1",
+      "actual_result": "让胜",
+      "reason": "主队实际表现强于预期（让球）"
+    },
+    {
+      "home_cn": "墨尔本城",
+      "away_cn": "布里斯班",
+      "league": "澳超",
+      "jc_date": "2026-01-06",
+      "recommended": "让负",
+      "rec_prob": 62,
+      "actual_score": "1:0",
+      "actual_result": "让平",
+      "reason": "双方实际更接近（让球）"
+    },
+    {
+      "home_cn": "比萨",
+      "away_cn": "科莫",
+      "league": "意甲",
+      "jc_date": "2026-01-06",
+      "recommended": "让胜",
+      "rec_prob": 64,
+      "actual_score": "0:3",
+      "actual_result": "让负",
+      "reason": "客队实际表现强于预期（让球）"
+    },
+    {
+      "home_cn": "韩国23",
+      "away_cn": "伊朗23",
+      "league": "亚洲杯23",
+      "jc_date": "2026-01-07",
+      "recommended": "主胜",
+      "rec_prob": 63,
+      "actual_score": "0:0",
+      "actual_result": "平",
+      "reason": "双方实际更接近，或一方未能扩大优势"
+    },
+    {
+      "home_cn": "伊拉克23",
+      "away_cn": "中国23",
+      "league": "亚洲杯23",
+      "jc_date": "2026-01-08",
+      "recommended": "主胜",
+      "rec_prob": 63,
+      "actual_score": "0:0",
+      "actual_result": "平",
+      "reason": "双方实际更接近，或一方未能扩大优势"
+    },
+    {
+      "home_cn": "利雅新月",
+      "away_cn": "拉斯决心",
+      "league": "沙职",
+      "jc_date": "2026-01-08",
+      "recommended": "让负",
+      "rec_prob": 85,
+      "actual_score": "3:0",
+      "actual_result": "让胜",
+      "reason": "主队实际表现强于预期（让球）"
+    },
+    {
+      "home_cn": "布里斯班",
+      "away_cn": "奥克兰FC",
+      "league": "澳超",
+      "jc_date": "2026-01-09",
+      "recommended": "让胜",
+      "rec_prob": 68,
+      "actual_score": "0:2",
+      "actual_result": "让负",
+      "reason": "客队实际表现强于预期（让球）"
+    },
+    {
+      "home_cn": "吉尔吉23",
+      "away_cn": "越南23",
+      "league": "亚洲杯23",
+      "jc_date": "2026-01-09",
+      "recommended": "让胜",
+      "rec_prob": 66,
+      "actual_score": "1:2",
+      "actual_result": "让平",
+      "reason": "双方实际更接近（让球）"
+    },
+    {
+      "home_cn": "麦克阿瑟",
+      "away_cn": "悉尼FC",
+      "league": "澳超",
+      "jc_date": "2026-01-10",
+      "recommended": "让胜",
+      "rec_prob": 68,
+      "actual_score": "0:3",
+      "actual_result": "让负",
+      "reason": "客队实际表现强于预期（让球）"
+    },
+    {
+      "home_cn": "珀斯",
+      "away_cn": "中央海岸",
+      "league": "澳超",
+      "jc_date": "2026-01-10",
+      "recommended": "让负",
+      "rec_prob": 62,
+      "actual_score": "3:0",
+      "actual_result": "让胜",
+      "reason": "主队实际表现强于预期（让球）"
+    },
+    {
+      "home_cn": "黎巴嫩23",
+      "away_cn": "韩国23",
+      "league": "亚洲杯23",
+      "jc_date": "2026-01-10",
+      "recommended": "让胜",
+      "rec_prob": 66,
+      "actual_score": "2:4",
+      "actual_result": "让负",
+      "reason": "客队实际表现强于预期（让球）"
+    },
+    {
+      "home_cn": "埃弗顿",
+      "away_cn": "桑德兰",
+      "league": "英足总杯",
+      "jc_date": "2026-01-10",
+      "recommended": "主胜",
+      "rec_prob": 60,
+      "actual_score": "1:1",
+      "actual_result": "平",
+      "reason": "双方实际更接近，或一方未能扩大优势"
+    },
+    {
+      "home_cn": "弗赖堡",
+      "away_cn": "汉堡",
+      "league": "德甲",
+      "jc_date": "2026-01-10",
+      "recommended": "让负",
+      "rec_prob": 60,
+      "actual_score": "2:1",
+      "actual_result": "让平",
+      "reason": "双方实际更接近（让球）"
+    },
+    {
+      "home_cn": "罗达JC",
+      "away_cn": "芬洛",
+      "league": "荷乙",
+      "jc_date": "2026-01-11",
+      "recommended": "主胜",
+      "rec_prob": 65,
+      "actual_score": "2:2",
+      "actual_result": "平",
+      "reason": "双方实际更接近，或一方未能扩大优势"
+    },
+    {
+      "home_cn": "德比郡",
+      "away_cn": "利兹联",
+      "league": "英足总杯",
+      "jc_date": "2026-01-11",
+      "recommended": "让胜",
+      "rec_prob": 66,
+      "actual_score": "1:3",
+      "actual_result": "让负",
+      "reason": "客队实际表现强于预期（让球）"
+    },
+    {
+      "home_cn": "巴列卡诺",
+      "away_cn": "马洛卡",
+      "league": "西甲",
+      "jc_date": "2026-01-11",
+      "recommended": "让负",
+      "rec_prob": 60,
+      "actual_score": "2:1",
+      "actual_result": "让平",
+      "reason": "双方实际更接近（让球）"
+    },
+    {
+      "home_cn": "特尔斯达",
+      "away_cn": "阿贾克斯",
+      "league": "荷甲",
+      "jc_date": "2026-01-11",
+      "recommended": "让胜",
+      "rec_prob": 68,
+      "actual_score": "2:3",
+      "actual_result": "让平",
+      "reason": "双方实际更接近（让球）"
+    },
+    {
+      "home_cn": "格拉夫",
+      "away_cn": "登博思",
+      "league": "荷乙",
+      "jc_date": "2026-01-11",
+      "recommended": "主胜",
+      "rec_prob": 65,
+      "actual_score": "1:1",
+      "actual_result": "平",
+      "reason": "双方实际更接近，或一方未能扩大优势"
+    },
+    {
+      "home_cn": "朴次茅斯",
+      "away_cn": "阿森纳",
+      "league": "英足总杯",
+      "jc_date": "2026-01-11",
+      "recommended": "让胜",
+      "rec_prob": 84,
+      "actual_score": "1:4",
+      "actual_result": "让负",
+      "reason": "客队实际表现强于预期（让球）"
+    },
+    {
+      "home_cn": "门兴",
+      "away_cn": "奥格斯堡",
+      "league": "德甲",
+      "jc_date": "2026-01-11",
+      "recommended": "让负",
+      "rec_prob": 62,
+      "actual_score": "4:0",
+      "actual_result": "让胜",
+      "reason": "主队实际表现强于预期（让球）"
+    },
+    {
+      "home_cn": "鹿斯巴达",
+      "away_cn": "赫拉克勒",
+      "league": "荷甲",
+      "jc_date": "2026-01-11",
+      "recommended": "让负",
+      "rec_prob": 62,
+      "actual_score": "2:0",
+      "actual_result": "让胜",
+      "reason": "主队实际表现强于预期（让球）"
+    },
+    {
+      "home_cn": "伊拉克23",
+      "away_cn": "澳大利23",
+      "league": "亚洲杯23",
+      "jc_date": "2026-01-14",
+      "recommended": "让胜",
+      "rec_prob": 66,
+      "actual_score": "1:2",
+      "actual_result": "让平",
+      "reason": "双方实际更接近（让球）"
+    },
+    {
+      "home_cn": "墨尔本城",
+      "away_cn": "奥克兰FC",
+      "league": "澳超",
+      "jc_date": "2026-01-16",
+      "recommended": "让负",
+      "rec_prob": 62,
+      "actual_score": "2:1",
+      "actual_result": "让平",
+      "reason": "双方实际更接近（让球）"
+    },
+    {
+      "home_cn": "越南23",
+      "away_cn": "阿联酋23",
+      "league": "亚洲杯23",
+      "jc_date": "2026-01-16",
+      "recommended": "主胜",
+      "rec_prob": 61,
+      "actual_score": "2:2",
+      "actual_result": "平",
+      "reason": "双方实际更接近，或一方未能扩大优势"
+    },
+    {
+      "home_cn": "乌兹别23",
+      "away_cn": "中国23",
+      "league": "亚洲杯23",
+      "jc_date": "2026-01-17",
+      "recommended": "主胜",
+      "rec_prob": 66,
+      "actual_score": "0:0",
+      "actual_result": "平",
+      "reason": "双方实际更接近，或一方未能扩大优势"
+    },
+    {
+      "home_cn": "皇马",
+      "away_cn": "莱万特",
+      "league": "西甲",
+      "jc_date": "2026-01-17",
+      "recommended": "让负",
+      "rec_prob": 83,
+      "actual_score": "2:0",
+      "actual_result": "让平",
+      "reason": "双方实际更接近（让球）"
+    },
+    {
+      "home_cn": "特鲁瓦",
+      "away_cn": "兰斯",
+      "league": "法乙",
+      "jc_date": "2026-01-17",
+      "recommended": "让负",
+      "rec_prob": 62,
+      "actual_score": "2:1",
+      "actual_result": "让平",
+      "reason": "双方实际更接近（让球）"
+    },
+    {
+      "home_cn": "乌迪内斯",
+      "away_cn": "国际米兰",
+      "league": "意甲",
+      "jc_date": "2026-01-17",
+      "recommended": "让胜",
+      "rec_prob": 64,
+      "actual_score": "0:1",
+      "actual_result": "让平",
+      "reason": "双方实际更接近（让球）"
+    },
+    {
+      "home_cn": "科隆",
+      "away_cn": "美因茨",
+      "league": "德甲",
+      "jc_date": "2026-01-17",
+      "recommended": "让负",
+      "rec_prob": 60,
+      "actual_score": "2:1",
+      "actual_result": "让平",
+      "reason": "双方实际更接近（让球）"
+    },
+    {
+      "home_cn": "霍芬海姆",
+      "away_cn": "勒沃库森",
+      "league": "德甲",
+      "jc_date": "2026-01-17",
+      "recommended": "让负",
+      "rec_prob": 60,
+      "actual_score": "1:0",
+      "actual_result": "让平",
+      "reason": "双方实际更接近（让球）"
+    },
+    {
+      "home_cn": "利兹联",
+      "away_cn": "富勒姆",
+      "league": "英超",
+      "jc_date": "2026-01-17",
+      "recommended": "让负",
+      "rec_prob": 66,
+      "actual_score": "1:0",
+      "actual_result": "让平",
+      "reason": "双方实际更接近（让球）"
+    },
+    {
+      "home_cn": "切尔西",
+      "away_cn": "布伦特",
+      "league": "英超",
+      "jc_date": "2026-01-17",
+      "recommended": "让负",
+      "rec_prob": 60,
+      "actual_score": "2:0",
+      "actual_result": "让胜",
+      "reason": "主队实际表现强于预期（让球）"
+    },
+    {
+      "home_cn": "桑德兰",
+      "away_cn": "水晶宫",
+      "league": "英超",
+      "jc_date": "2026-01-17",
+      "recommended": "让负",
+      "rec_prob": 60,
+      "actual_score": "2:1",
+      "actual_result": "让平",
+      "reason": "双方实际更接近（让球）"
+    },
+    {
+      "home_cn": "澳大利23",
+      "away_cn": "韩国23",
+      "league": "亚洲杯23",
+      "jc_date": "2026-01-17",
+      "recommended": "让胜",
+      "rec_prob": 66,
+      "actual_score": "1:2",
+      "actual_result": "让平",
+      "reason": "双方实际更接近（让球）"
+    },
+    {
+      "home_cn": "阿贾克斯",
+      "away_cn": "前进之鹰",
+      "league": "荷甲",
+      "jc_date": "2026-01-17",
+      "recommended": "主胜",
+      "rec_prob": 68,
+      "actual_score": "2:2",
+      "actual_result": "平",
+      "reason": "双方实际更接近，或一方未能扩大优势"
+    },
+    {
+      "home_cn": "悉尼FC",
+      "away_cn": "惠灵顿",
+      "league": "澳超",
+      "jc_date": "2026-01-18",
+      "recommended": "主胜",
+      "rec_prob": 63,
+      "actual_score": "0:2",
+      "actual_result": "客胜",
+      "reason": "客队实际表现强于预期"
+    },
+    {
+      "home_cn": "赫拉克勒",
+      "away_cn": "特温特",
+      "league": "荷甲",
+      "jc_date": "2026-01-18",
+      "recommended": "让胜",
+      "rec_prob": 68,
+      "actual_score": "0:2",
+      "actual_result": "让负",
+      "reason": "客队实际表现强于预期（让球）"
+    },
+    {
+      "home_cn": "斯特拉斯",
+      "away_cn": "梅斯",
+      "league": "法甲",
+      "jc_date": "2026-01-18",
+      "recommended": "让负",
+      "rec_prob": 60,
+      "actual_score": "2:1",
+      "actual_result": "让平",
+      "reason": "双方实际更接近（让球）"
+    },
+    {
+      "home_cn": "费耶诺德",
+      "away_cn": "鹿斯巴达",
+      "league": "荷甲",
+      "jc_date": "2026-01-18",
+      "recommended": "主胜",
+      "rec_prob": 68,
+      "actual_score": "3:4",
+      "actual_result": "客胜",
+      "reason": "客队实际表现强于预期"
+    },
+    {
+      "home_cn": "阿拉木图",
+      "away_cn": "布鲁日",
+      "league": "欧冠",
+      "jc_date": "2026-01-20",
+      "recommended": "让胜",
+      "rec_prob": 68,
+      "actual_score": "1:4",
+      "actual_result": "让负",
+      "reason": "客队实际表现强于预期（让球）"
+    },
+    {
+      "home_cn": "纽喷气机",
+      "away_cn": "惠灵顿",
+      "league": "澳超",
+      "jc_date": "2026-01-23",
+      "recommended": "让负",
+      "rec_prob": 62,
+      "actual_score": "4:1",
+      "actual_result": "让胜",
+      "reason": "主队实际表现强于预期（让球）"
+    },
+    {
+      "home_cn": "奥克兰FC",
+      "away_cn": "中央海岸",
+      "league": "澳超",
+      "jc_date": "2026-01-24",
+      "recommended": "主胜",
+      "rec_prob": 66,
+      "actual_score": "2:2",
+      "actual_result": "平",
+      "reason": "双方实际更接近，或一方未能扩大优势"
+    },
+    {
+      "home_cn": "西汉姆联",
+      "away_cn": "桑德兰",
+      "league": "英超",
+      "jc_date": "2026-01-24",
+      "recommended": "让负",
+      "rec_prob": 66,
+      "actual_score": "3:1",
+      "actual_result": "让胜",
+      "reason": "主队实际表现强于预期（让球）"
+    },
+    {
+      "home_cn": "法兰克福",
+      "away_cn": "霍芬海姆",
+      "league": "德甲",
+      "jc_date": "2026-01-24",
+      "recommended": "让胜",
+      "rec_prob": 64,
+      "actual_score": "1:3",
+      "actual_result": "让负",
+      "reason": "客队实际表现强于预期（让球）"
+    },
+    {
+      "home_cn": "美因茨",
+      "away_cn": "沃夫斯堡",
+      "league": "德甲",
+      "jc_date": "2026-01-24",
+      "recommended": "让负",
+      "rec_prob": 60,
+      "actual_score": "3:1",
+      "actual_result": "让胜",
+      "reason": "主队实际表现强于预期（让球）"
+    },
+    {
+      "home_cn": "海登海姆",
+      "away_cn": "莱红牛",
+      "league": "德甲",
+      "jc_date": "2026-01-24",
+      "recommended": "让胜",
+      "rec_prob": 64,
+      "actual_score": "0:3",
+      "actual_result": "让负",
+      "reason": "客队实际表现强于预期（让球）"
+    },
+    {
+      "home_cn": "勒沃库森",
+      "away_cn": "不来梅",
+      "league": "德甲",
+      "jc_date": "2026-01-24",
+      "recommended": "让负",
+      "rec_prob": 60,
+      "actual_score": "1:0",
+      "actual_result": "让平",
+      "reason": "双方实际更接近（让球）"
+    },
+    {
+      "home_cn": "中国23",
+      "away_cn": "日本23",
+      "league": "亚洲杯23",
+      "jc_date": "2026-01-24",
+      "recommended": "让胜",
+      "rec_prob": 66,
+      "actual_score": "0:4",
+      "actual_result": "让负",
+      "reason": "客队实际表现强于预期（让球）"
+    },
+    {
+      "home_cn": "曼城",
+      "away_cn": "狼队",
+      "league": "英超",
+      "jc_date": "2026-01-24",
+      "recommended": "让负",
+      "rec_prob": 83,
+      "actual_score": "2:0",
+      "actual_result": "让平",
+      "reason": "双方实际更接近（让球）"
+    },
+    {
+      "home_cn": "巴伦西亚",
+      "away_cn": "西班牙人",
+      "league": "西甲",
+      "jc_date": "2026-01-24",
+      "recommended": "让负",
+      "rec_prob": 66,
+      "actual_score": "3:2",
+      "actual_result": "让平",
+      "reason": "双方实际更接近（让球）"
+    },
+    {
+      "home_cn": "西悉尼",
+      "away_cn": "珀斯",
+      "league": "澳超",
+      "jc_date": "2026-01-25",
+      "recommended": "让负",
+      "rec_prob": 62,
+      "actual_score": "1:0",
+      "actual_result": "让平",
+      "reason": "双方实际更接近（让球）"
+    },
+    {
+      "home_cn": "特尔斯达",
+      "away_cn": "阿尔克马",
+      "league": "荷甲",
+      "jc_date": "2026-01-25",
+      "recommended": "让胜",
+      "rec_prob": 68,
+      "actual_score": "0:1",
+      "actual_result": "让平",
+      "reason": "双方实际更接近（让球）"
+    },
+    {
+      "home_cn": "萨索洛",
+      "away_cn": "克雷莫纳",
+      "league": "意甲",
+      "jc_date": "2026-01-25",
+      "recommended": "让负",
+      "rec_prob": 60,
+      "actual_score": "1:0",
+      "actual_result": "让平",
+      "reason": "双方实际更接近（让球）"
+    },
+    {
+      "home_cn": "格罗宁根",
+      "away_cn": "福图纳",
+      "league": "荷甲",
+      "jc_date": "2026-01-25",
+      "recommended": "主胜",
+      "rec_prob": 64,
+      "actual_score": "1:2",
+      "actual_result": "客胜",
+      "reason": "客队实际表现强于预期"
+    },
+    {
+      "home_cn": "布伦特",
+      "away_cn": "诺丁汉",
+      "league": "英超",
+      "jc_date": "2026-01-25",
+      "recommended": "主胜",
+      "rec_prob": 61,
+      "actual_score": "0:2",
+      "actual_result": "客胜",
+      "reason": "客队实际表现强于预期"
+    },
+    {
+      "home_cn": "水晶宫",
+      "away_cn": "切尔西",
+      "league": "英超",
+      "jc_date": "2026-01-25",
+      "recommended": "让胜",
+      "rec_prob": 64,
+      "actual_score": "1:3",
+      "actual_result": "让负",
+      "reason": "客队实际表现强于预期（让球）"
+    },
+    {
+      "home_cn": "南特",
+      "away_cn": "尼斯",
+      "league": "法甲",
+      "jc_date": "2026-01-25",
+      "recommended": "让胜",
+      "rec_prob": 64,
+      "actual_score": "1:4",
+      "actual_result": "让负",
+      "reason": "客队实际表现强于预期（让球）"
+    },
+    {
+      "home_cn": "门兴",
+      "away_cn": "斯图加特",
+      "league": "德甲",
+      "jc_date": "2026-01-25",
+      "recommended": "让胜",
+      "rec_prob": 68,
+      "actual_score": "0:3",
+      "actual_result": "让负",
+      "reason": "客队实际表现强于预期（让球）"
+    },
+    {
+      "home_cn": "巴萨",
+      "away_cn": "奥维耶多",
+      "league": "西甲",
+      "jc_date": "2026-01-25",
+      "recommended": "让负",
+      "rec_prob": 83,
+      "actual_score": "3:0",
+      "actual_result": "让胜",
+      "reason": "主队实际表现强于预期（让球）"
+    },
+    {
+      "home_cn": "费耶诺德",
+      "away_cn": "赫拉克勒",
+      "league": "荷甲",
+      "jc_date": "2026-01-25",
+      "recommended": "让负",
+      "rec_prob": 85,
+      "actual_score": "4:2",
+      "actual_result": "让平",
+      "reason": "双方实际更接近（让球）"
+    },
+    {
+      "home_cn": "墨胜利",
+      "away_cn": "悉尼FC",
+      "league": "澳超",
+      "jc_date": "2026-01-26",
+      "recommended": "让负",
+      "rec_prob": 62,
+      "actual_score": "4:0",
+      "actual_result": "让胜",
+      "reason": "主队实际表现强于预期（让球）"
+    },
+    {
+      "home_cn": "纽喷气机",
+      "away_cn": "布里斯班",
+      "league": "澳超",
+      "jc_date": "2026-01-31",
+      "recommended": "让负",
+      "rec_prob": 62,
+      "actual_score": "4:1",
+      "actual_result": "让胜",
+      "reason": "主队实际表现强于预期（让球）"
+    },
+    {
+      "home_cn": "悉尼FC",
+      "away_cn": "西悉尼",
+      "league": "澳超",
+      "jc_date": "2026-01-31",
+      "recommended": "让负",
+      "rec_prob": 62,
+      "actual_score": "4:1",
+      "actual_result": "让胜",
+      "reason": "主队实际表现强于预期（让球）"
+    },
+    {
+      "home_cn": "波鸿",
+      "away_cn": "沙尔克04",
+      "league": "德乙",
+      "jc_date": "2026-01-31",
+      "recommended": "让负",
+      "rec_prob": 62,
+      "actual_score": "2:0",
+      "actual_result": "让胜",
+      "reason": "主队实际表现强于预期（让球）"
+    },
+    {
+      "home_cn": "不伦瑞克",
+      "away_cn": "卡斯鲁厄",
+      "league": "德乙",
+      "jc_date": "2026-01-31",
+      "recommended": "让负",
+      "rec_prob": 62,
+      "actual_score": "1:0",
+      "actual_result": "让平",
+      "reason": "双方实际更接近（让球）"
+    },
+    {
+      "home_cn": "基尔",
+      "away_cn": "菲尔特",
+      "league": "德乙",
+      "jc_date": "2026-01-31",
+      "recommended": "主胜",
+      "rec_prob": 67,
+      "actual_score": "1:2",
+      "actual_result": "客胜",
+      "reason": "客队实际表现强于预期"
+    },
+    {
+      "home_cn": "斯托克城",
+      "away_cn": "南安普敦",
+      "league": "英冠",
+      "jc_date": "2026-01-31",
+      "recommended": "让胜",
+      "rec_prob": 68,
+      "actual_score": "0:2",
+      "actual_result": "让负",
+      "reason": "客队实际表现强于预期（让球）"
+    },
+    {
+      "home_cn": "莱切斯特",
+      "away_cn": "查尔顿",
+      "league": "英冠",
+      "jc_date": "2026-01-31",
+      "recommended": "主胜",
+      "rec_prob": 68,
+      "actual_score": "0:2",
+      "actual_result": "客胜",
+      "reason": "客队实际表现强于预期"
+    },
+    {
+      "home_cn": "比萨",
+      "away_cn": "萨索洛",
+      "league": "意甲",
+      "jc_date": "2026-01-31",
+      "recommended": "让胜",
+      "rec_prob": 64,
+      "actual_score": "1:3",
+      "actual_result": "让负",
+      "reason": "客队实际表现强于预期（让球）"
+    },
+    {
+      "home_cn": "霍芬海姆",
+      "away_cn": "柏林联合",
+      "league": "德甲",
+      "jc_date": "2026-01-31",
+      "recommended": "让负",
+      "rec_prob": 60,
+      "actual_score": "3:1",
+      "actual_result": "让胜",
+      "reason": "主队实际表现强于预期（让球）"
+    },
+    {
+      "home_cn": "奥格斯堡",
+      "away_cn": "圣保利",
+      "league": "德甲",
+      "jc_date": "2026-01-31",
+      "recommended": "让负",
+      "rec_prob": 60,
+      "actual_score": "2:1",
+      "actual_result": "让平",
+      "reason": "双方实际更接近（让球）"
+    },
+    {
+      "home_cn": "法兰克福",
+      "away_cn": "勒沃库森",
+      "league": "德甲",
+      "jc_date": "2026-01-31",
+      "recommended": "让胜",
+      "rec_prob": 64,
+      "actual_score": "1:3",
+      "actual_result": "让负",
+      "reason": "客队实际表现强于预期（让球）"
+    },
+    {
+      "home_cn": "狼队",
+      "away_cn": "伯恩茅斯",
+      "league": "英超",
+      "jc_date": "2026-01-31",
+      "recommended": "让胜",
+      "rec_prob": 64,
+      "actual_score": "0:2",
+      "actual_result": "让负",
+      "reason": "客队实际表现强于预期（让球）"
+    },
+    {
+      "home_cn": "利兹联",
+      "away_cn": "阿森纳",
+      "league": "英超",
+      "jc_date": "2026-01-31",
+      "recommended": "让胜",
+      "rec_prob": 64,
+      "actual_score": "0:4",
+      "actual_result": "让负",
+      "reason": "客队实际表现强于预期（让球）"
+    },
+    {
+      "home_cn": "沃特福德",
+      "away_cn": "斯旺西",
+      "league": "英冠",
+      "jc_date": "2026-01-31",
+      "recommended": "主胜",
+      "rec_prob": 65,
+      "actual_score": "0:2",
+      "actual_result": "客胜",
+      "reason": "客队实际表现强于预期"
+    },
+    {
+      "home_cn": "都灵",
+      "away_cn": "莱切",
+      "league": "意甲",
+      "jc_date": "2026-02-01",
+      "recommended": "让负",
+      "rec_prob": 60,
+      "actual_score": "1:0",
+      "actual_result": "让平",
+      "reason": "双方实际更接近（让球）"
+    },
+    {
+      "home_cn": "埃因霍温",
+      "away_cn": "费耶诺德",
+      "league": "荷甲",
+      "jc_date": "2026-02-01",
+      "recommended": "让负",
+      "rec_prob": 62,
+      "actual_score": "3:0",
+      "actual_result": "让胜",
+      "reason": "主队实际表现强于预期（让球）"
+    },
+    {
+      "home_cn": "赫拉克勒",
+      "away_cn": "福图纳",
+      "league": "荷甲",
+      "jc_date": "2026-02-01",
+      "recommended": "让负",
+      "rec_prob": 62,
+      "actual_score": "2:1",
+      "actual_result": "让平",
+      "reason": "双方实际更接近（让球）"
+    },
+    {
+      "home_cn": "曼联",
+      "away_cn": "富勒姆",
+      "league": "英超",
+      "jc_date": "2026-02-01",
+      "recommended": "让负",
+      "rec_prob": 60,
+      "actual_score": "3:2",
+      "actual_result": "让平",
+      "reason": "双方实际更接近（让球）"
+    },
+    {
+      "home_cn": "里昂",
+      "away_cn": "里尔",
+      "league": "法甲",
+      "jc_date": "2026-02-01",
+      "recommended": "让负",
+      "rec_prob": 60,
+      "actual_score": "1:0",
+      "actual_result": "让平",
+      "reason": "双方实际更接近（让球）"
+    },
+    {
+      "home_cn": "斯图加特",
+      "away_cn": "弗赖堡",
+      "league": "德甲",
+      "jc_date": "2026-02-01",
+      "recommended": "让负",
+      "rec_prob": 60,
+      "actual_score": "1:0",
+      "actual_result": "让平",
+      "reason": "双方实际更接近（让球）"
+    },
+    {
+      "home_cn": "惠灵顿",
+      "away_cn": "墨胜利",
+      "league": "澳超",
+      "jc_date": "2026-02-06",
+      "recommended": "让胜",
+      "rec_prob": 68,
+      "actual_score": "2:3",
+      "actual_result": "让平",
+      "reason": "双方实际更接近（让球）"
+    },
+    {
+      "home_cn": "奥克兰FC",
+      "away_cn": "悉尼FC",
+      "league": "澳超",
+      "jc_date": "2026-02-07",
+      "recommended": "让负",
+      "rec_prob": 62,
+      "actual_score": "1:0",
+      "actual_result": "让平",
+      "reason": "双方实际更接近（让球）"
+    },
+    {
+      "home_cn": "曼联",
+      "away_cn": "热刺",
+      "league": "英超",
+      "jc_date": "2026-02-07",
+      "recommended": "让负",
+      "rec_prob": 60,
+      "actual_score": "2:0",
+      "actual_result": "让胜",
+      "reason": "主队实际表现强于预期（让球）"
+    },
+    {
+      "home_cn": "南安普敦",
+      "away_cn": "沃特福德",
+      "league": "英冠",
+      "jc_date": "2026-02-07",
+      "recommended": "让负",
+      "rec_prob": 62,
+      "actual_score": "1:0",
+      "actual_result": "让平",
+      "reason": "双方实际更接近（让球）"
+    },
+    {
+      "home_cn": "海登海姆",
+      "away_cn": "汉堡",
+      "league": "德甲",
+      "jc_date": "2026-02-07",
+      "recommended": "让胜",
+      "rec_prob": 64,
+      "actual_score": "0:2",
+      "actual_result": "让负",
+      "reason": "客队实际表现强于预期（让球）"
+    },
+    {
+      "home_cn": "美因茨",
+      "away_cn": "奥格斯堡",
+      "league": "德甲",
+      "jc_date": "2026-02-07",
+      "recommended": "让负",
+      "rec_prob": 66,
+      "actual_score": "2:0",
+      "actual_result": "让胜",
+      "reason": "主队实际表现强于预期（让球）"
+    },
+    {
+      "home_cn": "沃夫斯堡",
+      "away_cn": "多特蒙德",
+      "league": "德甲",
+      "jc_date": "2026-02-07",
+      "recommended": "让胜",
+      "rec_prob": 64,
+      "actual_score": "1:2",
+      "actual_result": "让平",
+      "reason": "双方实际更接近（让球）"
+    },
+    {
+      "home_cn": "弗赖堡",
+      "away_cn": "不来梅",
+      "league": "德甲",
+      "jc_date": "2026-02-07",
+      "recommended": "让负",
+      "rec_prob": 60,
+      "actual_score": "1:0",
+      "actual_result": "让平",
+      "reason": "双方实际更接近（让球）"
+    },
+    {
+      "home_cn": "伯恩利",
+      "away_cn": "西汉姆联",
+      "league": "英超",
+      "jc_date": "2026-02-07",
+      "recommended": "让胜",
+      "rec_prob": 64,
+      "actual_score": "0:2",
+      "actual_result": "让负",
+      "reason": "客队实际表现强于预期（让球）"
+    },
+    {
+      "home_cn": "阿森纳",
+      "away_cn": "桑德兰",
+      "league": "英超",
+      "jc_date": "2026-02-07",
+      "recommended": "让负",
+      "rec_prob": 83,
+      "actual_score": "3:0",
+      "actual_result": "让胜",
+      "reason": "主队实际表现强于预期（让球）"
+    },
+    {
+      "home_cn": "狼队",
+      "away_cn": "切尔西",
+      "league": "英超",
+      "jc_date": "2026-02-07",
+      "recommended": "让胜",
+      "rec_prob": 64,
+      "actual_score": "1:3",
+      "actual_result": "让负",
+      "reason": "客队实际表现强于预期（让球）"
+    },
+    {
+      "home_cn": "巴萨",
+      "away_cn": "马洛卡",
+      "league": "西甲",
+      "jc_date": "2026-02-07",
+      "recommended": "让负",
+      "rec_prob": 83,
+      "actual_score": "3:0",
+      "actual_result": "让胜",
+      "reason": "主队实际表现强于预期（让球）"
+    },
+    {
+      "home_cn": "阿德莱德",
+      "away_cn": "纽喷气机",
+      "league": "澳超",
+      "jc_date": "2026-02-08",
+      "recommended": "让胜",
+      "rec_prob": 68,
+      "actual_score": "2:3",
+      "actual_result": "让平",
+      "reason": "双方实际更接近（让球）"
+    },
+    {
+      "home_cn": "乌德勒支",
+      "away_cn": "费耶诺德",
+      "league": "荷甲",
+      "jc_date": "2026-02-08",
+      "recommended": "让胜",
+      "rec_prob": 68,
+      "actual_score": "0:1",
+      "actual_result": "让平",
+      "reason": "双方实际更接近（让球）"
+    },
+    {
+      "home_cn": "汉诺威96",
+      "away_cn": "基尔",
+      "league": "德乙",
+      "jc_date": "2026-02-08",
+      "recommended": "让负",
+      "rec_prob": 62,
+      "actual_score": "3:1",
+      "actual_result": "让胜",
+      "reason": "主队实际表现强于预期（让球）"
+    },
+    {
+      "home_cn": "比勒费",
+      "away_cn": "不伦瑞克",
+      "league": "德乙",
+      "jc_date": "2026-02-08",
+      "recommended": "让负",
+      "rec_prob": 62,
+      "actual_score": "3:2",
+      "actual_result": "让平",
+      "reason": "双方实际更接近（让球）"
+    },
+    {
+      "home_cn": "科隆",
+      "away_cn": "莱红牛",
+      "league": "德甲",
+      "jc_date": "2026-02-08",
+      "recommended": "让胜",
+      "rec_prob": 64,
+      "actual_score": "1:2",
+      "actual_result": "让平",
+      "reason": "双方实际更接近（让球）"
+    },
+    {
+      "home_cn": "格罗宁根",
+      "away_cn": "埃因霍温",
+      "league": "荷甲",
+      "jc_date": "2026-02-08",
+      "recommended": "让胜",
+      "rec_prob": 68,
+      "actual_score": "1:2",
+      "actual_result": "让平",
+      "reason": "双方实际更接近（让球）"
+    },
+    {
+      "home_cn": "神户胜利",
+      "away_cn": "首尔FC",
+      "league": "亚冠精英",
+      "jc_date": "2026-02-10",
+      "recommended": "让负",
+      "rec_prob": 62,
+      "actual_score": "2:0",
+      "actual_result": "让胜",
+      "reason": "主队实际表现强于预期（让球）"
+    },
+    {
+      "home_cn": "江原FC",
+      "away_cn": "上海海港",
+      "league": "亚冠精英",
+      "jc_date": "2026-02-11",
+      "recommended": "主胜",
+      "rec_prob": 67,
+      "actual_score": "0:0",
+      "actual_result": "平",
+      "reason": "双方实际更接近，或一方未能扩大优势"
+    },
+    {
+      "home_cn": "阿卡达格",
+      "away_cn": "利雅胜利",
+      "league": "亚冠乙",
+      "jc_date": "2026-02-11",
+      "recommended": "让胜",
+      "rec_prob": 68,
+      "actual_score": "0:1",
+      "actual_result": "让平",
+      "reason": "双方实际更接近（让球）"
+    },
+    {
+      "home_cn": "曼谷联",
+      "away_cn": "麦克阿瑟",
+      "league": "亚冠乙",
+      "jc_date": "2026-02-12",
+      "recommended": "让负",
+      "rec_prob": 62,
+      "actual_score": "2:0",
+      "actual_result": "让胜",
+      "reason": "主队实际表现强于预期（让球）"
+    },
+    {
+      "home_cn": "西悉尼",
+      "away_cn": "惠灵顿",
+      "league": "澳超",
+      "jc_date": "2026-02-13",
+      "recommended": "主胜",
+      "rec_prob": 62,
+      "actual_score": "2:2",
+      "actual_result": "平",
+      "reason": "双方实际更接近，或一方未能扩大优势"
+    },
+    {
+      "home_cn": "珀斯",
+      "away_cn": "纽喷气机",
+      "league": "澳超",
+      "jc_date": "2026-02-13",
+      "recommended": "让胜",
+      "rec_prob": 68,
+      "actual_score": "1:3",
+      "actual_result": "让负",
+      "reason": "客队实际表现强于预期（让球）"
+    },
+    {
+      "home_cn": "利雅青年",
+      "away_cn": "吉达国民",
+      "league": "沙职",
+      "jc_date": "2026-02-13",
+      "recommended": "让胜",
+      "rec_prob": 68,
+      "actual_score": "2:5",
+      "actual_result": "让负",
+      "reason": "客队实际表现强于预期（让球）"
+    },
+    {
+      "home_cn": "利雅新月",
+      "away_cn": "达曼协定",
+      "league": "沙职",
+      "jc_date": "2026-02-13",
+      "recommended": "让负",
+      "rec_prob": 85,
+      "actual_score": "2:0",
+      "actual_result": "让平",
+      "reason": "双方实际更接近（让球）"
+    },
+    {
+      "home_cn": "波尔图",
+      "away_cn": "阿罗卡",
+      "league": "葡超",
+      "jc_date": "2026-02-27",
+      "recommended": "让负",
+      "rec_prob": 85,
+      "actual_score": "3:1",
+      "actual_result": "让平",
+      "reason": "双方实际更接近（让球）"
+    },
+    {
+      "home_cn": "利雅青年",
+      "away_cn": "利雅新月",
+      "league": "沙职",
+      "jc_date": "2026-02-27",
+      "recommended": "让胜",
+      "rec_prob": 68,
+      "actual_score": "3:5",
+      "actual_result": "让负",
+      "reason": "客队实际表现强于预期（让球）"
+    },
+    {
+      "home_cn": "奥斯",
+      "away_cn": "坎布尔",
+      "league": "荷乙",
+      "jc_date": "2026-02-27",
+      "recommended": "让胜",
+      "rec_prob": 68,
+      "actual_score": "1:2",
+      "actual_result": "让平",
+      "reason": "双方实际更接近（让球）"
+    },
+    {
+      "home_cn": "奥格斯堡",
+      "away_cn": "科隆",
+      "league": "德甲",
+      "jc_date": "2026-02-27",
+      "recommended": "让负",
+      "rec_prob": 60,
+      "actual_score": "2:0",
+      "actual_result": "让胜",
+      "reason": "主队实际表现强于预期（让球）"
+    },
+    {
+      "home_cn": "帕尔马",
+      "away_cn": "卡利亚里",
+      "league": "意甲",
+      "jc_date": "2026-02-27",
+      "recommended": "主胜",
+      "rec_prob": 64,
+      "actual_score": "1:1",
+      "actual_result": "平",
+      "reason": "双方实际更接近，或一方未能扩大优势"
+    },
+    {
+      "home_cn": "布城",
+      "away_cn": "沃特福德",
+      "league": "英冠",
+      "jc_date": "2026-02-27",
+      "recommended": "主胜",
+      "rec_prob": 64,
+      "actual_score": "1:2",
+      "actual_result": "客胜",
+      "reason": "客队实际表现强于预期"
+    },
+    {
+      "home_cn": "莱万特",
+      "away_cn": "阿拉维斯",
+      "league": "西甲",
+      "jc_date": "2026-02-27",
+      "recommended": "让负",
+      "rec_prob": 66,
+      "actual_score": "2:0",
+      "actual_result": "让胜",
+      "reason": "主队实际表现强于预期（让球）"
+    },
+    {
+      "home_cn": "里斯本",
+      "away_cn": "埃斯托里",
+      "league": "葡超",
+      "jc_date": "2026-02-27",
+      "recommended": "让负",
+      "rec_prob": 85,
+      "actual_score": "3:0",
+      "actual_result": "让胜",
+      "reason": "主队实际表现强于预期（让球）"
+    },
+    {
+      "home_cn": "横滨水手",
+      "away_cn": "东京绿茵",
+      "league": "日职",
+      "jc_date": "2026-02-28",
+      "recommended": "让负",
+      "rec_prob": 62,
+      "actual_score": "3:2",
+      "actual_result": "让平",
+      "reason": "双方实际更接近（让球）"
+    },
+    {
+      "home_cn": "蔚山现代",
+      "away_cn": "江原FC",
+      "league": "韩职",
+      "jc_date": "2026-02-28",
+      "recommended": "让负",
+      "rec_prob": 62,
+      "actual_score": "3:1",
+      "actual_result": "让胜",
+      "reason": "主队实际表现强于预期（让球）"
+    },
+    {
+      "home_cn": "麦克阿瑟",
+      "away_cn": "西悉尼",
+      "league": "澳超",
+      "jc_date": "2026-02-28",
+      "recommended": "让胜",
+      "rec_prob": 68,
+      "actual_score": "0:4",
+      "actual_result": "让负",
+      "reason": "客队实际表现强于预期（让球）"
+    },
+    {
+      "home_cn": "比勒费",
+      "away_cn": "汉诺威96",
+      "league": "德乙",
+      "jc_date": "2026-02-28",
+      "recommended": "让胜",
+      "rec_prob": 68,
+      "actual_score": "0:1",
+      "actual_result": "让平",
+      "reason": "双方实际更接近（让球）"
+    },
+    {
+      "home_cn": "不来梅",
+      "away_cn": "海登海姆",
+      "league": "德甲",
+      "jc_date": "2026-02-28",
+      "recommended": "让负",
+      "rec_prob": 60,
+      "actual_score": "2:0",
+      "actual_result": "让胜",
+      "reason": "主队实际表现强于预期（让球）"
+    },
+    {
+      "home_cn": "门兴",
+      "away_cn": "柏林联合",
+      "league": "德甲",
+      "jc_date": "2026-02-28",
+      "recommended": "让负",
+      "rec_prob": 62,
+      "actual_score": "1:0",
+      "actual_result": "让平",
+      "reason": "双方实际更接近（让球）"
+    },
+    {
+      "home_cn": "霍芬海姆",
+      "away_cn": "圣保利",
+      "league": "德甲",
+      "jc_date": "2026-02-28",
+      "recommended": "主胜",
+      "rec_prob": 61,
+      "actual_score": "0:1",
+      "actual_result": "客胜",
+      "reason": "客队实际表现强于预期"
+    },
+    {
+      "home_cn": "伯恩利",
+      "away_cn": "布伦特",
+      "league": "英超",
+      "jc_date": "2026-02-28",
+      "recommended": "让胜",
+      "rec_prob": 64,
+      "actual_score": "3:4",
+      "actual_result": "让平",
+      "reason": "双方实际更接近（让球）"
+    },
+    {
+      "home_cn": "维罗纳",
+      "away_cn": "那不勒斯",
+      "league": "意甲",
+      "jc_date": "2026-02-28",
+      "recommended": "让胜",
+      "rec_prob": 64,
+      "actual_score": "1:2",
+      "actual_result": "让平",
+      "reason": "双方实际更接近（让球）"
+    },
+    {
+      "home_cn": "利兹联",
+      "away_cn": "曼城",
+      "league": "英超",
+      "jc_date": "2026-02-28",
+      "recommended": "让胜",
+      "rec_prob": 64,
+      "actual_score": "0:1",
+      "actual_result": "让平",
+      "reason": "双方实际更接近（让球）"
+    },
+    {
+      "home_cn": "多特蒙德",
+      "away_cn": "拜仁",
+      "league": "德甲",
+      "jc_date": "2026-02-28",
+      "recommended": "让胜",
+      "rec_prob": 68,
+      "actual_score": "2:3",
+      "actual_result": "让平",
+      "reason": "双方实际更接近（让球）"
+    },
+    {
+      "home_cn": "马洛卡",
+      "away_cn": "皇家社会",
+      "league": "西甲",
+      "jc_date": "2026-02-28",
+      "recommended": "让胜",
+      "rec_prob": 64,
+      "actual_score": "0:1",
+      "actual_result": "让平",
+      "reason": "双方实际更接近（让球）"
+    },
+    {
+      "home_cn": "赫拉克勒",
+      "away_cn": "埃因霍温",
+      "league": "荷甲",
+      "jc_date": "2026-02-28",
+      "recommended": "让胜",
+      "rec_prob": 88,
+      "actual_score": "1:3",
+      "actual_result": "让平",
+      "reason": "双方实际更接近（让球）"
+    },
+    {
+      "home_cn": "国际米兰",
+      "away_cn": "热那亚",
+      "league": "意甲",
+      "jc_date": "2026-02-28",
+      "recommended": "让负",
+      "rec_prob": 83,
+      "actual_score": "2:0",
+      "actual_result": "让平",
+      "reason": "双方实际更接近（让球）"
+    },
+    {
+      "home_cn": "奥维耶多",
+      "away_cn": "马竞",
+      "league": "西甲",
+      "jc_date": "2026-02-28",
+      "recommended": "让胜",
+      "rec_prob": 64,
+      "actual_score": "0:1",
+      "actual_result": "让平",
+      "reason": "双方实际更接近（让球）"
+    },
+    {
+      "home_cn": "川崎前锋",
+      "away_cn": "水户蜀葵",
+      "league": "日职",
+      "jc_date": "2026-03-01",
+      "recommended": "主胜",
+      "rec_prob": 65,
+      "actual_score": "2:2",
+      "actual_result": "平",
+      "reason": "双方实际更接近，或一方未能扩大优势"
+    },
+    {
+      "home_cn": "克雷莫纳",
+      "away_cn": "AC米兰",
+      "league": "意甲",
+      "jc_date": "2026-03-01",
+      "recommended": "让胜",
+      "rec_prob": 64,
+      "actual_score": "0:2",
+      "actual_result": "让负",
+      "reason": "客队实际表现强于预期（让球）"
+    },
+    {
+      "home_cn": "柏林赫塔",
+      "away_cn": "纽伦堡",
+      "league": "德乙",
+      "jc_date": "2026-03-01",
+      "recommended": "让负",
+      "rec_prob": 62,
+      "actual_score": "2:1",
+      "actual_result": "让平",
+      "reason": "双方实际更接近（让球）"
+    },
+    {
+      "home_cn": "特温特",
+      "away_cn": "费耶诺德",
+      "league": "荷甲",
+      "jc_date": "2026-03-01",
+      "recommended": "让负",
+      "rec_prob": 62,
+      "actual_score": "2:0",
+      "actual_result": "让胜",
+      "reason": "主队实际表现强于预期（让球）"
+    },
+    {
+      "home_cn": "富勒姆",
+      "away_cn": "热刺",
+      "league": "英超",
+      "jc_date": "2026-03-01",
+      "recommended": "让负",
+      "rec_prob": 60,
+      "actual_score": "2:1",
+      "actual_result": "让平",
+      "reason": "双方实际更接近（让球）"
+    },
+    {
+      "home_cn": "巴黎FC",
+      "away_cn": "尼斯",
+      "league": "法甲",
+      "jc_date": "2026-03-01",
+      "recommended": "让负",
+      "rec_prob": 60,
+      "actual_score": "1:0",
+      "actual_result": "让平",
+      "reason": "双方实际更接近（让球）"
+    },
+    {
+      "home_cn": "巴伦西亚",
+      "away_cn": "奥萨苏纳",
+      "league": "西甲",
+      "jc_date": "2026-03-01",
+      "recommended": "让负",
+      "rec_prob": 66,
+      "actual_score": "1:0",
+      "actual_result": "让平",
+      "reason": "双方实际更接近（让球）"
+    },
+    {
+      "home_cn": "法兰克福",
+      "away_cn": "弗赖堡",
+      "league": "德甲",
+      "jc_date": "2026-03-01",
+      "recommended": "让负",
+      "rec_prob": 60,
+      "actual_score": "2:0",
+      "actual_result": "让胜",
+      "reason": "主队实际表现强于预期（让球）"
+    },
+    {
+      "home_cn": "贝蒂斯",
+      "away_cn": "塞维利亚",
+      "league": "西甲",
+      "jc_date": "2026-03-01",
+      "recommended": "主胜",
+      "rec_prob": 61,
+      "actual_score": "2:2",
+      "actual_result": "平",
+      "reason": "双方实际更接近，或一方未能扩大优势"
+    },
+    {
+      "home_cn": "汉堡",
+      "away_cn": "莱红牛",
+      "league": "德甲",
+      "jc_date": "2026-03-01",
+      "recommended": "让胜",
+      "rec_prob": 64,
+      "actual_score": "1:2",
+      "actual_result": "让平",
+      "reason": "双方实际更接近（让球）"
+    },
+    {
+      "home_cn": "马赛",
+      "away_cn": "里昂",
+      "league": "法甲",
+      "jc_date": "2026-03-01",
+      "recommended": "让负",
+      "rec_prob": 66,
+      "actual_score": "3:2",
+      "actual_result": "让平",
+      "reason": "双方实际更接近（让球）"
+    },
+    {
+      "home_cn": "大田市民",
+      "away_cn": "安养FC",
+      "league": "韩职",
+      "jc_date": "2026-03-02",
+      "recommended": "主胜",
+      "rec_prob": 67,
+      "actual_score": "1:1",
+      "actual_result": "平",
+      "reason": "双方实际更接近，或一方未能扩大优势"
+    },
+    {
+      "home_cn": "比萨",
+      "away_cn": "博洛尼亚",
+      "league": "意甲",
+      "jc_date": "2026-03-02",
+      "recommended": "让胜",
+      "rec_prob": 64,
+      "actual_score": "0:1",
+      "actual_result": "让平",
+      "reason": "双方实际更接近（让球）"
+    },
+    {
+      "home_cn": "亚眠",
+      "away_cn": "特鲁瓦",
+      "league": "法乙",
+      "jc_date": "2026-03-02",
+      "recommended": "让胜",
+      "rec_prob": 68,
+      "actual_score": "0:2",
+      "actual_result": "让负",
+      "reason": "客队实际表现强于预期（让球）"
+    },
+    {
+      "home_cn": "皇马",
+      "away_cn": "赫塔费",
+      "league": "西甲",
+      "jc_date": "2026-03-02",
+      "recommended": "主胜",
+      "rec_prob": 67,
+      "actual_score": "0:1",
+      "actual_result": "客胜",
+      "reason": "客队实际表现强于预期"
+    },
+    {
+      "home_cn": "吉维森特",
+      "away_cn": "本菲卡",
+      "league": "葡超",
+      "jc_date": "2026-03-02",
+      "recommended": "让胜",
+      "rec_prob": 68,
+      "actual_score": "1:2",
+      "actual_result": "让平",
+      "reason": "双方实际更接近（让球）"
+    },
+    {
+      "home_cn": "巴萨",
+      "away_cn": "马竞",
+      "league": "西国王杯",
+      "jc_date": "2026-03-03",
+      "recommended": "让负",
+      "rec_prob": 59,
+      "actual_score": "3:0",
+      "actual_result": "让胜",
+      "reason": "主队实际表现强于预期（让球）"
+    },
+    {
+      "home_cn": "斯特拉斯",
+      "away_cn": "兰斯",
+      "league": "法国杯",
+      "jc_date": "2026-03-03",
+      "recommended": "让负",
+      "rec_prob": 59,
+      "actual_score": "2:1",
+      "actual_result": "让平",
+      "reason": "双方实际更接近（让球）"
+    },
+    {
+      "home_cn": "狼队",
+      "away_cn": "利物浦",
+      "league": "英超",
+      "jc_date": "2026-03-03",
+      "recommended": "平",
+      "rec_prob": 40,
+      "actual_score": "2:1",
+      "actual_result": "主胜",
+      "reason": "主队实际表现强于预期"
+    },
+    {
+      "home_cn": "首尔FC",
+      "away_cn": "神户胜利",
+      "league": "亚冠精英",
+      "jc_date": "2026-03-04",
+      "recommended": "让胜",
+      "rec_prob": 65,
+      "actual_score": "0:1",
+      "actual_result": "让平",
+      "reason": "双方实际更接近（让球）"
+    },
+    {
+      "home_cn": "曼城",
+      "away_cn": "诺丁汉",
+      "league": "英超",
+      "jc_date": "2026-03-04",
+      "recommended": "主胜",
+      "rec_prob": 64,
+      "actual_score": "2:2",
+      "actual_result": "平",
+      "reason": "双方实际更接近，或一方未能扩大优势"
+    },
+    {
+      "home_cn": "汉堡",
+      "away_cn": "勒沃库森",
+      "league": "德甲",
+      "jc_date": "2026-03-04",
+      "recommended": "让胜",
+      "rec_prob": 64,
+      "actual_score": "0:1",
+      "actual_result": "让平",
+      "reason": "双方实际更接近（让球）"
+    },
+    {
+      "home_cn": "皇家社会",
+      "away_cn": "毕尔巴鄂",
+      "league": "西国王杯",
+      "jc_date": "2026-03-04",
+      "recommended": "让负",
+      "rec_prob": 59,
+      "actual_score": "1:0",
+      "actual_result": "让平",
+      "reason": "双方实际更接近（让球）"
+    },
+    {
+      "home_cn": "马赛",
+      "away_cn": "图卢兹",
+      "league": "法国杯",
+      "jc_date": "2026-03-04",
+      "recommended": "主胜",
+      "rec_prob": 62,
+      "actual_score": "2:2",
+      "actual_result": "平",
+      "reason": "双方实际更接近，或一方未能扩大优势"
+    },
+    {
+      "home_cn": "伊朗女",
+      "away_cn": "澳大利女",
+      "league": "女亚洲杯",
+      "jc_date": "2026-03-05",
+      "recommended": "主胜",
+      "rec_prob": 46,
+      "actual_score": "0:4",
+      "actual_result": "客胜",
+      "reason": "客队实际表现强于预期"
+    },
+    {
+      "home_cn": "达马克",
+      "away_cn": "利雅得",
+      "league": "沙职",
+      "jc_date": "2026-03-05",
+      "recommended": "让负",
+      "rec_prob": 62,
+      "actual_score": "3:0",
+      "actual_result": "让胜",
+      "reason": "主队实际表现强于预期（让球）"
+    },
+    {
+      "home_cn": "乌兹别女",
+      "away_cn": "中国女",
+      "league": "女亚洲杯",
+      "jc_date": "2026-03-06",
+      "recommended": "让胜",
+      "rec_prob": 94,
+      "actual_score": "0:3",
+      "actual_result": "让平",
+      "reason": "双方实际更接近（让球）"
+    },
+    {
+      "home_cn": "埃沃斯堡",
+      "away_cn": "马格德堡",
+      "league": "德乙",
+      "jc_date": "2026-03-06",
+      "recommended": "让负",
+      "rec_prob": 62,
+      "actual_score": "1:0",
+      "actual_result": "让平",
+      "reason": "双方实际更接近（让球）"
+    },
+    {
+      "home_cn": "沙尔克04",
+      "away_cn": "比勒费",
+      "league": "德乙",
+      "jc_date": "2026-03-06",
+      "recommended": "让负",
+      "rec_prob": 62,
+      "actual_score": "1:0",
+      "actual_result": "让平",
+      "reason": "双方实际更接近（让球）"
+    },
+    {
+      "home_cn": "利雅新月",
+      "away_cn": "欧奈纳伊",
+      "league": "沙职",
+      "jc_date": "2026-03-06",
+      "recommended": "让负",
+      "rec_prob": 95,
+      "actual_score": "4:0",
+      "actual_result": "让胜",
+      "reason": "主队实际表现强于预期（让球）"
+    },
+    {
+      "home_cn": "南锡",
+      "away_cn": "蒙彼利埃",
+      "league": "法乙",
+      "jc_date": "2026-03-06",
+      "recommended": "让胜",
+      "rec_prob": 68,
+      "actual_score": "0:3",
+      "actual_result": "让负",
+      "reason": "客队实际表现强于预期（让球）"
+    },
+    {
+      "home_cn": "多德勒支",
+      "away_cn": "马斯特里",
+      "league": "荷乙",
+      "jc_date": "2026-03-06",
+      "recommended": "主胜",
+      "rec_prob": 69,
+      "actual_score": "1:1",
+      "actual_result": "平",
+      "reason": "双方实际更接近，或一方未能扩大优势"
+    },
+    {
+      "home_cn": "拜仁",
+      "away_cn": "门兴",
+      "league": "德甲",
+      "jc_date": "2026-03-06",
+      "recommended": "让负",
+      "rec_prob": 85,
+      "actual_score": "4:1",
+      "actual_result": "让胜",
+      "reason": "主队实际表现强于预期（让球）"
+    },
+    {
+      "home_cn": "巴黎圣曼",
+      "away_cn": "摩纳哥",
+      "league": "法甲",
+      "jc_date": "2026-03-06",
+      "recommended": "主胜",
+      "rec_prob": 60,
+      "actual_score": "1:3",
+      "actual_result": "客胜",
+      "reason": "客队实际表现强于预期"
+    },
+    {
+      "home_cn": "狼队",
+      "away_cn": "利物浦",
+      "league": "英足总杯",
+      "jc_date": "2026-03-06",
+      "recommended": "让胜",
+      "rec_prob": 66,
+      "actual_score": "1:3",
+      "actual_result": "让负",
+      "reason": "客队实际表现强于预期（让球）"
+    },
+    {
+      "home_cn": "塞尔塔",
+      "away_cn": "皇马",
+      "league": "西甲",
+      "jc_date": "2026-03-06",
+      "recommended": "让胜",
+      "rec_prob": 64,
+      "actual_score": "1:2",
+      "actual_result": "让平",
+      "reason": "双方实际更接近（让球）"
+    },
+    {
+      "home_cn": "法马利康",
+      "away_cn": "阿罗卡",
+      "league": "葡超",
+      "jc_date": "2026-03-06",
+      "recommended": "让负",
+      "rec_prob": 62,
+      "actual_score": "1:0",
+      "actual_result": "让平",
+      "reason": "双方实际更接近（让球）"
+    },
+    {
+      "home_cn": "大阪樱花",
+      "away_cn": "清水鼓动",
+      "league": "日职",
+      "jc_date": "2026-03-07",
+      "recommended": "主胜",
+      "rec_prob": 63,
+      "actual_score": "0:0",
+      "actual_result": "平",
+      "reason": "双方实际更接近，或一方未能扩大优势"
+    },
+    {
+      "home_cn": "光州FC",
+      "away_cn": "仁川联",
+      "league": "韩职",
+      "jc_date": "2026-03-07",
+      "recommended": "让负",
+      "rec_prob": 62,
+      "actual_score": "3:2",
+      "actual_result": "让平",
+      "reason": "双方实际更接近（让球）"
+    },
+    {
+      "home_cn": "帕德博恩",
+      "away_cn": "不伦瑞克",
+      "league": "德乙",
+      "jc_date": "2026-03-07",
+      "recommended": "主胜",
+      "rec_prob": 63,
+      "actual_score": "1:1",
+      "actual_result": "平",
+      "reason": "双方实际更接近，或一方未能扩大优势"
+    },
+    {
+      "home_cn": "赫尔城",
+      "away_cn": "米尔沃尔",
+      "league": "英冠",
+      "jc_date": "2026-03-07",
+      "recommended": "让胜",
+      "rec_prob": 68,
+      "actual_score": "1:3",
+      "actual_result": "让负",
+      "reason": "客队实际表现强于预期（让球）"
+    },
+    {
+      "home_cn": "奥萨苏纳",
+      "away_cn": "马洛卡",
+      "league": "西甲",
+      "jc_date": "2026-03-07",
+      "recommended": "主胜",
+      "rec_prob": 62,
+      "actual_score": "2:2",
+      "actual_result": "平",
+      "reason": "双方实际更接近，或一方未能扩大优势"
+    },
+    {
+      "home_cn": "卡利亚里",
+      "away_cn": "科莫",
+      "league": "意甲",
+      "jc_date": "2026-03-07",
+      "recommended": "让胜",
+      "rec_prob": 64,
+      "actual_score": "1:2",
+      "actual_result": "让平",
+      "reason": "双方实际更接近（让球）"
+    },
+    {
+      "home_cn": "海登海姆",
+      "away_cn": "霍芬海姆",
+      "league": "德甲",
+      "jc_date": "2026-03-07",
+      "recommended": "让胜",
+      "rec_prob": 64,
+      "actual_score": "2:4",
+      "actual_result": "让负",
+      "reason": "客队实际表现强于预期（让球）"
+    },
+    {
+      "home_cn": "莱红牛",
+      "away_cn": "奥格斯堡",
+      "league": "德甲",
+      "jc_date": "2026-03-07",
+      "recommended": "让负",
+      "rec_prob": 60,
+      "actual_score": "2:1",
+      "actual_result": "让平",
+      "reason": "双方实际更接近（让球）"
+    },
+    {
+      "home_cn": "科隆",
+      "away_cn": "多特蒙德",
+      "league": "德甲",
+      "jc_date": "2026-03-07",
+      "recommended": "让胜",
+      "rec_prob": 64,
+      "actual_score": "1:2",
+      "actual_result": "让平",
+      "reason": "双方实际更接近（让球）"
+    },
+    {
+      "home_cn": "埃因霍温",
+      "away_cn": "阿尔克马",
+      "league": "荷甲",
+      "jc_date": "2026-03-07",
+      "recommended": "让负",
+      "rec_prob": 62,
+      "actual_score": "2:1",
+      "actual_result": "让平",
+      "reason": "双方实际更接近（让球）"
+    },
+    {
+      "home_cn": "尤文图斯",
+      "away_cn": "比萨",
+      "league": "意甲",
+      "jc_date": "2026-03-07",
+      "recommended": "让负",
+      "rec_prob": 83,
+      "actual_score": "4:0",
+      "actual_result": "让胜",
+      "reason": "主队实际表现强于预期（让球）"
+    },
+    {
+      "home_cn": "纽卡斯尔",
+      "away_cn": "曼城",
+      "league": "英足总杯",
+      "jc_date": "2026-03-07",
+      "recommended": "让胜",
+      "rec_prob": 66,
+      "actual_score": "1:3",
+      "actual_result": "让负",
+      "reason": "客队实际表现强于预期（让球）"
+    },
+    {
+      "home_cn": "毕尔巴鄂",
+      "away_cn": "巴萨",
+      "league": "西甲",
+      "jc_date": "2026-03-07",
+      "recommended": "让胜",
+      "rec_prob": 64,
+      "actual_score": "0:1",
+      "actual_result": "让平",
+      "reason": "双方实际更接近（让球）"
+    },
+    {
+      "home_cn": "图卢兹",
+      "away_cn": "马赛",
+      "league": "法甲",
+      "jc_date": "2026-03-07",
+      "recommended": "让胜",
+      "rec_prob": 64,
+      "actual_score": "0:1",
+      "actual_result": "让平",
+      "reason": "双方实际更接近（让球）"
+    },
+    {
+      "home_cn": "波特兰",
+      "away_cn": "温哥华",
+      "league": "美职",
+      "jc_date": "2026-03-07",
+      "recommended": "让胜",
+      "rec_prob": 68,
+      "actual_score": "1:4",
+      "actual_result": "让负",
+      "reason": "客队实际表现强于预期（让球）"
+    },
+    {
+      "home_cn": "大阪钢巴",
+      "away_cn": "长崎航海",
+      "league": "日职",
+      "jc_date": "2026-03-08",
+      "recommended": "让负",
+      "rec_prob": 65,
+      "actual_score": "3:2",
+      "actual_result": "让平",
+      "reason": "双方实际更接近（让球）"
+    },
+    {
+      "home_cn": "安养FC",
+      "away_cn": "济州SK",
+      "league": "韩职",
+      "jc_date": "2026-03-08",
+      "recommended": "让负",
+      "rec_prob": 63,
+      "actual_score": "2:1",
+      "actual_result": "让平",
+      "reason": "双方实际更接近（让球）"
+    },
+    {
+      "home_cn": "澳大利女",
+      "away_cn": "韩国女",
+      "league": "女亚洲杯",
+      "jc_date": "2026-03-08",
+      "recommended": "主胜",
+      "rec_prob": 62,
+      "actual_score": "3:3",
+      "actual_result": "平",
+      "reason": "双方实际更接近，或一方未能扩大优势"
+    },
+    {
+      "home_cn": "莱切",
+      "away_cn": "克雷莫纳",
+      "league": "意甲",
+      "jc_date": "2026-03-08",
+      "recommended": "让负",
+      "rec_prob": 66,
+      "actual_score": "2:1",
+      "actual_result": "让平",
+      "reason": "双方实际更接近（让球）"
+    },
+    {
+      "home_cn": "富勒姆",
+      "away_cn": "南安普敦",
+      "league": "英足总杯",
+      "jc_date": "2026-03-08",
+      "recommended": "主胜",
+      "rec_prob": 62,
+      "actual_score": "0:1",
+      "actual_result": "客胜",
+      "reason": "客队实际表现强于预期"
+    },
+    {
+      "home_cn": "汉诺威96",
+      "away_cn": "菲尔特",
+      "league": "德乙",
+      "jc_date": "2026-03-08",
+      "recommended": "主胜",
+      "rec_prob": 68,
+      "actual_score": "1:2",
+      "actual_result": "客胜",
+      "reason": "客队实际表现强于预期"
+    },
+    {
+      "home_cn": "明斯特",
+      "away_cn": "柏林赫塔",
+      "league": "德乙",
+      "jc_date": "2026-03-08",
+      "recommended": "让胜",
+      "rec_prob": 68,
+      "actual_score": "1:2",
+      "actual_result": "让平",
+      "reason": "双方实际更接近（让球）"
+    },
+    {
+      "home_cn": "前进之鹰",
+      "away_cn": "特温特",
+      "league": "荷甲",
+      "jc_date": "2026-03-08",
+      "recommended": "让胜",
+      "rec_prob": 68,
+      "actual_score": "1:4",
+      "actual_result": "让负",
+      "reason": "客队实际表现强于预期（让球）"
+    },
+    {
+      "home_cn": "里尔",
+      "away_cn": "洛里昂",
+      "league": "法甲",
+      "jc_date": "2026-03-08",
+      "recommended": "主胜",
+      "rec_prob": 62,
+      "actual_score": "1:1",
+      "actual_result": "平",
+      "reason": "双方实际更接近，或一方未能扩大优势"
+    },
+    {
+      "home_cn": "女王巡游",
+      "away_cn": "米堡",
+      "league": "英冠",
+      "jc_date": "2026-03-08",
+      "recommended": "让胜",
+      "rec_prob": 68,
+      "actual_score": "0:4",
+      "actual_result": "让负",
+      "reason": "客队实际表现强于预期（让球）"
+    },
+    {
+      "home_cn": "里昂",
+      "away_cn": "巴黎FC",
+      "league": "法甲",
+      "jc_date": "2026-03-08",
+      "recommended": "主胜",
+      "rec_prob": 63,
+      "actual_score": "1:1",
+      "actual_result": "平",
+      "reason": "双方实际更接近，或一方未能扩大优势"
+    },
+    {
+      "home_cn": "巴伦西亚",
+      "away_cn": "阿拉维斯",
+      "league": "西甲",
+      "jc_date": "2026-03-08",
+      "recommended": "让负",
+      "rec_prob": 60,
+      "actual_score": "3:2",
+      "actual_result": "让平",
+      "reason": "双方实际更接近（让球）"
+    },
+    {
+      "home_cn": "纽约红牛",
+      "away_cn": "蒙特利尔",
+      "league": "美职",
+      "jc_date": "2026-03-08",
+      "recommended": "主胜",
+      "rec_prob": 65,
+      "actual_score": "0:3",
+      "actual_result": "客胜",
+      "reason": "客队实际表现强于预期"
+    },
+    {
+      "home_cn": "孟加拉女",
+      "away_cn": "乌兹别女",
+      "league": "女亚洲杯",
+      "jc_date": "2026-03-09",
+      "recommended": "让胜",
+      "rec_prob": 66,
+      "actual_score": "0:4",
+      "actual_result": "让负",
+      "reason": "客队实际表现强于预期（让球）"
+    },
+    {
+      "home_cn": "朝鲜女",
+      "away_cn": "中国女",
+      "league": "女亚洲杯",
+      "jc_date": "2026-03-09",
+      "recommended": "主胜",
+      "rec_prob": 68,
+      "actual_score": "1:2",
+      "actual_result": "客胜",
+      "reason": "客队实际表现强于预期"
+    },
+    {
+      "home_cn": "拉齐奥",
+      "away_cn": "萨索洛",
+      "league": "意甲",
+      "jc_date": "2026-03-09",
+      "recommended": "让负",
+      "rec_prob": 66,
+      "actual_score": "2:1",
+      "actual_result": "让平",
+      "reason": "双方实际更接近（让球）"
+    },
+    {
+      "home_cn": "西班牙人",
+      "away_cn": "奥维耶多",
+      "league": "西甲",
+      "jc_date": "2026-03-09",
+      "recommended": "主胜",
+      "rec_prob": 62,
+      "actual_score": "1:1",
+      "actual_result": "平",
+      "reason": "双方实际更接近，或一方未能扩大优势"
+    },
+    {
+      "home_cn": "印度女",
+      "away_cn": "中国台女",
+      "league": "女亚洲杯",
+      "jc_date": "2026-03-10",
+      "recommended": "让胜",
+      "rec_prob": 66,
+      "actual_score": "1:3",
+      "actual_result": "让负",
+      "reason": "客队实际表现强于预期（让球）"
+    },
+    {
+      "home_cn": "日本女",
+      "away_cn": "越南女",
+      "league": "女亚洲杯",
+      "jc_date": "2026-03-10",
+      "recommended": "让负",
+      "rec_prob": 97,
+      "actual_score": "4:0",
+      "actual_result": "让平",
+      "reason": "双方实际更接近（让球）"
+    },
+    {
+      "home_cn": "亚特兰大",
+      "away_cn": "拜仁",
+      "league": "欧冠",
+      "jc_date": "2026-03-10",
+      "recommended": "让胜",
+      "rec_prob": 68,
+      "actual_score": "1:6",
+      "actual_result": "让负",
+      "reason": "客队实际表现强于预期（让球）"
+    },
+    {
+      "home_cn": "博德闪耀",
+      "away_cn": "里斯本",
+      "league": "欧冠",
+      "jc_date": "2026-03-11",
+      "recommended": "让负",
+      "rec_prob": 63,
+      "actual_score": "3:0",
+      "actual_result": "让胜",
+      "reason": "主队实际表现强于预期（让球）"
+    },
+    {
+      "home_cn": "巴黎圣曼",
+      "away_cn": "切尔西",
+      "league": "欧冠",
+      "jc_date": "2026-03-11",
+      "recommended": "让负",
+      "rec_prob": 63,
+      "actual_score": "5:2",
+      "actual_result": "让胜",
+      "reason": "主队实际表现强于预期（让球）"
+    },
+    {
+      "home_cn": "里尔",
+      "away_cn": "维拉",
+      "league": "欧罗巴",
+      "jc_date": "2026-03-12",
+      "recommended": "让胜",
+      "rec_prob": 68,
+      "actual_score": "0:1",
+      "actual_result": "让平",
+      "reason": "双方实际更接近（让球）"
+    },
+    {
+      "home_cn": "阿尔克马",
+      "away_cn": "布斯巴达",
+      "league": "欧协联",
+      "jc_date": "2026-03-12",
+      "recommended": "让负",
+      "rec_prob": 62,
+      "actual_score": "2:1",
+      "actual_result": "让平",
+      "reason": "双方实际更接近（让球）"
+    },
+    {
+      "home_cn": "胡巴卡德",
+      "away_cn": "吉达国民",
+      "league": "沙职",
+      "jc_date": "2026-03-13",
+      "recommended": "让负",
+      "rec_prob": 63,
+      "actual_score": "3:2",
+      "actual_result": "让平",
+      "reason": "双方实际更接近（让球）"
+    },
+    {
+      "home_cn": "坎布尔",
+      "away_cn": "罗达JC",
+      "league": "荷乙",
+      "jc_date": "2026-03-13",
+      "recommended": "主胜",
+      "rec_prob": 67,
+      "actual_score": "1:1",
+      "actual_result": "平",
+      "reason": "双方实际更接近，或一方未能扩大优势"
+    },
+    {
+      "home_cn": "门兴",
+      "away_cn": "圣保利",
+      "league": "德甲",
+      "jc_date": "2026-03-13",
+      "recommended": "让负",
+      "rec_prob": 62,
+      "actual_score": "2:0",
+      "actual_result": "让胜",
+      "reason": "主队实际表现强于预期（让球）"
+    },
+    {
+      "home_cn": "都灵",
+      "away_cn": "帕尔马",
+      "league": "意甲",
+      "jc_date": "2026-03-13",
+      "recommended": "让负",
+      "rec_prob": 66,
+      "actual_score": "4:1",
+      "actual_result": "让胜",
+      "reason": "主队实际表现强于预期（让球）"
+    },
+    {
+      "home_cn": "马赛",
+      "away_cn": "欧塞尔",
+      "league": "法甲",
+      "jc_date": "2026-03-13",
+      "recommended": "让负",
+      "rec_prob": 60,
+      "actual_score": "1:0",
+      "actual_result": "让平",
+      "reason": "双方实际更接近（让球）"
+    },
+    {
+      "home_cn": "雷克斯",
+      "away_cn": "斯旺西",
+      "league": "英冠",
+      "jc_date": "2026-03-13",
+      "recommended": "让负",
+      "rec_prob": 62,
+      "actual_score": "2:0",
+      "actual_result": "让胜",
+      "reason": "主队实际表现强于预期（让球）"
+    },
+    {
+      "home_cn": "名古屋鲸",
+      "away_cn": "神户胜利",
+      "league": "日职",
+      "jc_date": "2026-03-14",
+      "recommended": "让胜",
+      "rec_prob": 68,
+      "actual_score": "0:3",
+      "actual_result": "让负",
+      "reason": "客队实际表现强于预期（让球）"
+    },
+    {
+      "home_cn": "韩国女",
+      "away_cn": "乌兹别女",
+      "league": "女亚洲杯",
+      "jc_date": "2026-03-14",
+      "recommended": "让负",
+      "rec_prob": 92,
+      "actual_score": "6:0",
+      "actual_result": "让胜",
+      "reason": "主队实际表现强于预期（让球）"
+    },
+    {
+      "home_cn": "霍芬海姆",
+      "away_cn": "沃夫斯堡",
+      "league": "德甲",
+      "jc_date": "2026-03-14",
+      "recommended": "主胜",
+      "rec_prob": 61,
+      "actual_score": "1:1",
+      "actual_result": "平",
+      "reason": "双方实际更接近，或一方未能扩大优势"
+    },
+    {
+      "home_cn": "多特蒙德",
+      "away_cn": "奥格斯堡",
+      "league": "德甲",
+      "jc_date": "2026-03-14",
+      "recommended": "让负",
+      "rec_prob": 60,
+      "actual_score": "2:0",
+      "actual_result": "让胜",
+      "reason": "主队实际表现强于预期（让球）"
+    },
+    {
+      "home_cn": "莫尔德",
+      "away_cn": "罗森博格",
+      "league": "挪超",
+      "jc_date": "2026-03-14",
+      "recommended": "让负",
+      "rec_prob": 62,
+      "actual_score": "2:0",
+      "actual_result": "让胜",
+      "reason": "主队实际表现强于预期（让球）"
+    },
+    {
+      "home_cn": "切尔西",
+      "away_cn": "纽卡斯尔",
+      "league": "英超",
+      "jc_date": "2026-03-14",
+      "recommended": "主胜",
+      "rec_prob": 62,
+      "actual_score": "0:1",
+      "actual_result": "客胜",
+      "reason": "客队实际表现强于预期"
+    },
+    {
+      "home_cn": "奥维耶多",
+      "away_cn": "巴伦西亚",
+      "league": "西甲",
+      "jc_date": "2026-03-14",
+      "recommended": "让负",
+      "rec_prob": 66,
+      "actual_score": "1:0",
+      "actual_result": "让平",
+      "reason": "双方实际更接近（让球）"
+    },
+    {
+      "home_cn": "埃因霍温",
+      "away_cn": "奈梅亨",
+      "league": "荷甲",
+      "jc_date": "2026-03-14",
+      "recommended": "主胜",
+      "rec_prob": 68,
+      "actual_score": "2:3",
+      "actual_result": "客胜",
+      "reason": "客队实际表现强于预期"
+    },
+    {
+      "home_cn": "赛哈海湾",
+      "away_cn": "利雅胜利",
+      "league": "沙职",
+      "jc_date": "2026-03-14",
+      "recommended": "让胜",
+      "rec_prob": 68,
+      "actual_score": "0:5",
+      "actual_result": "让负",
+      "reason": "客队实际表现强于预期（让球）"
+    },
+    {
+      "home_cn": "乌迪内斯",
+      "away_cn": "尤文图斯",
+      "league": "意甲",
+      "jc_date": "2026-03-14",
+      "recommended": "让胜",
+      "rec_prob": 64,
+      "actual_score": "0:1",
+      "actual_result": "让平",
+      "reason": "双方实际更接近（让球）"
+    },
+    {
+      "home_cn": "皇马",
+      "away_cn": "埃尔切",
+      "league": "西甲",
+      "jc_date": "2026-03-14",
+      "recommended": "让负",
+      "rec_prob": 83,
+      "actual_score": "4:1",
+      "actual_result": "让胜",
+      "reason": "主队实际表现强于预期（让球）"
+    },
+    {
+      "home_cn": "阿罗卡",
+      "away_cn": "本菲卡",
+      "league": "葡超",
+      "jc_date": "2026-03-14",
+      "recommended": "让胜",
+      "rec_prob": 68,
+      "actual_score": "1:2",
+      "actual_result": "让平",
+      "reason": "双方实际更接近（让球）"
+    },
+    {
+      "home_cn": "日本女",
+      "away_cn": "菲律宾女",
+      "league": "女亚洲杯",
+      "jc_date": "2026-03-15",
+      "recommended": "让负",
+      "rec_prob": 97,
+      "actual_score": "7:0",
+      "actual_result": "让胜",
+      "reason": "主队实际表现强于预期（让球）"
+    },
+    {
+      "home_cn": "济州SK",
+      "away_cn": "首尔FC",
+      "league": "韩职",
+      "jc_date": "2026-03-15",
+      "recommended": "让胜",
+      "rec_prob": 68,
+      "actual_score": "1:2",
+      "actual_result": "让平",
+      "reason": "双方实际更接近（让球）"
+    },
+    {
+      "home_cn": "墨胜利",
+      "away_cn": "麦克阿瑟",
+      "league": "澳超",
+      "jc_date": "2026-03-15",
+      "recommended": "让负",
+      "rec_prob": 62,
+      "actual_score": "4:1",
+      "actual_result": "让胜",
+      "reason": "主队实际表现强于预期（让球）"
+    },
+    {
+      "home_cn": "特温特",
+      "away_cn": "乌德勒支",
+      "league": "荷甲",
+      "jc_date": "2026-03-15",
+      "recommended": "主胜",
+      "rec_prob": 64,
+      "actual_score": "0:2",
+      "actual_result": "客胜",
+      "reason": "客队实际表现强于预期"
+    },
+    {
+      "home_cn": "维罗纳",
+      "away_cn": "热那亚",
+      "league": "意甲",
+      "jc_date": "2026-03-15",
+      "recommended": "让胜",
+      "rec_prob": 64,
+      "actual_score": "0:2",
+      "actual_result": "让负",
+      "reason": "客队实际表现强于预期（让球）"
+    },
+    {
+      "home_cn": "马洛卡",
+      "away_cn": "西班牙人",
+      "league": "西甲",
+      "jc_date": "2026-03-15",
+      "recommended": "让负",
+      "rec_prob": 66,
+      "actual_score": "2:1",
+      "actual_result": "让平",
+      "reason": "双方实际更接近（让球）"
+    },
+    {
+      "home_cn": "比萨",
+      "away_cn": "卡利亚里",
+      "league": "意甲",
+      "jc_date": "2026-03-15",
+      "recommended": "让负",
+      "rec_prob": 66,
+      "actual_score": "3:1",
+      "actual_result": "让胜",
+      "reason": "主队实际表现强于预期（让球）"
+    },
+    {
+      "home_cn": "巴萨",
+      "away_cn": "塞维利亚",
+      "league": "西甲",
+      "jc_date": "2026-03-15",
+      "recommended": "让负",
+      "rec_prob": 85,
+      "actual_score": "5:2",
+      "actual_result": "让胜",
+      "reason": "主队实际表现强于预期（让球）"
+    },
+    {
+      "home_cn": "瓦勒伦加",
+      "away_cn": "桑纳菲",
+      "league": "挪超",
+      "jc_date": "2026-03-15",
+      "recommended": "让负",
+      "rec_prob": 62,
+      "actual_score": "1:0",
+      "actual_result": "让平",
+      "reason": "双方实际更接近（让球）"
+    },
+    {
+      "home_cn": "利物浦",
+      "away_cn": "热刺",
+      "league": "英超",
+      "jc_date": "2026-03-15",
+      "recommended": "主胜",
+      "rec_prob": 64,
+      "actual_score": "1:1",
+      "actual_result": "平",
+      "reason": "双方实际更接近，或一方未能扩大优势"
+    },
+    {
+      "home_cn": "科莫",
+      "away_cn": "罗马",
+      "league": "意甲",
+      "jc_date": "2026-03-15",
+      "recommended": "让负",
+      "rec_prob": 66,
+      "actual_score": "2:1",
+      "actual_result": "让平",
+      "reason": "双方实际更接近（让球）"
+    },
+    {
+      "home_cn": "斯图加特",
+      "away_cn": "莱红牛",
+      "league": "德甲",
+      "jc_date": "2026-03-15",
+      "recommended": "让负",
+      "rec_prob": 60,
+      "actual_score": "1:0",
+      "actual_result": "让平",
+      "reason": "双方实际更接近（让球）"
+    },
+    {
+      "home_cn": "波尔图",
+      "away_cn": "摩雷伦斯",
+      "league": "葡超",
+      "jc_date": "2026-03-15",
+      "recommended": "让负",
+      "rec_prob": 85,
+      "actual_score": "3:0",
+      "actual_result": "让胜",
+      "reason": "主队实际表现强于预期（让球）"
+    },
+    {
+      "home_cn": "温哥华",
+      "away_cn": "明尼苏达",
+      "league": "美职",
+      "jc_date": "2026-03-15",
+      "recommended": "让负",
+      "rec_prob": 65,
+      "actual_score": "6:0",
+      "actual_result": "让胜",
+      "reason": "主队实际表现强于预期（让球）"
+    },
+    {
+      "home_cn": "海尔蒙特",
+      "away_cn": "坎布尔",
+      "league": "荷乙",
+      "jc_date": "2026-03-16",
+      "recommended": "让胜",
+      "rec_prob": 67,
+      "actual_score": "0:1",
+      "actual_result": "让平",
+      "reason": "双方实际更接近（让球）"
+    },
+    {
+      "home_cn": "克雷莫纳",
+      "away_cn": "佛罗伦萨",
+      "league": "意甲",
+      "jc_date": "2026-03-16",
+      "recommended": "让胜",
+      "rec_prob": 67,
+      "actual_score": "1:4",
+      "actual_result": "让负",
+      "reason": "客队实际表现强于预期（让球）"
+    },
+    {
+      "home_cn": "阿纳西",
+      "away_cn": "特鲁瓦",
+      "league": "法乙",
+      "jc_date": "2026-03-16",
+      "recommended": "让胜",
+      "rec_prob": 68,
+      "actual_score": "1:2",
+      "actual_result": "让平",
+      "reason": "双方实际更接近（让球）"
+    },
+    {
+      "home_cn": "布伦特",
+      "away_cn": "狼队",
+      "league": "英超",
+      "jc_date": "2026-03-16",
+      "recommended": "主胜",
+      "rec_prob": 61,
+      "actual_score": "2:2",
+      "actual_result": "平",
+      "reason": "双方实际更接近，或一方未能扩大优势"
+    },
+    {
+      "home_cn": "巴列卡诺",
+      "away_cn": "莱万特",
+      "league": "西甲",
+      "jc_date": "2026-03-16",
+      "recommended": "主胜",
+      "rec_prob": 63,
+      "actual_score": "1:1",
+      "actual_result": "平",
+      "reason": "双方实际更接近，或一方未能扩大优势"
+    },
+    {
+      "home_cn": "悉尼FC",
+      "away_cn": "墨尔本城",
+      "league": "澳超",
+      "jc_date": "2026-03-17",
+      "recommended": "主胜",
+      "rec_prob": 49,
+      "actual_score": "0:1",
+      "actual_result": "客胜",
+      "reason": "客队实际表现强于预期"
+    },
+    {
+      "home_cn": "中国女",
+      "away_cn": "澳大利女",
+      "league": "女亚洲杯",
+      "jc_date": "2026-03-17",
+      "recommended": "让胜",
+      "rec_prob": 66,
+      "actual_score": "1:2",
+      "actual_result": "让平",
+      "reason": "双方实际更接近（让球）"
+    },
+    {
+      "home_cn": "里斯本",
+      "away_cn": "博德闪耀",
+      "league": "欧冠",
+      "jc_date": "2026-03-17",
+      "recommended": "让负",
+      "rec_prob": 61,
+      "actual_score": "3:0",
+      "actual_result": "让胜",
+      "reason": "主队实际表现强于预期（让球）"
+    },
+    {
+      "home_cn": "沃特福德",
+      "away_cn": "雷克斯",
+      "league": "英冠",
+      "jc_date": "2026-03-17",
+      "recommended": "让负",
+      "rec_prob": 62,
+      "actual_score": "3:1",
+      "actual_result": "让胜",
+      "reason": "主队实际表现强于预期（让球）"
+    },
+    {
+      "home_cn": "阿森纳",
+      "away_cn": "勒沃库森",
+      "league": "欧冠",
+      "jc_date": "2026-03-17",
+      "recommended": "让负",
+      "rec_prob": 85,
+      "actual_score": "2:0",
+      "actual_result": "让平",
+      "reason": "双方实际更接近（让球）"
+    },
+    {
+      "home_cn": "布拉加",
+      "away_cn": "费伦茨",
+      "league": "欧罗巴",
+      "jc_date": "2026-03-18",
+      "recommended": "让负",
+      "rec_prob": 62,
+      "actual_score": "4:0",
+      "actual_result": "让胜",
+      "reason": "主队实际表现强于预期（让球）"
+    },
+    {
+      "home_cn": "中国台女",
+      "away_cn": "朝鲜女",
+      "league": "女亚洲杯",
+      "jc_date": "2026-03-19",
+      "recommended": "让胜",
+      "rec_prob": 94,
+      "actual_score": "0:4",
+      "actual_result": "让负",
+      "reason": "客队实际表现强于预期（让球）"
+    },
+    {
+      "home_cn": "弗赖堡",
+      "away_cn": "亨克",
+      "league": "欧罗巴",
+      "jc_date": "2026-03-19",
+      "recommended": "让负",
+      "rec_prob": 62,
+      "actual_score": "5:1",
+      "actual_result": "让胜",
+      "reason": "主队实际表现强于预期（让球）"
+    },
+    {
+      "home_cn": "中日德兰",
+      "away_cn": "诺丁汉",
+      "league": "欧罗巴",
+      "jc_date": "2026-03-19",
+      "recommended": "让胜",
+      "rec_prob": 68,
+      "actual_score": "1:2",
+      "actual_result": "让平",
+      "reason": "双方实际更接近（让球）"
+    },
+    {
+      "home_cn": "南安普敦",
+      "away_cn": "诺维奇",
+      "league": "英冠",
+      "jc_date": "2026-03-19",
+      "recommended": "让负",
+      "rec_prob": 62,
+      "actual_score": "1:0",
+      "actual_result": "让平",
+      "reason": "双方实际更接近（让球）"
+    },
+    {
+      "home_cn": "波尔图",
+      "away_cn": "斯图加特",
+      "league": "欧罗巴",
+      "jc_date": "2026-03-19",
+      "recommended": "让负",
+      "rec_prob": 63,
+      "actual_score": "2:0",
+      "actual_result": "让胜",
+      "reason": "主队实际表现强于预期（让球）"
+    },
+    {
+      "home_cn": "热刺",
+      "away_cn": "马竞",
+      "league": "欧冠",
+      "jc_date": "2026-03-19",
+      "recommended": "让负",
+      "rec_prob": 62,
+      "actual_score": "3:2",
+      "actual_result": "让平",
+      "reason": "双方实际更接近（让球）"
+    },
+    {
+      "home_cn": "拜仁",
+      "away_cn": "亚特兰大",
+      "league": "欧冠",
+      "jc_date": "2026-03-19",
+      "recommended": "让负",
+      "rec_prob": 85,
+      "actual_score": "4:1",
+      "actual_result": "让胜",
+      "reason": "主队实际表现强于预期（让球）"
+    },
+    {
+      "home_cn": "贝蒂斯",
+      "away_cn": "帕纳辛纳",
+      "league": "欧罗巴",
+      "jc_date": "2026-03-19",
+      "recommended": "让负",
+      "rec_prob": 62,
+      "actual_score": "4:0",
+      "actual_result": "让胜",
+      "reason": "主队实际表现强于预期（让球）"
+    },
+    {
+      "home_cn": "利物浦",
+      "away_cn": "加拉塔萨",
+      "league": "欧冠",
+      "jc_date": "2026-03-19",
+      "recommended": "让负",
+      "rec_prob": 85,
+      "actual_score": "4:0",
+      "actual_result": "让胜",
+      "reason": "主队实际表现强于预期（让球）"
+    },
+    {
+      "home_cn": "汉诺威96",
+      "away_cn": "不伦瑞克",
+      "league": "德乙",
+      "jc_date": "2026-03-20",
+      "recommended": "让负",
+      "rec_prob": 62,
+      "actual_score": "1:0",
+      "actual_result": "让平",
+      "reason": "双方实际更接近（让球）"
+    },
+    {
+      "home_cn": "卡斯鲁厄",
+      "away_cn": "菲尔特",
+      "league": "德乙",
+      "jc_date": "2026-03-20",
+      "recommended": "让负",
+      "rec_prob": 62,
+      "actual_score": "3:1",
+      "actual_result": "让胜",
+      "reason": "主队实际表现强于预期（让球）"
+    },
+    {
+      "home_cn": "卡利亚里",
+      "away_cn": "那不勒斯",
+      "league": "意甲",
+      "jc_date": "2026-03-20",
+      "recommended": "让胜",
+      "rec_prob": 64,
+      "actual_score": "0:1",
+      "actual_result": "让平",
+      "reason": "双方实际更接近（让球）"
+    },
+    {
+      "home_cn": "克莱蒙",
+      "away_cn": "圣旺红星",
+      "league": "法乙",
+      "jc_date": "2026-03-20",
+      "recommended": "让胜",
+      "rec_prob": 68,
+      "actual_score": "0:1",
+      "actual_result": "让平",
+      "reason": "双方实际更接近（让球）"
+    },
+    {
+      "home_cn": "罗达JC",
+      "away_cn": "海尔蒙特",
+      "league": "荷乙",
+      "jc_date": "2026-03-20",
+      "recommended": "主胜",
+      "rec_prob": 69,
+      "actual_score": "1:1",
+      "actual_result": "平",
+      "reason": "双方实际更接近，或一方未能扩大优势"
+    },
+    {
+      "home_cn": "莱红牛",
+      "away_cn": "霍芬海姆",
+      "league": "德甲",
+      "jc_date": "2026-03-20",
+      "recommended": "让负",
+      "rec_prob": 66,
+      "actual_score": "5:0",
+      "actual_result": "让胜",
+      "reason": "主队实际表现强于预期（让球）"
+    },
+    {
+      "home_cn": "朗斯",
+      "away_cn": "昂热",
+      "league": "法甲",
+      "jc_date": "2026-03-20",
+      "recommended": "让负",
+      "rec_prob": 60,
+      "actual_score": "5:1",
+      "actual_result": "让胜",
+      "reason": "主队实际表现强于预期（让球）"
+    },
+    {
+      "home_cn": "普雷斯顿",
+      "away_cn": "斯托克城",
+      "league": "英冠",
+      "jc_date": "2026-03-20",
+      "recommended": "让负",
+      "rec_prob": 62,
+      "actual_score": "3:1",
+      "actual_result": "让胜",
+      "reason": "主队实际表现强于预期（让球）"
+    },
+    {
+      "home_cn": "阿马多拉",
+      "away_cn": "卡萨皮亚",
+      "league": "葡超",
+      "jc_date": "2026-03-20",
+      "recommended": "让负",
+      "rec_prob": 62,
+      "actual_score": "4:0",
+      "actual_result": "让胜",
+      "reason": "主队实际表现强于预期（让球）"
+    },
+    {
+      "home_cn": "大田市民",
+      "away_cn": "全北现代",
+      "league": "韩职",
+      "jc_date": "2026-03-21",
+      "recommended": "让胜",
+      "rec_prob": 68,
+      "actual_score": "0:1",
+      "actual_result": "让平",
+      "reason": "双方实际更接近（让球）"
+    },
+    {
+      "home_cn": "墨胜利",
+      "away_cn": "中央海岸",
+      "league": "澳超",
+      "jc_date": "2026-03-21",
+      "recommended": "让负",
+      "rec_prob": 62,
+      "actual_score": "4:1",
+      "actual_result": "让胜",
+      "reason": "主队实际表现强于预期（让球）"
+    },
+    {
+      "home_cn": "帕德博恩",
+      "away_cn": "德累斯顿",
+      "league": "德乙",
+      "jc_date": "2026-03-21",
+      "recommended": "让负",
+      "rec_prob": 62,
+      "actual_score": "2:1",
+      "actual_result": "让平",
+      "reason": "双方实际更接近（让球）"
+    },
+    {
+      "home_cn": "埃尔切",
+      "away_cn": "马洛卡",
+      "league": "西甲",
+      "jc_date": "2026-03-21",
+      "recommended": "让负",
+      "rec_prob": 60,
+      "actual_score": "2:1",
+      "actual_result": "让平",
+      "reason": "双方实际更接近（让球）"
+    },
+    {
+      "home_cn": "拜仁",
+      "away_cn": "柏林联合",
+      "league": "德甲",
+      "jc_date": "2026-03-21",
+      "recommended": "让负",
+      "rec_prob": 85,
+      "actual_score": "4:0",
+      "actual_result": "让胜",
+      "reason": "主队实际表现强于预期（让球）"
+    },
+    {
+      "home_cn": "富勒姆",
+      "away_cn": "伯恩利",
+      "league": "英超",
+      "jc_date": "2026-03-21",
+      "recommended": "让负",
+      "rec_prob": 60,
+      "actual_score": "3:1",
+      "actual_result": "让胜",
+      "reason": "主队实际表现强于预期（让球）"
+    },
+    {
+      "home_cn": "福图纳",
+      "away_cn": "特温特",
+      "league": "荷甲",
+      "jc_date": "2026-03-21",
+      "recommended": "让胜",
+      "rec_prob": 68,
+      "actual_score": "1:2",
+      "actual_result": "让平",
+      "reason": "双方实际更接近（让球）"
+    },
+    {
+      "home_cn": "浦和红钻",
+      "away_cn": "町田泽维",
+      "league": "日职",
+      "jc_date": "2026-03-22",
+      "recommended": "让胜",
+      "rec_prob": 68,
+      "actual_score": "1:2",
+      "actual_result": "让平",
+      "reason": "双方实际更接近（让球）"
+    },
+    {
+      "home_cn": "奈梅亨",
+      "away_cn": "海伦芬",
+      "league": "荷甲",
+      "jc_date": "2026-03-22",
+      "recommended": "主胜",
+      "rec_prob": 64,
+      "actual_score": "2:2",
+      "actual_result": "平",
+      "reason": "双方实际更接近，或一方未能扩大优势"
+    },
+    {
+      "home_cn": "科莫",
+      "away_cn": "比萨",
+      "league": "意甲",
+      "jc_date": "2026-03-22",
+      "recommended": "让负",
+      "rec_prob": 83,
+      "actual_score": "5:0",
+      "actual_result": "让胜",
+      "reason": "主队实际表现强于预期（让球）"
+    },
+    {
+      "home_cn": "维拉",
+      "away_cn": "西汉姆联",
+      "league": "英超",
+      "jc_date": "2026-03-22",
+      "recommended": "让负",
+      "rec_prob": 60,
+      "actual_score": "2:0",
+      "actual_result": "让胜",
+      "reason": "主队实际表现强于预期（让球）"
+    },
+    {
+      "home_cn": "美因茨",
+      "away_cn": "法兰克福",
+      "league": "德甲",
+      "jc_date": "2026-03-22",
+      "recommended": "让负",
+      "rec_prob": 66,
+      "actual_score": "2:1",
+      "actual_result": "让平",
+      "reason": "双方实际更接近（让球）"
+    },
+    {
+      "home_cn": "塞尔塔",
+      "away_cn": "阿拉维斯",
+      "league": "西甲",
+      "jc_date": "2026-03-22",
+      "recommended": "主胜",
+      "rec_prob": 61,
+      "actual_score": "3:4",
+      "actual_result": "客胜",
+      "reason": "客队实际表现强于预期"
+    },
+    {
+      "home_cn": "图卢兹",
+      "away_cn": "洛里昂",
+      "league": "法甲",
+      "jc_date": "2026-03-22",
+      "recommended": "让负",
+      "rec_prob": 66,
+      "actual_score": "1:0",
+      "actual_result": "让平",
+      "reason": "双方实际更接近（让球）"
+    },
+    {
+      "home_cn": "维京",
+      "away_cn": "莫尔德",
+      "league": "挪超",
+      "jc_date": "2026-03-22",
+      "recommended": "让负",
+      "rec_prob": 62,
+      "actual_score": "4:1",
+      "actual_result": "让胜",
+      "reason": "主队实际表现强于预期（让球）"
+    },
+    {
+      "home_cn": "奥萨苏纳",
+      "away_cn": "赫罗纳",
+      "league": "西甲",
+      "jc_date": "2026-03-22",
+      "recommended": "让负",
+      "rec_prob": 60,
+      "actual_score": "1:0",
+      "actual_result": "让平",
+      "reason": "双方实际更接近（让球）"
+    },
+    {
+      "home_cn": "莱万特",
+      "away_cn": "奥维耶多",
+      "league": "西甲",
+      "jc_date": "2026-03-22",
+      "recommended": "让负",
+      "rec_prob": 60,
+      "actual_score": "4:2",
+      "actual_result": "让胜",
+      "reason": "主队实际表现强于预期（让球）"
+    },
+    {
+      "home_cn": "尤文图斯",
+      "away_cn": "萨索洛",
+      "league": "意甲",
+      "jc_date": "2026-03-22",
+      "recommended": "主胜",
+      "rec_prob": 64,
+      "actual_score": "1:1",
+      "actual_result": "平",
+      "reason": "双方实际更接近，或一方未能扩大优势"
+    },
+    {
+      "home_cn": "尼斯",
+      "away_cn": "巴黎圣曼",
+      "league": "法甲",
+      "jc_date": "2026-03-22",
+      "recommended": "让胜",
+      "rec_prob": 64,
+      "actual_score": "0:4",
+      "actual_result": "让负",
+      "reason": "客队实际表现强于预期（让球）"
+    },
+    {
+      "home_cn": "温哥华",
+      "away_cn": "圣何塞",
+      "league": "美职",
+      "jc_date": "2026-03-22",
+      "recommended": "主胜",
+      "rec_prob": 64,
+      "actual_score": "0:1",
+      "actual_result": "客胜",
+      "reason": "客队实际表现强于预期"
+    },
+    {
+      "home_cn": "埃门",
+      "away_cn": "坎布尔",
+      "league": "荷乙",
+      "jc_date": "2026-03-24",
+      "recommended": "主胜",
+      "rec_prob": 58,
+      "actual_score": "2:4",
+      "actual_result": "客胜",
+      "reason": "客队实际表现强于预期"
+    }
+  ],
+  "year": 2026,
+  "by_segment": {
+    "意甲|让负|0.55-0.60": {
+      "n": 6,
+      "hit_rate": 0.5
+    },
+    "意甲|主胜|0.75-1.01": {
+      "n": 2,
+      "hit_rate": 1.0
+    },
+    "法甲|客胜|0.60-0.65": {
+      "n": 1,
+      "hit_rate": 1.0
+    },
+    "德甲|让胜|0.75-1.01": {
+      "n": 1,
+      "hit_rate": 1.0
+    },
+    "意甲|客胜|0.65-0.70": {
+      "n": 1,
+      "hit_rate": 1.0
+    },
+    "西甲|让负|0.60-0.65": {
+      "n": 13,
+      "hit_rate": 0.5384615384615384
+    },
+    "法甲|主胜|0.75-1.01": {
+      "n": 2,
+      "hit_rate": 1.0
+    },
+    "意甲|让负|0.65-0.70": {
+      "n": 1,
+      "hit_rate": 1.0
+    },
+    "英超|让负|0.60-0.65": {
+      "n": 11,
+      "hit_rate": 0.6363636363636364
+    },
+    "法甲|主胜|0.65-0.70": {
+      "n": 1,
+      "hit_rate": 1.0
+    },
+    "法甲|让负|0.55-0.60": {
+      "n": 2,
+      "hit_rate": 0.5
+    },
+    "法甲|主胜|0.70-0.75": {
+      "n": 1,
+      "hit_rate": 0.0
+    },
+    "英超|客胜|0.60-0.65": {
+      "n": 1,
+      "hit_rate": 0.0
+    },
+    "德甲|主胜|0.75-1.01": {
+      "n": 4,
+      "hit_rate": 1.0
+    },
+    "西甲|让胜|0.65-0.70": {
+      "n": 3,
+      "hit_rate": 1.0
+    },
+    "意甲|客胜|0.70-0.75": {
+      "n": 1,
+      "hit_rate": 1.0
+    },
+    "意甲|让胜|0.55-0.60": {
+      "n": 8,
+      "hit_rate": 0.75
+    },
+    "英超|主胜|0.75-1.01": {
+      "n": 1,
+      "hit_rate": 1.0
+    },
+    "意甲|客胜|0.75-1.01": {
+      "n": 3,
+      "hit_rate": 1.0
+    },
+    "法甲|让胜|0.65-0.70": {
+      "n": 1,
+      "hit_rate": 0.0
+    },
+    "德国杯|主胜|0.75-1.01": {
+      "n": 1,
+      "hit_rate": 1.0
+    },
+    "英联赛杯|主胜|0.70-0.75": {
+      "n": 1,
+      "hit_rate": 1.0
+    },
+    "法国杯|主胜|0.75-1.01": {
+      "n": 1,
+      "hit_rate": 1.0
+    },
+    "法甲|让胜|0.60-0.65": {
+      "n": 2,
+      "hit_rate": 0.5
+    },
+    "欧冠|让负|0.60-0.65": {
+      "n": 12,
+      "hit_rate": 0.25
+    },
+    "欧冠|让负|0.75-1.01": {
+      "n": 6,
+      "hit_rate": 0.6666666666666666
+    },
+    "沙职|让负|0.75-1.01": {
+      "n": 6,
+      "hit_rate": 0.5
+    },
+    "葡超|让负|0.75-1.01": {
+      "n": 3,
+      "hit_rate": 0.3333333333333333
+    },
+    "葡超|让胜|0.65-0.70": {
+      "n": 6,
+      "hit_rate": 0.3333333333333333
+    },
+    "沙职|让负|0.60-0.65": {
+      "n": 4,
+      "hit_rate": 0.25
+    },
+    "沙职|让胜|0.65-0.70": {
+      "n": 6,
+      "hit_rate": 0.6666666666666666
+    },
+    "荷乙|让胜|0.65-0.70": {
+      "n": 1,
+      "hit_rate": 1.0
+    },
+    "荷乙|让负|0.60-0.65": {
+      "n": 4,
+      "hit_rate": 0.5
+    },
+    "荷兰杯|让负|0.55-0.60": {
+      "n": 3,
+      "hit_rate": 0.6666666666666666
+    },
+    "法国杯|让负|0.75-1.01": {
+      "n": 1,
+      "hit_rate": 0.0
+    },
+    "英冠|让负|0.60-0.65": {
+      "n": 15,
+      "hit_rate": 0.4666666666666667
+    },
+    "德乙|让负|0.60-0.65": {
+      "n": 7,
+      "hit_rate": 0.7142857142857143
+    },
+    "法乙|让负|0.60-0.65": {
+      "n": 6,
+      "hit_rate": 0.5
+    },
+    "荷甲|让胜|0.75-1.01": {
+      "n": 1,
+      "hit_rate": 1.0
+    },
+    "英足总杯|让胜|0.55-0.60": {
+      "n": 2,
+      "hit_rate": 0.0
+    },
+    "英足总杯|让胜|0.75-1.01": {
+      "n": 2,
+      "hit_rate": 0.5
+    },
+    "葡超|让负|0.60-0.65": {
+      "n": 3,
+      "hit_rate": 0.3333333333333333
+    },
+    "沙职|让胜|0.75-1.01": {
+      "n": 3,
+      "hit_rate": 0.6666666666666666
+    },
+    "英冠|让胜|0.65-0.70": {
+      "n": 4,
+      "hit_rate": 0.5
+    },
+    "非洲杯|让负|0.55-0.60": {
+      "n": 1,
+      "hit_rate": 0.0
+    },
+    "德甲|主胜|0.60-0.65": {
+      "n": 6,
+      "hit_rate": 0.6666666666666666
+    },
+    "荷兰杯|让胜|0.75-1.01": {
+      "n": 1,
+      "hit_rate": 0.0
+    },
+    "荷兰杯|让胜|0.65-0.70": {
+      "n": 1,
+      "hit_rate": 0.0
+    },
+    "德甲|客胜|0.75-1.01": {
+      "n": 1,
+      "hit_rate": 1.0
+    },
+    "英联赛杯|让胜|0.60-0.65": {
+      "n": 1,
+      "hit_rate": 0.0
+    },
+    "西国王杯|主胜|0.75-1.01": {
+      "n": 1,
+      "hit_rate": 1.0
+    },
+    "西国王杯|让负|0.55-0.60": {
+      "n": 1,
+      "hit_rate": 0.0
+    },
+    "非洲杯|让胜|0.65-0.70": {
+      "n": 2,
+      "hit_rate": 1.0
+    },
+    "英超|让负|0.75+": {
+      "n": 1,
+      "hit_rate": 1.0
+    },
+    "欧冠|让胜|0.65-0.70": {
+      "n": 9,
+      "hit_rate": 0.6666666666666666
+    },
+    "荷甲|让负|0.60-0.65": {
+      "n": 4,
+      "hit_rate": 0.5
+    },
+    "德甲|客胜|0.70-0.75": {
+      "n": 1,
+      "hit_rate": 1.0
+    },
+    "德甲|让胜|0.55-0.60": {
+      "n": 5,
+      "hit_rate": 0.4
+    },
+    "意大利杯|客胜|0.65-0.70": {
+      "n": 1,
+      "hit_rate": 1.0
+    },
+    "澳超|主胜|0.60-0.65": {
+      "n": 7,
+      "hit_rate": 0.42857142857142855
+    },
+    "澳超|主胜|0.75+": {
+      "n": 5,
+      "hit_rate": 0.0
+    },
+    "英冠|主胜|0.60-0.65": {
+      "n": 5,
+      "hit_rate": 0.2
+    },
+    "英冠|让胜|0.60-0.65": {
+      "n": 7,
+      "hit_rate": 0.7142857142857143
+    },
+    "英冠|主胜|0.65-0.70": {
+      "n": 4,
+      "hit_rate": 0.5
+    },
+    "英冠|让胜|0.55-0.60": {
+      "n": 3,
+      "hit_rate": 0.6666666666666666
+    },
+    "英冠|主胜|0.75+": {
+      "n": 3,
+      "hit_rate": 0.3333333333333333
+    },
+    "英冠|主胜|0.70-0.75": {
+      "n": 2,
+      "hit_rate": 1.0
+    },
+    "英甲|主胜|0.55-0.60": {
+      "n": 2,
+      "hit_rate": 0.5
+    },
+    "英甲|让胜|0.60-0.65": {
+      "n": 2,
+      "hit_rate": 0.5
+    },
+    "英甲|让负|0.55-0.60": {
+      "n": 1,
+      "hit_rate": 1.0
+    },
+    "英甲|让胜|0.55-0.60": {
+      "n": 2,
+      "hit_rate": 1.0
+    },
+    "英甲|让负|0.75+": {
+      "n": 1,
+      "hit_rate": 1.0
+    },
+    "英甲|让负|0.60-0.65": {
+      "n": 1,
+      "hit_rate": 1.0
+    },
+    "沙职|让胜|0.75+": {
+      "n": 7,
+      "hit_rate": 0.5714285714285714
+    },
+    "沙职|主胜|0.65-0.70": {
+      "n": 6,
+      "hit_rate": 0.8333333333333334
+    },
+    "澳超|主胜|0.55-0.60": {
+      "n": 8,
+      "hit_rate": 0.625
+    },
+    "澳超|让负|0.55-0.60": {
+      "n": 8,
+      "hit_rate": 0.75
+    },
+    "意甲|主胜|0.60-0.65": {
+      "n": 14,
+      "hit_rate": 0.7142857142857143
+    },
+    "英超|主胜|0.60-0.65": {
+      "n": 13,
+      "hit_rate": 0.5384615384615384
+    },
+    "西甲|主胜|0.60-0.65": {
+      "n": 17,
+      "hit_rate": 0.6470588235294118
+    },
+    "法乙|让负|0.75+": {
+      "n": 3,
+      "hit_rate": 0.6666666666666666
+    },
+    "沙职|主胜|0.60-0.65": {
+      "n": 4,
+      "hit_rate": 1.0
+    },
+    "意甲|主胜|0.55-0.60": {
+      "n": 9,
+      "hit_rate": 0.3333333333333333
+    },
+    "西甲|让胜|0.60-0.65": {
+      "n": 9,
+      "hit_rate": 0.8888888888888888
+    },
+    "葡超|让负|0.55-0.60": {
+      "n": 4,
+      "hit_rate": 0.5
+    },
+    "意甲|让胜|0.60-0.65": {
+      "n": 7,
+      "hit_rate": 0.5714285714285714
+    },
+    "英冠|主胜|0.75-1.01": {
+      "n": 2,
+      "hit_rate": 0.5
+    },
+    "英超|让胜|0.60-0.65": {
+      "n": 3,
+      "hit_rate": 1.0
+    },
+    "法甲|主胜|0.60-0.65": {
+      "n": 4,
+      "hit_rate": 0.0
+    },
+    "英超|主胜|0.55-0.60": {
+      "n": 14,
+      "hit_rate": 0.5
+    },
+    "英超|让胜|0.75+": {
+      "n": 9,
+      "hit_rate": 0.5555555555555556
+    },
+    "英冠|让负|0.55-0.60": {
+      "n": 8,
+      "hit_rate": 0.375
+    },
+    "英冠|让负|0.75+": {
+      "n": 3,
+      "hit_rate": 0.6666666666666666
+    },
+    "英冠|主胜|0.55-0.60": {
+      "n": 2,
+      "hit_rate": 0.0
+    },
+    "沙职|让胜|0.55-0.60": {
+      "n": 4,
+      "hit_rate": 0.75
+    },
+    "澳超|让胜|0.55-0.60": {
+      "n": 8,
+      "hit_rate": 0.75
+    },
+    "亚洲杯23|让胜|0.75+": {
+      "n": 5,
+      "hit_rate": 0.6
+    },
+    "意甲|让胜|0.75+": {
+      "n": 7,
+      "hit_rate": 0.0
+    },
+    "亚洲杯23|主胜|0.60-0.65": {
+      "n": 4,
+      "hit_rate": 0.25
+    },
+    "亚洲杯23|主胜|0.65-0.70": {
+      "n": 4,
+      "hit_rate": 0.5
+    },
+    "澳超|让胜|0.60-0.65": {
+      "n": 6,
+      "hit_rate": 0.3333333333333333
+    },
+    "亚洲杯23|让胜|0.55-0.60": {
+      "n": 3,
+      "hit_rate": 0.3333333333333333
+    },
+    "亚洲杯23|主胜|0.75+": {
+      "n": 2,
+      "hit_rate": 0.5
+    },
+    "英足总杯|主胜|0.55-0.60": {
+      "n": 1,
+      "hit_rate": 0.0
+    },
+    "西甲|让胜|0.55-0.60": {
+      "n": 3,
+      "hit_rate": 0.6666666666666666
+    },
+    "亚洲杯23|让胜|0.60-0.65": {
+      "n": 2,
+      "hit_rate": 1.0
+    },
+    "沙职|主胜|0.55-0.60": {
+      "n": 2,
+      "hit_rate": 0.0
+    },
+    "德甲|让负|0.55-0.60": {
+      "n": 13,
+      "hit_rate": 0.46153846153846156
+    },
+    "德甲|主胜|0.55-0.60": {
+      "n": 10,
+      "hit_rate": 0.7
+    },
+    "德甲|让胜|0.60-0.65": {
+      "n": 6,
+      "hit_rate": 0.3333333333333333
+    },
+    "法国杯|让胜|0.55-0.60": {
+      "n": 1,
+      "hit_rate": 1.0
+    },
+    "英足总杯|主胜|0.60-0.65": {
+      "n": 4,
+      "hit_rate": 0.75
+    },
+    "英足总杯|主胜|0.75+": {
+      "n": 1,
+      "hit_rate": 0.0
+    },
+    "荷甲|让负|0.75-1.01": {
+      "n": 1,
+      "hit_rate": 1.0
+    },
+    "荷甲|让胜|0.55-0.60": {
+      "n": 3,
+      "hit_rate": 0.3333333333333333
+    },
+    "荷乙|主胜|0.65-0.70": {
+      "n": 5,
+      "hit_rate": 0.0
+    },
+    "意甲|让负|0.60-0.65": {
+      "n": 6,
+      "hit_rate": 0.8333333333333334
+    },
+    "英足总杯|让胜|0.75+": {
+      "n": 3,
+      "hit_rate": 0.3333333333333333
+    },
+    "西甲|主胜|0.75+": {
+      "n": 1,
+      "hit_rate": 1.0
+    },
+    "荷甲|主胜|0.55-0.60": {
+      "n": 3,
+      "hit_rate": 0.0
+    },
+    "荷甲|让胜|0.75+": {
+      "n": 10,
+      "hit_rate": 0.4
+    },
+    "英足总杯|让负|0.60-0.65": {
+      "n": 1,
+      "hit_rate": 1.0
+    },
+    "荷甲|让负|0.75+": {
+      "n": 2,
+      "hit_rate": 0.5
+    },
+    "沙职|让胜|0.60-0.65": {
+      "n": 1,
+      "hit_rate": 1.0
+    },
+    "沙职|主胜|0.70-0.75": {
+      "n": 1,
+      "hit_rate": 1.0
+    },
+    "澳超|让负|0.60-0.65": {
+      "n": 5,
+      "hit_rate": 0.6
+    },
+    "澳超|让负|0.75+": {
+      "n": 3,
+      "hit_rate": 1.0
+    },
+    "德乙|主胜|0.60-0.65": {
+      "n": 7,
+      "hit_rate": 0.5714285714285714
+    },
+    "德乙|让胜|0.60-0.65": {
+      "n": 6,
+      "hit_rate": 0.6666666666666666
+    },
+    "英超|让胜|0.55-0.60": {
+      "n": 7,
+      "hit_rate": 0.5714285714285714
+    },
+    "西甲|让负|0.75-1.01": {
+      "n": 4,
+      "hit_rate": 0.25
+    },
+    "德甲|让负|0.60-0.65": {
+      "n": 8,
+      "hit_rate": 0.625
+    },
+    "英超|主胜|0.75+": {
+      "n": 2,
+      "hit_rate": 0.5
+    },
+    "荷甲|主胜|0.65-0.70": {
+      "n": 6,
+      "hit_rate": 0.5
+    },
+    "荷甲|让负|0.55-0.60": {
+      "n": 3,
+      "hit_rate": 1.0
+    },
+    "德乙|让胜|0.55-0.60": {
+      "n": 2,
+      "hit_rate": 1.0
+    },
+    "法甲|主胜|0.55-0.60": {
+      "n": 4,
+      "hit_rate": 1.0
+    },
+    "西甲|主胜|0.65-0.70": {
+      "n": 7,
+      "hit_rate": 0.8571428571428571
+    },
+    "亚洲杯23|让负|0.60-0.65": {
+      "n": 1,
+      "hit_rate": 1.0
+    },
+    "欧冠|让胜|0.75+": {
+      "n": 4,
+      "hit_rate": 0.5
+    },
+    "澳超|主胜|0.65-0.70": {
+      "n": 1,
+      "hit_rate": 0.0
+    },
+    "德乙|主胜|0.65-0.70": {
+      "n": 3,
+      "hit_rate": 0.3333333333333333
+    },
+    "西甲|让负|0.55-0.60": {
+      "n": 7,
+      "hit_rate": 0.5714285714285714
+    },
+    "德甲|让负|0.75-1.01": {
+      "n": 3,
+      "hit_rate": 0.3333333333333333
+    },
+    "德甲|让胜|0.75+": {
+      "n": 8,
+      "hit_rate": 0.375
+    },
+    "意甲|让负|0.75+": {
+      "n": 1,
+      "hit_rate": 0.0
+    },
+    "德乙|主胜|0.55-0.60": {
+      "n": 7,
+      "hit_rate": 0.7142857142857143
+    },
+    "荷甲|主胜|0.60-0.65": {
+      "n": 5,
+      "hit_rate": 0.2
+    },
+    "英超|让负|0.55-0.60": {
+      "n": 5,
+      "hit_rate": 1.0
+    },
+    "法乙|让负|0.55-0.60": {
+      "n": 1,
+      "hit_rate": 1.0
+    },
+    "德甲|让负|0.75+": {
+      "n": 3,
+      "hit_rate": 0.0
+    },
+    "澳超|让胜|0.75+": {
+      "n": 2,
+      "hit_rate": 1.0
+    },
+    "德乙|让负|0.55-0.60": {
+      "n": 3,
+      "hit_rate": 1.0
+    },
+    "荷甲|主胜|0.75+": {
+      "n": 2,
+      "hit_rate": 0.5
+    },
+    "德甲|主胜|0.75+": {
+      "n": 2,
+      "hit_rate": 0.5
+    },
+    "意甲|主胜|0.75+": {
+      "n": 3,
+      "hit_rate": 0.0
+    },
+    "法甲|让胜|0.55-0.60": {
+      "n": 4,
+      "hit_rate": 0.75
+    },
+    "亚冠精英|让胜|0.55-0.60": {
+      "n": 2,
+      "hit_rate": 1.0
+    },
+    "亚冠精英|让负|0.60-0.65": {
+      "n": 2,
+      "hit_rate": 1.0
+    },
+    "亚冠精英|主胜|0.65-0.70": {
+      "n": 3,
+      "hit_rate": 0.6666666666666666
+    },
+    "亚冠精英|主胜|0.55-0.60": {
+      "n": 1,
+      "hit_rate": 1.0
+    },
+    "亚冠精英|主胜|0.60-0.65": {
+      "n": 3,
+      "hit_rate": 0.6666666666666666
+    },
+    "亚冠精英|让负|0.75+": {
+      "n": 2,
+      "hit_rate": 1.0
+    },
+    "亚冠乙|让胜|0.60-0.65": {
+      "n": 2,
+      "hit_rate": 1.0
+    },
+    "亚冠乙|让胜|0.75+": {
+      "n": 3,
+      "hit_rate": 0.6666666666666666
+    },
+    "亚冠乙|让负|0.60-0.65": {
+      "n": 1,
+      "hit_rate": 0.0
+    },
+    "法乙|让胜|0.60-0.65": {
+      "n": 5,
+      "hit_rate": 0.4
+    },
+    "荷甲|让胜|0.60-0.65": {
+      "n": 4,
+      "hit_rate": 1.0
+    },
+    "荷乙|让胜|0.75+": {
+      "n": 2,
+      "hit_rate": 0.0
+    },
+    "法甲|让负|0.60-0.65": {
+      "n": 1,
+      "hit_rate": 1.0
+    },
+    "葡超|主胜|0.75-1.01": {
+      "n": 1,
+      "hit_rate": 1.0
+    },
+    "日职|让负|0.60-0.65": {
+      "n": 2,
+      "hit_rate": 0.5
+    },
+    "韩职|让负|0.60-0.65": {
+      "n": 5,
+      "hit_rate": 0.4
+    },
+    "意甲|主胜|0.65-0.70": {
+      "n": 1,
+      "hit_rate": 1.0
+    },
+    "西甲|让胜|0.75+": {
+      "n": 2,
+      "hit_rate": 0.0
+    },
+    "日职|主胜|0.60-0.65": {
+      "n": 6,
+      "hit_rate": 0.6666666666666666
+    },
+    "女亚洲杯|让负|0.75-1.01": {
+      "n": 8,
+      "hit_rate": 0.625
+    },
+    "法甲|让负|0.75+": {
+      "n": 1,
+      "hit_rate": 0.0
+    },
+    "韩职|主胜|0.65-0.70": {
+      "n": 1,
+      "hit_rate": 0.0
+    },
+    "法乙|让胜|0.75+": {
+      "n": 1,
+      "hit_rate": 0.0
+    },
+    "葡超|让胜|0.75+": {
+      "n": 1,
+      "hit_rate": 0.0
+    },
+    "荷兰杯|让胜|0.75+": {
+      "n": 1,
+      "hit_rate": 1.0
+    },
+    "意大利杯|让胜|0.60-0.65": {
+      "n": 1,
+      "hit_rate": 1.0
+    },
+    "西国王杯|主胜|0.75+": {
+      "n": 1,
+      "hit_rate": 1.0
+    },
+    "法国杯|主胜|0.75+": {
+      "n": 1,
+      "hit_rate": 1.0
+    },
+    "英超|平|0.75+": {
+      "n": 1,
+      "hit_rate": 0.0
+    },
+    "亚冠精英|让胜|0.60-0.65": {
+      "n": 2,
+      "hit_rate": 0.5
+    },
+    "亚冠乙|主胜|0.60-0.65": {
+      "n": 2,
+      "hit_rate": 0.5
+    },
+    "意大利杯|让胜|0.55-0.60": {
+      "n": 1,
+      "hit_rate": 1.0
+    },
+    "西国王杯|主胜|0.55-0.60": {
+      "n": 1,
+      "hit_rate": 1.0
+    },
+    "法国杯|主胜|0.60-0.65": {
+      "n": 1,
+      "hit_rate": 0.0
+    },
+    "女亚洲杯|主胜|0.75+": {
+      "n": 1,
+      "hit_rate": 0.0
+    },
+    "法国杯|让负|0.55-0.60": {
+      "n": 1,
+      "hit_rate": 1.0
+    },
+    "女亚洲杯|让胜|0.75-1.01": {
+      "n": 2,
+      "hit_rate": 0.0
+    },
+    "葡超|让负|0.75+": {
+      "n": 1,
+      "hit_rate": 0.0
+    },
+    "女亚洲杯|让胜|0.75+": {
+      "n": 4,
+      "hit_rate": 0.25
+    },
+    "葡超|让胜|0.55-0.60": {
+      "n": 1,
+      "hit_rate": 1.0
+    },
+    "沙职|让负|0.55-0.60": {
+      "n": 2,
+      "hit_rate": 1.0
+    },
+    "美职|让胜|0.55-0.60": {
+      "n": 1,
+      "hit_rate": 0.0
+    },
+    "美职|主胜|0.65-0.70": {
+      "n": 2,
+      "hit_rate": 1.0
+    },
+    "韩职|让胜|0.55-0.60": {
+      "n": 3,
+      "hit_rate": 0.6666666666666666
+    },
+    "女亚洲杯|主胜|0.60-0.65": {
+      "n": 3,
+      "hit_rate": 0.6666666666666666
+    },
+    "美职|主胜|0.60-0.65": {
+      "n": 2,
+      "hit_rate": 0.0
+    },
+    "女亚洲杯|主胜|0.65-0.70": {
+      "n": 1,
+      "hit_rate": 0.0
+    },
+    "英足总杯|让胜|0.60-0.65": {
+      "n": 1,
+      "hit_rate": 1.0
+    },
+    "欧冠|主胜|0.60-0.65": {
+      "n": 3,
+      "hit_rate": 1.0
+    },
+    "欧冠|让胜|0.60-0.65": {
+      "n": 1,
+      "hit_rate": 1.0
+    },
+    "欧冠|主胜|0.55-0.60": {
+      "n": 3,
+      "hit_rate": 0.6666666666666666
+    },
+    "欧冠|让胜|0.55-0.60": {
+      "n": 1,
+      "hit_rate": 1.0
+    },
+    "欧罗巴|让胜|0.60-0.65": {
+      "n": 5,
+      "hit_rate": 0.6
+    },
+    "欧罗巴|让负|0.55-0.60": {
+      "n": 3,
+      "hit_rate": 0.6666666666666666
+    },
+    "欧罗巴|让胜|0.55-0.60": {
+      "n": 1,
+      "hit_rate": 1.0
+    },
+    "欧协联|让负|0.55-0.60": {
+      "n": 1,
+      "hit_rate": 0.0
+    },
+    "欧罗巴|主胜|0.55-0.60": {
+      "n": 5,
+      "hit_rate": 0.6
+    },
+    "欧协联|让负|0.75-1.01": {
+      "n": 1,
+      "hit_rate": 1.0
+    },
+    "法甲|主胜|0.75+": {
+      "n": 1,
+      "hit_rate": 1.0
+    },
+    "日职|让胜|0.60-0.65": {
+      "n": 4,
+      "hit_rate": 0.5
+    },
+    "韩职|主胜|0.60-0.65": {
+      "n": 2,
+      "hit_rate": 0.5
+    },
+    "法甲|让胜|0.75+": {
+      "n": 2,
+      "hit_rate": 0.5
+    },
+    "挪超|主胜|0.55-0.60": {
+      "n": 2,
+      "hit_rate": 1.0
+    },
+    "西甲|让负|0.65-0.70": {
+      "n": 1,
+      "hit_rate": 0.0
+    },
+    "葡超|客胜|0.75+": {
+      "n": 1,
+      "hit_rate": 1.0
+    },
+    "美职|让负|0.60-0.65": {
+      "n": 1,
+      "hit_rate": 1.0
+    },
+    "韩职|让负|0.55-0.60": {
+      "n": 1,
+      "hit_rate": 1.0
+    },
+    "挪超|让胜|0.75+": {
+      "n": 1,
+      "hit_rate": 1.0
+    },
+    "韩职|让负|0.75+": {
+      "n": 1,
+      "hit_rate": 1.0
+    },
+    "欧冠|主胜|0.65-0.70": {
+      "n": 2,
+      "hit_rate": 1.0
+    },
+    "欧冠|让负|0.55-0.60": {
+      "n": 1,
+      "hit_rate": 1.0
+    },
+    "欧协联|让胜|0.75+": {
+      "n": 1,
+      "hit_rate": 1.0
+    },
+    "欧协联|主胜|0.60-0.65": {
+      "n": 1,
+      "hit_rate": 1.0
+    },
+    "欧罗巴|主胜|0.75+": {
+      "n": 1,
+      "hit_rate": 0.0
+    },
+    "欧罗巴|主胜|0.60-0.65": {
+      "n": 1,
+      "hit_rate": 1.0
+    },
+    "韩职|让胜|0.60-0.65": {
+      "n": 1,
+      "hit_rate": 0.0
+    },
+    "日职|让胜|0.55-0.60": {
+      "n": 1,
+      "hit_rate": 1.0
+    },
+    "西甲|主胜|0.55-0.60": {
+      "n": 1,
+      "hit_rate": 1.0
+    },
+    "挪超|主胜|0.75+": {
+      "n": 1,
+      "hit_rate": 1.0
+    },
+    "葡超|主胜|0.65-0.70": {
+      "n": 1,
+      "hit_rate": 1.0
+    },
+    "荷乙|主胜|0.55-0.60": {
+      "n": 1,
+      "hit_rate": 0.0
+    },
+    "英甲|主胜|0.60-0.65": {
+      "n": 1,
+      "hit_rate": 1.0
+    }
+  }
+}

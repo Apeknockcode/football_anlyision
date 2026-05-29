@@ -1,0 +1,5 @@
+{
+  "_comment": "API 按名查不到的队可在此填写 api_football_team_id。key 为 name_en，value 为 API-Football 官网 Teams 中的 id（正整数）。到 https://dashboard.api-football.com/soccer/ids/teams 按国家/队名查 id 后填入，保存后重新执行 jc-teams-map-api-football。",
+  "Sharjah": 0,
+  "Al Wehdat": 0
+}

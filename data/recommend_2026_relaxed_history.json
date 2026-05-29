@@ -1,0 +1,1186 @@
+{
+  "year": 2026,
+  "profile": "relaxed_history",
+  "strategy": {
+    "min_prob": 0.5,
+    "min_spread": 0.04,
+    "require_high_confidence": false,
+    "sync_official": false,
+    "top": 6,
+    "max_per_league": 2
+  },
+  "days": [
+    {
+      "date": "2026-01-01",
+      "count": 1,
+      "total_matches": 21,
+      "first": {
+        "match": "西悉尼 vs 麦克阿瑟",
+        "recommend": "让负",
+        "prob": 0.624,
+        "tier": "medium",
+        "league": "澳超"
+      },
+      "second": null,
+      "message": "今日推荐 1 场（首选 0 场 / 可考虑 1 场，共 21 场）。"
+    },
+    {
+      "date": "2026-01-02",
+      "count": 1,
+      "total_matches": 3,
+      "first": {
+        "match": "欧奈纳伊 vs 赛哈海湾",
+        "recommend": "让胜",
+        "prob": 0.675,
+        "tier": "medium",
+        "league": "沙职"
+      },
+      "second": null,
+      "message": "今日推荐 1 场（首选 0 场 / 可考虑 1 场，共 3 场）。"
+    },
+    {
+      "date": "2026-01-03",
+      "count": 2,
+      "total_matches": 13,
+      "first": {
+        "match": "穆拜征服 vs 利雅青年",
+        "recommend": "让负",
+        "prob": 0.624,
+        "tier": "medium",
+        "league": "沙职"
+      },
+      "second": {
+        "match": "墨尔本城 vs 悉尼FC",
+        "recommend": "让负",
+        "prob": 0.624,
+        "tier": "medium",
+        "league": "澳超"
+      },
+      "message": "今日推荐 2 场（首选 0 场 / 可考虑 2 场，共 13 场）。"
+    },
+    {
+      "date": "2026-01-04",
+      "count": 3,
+      "total_matches": 23,
+      "first": {
+        "match": "马赛 vs 南特",
+        "recommend": "让负",
+        "prob": 0.832,
+        "tier": "high",
+        "league": "法甲"
+      },
+      "second": {
+        "match": "拉斯决心 vs 新未来SC",
+        "recommend": "让胜",
+        "prob": 0.675,
+        "tier": "medium",
+        "league": "沙职"
+      },
+      "message": "今日推荐 3 场（首选 1 场 / 可考虑 2 场，共 23 场）。"
+    },
+    {
+      "date": "2026-01-05",
+      "count": 1,
+      "total_matches": 1,
+      "first": {
+        "match": "麦克阿瑟 vs 奥克兰FC",
+        "recommend": "让胜",
+        "prob": 0.675,
+        "tier": "medium",
+        "league": "澳超"
+      },
+      "second": null,
+      "message": "今日推荐 1 场（首选 0 场 / 可考虑 1 场，共 1 场）。"
+    },
+    {
+      "date": "2026-01-06",
+      "count": 2,
+      "total_matches": 3,
+      "first": {
+        "match": "越南23 vs 约旦23",
+        "recommend": "让胜",
+        "prob": 0.658,
+        "tier": "medium",
+        "league": "亚洲杯23"
+      },
+      "second": {
+        "match": "墨尔本城 vs 布里斯班",
+        "recommend": "让负",
+        "prob": 0.624,
+        "tier": "medium",
+        "league": "澳超"
+      },
+      "message": "今日推荐 2 场（首选 0 场 / 可考虑 2 场，共 3 场）。"
+    },
+    {
+      "date": "2026-01-07",
+      "count": 0,
+      "total_matches": 2,
+      "first": null,
+      "second": null,
+      "message": "该日共 2 场，暂无满足条件的推荐；可调低 min_prob/min_spread 或关闭 require_high_confidence。"
+    },
+    {
+      "date": "2026-01-08",
+      "count": 2,
+      "total_matches": 3,
+      "first": {
+        "match": "利雅新月 vs 拉斯决心",
+        "recommend": "让负",
+        "prob": 0.848,
+        "tier": "high",
+        "league": "沙职"
+      },
+      "second": {
+        "match": "澳大利23 vs 泰国23",
+        "recommend": "让负",
+        "prob": 0.795,
+        "tier": "high",
+        "league": "亚洲杯23"
+      },
+      "message": "今日推荐 2 场（首选 2 场 / 可考虑 0 场，共 3 场）。"
+    },
+    {
+      "date": "2026-01-09",
+      "count": 2,
+      "total_matches": 4,
+      "first": {
+        "match": "布里斯班 vs 奥克兰FC",
+        "recommend": "让胜",
+        "prob": 0.675,
+        "tier": "medium",
+        "league": "澳超"
+      },
+      "second": {
+        "match": "吉尔吉23 vs 越南23",
+        "recommend": "让胜",
+        "prob": 0.658,
+        "tier": "medium",
+        "league": "亚洲杯23"
+      },
+      "message": "今日推荐 2 场（首选 0 场 / 可考虑 2 场，共 4 场）。"
+    },
+    {
+      "date": "2026-01-10",
+      "count": 6,
+      "total_matches": 22,
+      "first": {
+        "match": "不来梅 vs 霍芬海姆",
+        "recommend": "让胜",
+        "prob": 0.644,
+        "tier": "medium",
+        "league": "德甲"
+      },
+      "second": {
+        "match": "海登海姆 vs 科隆",
+        "recommend": "让胜",
+        "prob": 0.644,
+        "tier": "medium",
+        "league": "德甲"
+      },
+      "message": "今日推荐 6 场（首选 1 场 / 可考虑 5 场，共 22 场）。"
+    },
+    {
+      "date": "2026-01-11",
+      "count": 3,
+      "total_matches": 17,
+      "first": {
+        "match": "朴次茅斯 vs 阿森纳",
+        "recommend": "让胜",
+        "prob": 0.845,
+        "tier": "high",
+        "league": "英足总杯"
+      },
+      "second": {
+        "match": "中国23 vs 澳大利23",
+        "recommend": "让胜",
+        "prob": 0.658,
+        "tier": "medium",
+        "league": "亚洲杯23"
+      },
+      "message": "今日推荐 3 场（首选 1 场 / 可考虑 2 场，共 17 场）。"
+    },
+    {
+      "date": "2026-01-12",
+      "count": 0,
+      "total_matches": 1,
+      "first": null,
+      "second": null,
+      "message": "该日共 1 场，暂无满足条件的推荐；可调低 min_prob/min_spread 或关闭 require_high_confidence。"
+    },
+    {
+      "date": "2026-01-13",
+      "count": 3,
+      "total_matches": 3,
+      "first": {
+        "match": "伊朗23 vs 黎巴嫩23",
+        "recommend": "让负",
+        "prob": 0.795,
+        "tier": "high",
+        "league": "亚洲杯23"
+      },
+      "second": {
+        "match": "奈季沟渠 vs 拉斯永恒",
+        "recommend": "让胜",
+        "prob": 0.675,
+        "tier": "medium",
+        "league": "沙职"
+      },
+      "message": "今日推荐 3 场（首选 1 场 / 可考虑 2 场，共 3 场）。"
+    },
+    {
+      "date": "2026-01-14",
+      "count": 3,
+      "total_matches": 3,
+      "first": {
+        "match": "胡巴卡德 vs 迈季宽广",
+        "recommend": "胜",
+        "prob": 0.67,
+        "tier": "medium",
+        "league": "沙职"
+      },
+      "second": {
+        "match": "泰国23 vs 中国23",
+        "recommend": "让胜",
+        "prob": 0.658,
+        "tier": "medium",
+        "league": "亚洲杯23"
+      },
+      "message": "今日推荐 3 场（首选 0 场 / 可考虑 3 场，共 3 场）。"
+    },
+    {
+      "date": "2026-01-15",
+      "count": 0,
+      "total_matches": 0,
+      "first": null,
+      "second": null,
+      "message": "该日无竞彩场次数据，请先拉取竞彩列表或选择有数据的日期。"
+    },
+    {
+      "date": "2026-01-16",
+      "count": 3,
+      "total_matches": 4,
+      "first": {
+        "match": "欧奈纳伊 vs 穆拜征服",
+        "recommend": "让胜",
+        "prob": 0.675,
+        "tier": "medium",
+        "league": "沙职"
+      },
+      "second": {
+        "match": "珀斯 vs 布里斯班",
+        "recommend": "让负",
+        "prob": 0.624,
+        "tier": "medium",
+        "league": "澳超"
+      },
+      "message": "今日推荐 3 场（首选 0 场 / 可考虑 3 场，共 4 场）。"
+    },
+    {
+      "date": "2026-01-17",
+      "count": 6,
+      "total_matches": 24,
+      "first": {
+        "match": "多特蒙德 vs 圣保利",
+        "recommend": "让负",
+        "prob": 0.832,
+        "tier": "high",
+        "league": "德甲"
+      },
+      "second": {
+        "match": "利物浦 vs 伯恩利",
+        "recommend": "让负",
+        "prob": 0.832,
+        "tier": "high",
+        "league": "英超"
+      },
+      "message": "今日推荐 6 场（首选 3 场 / 可考虑 3 场，共 24 场）。"
+    },
+    {
+      "date": "2026-01-18",
+      "count": 1,
+      "total_matches": 14,
+      "first": {
+        "match": "马竞 vs 阿拉维斯",
+        "recommend": "让负",
+        "prob": 0.832,
+        "tier": "high",
+        "league": "西甲"
+      },
+      "second": null,
+      "message": "今日推荐 1 场（首选 1 场 / 可考虑 0 场，共 14 场）。"
+    },
+    {
+      "date": "2026-01-19",
+      "count": 0,
+      "total_matches": 0,
+      "first": null,
+      "second": null,
+      "message": "该日无竞彩场次数据，请先拉取竞彩列表或选择有数据的日期。"
+    },
+    {
+      "date": "2026-01-20",
+      "count": 1,
+      "total_matches": 3,
+      "first": {
+        "match": "日本23 vs 韩国23",
+        "recommend": "胜",
+        "prob": 0.64,
+        "tier": "medium",
+        "league": "亚洲杯23"
+      },
+      "second": null,
+      "message": "今日推荐 1 场（首选 0 场 / 可考虑 1 场，共 3 场）。"
+    },
+    {
+      "date": "2026-01-21",
+      "count": 0,
+      "total_matches": 0,
+      "first": null,
+      "second": null,
+      "message": "该日无竞彩场次数据，请先拉取竞彩列表或选择有数据的日期。"
+    },
+    {
+      "date": "2026-01-22",
+      "count": 0,
+      "total_matches": 0,
+      "first": null,
+      "second": null,
+      "message": "该日无竞彩场次数据，请先拉取竞彩列表或选择有数据的日期。"
+    },
+    {
+      "date": "2026-01-23",
+      "count": 1,
+      "total_matches": 2,
+      "first": {
+        "match": "越南23 vs 韩国23",
+        "recommend": "让胜",
+        "prob": 0.658,
+        "tier": "medium",
+        "league": "亚洲杯23"
+      },
+      "second": null,
+      "message": "今日推荐 1 场（首选 0 场 / 可考虑 1 场，共 2 场）。"
+    },
+    {
+      "date": "2026-01-24",
+      "count": 6,
+      "total_matches": 21,
+      "first": {
+        "match": "拜仁 vs 奥格斯堡",
+        "recommend": "让负",
+        "prob": 0.953,
+        "tier": "high",
+        "league": "德甲"
+      },
+      "second": {
+        "match": "曼城 vs 狼队",
+        "recommend": "让负",
+        "prob": 0.832,
+        "tier": "high",
+        "league": "英超"
+      },
+      "message": "今日推荐 6 场（首选 2 场 / 可考虑 4 场，共 21 场）。"
+    },
+    {
+      "date": "2026-01-25",
+      "count": 4,
+      "total_matches": 18,
+      "first": {
+        "match": "巴萨 vs 奥维耶多",
+        "recommend": "让负",
+        "prob": 0.832,
+        "tier": "high",
+        "league": "西甲"
+      },
+      "second": {
+        "match": "门兴 vs 斯图加特",
+        "recommend": "让胜",
+        "prob": 0.675,
+        "tier": "medium",
+        "league": "德甲"
+      },
+      "message": "今日推荐 4 场（首选 2 场 / 可考虑 2 场，共 18 场）。"
+    },
+    {
+      "date": "2026-01-26",
+      "count": 1,
+      "total_matches": 1,
+      "first": {
+        "match": "墨胜利 vs 悉尼FC",
+        "recommend": "让负",
+        "prob": 0.624,
+        "tier": "medium",
+        "league": "澳超"
+      },
+      "second": null,
+      "message": "今日推荐 1 场（首选 0 场 / 可考虑 1 场，共 1 场）。"
+    },
+    {
+      "date": "2026-01-27",
+      "count": 0,
+      "total_matches": 0,
+      "first": null,
+      "second": null,
+      "message": "该日无竞彩场次数据，请先拉取竞彩列表或选择有数据的日期。"
+    },
+    {
+      "date": "2026-01-28",
+      "count": 0,
+      "total_matches": 0,
+      "first": null,
+      "second": null,
+      "message": "该日无竞彩场次数据，请先拉取竞彩列表或选择有数据的日期。"
+    },
+    {
+      "date": "2026-01-29",
+      "count": 1,
+      "total_matches": 1,
+      "first": {
+        "match": "穆拜征服 vs 吉达联合",
+        "recommend": "让胜",
+        "prob": 0.675,
+        "tier": "medium",
+        "league": "沙职"
+      },
+      "second": null,
+      "message": "今日推荐 1 场（首选 0 场 / 可考虑 1 场，共 1 场）。"
+    },
+    {
+      "date": "2026-01-30",
+      "count": 2,
+      "total_matches": 3,
+      "first": {
+        "match": "惠灵顿 vs 墨尔本城",
+        "recommend": "让胜",
+        "prob": 0.675,
+        "tier": "medium",
+        "league": "澳超"
+      },
+      "second": {
+        "match": "阿德莱德 vs 麦克阿瑟",
+        "recommend": "让负",
+        "prob": 0.624,
+        "tier": "medium",
+        "league": "澳超"
+      },
+      "message": "今日推荐 2 场（首选 0 场 / 可考虑 2 场，共 3 场）。"
+    },
+    {
+      "date": "2026-01-31",
+      "count": 4,
+      "total_matches": 22,
+      "first": {
+        "match": "法兰克福 vs 勒沃库森",
+        "recommend": "让胜",
+        "prob": 0.644,
+        "tier": "medium",
+        "league": "德甲"
+      },
+      "second": {
+        "match": "不来梅 vs 门兴",
+        "recommend": "让负",
+        "prob": 0.624,
+        "tier": "medium",
+        "league": "德甲"
+      },
+      "message": "今日推荐 4 场（首选 0 场 / 可考虑 4 场，共 22 场）。"
+    },
+    {
+      "date": "2026-02-01",
+      "count": 2,
+      "total_matches": 16,
+      "first": {
+        "match": "皇马 vs 巴列卡诺",
+        "recommend": "让负",
+        "prob": 0.832,
+        "tier": "high",
+        "league": "西甲"
+      },
+      "second": {
+        "match": "中央海岸 vs 墨胜利",
+        "recommend": "让胜",
+        "prob": 0.675,
+        "tier": "medium",
+        "league": "澳超"
+      },
+      "message": "今日推荐 2 场（首选 1 场 / 可考虑 1 场，共 16 场）。"
+    },
+    {
+      "date": "2026-02-02",
+      "count": 0,
+      "total_matches": 0,
+      "first": null,
+      "second": null,
+      "message": "该日无竞彩场次数据，请先拉取竞彩列表或选择有数据的日期。"
+    },
+    {
+      "date": "2026-02-03",
+      "count": 0,
+      "total_matches": 0,
+      "first": null,
+      "second": null,
+      "message": "该日无竞彩场次数据，请先拉取竞彩列表或选择有数据的日期。"
+    },
+    {
+      "date": "2026-02-04",
+      "count": 0,
+      "total_matches": 0,
+      "first": null,
+      "second": null,
+      "message": "该日无竞彩场次数据，请先拉取竞彩列表或选择有数据的日期。"
+    },
+    {
+      "date": "2026-02-05",
+      "count": 0,
+      "total_matches": 1,
+      "first": null,
+      "second": null,
+      "message": "该日共 1 场，暂无满足条件的推荐；可调低 min_prob/min_spread 或关闭 require_high_confidence。"
+    },
+    {
+      "date": "2026-02-06",
+      "count": 2,
+      "total_matches": 2,
+      "first": {
+        "match": "惠灵顿 vs 墨胜利",
+        "recommend": "让胜",
+        "prob": 0.675,
+        "tier": "medium",
+        "league": "澳超"
+      },
+      "second": {
+        "match": "麦克阿瑟 vs 珀斯",
+        "recommend": "让负",
+        "prob": 0.624,
+        "tier": "medium",
+        "league": "澳超"
+      },
+      "message": "今日推荐 2 场（首选 0 场 / 可考虑 2 场，共 2 场）。"
+    },
+    {
+      "date": "2026-02-07",
+      "count": 6,
+      "total_matches": 20,
+      "first": {
+        "match": "阿森纳 vs 桑德兰",
+        "recommend": "让负",
+        "prob": 0.832,
+        "tier": "high",
+        "league": "英超"
+      },
+      "second": {
+        "match": "巴萨 vs 马洛卡",
+        "recommend": "让负",
+        "prob": 0.832,
+        "tier": "high",
+        "league": "西甲"
+      },
+      "message": "今日推荐 6 场（首选 2 场 / 可考虑 4 场，共 20 场）。"
+    },
+    {
+      "date": "2026-02-08",
+      "count": 2,
+      "total_matches": 14,
+      "first": {
+        "match": "科隆 vs 莱红牛",
+        "recommend": "让胜",
+        "prob": 0.644,
+        "tier": "medium",
+        "league": "德甲"
+      },
+      "second": {
+        "match": "阿德莱德 vs 纽喷气机",
+        "recommend": "让胜",
+        "prob": 0.675,
+        "tier": "medium",
+        "league": "澳超"
+      },
+      "message": "今日推荐 2 场（首选 0 场 / 可考虑 2 场，共 14 场）。"
+    },
+    {
+      "date": "2026-02-09",
+      "count": 0,
+      "total_matches": 2,
+      "first": null,
+      "second": null,
+      "message": "该日共 2 场，暂无满足条件的推荐；可调低 min_prob/min_spread 或关闭 require_high_confidence。"
+    },
+    {
+      "date": "2026-02-10",
+      "count": 0,
+      "total_matches": 3,
+      "first": null,
+      "second": null,
+      "message": "该日共 3 场，暂无满足条件的推荐；可调低 min_prob/min_spread 或关闭 require_high_confidence。"
+    },
+    {
+      "date": "2026-02-11",
+      "count": 2,
+      "total_matches": 4,
+      "first": {
+        "match": "叻武里 vs 万隆",
+        "recommend": "让胜",
+        "prob": 0.675,
+        "tier": "medium",
+        "league": "亚冠乙"
+      },
+      "second": {
+        "match": "阿卡达格 vs 利雅胜利",
+        "recommend": "让胜",
+        "prob": 0.675,
+        "tier": "medium",
+        "league": "亚冠乙"
+      },
+      "message": "今日推荐 2 场（首选 0 场 / 可考虑 2 场，共 4 场）。"
+    },
+    {
+      "date": "2026-02-12",
+      "count": 3,
+      "total_matches": 3,
+      "first": {
+        "match": "达马克 vs 布赖合作",
+        "recommend": "让胜",
+        "prob": 0.675,
+        "tier": "medium",
+        "league": "沙职"
+      },
+      "second": {
+        "match": "浦项制铁 vs 大阪钢巴",
+        "recommend": "让胜",
+        "prob": 0.675,
+        "tier": "medium",
+        "league": "亚冠乙"
+      },
+      "message": "今日推荐 3 场（首选 0 场 / 可考虑 3 场，共 3 场）。"
+    },
+    {
+      "date": "2026-02-13",
+      "count": 3,
+      "total_matches": 4,
+      "first": {
+        "match": "利雅新月 vs 达曼协定",
+        "recommend": "让负",
+        "prob": 0.848,
+        "tier": "high",
+        "league": "沙职"
+      },
+      "second": {
+        "match": "利雅青年 vs 吉达国民",
+        "recommend": "让胜",
+        "prob": 0.675,
+        "tier": "medium",
+        "league": "沙职"
+      },
+      "message": "今日推荐 3 场（首选 1 场 / 可考虑 2 场，共 4 场）。"
+    },
+    {
+      "date": "2026-02-14",
+      "count": 0,
+      "total_matches": 0,
+      "first": null,
+      "second": null,
+      "message": "该日无竞彩场次数据，请先拉取竞彩列表或选择有数据的日期。"
+    },
+    {
+      "date": "2026-02-25",
+      "count": 0,
+      "total_matches": 0,
+      "first": null,
+      "second": null,
+      "message": "该日无竞彩场次数据，请先拉取竞彩列表或选择有数据的日期。"
+    },
+    {
+      "date": "2026-02-26",
+      "count": 0,
+      "total_matches": 0,
+      "first": null,
+      "second": null,
+      "message": "该日无竞彩场次数据，请先拉取竞彩列表或选择有数据的日期。"
+    },
+    {
+      "date": "2026-02-27",
+      "count": 4,
+      "total_matches": 12,
+      "first": {
+        "match": "里斯本 vs 埃斯托里",
+        "recommend": "让负",
+        "prob": 0.845,
+        "tier": "high",
+        "league": "葡超"
+      },
+      "second": {
+        "match": "波尔图 vs 阿罗卡",
+        "recommend": "让负",
+        "prob": 0.845,
+        "tier": "high",
+        "league": "葡超"
+      },
+      "message": "今日推荐 4 场（首选 2 场 / 可考虑 2 场，共 12 场）。"
+    },
+    {
+      "date": "2026-02-28",
+      "count": 6,
+      "total_matches": 27,
+      "first": {
+        "match": "勒阿弗尔 vs 巴黎圣曼",
+        "recommend": "让胜",
+        "prob": 0.862,
+        "tier": "high",
+        "league": "法甲"
+      },
+      "second": {
+        "match": "国际米兰 vs 热那亚",
+        "recommend": "让负",
+        "prob": 0.832,
+        "tier": "high",
+        "league": "意甲"
+      },
+      "message": "今日推荐 6 场（首选 3 场 / 可考虑 3 场，共 27 场）。"
+    },
+    {
+      "date": "2026-03-01",
+      "count": 2,
+      "total_matches": 19,
+      "first": {
+        "match": "汉堡 vs 莱红牛",
+        "recommend": "让胜",
+        "prob": 0.644,
+        "tier": "medium",
+        "league": "德甲"
+      },
+      "second": {
+        "match": "澳大利女 vs 菲律宾女",
+        "recommend": "让负",
+        "prob": 0.973,
+        "tier": "high",
+        "league": "女亚洲杯"
+      },
+      "message": "今日推荐 2 场（首选 1 场 / 可考虑 1 场，共 19 场）。"
+    },
+    {
+      "date": "2026-03-02",
+      "count": 3,
+      "total_matches": 8,
+      "first": {
+        "match": "乌迪内斯 vs 佛罗伦萨",
+        "recommend": "让胜",
+        "prob": 0.697,
+        "tier": "medium",
+        "league": "意甲"
+      },
+      "second": {
+        "match": "韩国女 vs 伊朗女",
+        "recommend": "让负",
+        "prob": 0.978,
+        "tier": "high",
+        "league": "女亚洲杯"
+      },
+      "message": "今日推荐 3 场（首选 1 场 / 可考虑 2 场，共 8 场）。"
+    },
+    {
+      "date": "2026-03-03",
+      "count": 4,
+      "total_matches": 12,
+      "first": {
+        "match": "中国女 vs 孟加拉女",
+        "recommend": "让负",
+        "prob": 0.994,
+        "tier": "high",
+        "league": "女亚洲杯"
+      },
+      "second": {
+        "match": "科莫 vs 国际米兰",
+        "recommend": "让胜",
+        "prob": 0.658,
+        "tier": "medium",
+        "league": "意大利杯"
+      },
+      "message": "今日推荐 4 场（首选 1 场 / 可考虑 3 场，共 12 场）。"
+    },
+    {
+      "date": "2026-03-04",
+      "count": 5,
+      "total_matches": 14,
+      "first": {
+        "match": "汉堡 vs 勒沃库森",
+        "recommend": "让胜",
+        "prob": 0.644,
+        "tier": "medium",
+        "league": "德甲"
+      },
+      "second": {
+        "match": "大阪钢巴 vs 叻武里",
+        "recommend": "让负",
+        "prob": 0.87,
+        "tier": "high",
+        "league": "亚冠乙"
+      },
+      "message": "今日推荐 5 场（首选 2 场 / 可考虑 3 场，共 14 场）。"
+    },
+    {
+      "date": "2026-03-05",
+      "count": 3,
+      "total_matches": 6,
+      "first": {
+        "match": "曼谷联 vs 淡宾尼士",
+        "recommend": "让负",
+        "prob": 0.842,
+        "tier": "high",
+        "league": "亚冠乙"
+      },
+      "second": {
+        "match": "拉斯永恒 vs 胡巴卡德",
+        "recommend": "让胜",
+        "prob": 0.675,
+        "tier": "medium",
+        "league": "沙职"
+      },
+      "message": "今日推荐 3 场（首选 1 场 / 可考虑 2 场，共 6 场）。"
+    },
+    {
+      "date": "2026-03-06",
+      "count": 4,
+      "total_matches": 14,
+      "first": {
+        "match": "拜仁 vs 门兴",
+        "recommend": "让负",
+        "prob": 0.848,
+        "tier": "high",
+        "league": "德甲"
+      },
+      "second": {
+        "match": "利雅新月 vs 欧奈纳伊",
+        "recommend": "让负",
+        "prob": 0.953,
+        "tier": "high",
+        "league": "沙职"
+      },
+      "message": "今日推荐 4 场（首选 3 场 / 可考虑 1 场，共 14 场）。"
+    },
+    {
+      "date": "2026-03-07",
+      "count": 6,
+      "total_matches": 30,
+      "first": {
+        "match": "尤文图斯 vs 比萨",
+        "recommend": "让负",
+        "prob": 0.832,
+        "tier": "high",
+        "league": "意甲"
+      },
+      "second": {
+        "match": "弗赖堡 vs 勒沃库森",
+        "recommend": "让胜",
+        "prob": 0.67,
+        "tier": "medium",
+        "league": "德甲"
+      },
+      "message": "今日推荐 6 场（首选 2 场 / 可考虑 4 场，共 30 场）。"
+    },
+    {
+      "date": "2026-03-08",
+      "count": 2,
+      "total_matches": 27,
+      "first": {
+        "match": "圣保利 vs 法兰克福",
+        "recommend": "让负",
+        "prob": 0.66,
+        "tier": "medium",
+        "league": "德甲"
+      },
+      "second": {
+        "match": "金泉尚武 vs 全北现代",
+        "recommend": "让胜",
+        "prob": 0.675,
+        "tier": "medium",
+        "league": "韩职"
+      },
+      "message": "今日推荐 2 场（首选 0 场 / 可考虑 2 场，共 27 场）。"
+    },
+    {
+      "date": "2026-03-09",
+      "count": 3,
+      "total_matches": 7,
+      "first": {
+        "match": "敦刻尔克 vs 兰斯",
+        "recommend": "让胜",
+        "prob": 0.675,
+        "tier": "medium",
+        "league": "法乙"
+      },
+      "second": {
+        "match": "朝鲜女 vs 中国女",
+        "recommend": "胜",
+        "prob": 0.66,
+        "tier": "medium",
+        "league": "女亚洲杯"
+      },
+      "message": "今日推荐 3 场（首选 0 场 / 可考虑 3 场，共 7 场）。"
+    },
+    {
+      "date": "2026-03-10",
+      "count": 2,
+      "total_matches": 9,
+      "first": {
+        "match": "日本女 vs 越南女",
+        "recommend": "让负",
+        "prob": 0.973,
+        "tier": "high",
+        "league": "女亚洲杯"
+      },
+      "second": {
+        "match": "印度女 vs 中国台女",
+        "recommend": "让胜",
+        "prob": 0.658,
+        "tier": "medium",
+        "league": "女亚洲杯"
+      },
+      "message": "今日推荐 2 场（首选 1 场 / 可考虑 1 场，共 9 场）。"
+    },
+    {
+      "date": "2026-03-11",
+      "count": 3,
+      "total_matches": 9,
+      "first": {
+        "match": "叻武里 vs 大阪钢巴",
+        "recommend": "让胜",
+        "prob": 0.69,
+        "tier": "medium",
+        "league": "亚冠乙"
+      },
+      "second": {
+        "match": "皇马 vs 曼城",
+        "recommend": "让胜",
+        "prob": 0.68,
+        "tier": "medium",
+        "league": "欧冠"
+      },
+      "message": "今日推荐 3 场（首选 0 场 / 可考虑 3 场，共 9 场）。"
+    },
+    {
+      "date": "2026-03-12",
+      "count": 5,
+      "total_matches": 12,
+      "first": {
+        "match": "水晶宫 vs 拉纳卡",
+        "recommend": "让负",
+        "prob": 0.848,
+        "tier": "high",
+        "league": "欧协联"
+      },
+      "second": {
+        "match": "博洛尼亚 vs 罗马",
+        "recommend": "让胜",
+        "prob": 0.675,
+        "tier": "medium",
+        "league": "欧罗巴"
+      },
+      "message": "今日推荐 5 场（首选 1 场 / 可考虑 4 场，共 12 场）。"
+    },
+    {
+      "date": "2026-03-13",
+      "count": 3,
+      "total_matches": 12,
+      "first": {
+        "match": "门兴 vs 圣保利",
+        "recommend": "让负",
+        "prob": 0.624,
+        "tier": "medium",
+        "league": "德甲"
+      },
+      "second": {
+        "match": "布里斯班 vs 西悉尼",
+        "recommend": "让胜",
+        "prob": 0.675,
+        "tier": "medium",
+        "league": "澳超"
+      },
+      "message": "今日推荐 3 场（首选 0 场 / 可考虑 3 场，共 12 场）。"
+    },
+    {
+      "date": "2026-03-14",
+      "count": 6,
+      "total_matches": 32,
+      "first": {
+        "match": "皇马 vs 埃尔切",
+        "recommend": "让负",
+        "prob": 0.832,
+        "tier": "high",
+        "league": "西甲"
+      },
+      "second": {
+        "match": "勒沃库森 vs 拜仁",
+        "recommend": "让胜",
+        "prob": 0.68,
+        "tier": "medium",
+        "league": "德甲"
+      },
+      "message": "今日推荐 6 场（首选 3 场 / 可考虑 3 场，共 32 场）。"
+    },
+    {
+      "date": "2026-03-15",
+      "count": 6,
+      "total_matches": 29,
+      "first": {
+        "match": "巴萨 vs 塞维利亚",
+        "recommend": "让负",
+        "prob": 0.846,
+        "tier": "high",
+        "league": "西甲"
+      },
+      "second": {
+        "match": "不来梅 vs 美因茨",
+        "recommend": "让负",
+        "prob": 0.634,
+        "tier": "medium",
+        "league": "德甲"
+      },
+      "message": "今日推荐 6 场（首选 4 场 / 可考虑 2 场，共 29 场）。"
+    },
+    {
+      "date": "2026-03-16",
+      "count": 1,
+      "total_matches": 6,
+      "first": {
+        "match": "阿纳西 vs 特鲁瓦",
+        "recommend": "让胜",
+        "prob": 0.675,
+        "tier": "medium",
+        "league": "法乙"
+      },
+      "second": null,
+      "message": "今日推荐 1 场（首选 0 场 / 可考虑 1 场，共 6 场）。"
+    },
+    {
+      "date": "2026-03-17",
+      "count": 2,
+      "total_matches": 8,
+      "first": {
+        "match": "阿森纳 vs 勒沃库森",
+        "recommend": "让负",
+        "prob": 0.848,
+        "tier": "high",
+        "league": "欧冠"
+      },
+      "second": {
+        "match": "中国女 vs 澳大利女",
+        "recommend": "让胜",
+        "prob": 0.658,
+        "tier": "medium",
+        "league": "女亚洲杯"
+      },
+      "message": "今日推荐 2 场（首选 1 场 / 可考虑 1 场，共 8 场）。"
+    },
+    {
+      "date": "2026-03-18",
+      "count": 1,
+      "total_matches": 1,
+      "first": {
+        "match": "布拉加 vs 费伦茨",
+        "recommend": "让负",
+        "prob": 0.624,
+        "tier": "medium",
+        "league": "欧罗巴"
+      },
+      "second": null,
+      "message": "今日推荐 1 场（首选 0 场 / 可考虑 1 场，共 1 场）。"
+    },
+    {
+      "date": "2026-03-19",
+      "count": 5,
+      "total_matches": 15,
+      "first": {
+        "match": "中国台女 vs 朝鲜女",
+        "recommend": "让胜",
+        "prob": 0.944,
+        "tier": "high",
+        "league": "女亚洲杯"
+      },
+      "second": {
+        "match": "拜仁 vs 亚特兰大",
+        "recommend": "让负",
+        "prob": 0.848,
+        "tier": "high",
+        "league": "欧冠"
+      },
+      "message": "今日推荐 5 场（首选 3 场 / 可考虑 2 场，共 15 场）。"
+    },
+    {
+      "date": "2026-03-20",
+      "count": 3,
+      "total_matches": 16,
+      "first": {
+        "match": "莱红牛 vs 霍芬海姆",
+        "recommend": "让负",
+        "prob": 0.66,
+        "tier": "medium",
+        "league": "德甲"
+      },
+      "second": {
+        "match": "克莱蒙 vs 圣旺红星",
+        "recommend": "让胜",
+        "prob": 0.675,
+        "tier": "medium",
+        "league": "法乙"
+      },
+      "message": "今日推荐 3 场（首选 0 场 / 可考虑 3 场，共 16 场）。"
+    },
+    {
+      "date": "2026-03-21",
+      "count": 4,
+      "total_matches": 17,
+      "first": {
+        "match": "拜仁 vs 柏林联合",
+        "recommend": "让负",
+        "prob": 0.848,
+        "tier": "high",
+        "league": "德甲"
+      },
+      "second": {
+        "match": "沃夫斯堡 vs 不来梅",
+        "recommend": "让负",
+        "prob": 0.66,
+        "tier": "medium",
+        "league": "德甲"
+      },
+      "message": "今日推荐 4 场（首选 1 场 / 可考虑 3 场，共 17 场）。"
+    },
+    {
+      "date": "2026-03-22",
+      "count": 4,
+      "total_matches": 30,
+      "first": {
+        "match": "科莫 vs 比萨",
+        "recommend": "让负",
+        "prob": 0.832,
+        "tier": "high",
+        "league": "意甲"
+      },
+      "second": {
+        "match": "巴萨 vs 巴列卡诺",
+        "recommend": "让负",
+        "prob": 0.832,
+        "tier": "high",
+        "league": "西甲"
+      },
+      "message": "今日推荐 4 场（首选 2 场 / 可考虑 2 场，共 30 场）。"
+    },
+    {
+      "date": "2026-03-24",
+      "count": 0,
+      "total_matches": 2,
+      "first": null,
+      "second": null,
+      "message": "该日共 2 场，暂无满足条件的推荐；可调低 min_prob/min_spread 或关闭 require_high_confidence。"
+    },
+    {
+      "date": "2026-03-26",
+      "count": 0,
+      "total_matches": 12,
+      "first": null,
+      "second": null,
+      "message": "该日共 12 场，暂无满足条件的推荐；可调低 min_prob/min_spread 或关闭 require_high_confidence。"
+    }
+  ]
+}

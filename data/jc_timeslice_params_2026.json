@@ -1,0 +1,30 @@
+{
+  "profiles": {
+    "jc_2026": [
+      {
+        "name": "2026-01-01_to_2026-02-15",
+        "date_from": "2026-01-01",
+        "date_to": "2026-02-15",
+        "params": {
+          "PREDICT_ODDS_FUSION_WEIGHT_MODEL": 0.53,
+          "PREDICT_API_PREDICTIONS_WEIGHT": 0.21,
+          "PREDICT_OUTCOME_ML_WEIGHT": 0.16,
+          "PREDICT_DRAW_BOOST_COEF": 0.22,
+          "PREDICT_DC_RHO": -0.1
+        }
+      },
+      {
+        "name": "2026-02-16_to_2026-06-30",
+        "date_from": "2026-02-16",
+        "date_to": "2026-06-30",
+        "params": {
+          "PREDICT_ODDS_FUSION_WEIGHT_MODEL": 0.48,
+          "PREDICT_API_PREDICTIONS_WEIGHT": 0.28,
+          "PREDICT_OUTCOME_ML_WEIGHT": 0.16,
+          "PREDICT_DRAW_BOOST_COEF": 0.22,
+          "PREDICT_DC_RHO": -0.1
+        }
+      }
+    ]
+  }
+}

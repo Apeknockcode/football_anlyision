@@ -1,0 +1,27 @@
+{
+  "ids_file": "data/eval_samples/frozen_2526_ids.json",
+  "ids_count": 2801,
+  "n": 2801,
+  "missing_pred": 0,
+  "missing_finished": 0,
+  "single_ok": 1218,
+  "single_acc": 0.4348446983220278,
+  "outcome_ok": 1218,
+  "outcome_acc": 0.4348446983220278,
+  "by_year": {
+    "2025": {
+      "n": 2120,
+      "single_ok": 918,
+      "single_acc": 0.4330188679245283,
+      "outcome_ok": 918,
+      "outcome_acc": 0.4330188679245283
+    },
+    "2026": {
+      "n": 681,
+      "single_ok": 300,
+      "single_acc": 0.44052863436123346,
+      "outcome_ok": 300,
+      "outcome_acc": 0.44052863436123346
+    }
+  }
+}

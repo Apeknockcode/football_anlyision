@@ -1,0 +1,851 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>足球分析 · 比赛日</title>
+  <style>
+    :root {
+      --bg: #f5f6f8;
+      --card: #fff;
+      --border: #e2e6eb;
+      --text: #1a1d21;
+      --muted: #5c6370;
+      --accent: #2563eb;
+      --accent-bg: #eff6ff;
+      --radius: 10px;
+    }
+    * { box-sizing: border-box; }
+    body {
+      font-family: "PingFang SC", "Microsoft YaHei", sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      margin: 0;
+      min-height: 100vh;
+      line-height: 1.5;
+    }
+
+    .header {
+      background: var(--card);
+      border-bottom: 1px solid var(--border);
+      padding: 1rem 1.5rem;
+    }
+    .header-inner {
+      max-width: 1100px;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      flex-wrap: wrap;
+    }
+    .header h1 { margin: 0; font-size: 1.25rem; font-weight: 600; }
+    .date-row {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+    .date-row .date-label { color: var(--muted); font-size: 0.9rem; }
+    .date-row .date-value {
+      font-size: 0.95rem;
+      color: var(--text);
+      min-width: 7rem;
+    }
+    .date-row .date-input {
+      font-size: 0.9rem;
+      padding: 0.25rem 0.5rem;
+      margin-right: 0.5rem;
+      border: 1px solid var(--border);
+      border-radius: 4px;
+      color: var(--text);
+      background: var(--card);
+    }
+    .date-row button {
+      background: var(--card);
+      border: 1px solid var(--border);
+      padding: 0.4rem 0.75rem;
+      border-radius: 6px;
+      font-size: 0.9rem;
+      cursor: pointer;
+      color: var(--text);
+    }
+    .date-row button:hover { background: #f0f2f5; }
+    .btn-score-backfill {
+      background: var(--accent);
+      color: #fff;
+      border: none;
+      padding: 0.4rem 0.75rem;
+      border-radius: 6px;
+      font-size: 0.9rem;
+      cursor: pointer;
+    }
+    .btn-score-backfill:hover:not(:disabled) { background: #1d4ed8; }
+    .btn-score-backfill:disabled { opacity: 0.7; cursor: not-allowed; }
+
+    .content {
+      max-width: 1400px;
+      margin: 0 auto;
+      padding: 1.5rem;
+    }
+
+    .section {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      overflow: hidden;
+    }
+    .section-title {
+      padding: 0.85rem 1.25rem;
+      font-size: 1rem;
+      font-weight: 600;
+      border-bottom: 1px solid var(--border);
+      background: #fafbfc;
+    }
+
+    .table-wrap { overflow-x: auto; }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.9rem;
+    }
+    th, td {
+      text-align: left;
+      padding: 0.65rem 0.85rem;
+      border-bottom: 1px solid var(--border);
+    }
+    th {
+      color: var(--muted);
+      font-weight: 500;
+      font-size: 0.8rem;
+      text-transform: uppercase;
+      letter-spacing: 0.03em;
+    }
+    tbody tr.match-row {
+      cursor: pointer;
+      transition: background 0.15s;
+    }
+    tbody tr.match-row:hover { background: #f8f9fb; }
+    tbody tr.match-row.expanded { background: var(--accent-bg); }
+    tbody tr.detail-row { display: none; }
+    tbody tr.detail-row.open { display: table-row; }
+    tbody tr.detail-row td {
+      padding: 0;
+      border-bottom: 1px solid var(--border);
+      vertical-align: top;
+      background: #fafbfc;
+    }
+    .detail-cell {
+      padding: 1.25rem 1.5rem;
+      display: flex;
+      flex-direction: column;
+      gap: 1.25rem;
+    }
+    .detail-block {
+      background: #fff;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 1rem 1.25rem;
+    }
+    .detail-block h3 {
+      font-size: 0.85rem;
+      font-weight: 600;
+      margin: 0 0 0.6rem;
+      color: var(--muted);
+      letter-spacing: 0.02em;
+      text-transform: uppercase;
+    }
+    .detail-block p { margin: 0; font-size: 0.95rem; color: var(--text); line-height: 1.5; }
+    .detail-block p.detail-hint { margin-top: 0.5rem; font-size: 0.8rem; color: var(--muted); line-height: 1.45; }
+    .detail-row-2 {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1rem;
+    }
+    @media (max-width: 520px) {
+      .detail-row-2 { grid-template-columns: 1fr; }
+    }
+    .injury-row {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1rem;
+      margin-top: 0.25rem;
+    }
+    .injury-side {
+      background: #f8f9fb;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 0.85rem 1rem;
+    }
+    .injury-side .injury-title {
+      font-size: 0.8rem;
+      font-weight: 600;
+      color: var(--muted);
+      margin-bottom: 0.5rem;
+      padding-bottom: 0.35rem;
+      border-bottom: 1px solid var(--border);
+    }
+    .injury-list { list-style: none; margin: 0; padding: 0; }
+    .injury-list li {
+      font-size: 0.88rem;
+      padding: 0.35rem 0;
+      border-bottom: 1px solid #f0f2f5;
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      gap: 0.5rem;
+    }
+    .injury-list li:last-child { border-bottom: none; }
+    .injury-player { font-weight: 500; color: var(--text); }
+    .injury-reason { font-size: 0.8rem; color: var(--muted); flex-shrink: 0; }
+    .injury-empty { font-size: 0.85rem; color: var(--muted); font-style: italic; }
+    .injury-count { font-size: 0.8rem; color: var(--muted); font-weight: normal; }
+    .lineup-list { margin-top: 0.35rem; }
+    .lineup-list li { justify-content: flex-start; }
+    .lineup-num { color: var(--muted); font-size: 0.8rem; margin-left: 0.25rem; }
+    .injury-block .injury-toggle { cursor: pointer; user-select: none; display: flex; align-items: center; justify-content: space-between; gap: 0.5rem; }
+    .injury-block .injury-toggle:hover { color: var(--text); }
+    .injury-block .injury-toggle-icon { font-size: 0.7rem; color: var(--muted); transition: transform 0.2s ease; flex-shrink: 0; }
+    .injury-block.injury-collapsed .injury-body { display: none; }
+    .injury-block.injury-collapsed .injury-toggle-icon { transform: rotate(-90deg); }
+    @media (max-width: 560px) {
+      .injury-row { grid-template-columns: 1fr; }
+    }
+    .advantage-wrap { margin-top: 0.25rem; }
+    .advantage-track {
+      position: relative;
+      height: 10px;
+      border-radius: 999px;
+      background: linear-gradient(90deg, #fecaca 0%, #fef3c7 35%, #e5e7eb 50%, #fef3c7 65%, #bbf7d0 100%);
+      border: 1px solid var(--border);
+      margin: 0.5rem 0 0.35rem;
+    }
+    .advantage-marker {
+      position: absolute;
+      top: 50%;
+      width: 14px;
+      height: 14px;
+      border-radius: 50%;
+      background: var(--text);
+      border: 2px solid #fff;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+      transform: translate(-50%, -50%);
+      transition: left 0.2s ease;
+    }
+    .advantage-labels {
+      display: flex;
+      justify-content: space-between;
+      font-size: 0.78rem;
+      color: var(--muted);
+      margin-top: 0.25rem;
+    }
+    .advantage-desc {
+      font-size: 0.88rem;
+      font-weight: 600;
+      margin-top: 0.4rem;
+      color: var(--text);
+    }
+    .advantage-desc.home { color: #16a34a; }
+    .advantage-desc.away { color: #dc2626; }
+    .advantage-desc.neutral { color: var(--muted); }
+    .form-string { font-family: monospace; font-size: 0.9rem; letter-spacing: 0.15em; }
+    .form-string .w { color: #16a34a; }
+    .form-string .d { color: var(--muted); }
+    .form-string .l { color: #dc2626; }
+    .h2h-table { width: 100%; font-size: 0.85rem; border-collapse: collapse; margin-top: 0.35rem; }
+    .h2h-table th, .h2h-table td { padding: 0.35rem 0.5rem; text-align: left; border-bottom: 1px solid var(--border); }
+    .h2h-table th { color: var(--muted); font-weight: 500; font-size: 0.78rem; }
+    .odds-vs-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 0.75rem; margin-top: 0.35rem; }
+    .odds-vs-side { font-size: 0.85rem; }
+    .odds-vs-side .label { color: var(--muted); margin-bottom: 0.2rem; }
+    .odds-vs-side .vals { color: var(--text); }
+    .detail-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+      gap: 0.75rem;
+      margin-bottom: 1rem;
+    }
+    .detail-grid .item {
+      background: #fff;
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      padding: 0.5rem 0.75rem;
+    }
+    .detail-grid .item .label { font-size: 0.78rem; color: var(--muted); }
+    .detail-grid .item .value { font-size: 0.9rem; font-weight: 600; }
+    .toggle-icon { color: var(--muted); font-size: 0.85rem; }
+    .toggle-icon::before { content: '▸ '; }
+    tr.match-row.expanded .toggle-icon::before { content: '▾ '; }
+    .pred-correct { color: #16a34a; font-weight: 600; }
+    .pred-wrong { color: #dc2626; font-weight: 600; }
+    .pred-pending { color: var(--muted); }
+    .op-cell { width: 6rem; }
+    .btn-repredict {
+      font-size: 0.8rem;
+      padding: 0.25rem 0.5rem;
+      border: 1px solid var(--border);
+      border-radius: 4px;
+      background: var(--card);
+      color: var(--accent);
+      cursor: pointer;
+    }
+    .btn-repredict:hover:not(:disabled) { background: var(--accent-bg); }
+    .btn-repredict:disabled { opacity: 0.7; cursor: not-allowed; }
+    .accuracy-stats {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+      align-items: center;
+      padding: 0.75rem 1.25rem;
+      background: #f0f4f8;
+      border-bottom: 1px solid var(--border);
+      font-size: 0.9rem;
+    }
+    .accuracy-stats .label { color: var(--muted); margin-right: 0.25rem; }
+    .accuracy-stats .accuracy-rows { display: flex; flex-direction: column; gap: 0.5rem; }
+    .accuracy-stats .accuracy-row { display: flex; flex-wrap: wrap; align-items: center; gap: 0.5rem; }
+    .accuracy-stats .accuracy-row .label { min-width: 3.5em; }
+    .accuracy-stats .accuracy-hint { font-size: 0.8rem; color: var(--muted); margin-top: 0.35rem; }
+    .accuracy-stats .accuracy-hint code { font-size: 0.85em; background: rgba(0,0,0,0.06); padding: 0.1rem 0.3rem; border-radius: 3px; }
+    .handicap-model-hint { font-size: 0.75em; color: var(--muted); font-weight: normal; }
+    .accuracy-stats .item {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.35rem;
+      padding: 0.35rem 0.75rem;
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 6px;
+    }
+    .accuracy-stats .item .value { font-weight: 600; color: var(--accent); }
+    .accuracy-stats .item .meta { font-size: 0.8rem; color: var(--muted); }
+    .accuracy-stats .btn-refresh-accuracy {
+      margin-left: 0.5rem;
+      padding: 0.35rem 0.75rem;
+      font-size: 0.85rem;
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      background: var(--card);
+      color: var(--text);
+      cursor: pointer;
+    }
+    .accuracy-stats .btn-refresh-accuracy:hover { background: #e8eef4; }
+  </style>
+</head>
+<body>
+  <header class="header">
+    <div class="header-inner">
+      <h1>足球分析</h1>
+      <div class="date-row">
+        <span class="date-label">比赛日</span>
+        <input type="date" id="date-input" class="date-input" title="选择日期" />
+        <span id="date-display" class="date-value"></span>
+        <button type="button" id="btn-prev">前一天</button>
+        <button type="button" id="btn-next">下一天</button>
+        <button type="button" id="btn-score-backfill" class="btn-score-backfill" title="用 DB 已完赛场次比分回填 prediction_log（默认昨日/今日/明日）">比分回填</button>
+      </div>
+    </div>
+  </header>
+
+  <div id="accuracy-stats" class="accuracy-stats"><span class="label">命中率统计</span><span style="color:var(--muted)">加载中…</span></div>
+
+  <div class="content">
+    <section class="section">
+      <h2 class="section-title">当天比赛列表</h2>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th></th>
+              <th>主队</th>
+              <th>客队</th>
+              <th>联赛</th>
+              <th>模型预测</th>
+              <th title="来自 API-Football 的 predictions 接口；若请求被限流或该场未返回则显示 —">API预测</th>
+              <th>融合预测</th>
+              <th title="官方让球数以体彩/官网为准；无数据时显示为模型按期望进球差推算，并标(模型)">让球</th>
+              <th>实际比分</th>
+              <th>操作</th>
+            </tr>
+          </thead>
+          <tbody id="match-tbody">
+          </tbody>
+        </table>
+      </div>
+    </section>
+  </div>
+
+  <script>
+    (function() {
+      var dateDisplay = document.getElementById('date-display');
+      var dateInput = document.getElementById('date-input');
+      var btnPrev = document.getElementById('btn-prev');
+      var btnNext = document.getElementById('btn-next');
+      var tbody = document.getElementById('match-tbody');
+      tbody.addEventListener('click', function(e) {
+        if (e.target.closest('.injury-toggle')) {
+          e.stopPropagation();
+          e.preventDefault();
+          var block = e.target.closest('.injury-block');
+          if (block) block.classList.toggle('injury-collapsed');
+          return;
+        }
+        var btn = e.target.closest('.btn-repredict');
+        if (btn) {
+          e.stopPropagation();
+          e.preventDefault();
+          var mid = btn.getAttribute('data-match-id');
+          if (!mid) return;
+          btn.disabled = true;
+          btn.textContent = '预测中…';
+          fetch('/predictions/repredict', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ match_id: parseInt(mid, 10) })
+          }).then(function(r) { return r.json();           }).then(function(res) {
+            btn.disabled = false;
+            btn.textContent = '重新预测';
+            if (res && res.ok) {
+              loadPredictions(currentDate, function() { render(currentDate); });
+              loadAccuracyStats();
+            } else {
+              alert(res && res.error ? res.error : '重新预测失败');
+            }
+          }).catch(function() {
+            btn.disabled = false;
+            btn.textContent = '重新预测';
+            alert('请求失败');
+          });
+        }
+      });
+
+      var currentDate = todayStr();
+
+      function todayStr() {
+        var d = new Date();
+        return d.getFullYear() + '-' + String(d.getMonth() + 1).padStart(2, '0') + '-' + String(d.getDate()).padStart(2, '0');
+      }
+      function addDays(str, delta) {
+        var s = (str || '').trim().slice(0, 10);
+        if (s.length !== 10) return str;
+        var parts = s.split('-');
+        var d = new Date(parseInt(parts[0], 10), parseInt(parts[1], 10) - 1, parseInt(parts[2], 10));
+        d.setDate(d.getDate() + delta);
+        return d.getFullYear() + '-' + String(d.getMonth() + 1).padStart(2, '0') + '-' + String(d.getDate()).padStart(2, '0');
+      }
+
+      function escapeHtml(s) {
+        if (s == null) return '';
+        var div = document.createElement('div');
+        div.textContent = s;
+        return div.innerHTML;
+      }
+
+      function formatHandicap(h) {
+        if (h === undefined || h === null) return '—';
+        var n = Number(h);
+        if (isNaN(n)) return '—';
+        return n > 0 ? '+' + n : String(n);
+      }
+      /** 主→胜，客→负，平→平（用于「预测」列展示） */
+      function resultToDisplay(r) {
+        if (r === '主') return '胜';
+        if (r === '客') return '负';
+        if (r === '平') return '平';
+        return r || '—';
+      }
+      /** 让球预测展示：让胜(-1)、让平(-1)、让负(-1) */
+      function rqspfToDisplay(rqspf, handicap) {
+        if (!rqspf) return '—';
+        var label = (rqspf === '主' ? '让胜' : (rqspf === '客' ? '让负' : '让平'));
+        if (handicap !== undefined && handicap !== null && !isNaN(Number(handicap))) {
+          var n = Number(handicap);
+          label += '(' + (n > 0 ? '+' + n : n) + ')';
+        }
+        return label;
+      }
+      function formatPredCorrect(m) {
+        var pred = m.predicted_result;
+        var actual = m.actual_result;
+        if (actual === undefined || actual === null || actual === '') return { text: '待定', cls: 'pred-pending' };
+        if (pred === undefined || pred === null || pred === '') return { text: '待定', cls: 'pred-pending' };
+        return pred === actual ? { text: '对 ✓', cls: 'pred-correct' } : { text: '错 ✗', cls: 'pred-wrong' };
+      }
+      function getActualRqspf(m) {
+        var h = m.actual_home_score, a = m.actual_away_score, hc = m.rqspf_handicap;
+        if (h == null || a == null || hc == null) return null;
+        var adj = h + Number(hc) - a;
+        return adj > 0 ? '主' : (adj < 0 ? '客' : '平');
+      }
+      function formatRqspfCorrect(m) {
+        var pred = m.predicted_rqspf;
+        var actual = getActualRqspf(m);
+        if (actual === undefined || actual === null) return { text: '待定', cls: 'pred-pending' };
+        if (pred === undefined || pred === null || pred === '') return { text: '待定', cls: 'pred-pending' };
+        return pred === actual ? { text: '对 ✓', cls: 'pred-correct' } : { text: '错 ✗', cls: 'pred-wrong' };
+      }
+      function buildDetailHtml(m) {
+        var rankText = '—';
+        if (m.home_rank != null || m.away_rank != null) {
+          var hr = m.home_rank != null ? '第' + m.home_rank + '名' : '—';
+          var ar = m.away_rank != null ? '第' + m.away_rank + '名' : '—';
+          rankText = '主队 ' + hr + ' · 客队 ' + ar;
+        }
+        function formToHtml(formStr) {
+          if (!formStr) return '—';
+          var html = '';
+          for (var i = 0; i < formStr.length; i++) {
+            var c = formStr[i].toUpperCase();
+            var cls = c === 'W' ? 'w' : (c === 'D' ? 'd' : 'l');
+            html += '<span class="' + cls + '">' + c + '</span>';
+          }
+          return '<span class="form-string">' + html + '</span>';
+        }
+        var formHome = formToHtml(m.form_home_5);
+        var formAway = formToHtml(m.form_away_5);
+        var h2hHtml = '';
+        if (m.h2h_matches && m.h2h_matches.length) {
+          h2hHtml = '<table class="h2h-table"><thead><tr><th>日期</th><th>主队</th><th>客队</th><th>比分</th></tr></thead><tbody>';
+          m.h2h_matches.slice(0, 6).forEach(function(r) {
+            var homeDisplay = (r.home_cn && r.home_cn.trim()) ? r.home_cn.trim() : (r.home || '');
+            var awayDisplay = (r.away_cn && r.away_cn.trim()) ? r.away_cn.trim() : (r.away || '');
+            h2hHtml += '<tr><td>' + escapeHtml(r.date || '') + '</td><td>' + escapeHtml(homeDisplay) + '</td><td>' + escapeHtml(awayDisplay) + '</td><td>' + escapeHtml(r.score || '') + '</td></tr>';
+          });
+          h2hHtml += '</tbody></table>';
+        } else { h2hHtml = '<p class="injury-empty">暂无交锋记录</p>'; }
+        var restText = '—';
+        if (m.home_days_rest != null || m.away_days_rest != null) {
+          var hr = m.home_days_rest != null ? ('主队休息 ' + m.home_days_rest + ' 天') : '主队 —';
+          var ar = m.away_days_rest != null ? ('客队休息 ' + m.away_days_rest + ' 天') : '客队 —';
+          restText = hr + ' · ' + ar;
+        }
+        var oddsText = '—';
+        if (m.odds && (m.odds.win || m.odds.draw || m.odds.loss)) {
+          oddsText = '胜 ' + (m.odds.win || '—') + ' · 平 ' + (m.odds.draw || '—') + ' · 负 ' + (m.odds.loss || '—');
+        }
+        var handicapText = '—';
+        if (m.rqspf_handicap != null && m.rqspf_handicap !== '') {
+          var n = Number(m.rqspf_handicap);
+          handicapText = (n > 0 ? '+' + n : String(n));
+        }
+        var rqPredText = rqspfToDisplay(m.predicted_rqspf, m.rqspf_handicap);
+        var rqResult = formatRqspfCorrect(m);
+        var handicapHint = (handicapText === '—' && oddsText !== '—') ? '<p class="injury-empty" style="margin-top:0.25rem;font-size:0.8em;">让球数来自 API 亚盘或体彩；若为空可点「重新预测」或运行 <code>sporttery-odds-to-db</code> 补全体彩让球</p>' : '';
+        var handicapSourceNote = (handicapText !== '—' && m.rqspf_handicap_source === 'model') ? ' <span style="font-size:0.85em;color:var(--muted)">（模型推算）</span>' : '';
+        var oddsHandicapBlock = '<div class="detail-row-2">' +
+          '<div class="detail-block"><h3>胜平负赔率</h3><p>' + escapeHtml(oddsText) + '</p></div>' +
+          '<div class="detail-block"><h3>让球数</h3><p>' + escapeHtml(handicapText) + handicapSourceNote + '</p>' +
+          handicapHint +
+          (rqPredText !== '—' ? '<p style="margin-top:0.35rem;font-size:0.9rem">让球预测 ' + escapeHtml(rqPredText) + (rqResult.text ? ' &nbsp; ' + rqResult.text : '') + '</p>' : '') + '</div></div>';
+        var lineupText = '—';
+        var lineupDetailHtml = '';
+        if (m.home_lineup_count != null || m.away_lineup_count != null || (m.home_lineup && m.home_lineup.length) || (m.away_lineup && m.away_lineup.length)) {
+          var hc = m.home_lineup_count != null ? (m.home_lineup_count + ' 人') : (m.home_lineup ? m.home_lineup.length + ' 人' : '—');
+          var ac = m.away_lineup_count != null ? (m.away_lineup_count + ' 人') : (m.away_lineup ? m.away_lineup.length + ' 人' : '—');
+          lineupText = '主队 ' + hc + ' / 客队 ' + ac;
+          function renderLineupList(list) {
+            if (!list || !list.length) return '<p class="injury-empty">无</p>';
+            return '<ul class="injury-list lineup-list">' + list.map(function(p) {
+              var name = (p && p.player_name) ? escapeHtml(String(p.player_name)) : '—';
+              var num = p && (p.number != null && p.number !== '' && String(p.number).trim() !== '');
+              var numStr = num ? (' <span class="lineup-num">(' + escapeHtml(String(p.number)) + ')</span>') : '';
+              return '<li>' + name + numStr + '</li>';
+            }).join('') + '</ul>';
+          }
+          if ((m.home_lineup && m.home_lineup.length) || (m.away_lineup && m.away_lineup.length)) {
+            lineupDetailHtml = '<div class="injury-row"><div class="injury-side"><div class="injury-title">主队首发</div>' + renderLineupList(m.home_lineup) + '</div><div class="injury-side"><div class="injury-title">客队首发</div>' + renderLineupList(m.away_lineup) + '</div></div>';
+          }
+        } else if (m.actual_home_score == null && m.actual_away_score == null) {
+          lineupText = '—';
+          lineupDetailHtml = '<p class="injury-empty" style="margin-top:0.25rem;font-size:0.85em;">未开赛：阵容数据通常开球前数小时或赛后才会有，可临近开球再点「重新预测」</p>';
+        }
+        var avgHome = (m.avg_scored_home != null && m.avg_conceded_home != null) ? '均进 ' + m.avg_scored_home.toFixed(1) + ' · 均失 ' + m.avg_conceded_home.toFixed(1) : '—';
+        var avgAway = (m.avg_scored_away != null && m.avg_conceded_away != null) ? '均进 ' + m.avg_scored_away.toFixed(1) + ' · 均失 ' + m.avg_conceded_away.toFixed(1) : '—';
+        var avgEst = '';
+        if (m.avg_scored_home != null && m.avg_conceded_home != null && m.avg_scored_away != null && m.avg_conceded_away != null) {
+          var estHome = (m.avg_scored_home + m.avg_conceded_away) / 2;
+          var estAway = (m.avg_scored_away + m.avg_conceded_home) / 2;
+          avgEst = '按均进/均失粗估本场：主 ' + estHome.toFixed(2) + ' · 客 ' + estAway.toFixed(2);
+        }
+        var inj = m.injury;
+        var injuryHtml = '';
+        var homeAbsCnt = inj && inj.home_absent ? inj.home_absent.length : 0;
+        var awayAbsCnt = inj && inj.away_absent ? inj.away_absent.length : 0;
+        var injuryTitleSuffix = (homeAbsCnt || awayAbsCnt) ? (' <span class="injury-count">主 ' + homeAbsCnt + ' 人 / 客 ' + awayAbsCnt + ' 人</span>') : '';
+        if (inj && (inj.home_absent && inj.home_absent.length || inj.away_absent && inj.away_absent.length)) {
+          function renderInjuryList(list) {
+            if (!list || !list.length) return '<li class="injury-empty">无</li>';
+            return list.map(function(p) {
+              var name = (p && p.name) ? escapeHtml(String(p.name)) : '—';
+              var reason = (p && p.reason) ? escapeHtml(String(p.reason)) : '';
+              return '<li><span class="injury-player">' + name + '</span>' + (reason ? '<span class="injury-reason">' + reason + '</span>' : '') + '</li>';
+            }).join('');
+          }
+          injuryHtml = '<div class="injury-row">' +
+            '<div class="injury-side"><div class="injury-title">主队缺阵</div><ul class="injury-list">' + renderInjuryList(inj.home_absent) + '</ul></div>' +
+            '<div class="injury-side"><div class="injury-title">客队缺阵</div><ul class="injury-list">' + renderInjuryList(inj.away_absent) + '</ul></div>' +
+            '</div>';
+        } else {
+          injuryHtml = '<p class="injury-empty">暂无伤停数据</p>';
+        }
+        var predBlock = '';
+        if ((m.model_predicted_result != null && m.model_predicted_result !== '') || (m.predicted_result != null && m.predicted_result !== '')) {
+          var modelRes = (m.model_predicted_result != null && m.model_predicted_result !== '') ? m.model_predicted_result : m.predicted_result;
+          var modelScores = (m.model_predicted_scores && m.model_predicted_scores.length) ? m.model_predicted_scores : m.predicted_scores;
+          var predRes = resultToDisplay(modelRes);
+          var predScoreStr = '—';
+          if (modelScores && modelScores.length && modelScores[0] && modelScores[0].length >= 2) {
+            predScoreStr = modelScores[0][0] + ' - ' + modelScores[0][1];
+          }
+          var ph = m.prob_home_win != null ? (Math.round(m.prob_home_win * 100) + '%') : '—';
+          var pd = m.prob_draw != null ? (Math.round(m.prob_draw * 100) + '%') : '—';
+          var pa = m.prob_away_win != null ? (Math.round(m.prob_away_win * 100) + '%') : '—';
+          var expH = m.exp_goals_home != null ? m.exp_goals_home.toFixed(2) : '—';
+          var expA = m.exp_goals_away != null ? m.exp_goals_away.toFixed(2) : '—';
+          predBlock = '<div class="detail-block" style="background:var(--accent-bg);border-radius:8px;padding:0.75rem 1rem;margin-bottom:0.75rem">' +
+            '<h3>模型预测</h3>' +
+            '<p><strong>预测结果</strong> ' + escapeHtml(predRes) + ' &nbsp; <strong>预测比分</strong> ' + escapeHtml(predScoreStr) + '</p>' +
+            '<p style="font-size:0.9rem;color:var(--muted);margin-top:0.35rem">主胜 ' + ph + ' · 平 ' + pd + ' · 客胜 ' + pa + ' &nbsp; 期望进球 主 ' + expH + ' / 客 ' + expA + (m.confidence ? ' &nbsp; 置信度 ' + escapeHtml(m.confidence) : '') + '</p>' +
+            '</div>';
+        } else {
+          predBlock = '<div class="detail-block"><h3>模型预测</h3><p class="injury-empty">该场暂无预测，可运行 <code>predict-from-mongo-matches</code> 或 <code>predict-for-date</code> 生成。</p></div>';
+        }
+        var advantageBlock = '';
+        if (m.home_advantage != null && m.home_advantage !== '') {
+          var adv = Number(m.home_advantage);
+          var pct = Math.max(0, Math.min(100, 50 - adv / 2));
+          var advText = adv > 5 ? ('主队占优 +' + adv + '%') : (adv < -5 ? ('客队占优 ' + adv + '%') : '势均力敌');
+          advantageBlock = '<div class="detail-block"><h3>主客队优势</h3>' +
+            '<p style="margin-bottom:0.4rem">' + escapeHtml(advText) + '（由预测概率 主胜−客胜 得出）</p>' +
+            '<div class="advantage-bar-wrap" style="display:flex;align-items:center;gap:0.5rem;font-size:0.8rem;color:var(--muted)">' +
+            '<span>主队</span>' +
+            '<div class="advantage-bar" style="flex:1;height:10px;background:var(--border);border-radius:5px;position:relative">' +
+            '<span class="advantage-dot" style="position:absolute;left:' + pct + '%;top:50%;transform:translate(-50%,-50%);width:14px;height:14px;background:var(--accent);border-radius:50%;border:2px solid var(--card);box-sizing:border-box;z-index:1"></span>' +
+            '</div>' +
+            '<span>客队</span></div></div>';
+        } else {
+          advantageBlock = '<div class="detail-block"><h3>主客队优势</h3><p class="injury-empty">暂无预测数据，无法计算主客队优势。</p></div>';
+        }
+        return '<div class="detail-cell">' +
+          predBlock +
+          advantageBlock +
+          '<div class="detail-row-2">' +
+            '<div class="detail-block"><h3>积分榜排名</h3><p>' + escapeHtml(rankText) + '</p></div>' +
+            '<div class="detail-block"><h3>休息天数</h3><p>' + escapeHtml(restText) + '</p></div>' +
+          '</div>' +
+          oddsHandicapBlock +
+          '<div class="detail-block"><h3>上场人数</h3><p>' + escapeHtml(lineupText) + '</p>' + (lineupDetailHtml || '') + '</div>' +
+          '<div class="detail-row-2">' +
+            '<div class="detail-block"><h3>主队近期战绩（近5场）</h3><p>' + formHome + '</p><p style="font-size:0.8rem;color:var(--muted);margin-top:0.35rem">胜 W · 平 D · 负 L</p><p style="font-size:0.75rem;color:var(--muted);margin-top:0.2rem">顺序：<span style="white-space:nowrap">最近 → … → 最早</span>（从左到右：左为最近一场，右为最早一场）</p></div>' +
+            '<div class="detail-block"><h3>客队近期战绩（近5场）</h3><p>' + formAway + '</p><p style="font-size:0.8rem;color:var(--muted);margin-top:0.35rem">胜 W · 平 D · 负 L</p><p style="font-size:0.75rem;color:var(--muted);margin-top:0.2rem">顺序：<span style="white-space:nowrap">最近 → … → 最早</span>（从左到右：左为最近一场，右为最早一场）</p></div>' +
+          '</div>' +
+          '<div class="detail-block"><h3>历史交锋</h3>' + h2hHtml + '</div>' +
+          (avgEst ? '<div class="detail-block"><p class="detail-hint">' + escapeHtml(avgEst) + '</p></div>' : '') +
+          '<div class="detail-row-2">' +
+            '<div class="detail-block"><h3>主队主场均进/失球</h3><p>' + escapeHtml(avgHome) + '</p></div>' +
+            '<div class="detail-block"><h3>客队客场均进/失球</h3><p>' + escapeHtml(avgAway) + '</p></div>' +
+          '</div>' +
+          '<div class="detail-block injury-block injury-collapsed">' +
+            '<h3 class="injury-toggle">伤停' + injuryTitleSuffix + '<span class="injury-toggle-icon" aria-hidden="true">▼</span></h3>' +
+            '<div class="injury-body">' + injuryHtml + '</div>' +
+          '</div>' +
+          '</div>';
+      }
+
+      function loadPredictions(date, cb) {
+        var apiUrl = '/predictions?date_str=' + encodeURIComponent(date) + '&date_mode=exact';
+        fetch(apiUrl).then(function(r) { return r.json(); }).then(function(data) {
+          var list = (data && data.predictions) ? data.predictions : [];
+          cb(list, data);
+        }).catch(function() { cb([], null); });
+      }
+
+      function formatRate(rate) {
+        if (rate == null) return '—';
+        return (Math.round(rate * 10000) / 100) + '%';
+      }
+      function renderAccuracyBlock(allStats, year2026Stats) {
+        var empty = { hit: 0, total: 0, rate: null };
+        function row(stats, label) {
+          var model = stats && stats.model ? stats.model : empty;
+          var api = stats && stats.api ? stats.api : empty;
+          var fused = stats && stats.fused ? stats.fused : empty;
+          return '<div class="accuracy-row">' +
+            '<span class="label">' + label + '</span>' +
+            '<div class="item"><span class="value">' + formatRate(model.rate) + '</span><span class="meta">模型 ' + model.hit + '/' + model.total + '</span></div>' +
+            '<div class="item"><span class="value">' + formatRate(api.rate) + '</span><span class="meta">API ' + api.hit + '/' + api.total + '</span></div>' +
+            '<div class="item"><span class="value">' + formatRate(fused.rate) + '</span><span class="meta">融合 ' + fused.hit + '/' + fused.total + '</span></div>' +
+            '</div>';
+        }
+        var apiCovered = (allStats && allStats.api_covered_total != null) ? allStats.api_covered_total : 0;
+        var apiFinished = (allStats && allStats.api && allStats.api.total != null) ? allStats.api.total : 0;
+        var hint = (apiCovered > 0 && apiFinished === 0)
+          ? '<div class="accuracy-hint">库中已有 ' + apiCovered + ' 场含 API 预测（均为未完赛）；对 2024/2025 已完赛补 API 可运行: <code>python main.py fill-api-predictions --years 2024,2025</code></div>'
+          : '';
+        var html = '<span class="label">命中率（已完赛）</span>' +
+          '<div class="accuracy-rows">' +
+          row(allStats, '全量') +
+          (year2026Stats ? row(year2026Stats, '2026年') : '') +
+          '</div>' +
+          hint +
+          '<button type="button" id="btn-refresh-accuracy" class="btn-refresh-accuracy">更新命中率</button>';
+        var el = document.getElementById('accuracy-stats');
+        if (el) {
+          el.innerHTML = html;
+          var btn = document.getElementById('btn-refresh-accuracy');
+          if (btn) btn.addEventListener('click', function() {
+            btn.textContent = '更新中…';
+            btn.disabled = true;
+            loadAccuracyStats();
+          });
+        }
+      }
+      function loadAccuracyStats() {
+        var el = document.getElementById('accuracy-stats');
+        if (!el) return;
+        Promise.all([
+          fetch('/predictions/accuracy').then(function(r) { return r.json(); }),
+          fetch('/predictions/accuracy?year=2026').then(function(r) { return r.json(); })
+        ]).then(function(results) {
+          renderAccuracyBlock(results[0], results[1]);
+        }).catch(function() {
+          el.innerHTML = '<span class="label">命中率</span><span style="color:var(--muted)">加载失败</span>';
+        });
+      }
+
+      function render(date) {
+        currentDate = date;
+        dateDisplay.textContent = date;
+        if (dateInput) dateInput.value = date;
+        tbody.innerHTML = '<tr><td colspan="10" style="text-align:center;padding:1.5rem;color:var(--muted)">加载中…</td></tr>';
+        loadPredictions(date, function(items, data) {
+          tbody.innerHTML = '';
+          if (!items || items.length === 0) {
+            var qDate = (data && data.date_filter) ? data.date_filter : date;
+            var msg = qDate + ' 无比赛或暂无数据。请确认：① MongoDB 已启动且 .env 中 MONGO_URI 正确；② 历史赛程已用 main.py ingest-api-history 拉取；③ 未来日期（如今天及以后）请先运行 main.py ingest-api-upcoming --seasons 2025,2026 拉取未开赛场次。部分工作日可能无五大联赛场次，可尝试切换至周末日期查看。';
+            tbody.innerHTML = '<tr><td colspan="10" style="text-align:center;padding:1.5rem;color:var(--muted);line-height:1.6">' + escapeHtml(msg) + '</td></tr>';
+            return;
+          }
+          items.forEach(function(m, i) {
+          var actual = (m.actual_home_score != null && m.actual_away_score != null)
+            ? m.actual_home_score + ' - ' + m.actual_away_score : '—';
+          if (actual !== '—' && m.half_home != null && m.half_away != null) {
+            actual = actual + ' (半场 ' + m.half_home + '-' + m.half_away + ')';
+          }
+          function predResultToText(result, scores) {
+            if (result == null || result === '') return '—';
+            var t = resultToDisplay(result);
+            if (scores && scores.length && scores[0] && scores[0].length >= 2) {
+              t = t + ' ' + scores[0][0] + '-' + scores[0][1];
+            }
+            return t;
+          }
+          var fusedText = predResultToText(m.predicted_result, m.predicted_scores);
+          var modelText = (m.model_predicted_result != null && m.model_predicted_result !== '') ? predResultToText(m.model_predicted_result, m.model_predicted_scores) : '—';
+          var apiText = '—';
+          if (m.api_predicted_result != null && m.api_predicted_result !== '') {
+            apiText = resultToDisplay(m.api_predicted_result);
+            if (m.api_predicted_scores && m.api_predicted_scores.length && m.api_predicted_scores[0] && m.api_predicted_scores[0].length >= 2) {
+              apiText = apiText + ' ' + m.api_predicted_scores[0][0] + '-' + m.api_predicted_scores[0][1];
+            }
+          }
+
+          var isFuture = (m.actual_home_score == null && m.actual_away_score == null);
+          var opCell = isFuture && m.match_id
+            ? '<td class="op-cell"><button type="button" class="btn-repredict" data-match-id="' + escapeHtml(String(m.match_id)) + '" title="拉取积分榜/赔率/阵容并重新预测">重新预测</button></td>'
+            : '<td class="op-cell"></td>';
+          var rqCell = '—';
+          if (m.rqspf_handicap != null && m.rqspf_handicap !== '') {
+            var hc = Number(m.rqspf_handicap);
+            rqCell = (hc > 0 ? '+' + hc : String(hc));
+            if (m.rqspf_handicap_source === 'model') {
+              rqCell += ' <span class="handicap-model-hint" title="暂无体彩/官网让球数据，此为模型按期望进球差推算">(模型)</span>';
+            }
+            if (m.predicted_rqspf) {
+              rqCell += ' ' + rqspfToDisplay(m.predicted_rqspf, m.rqspf_handicap);
+            }
+          }
+          var tr = document.createElement('tr');
+          tr.className = 'match-row';
+          tr.dataset.index = i;
+          tr.innerHTML =
+            '<td class="toggle-icon">展开</td>' +
+            '<td>' + escapeHtml(m.home_team || '—') + '</td>' +
+            '<td>' + escapeHtml(m.away_team || '—') + '</td>' +
+            '<td>' + escapeHtml(m.competition_display || m.competition || '—') + '</td>' +
+            '<td>' + escapeHtml(modelText) + '</td>' +
+            '<td>' + escapeHtml(apiText) + '</td>' +
+            '<td>' + escapeHtml(fusedText) + '</td>' +
+            '<td>' + escapeHtml(rqCell) + '</td>' +
+            '<td>' + escapeHtml(actual) + '</td>' +
+            opCell;
+
+          var trDetail = document.createElement('tr');
+          trDetail.className = 'detail-row';
+          trDetail.dataset.index = i;
+          var td = document.createElement('td');
+          td.colSpan = 10;
+          td.innerHTML = buildDetailHtml(m);
+          trDetail.appendChild(td);
+
+          tr.addEventListener('click', function() {
+            var isOpen = trDetail.classList.contains('open');
+            tbody.querySelectorAll('.detail-row.open').forEach(function(row) { row.classList.remove('open'); });
+            tbody.querySelectorAll('.match-row.expanded').forEach(function(row) { row.classList.remove('expanded'); });
+            if (!isOpen) {
+              trDetail.classList.add('open');
+              tr.classList.add('expanded');
+            }
+          });
+
+          tbody.appendChild(tr);
+          tbody.appendChild(trDetail);
+          });
+        });
+      }
+
+      btnPrev.addEventListener('click', function() {
+        render(addDays(currentDate, -1));
+      });
+      btnNext.addEventListener('click', function() {
+        render(addDays(currentDate, 1));
+      });
+      if (dateInput) {
+        dateInput.addEventListener('change', function() {
+          var v = (dateInput.value || '').trim().slice(0, 10);
+          if (v.length === 10) render(v);
+        });
+      }
+
+      var btnScoreBackfill = document.getElementById('btn-score-backfill');
+      if (btnScoreBackfill) {
+        btnScoreBackfill.addEventListener('click', function() {
+          btnScoreBackfill.disabled = true;
+          btnScoreBackfill.textContent = '回填中…';
+          fetch('/predictions/score-backfill', { method: 'POST' })
+            .then(function(r) {
+              return r.json().then(function(res) {
+                if (!r.ok) throw new Error(res.detail || res.message || '比分回填失败');
+                return res;
+              });
+            })
+            .then(function(res) {
+              btnScoreBackfill.disabled = false;
+              btnScoreBackfill.textContent = '比分回填';
+              var msg = res.message || ('回填完成：新增预测 ' + (res.added_predictions || 0) + ' 条，回填比分 ' + (res.updated_log || 0) + ' 条。');
+              alert(msg);
+              loadPredictions(currentDate, function() { render(currentDate); });
+              loadAccuracyStats();
+            })
+            .catch(function(e) {
+              btnScoreBackfill.disabled = false;
+              btnScoreBackfill.textContent = '比分回填';
+              alert(e && e.message ? e.message : '请求失败');
+            });
+        });
+      }
+
+      render(todayStr());
+      loadAccuracyStats();
+    })();
+  </script>
+</body>
+</html>

@@ -1,0 +1,15 @@
+# MongoDB 本地数据目录
+data/mongodb_football/
+
+# 大型数据文件
+data/api_football_statistics.json
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# 系统文件
+.DS_Store

@@ -1,0 +1,62 @@
+[
+  {
+    "league": "澳超",
+    "n": 53,
+    "outcome_correct": 15,
+    "outcome_accuracy": 0.2830188679245283
+  },
+  {
+    "league": "亚洲杯23",
+    "n": 21,
+    "outcome_correct": 6,
+    "outcome_accuracy": 0.2857142857142857
+  },
+  {
+    "league": "荷甲",
+    "n": 44,
+    "outcome_correct": 17,
+    "outcome_accuracy": 0.38636363636363635
+  },
+  {
+    "league": "英超",
+    "n": 68,
+    "outcome_correct": 27,
+    "outcome_accuracy": 0.39705882352941174
+  },
+  {
+    "league": "德乙",
+    "n": 35,
+    "outcome_correct": 15,
+    "outcome_accuracy": 0.42857142857142855
+  },
+  {
+    "league": "法甲",
+    "n": 27,
+    "outcome_correct": 12,
+    "outcome_accuracy": 0.4444444444444444
+  },
+  {
+    "league": "英冠",
+    "n": 58,
+    "outcome_correct": 26,
+    "outcome_accuracy": 0.4482758620689655
+  },
+  {
+    "league": "沙职",
+    "n": 46,
+    "outcome_correct": 24,
+    "outcome_accuracy": 0.5217391304347826
+  },
+  {
+    "league": "德甲",
+    "n": 71,
+    "outcome_correct": 38,
+    "outcome_accuracy": 0.5352112676056338
+  },
+  {
+    "league": "意甲",
+    "n": 70,
+    "outcome_correct": 38,
+    "outcome_accuracy": 0.5428571428571428
+  }
+]

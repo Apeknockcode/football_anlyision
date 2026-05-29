@@ -1,0 +1,27 @@
+[2026-03-28 22:15:54] ========== daily.sh 开始 ==========
+[2026-03-28 22:15:54] 今日: 2026-03-28  昨日: 2026-03-27
+[2026-03-28 22:15:54] Step 1: 今日竞彩场次与预测 daily-jingcai --date 2026-03-28
+比赛日 2026-03-29（列表日 2026-03-28）五大联赛暂无未开赛场次。
+[2026-03-28 22:17:20] Step 1 完成
+[2026-03-28 22:17:20] Step 2: auto-accumulate-log 昨日/今日/明日（从 DB 积累）
+auto-accumulate-log：处理 0 场（来自 DB）；新增预测 0 条，回填比分 0 条。
+建议每日执行一次（如 cron 0 9 * * *），并确保 ingest 等 API 已回填赛果。
+[2026-03-28 22:17:21] Step 2 完成
+[2026-03-28 22:17:21] Step 3: 伤停(API) 当日增量 --date 2026-03-28 --merge
+API-FOOTBALL: 使用 key 1/1 (末4位 …5748)
+伤停已更新：共 0 场（五大联赛 0 场），已保存至 DB（Mongo）
+[2026-03-28 22:17:37] Step 3 完成
+[2026-03-28 22:17:37] Step 4: suggest-improvements
+【数据积累】
+  当前 DB 已完赛预测 0 场，prediction_log 已填比分 0 条。
+  建议多跑 auto-accumulate-log 或 prediction-log add + set-result 积累数据，待 DB≥30 且/或 log≥20 后再跑 refresh-models。
+
+【API 预测融合】
+  已开启 API 预测融合。权重 PREDICT_API_PREDICTIONS_WEIGHT 可在 .env 中微调（如 0.2～0.3）。
+
+【联赛级调参建议】
+  按联赛拆解后暂无「明显低于整体」的联赛（或样本不足）。可随时运行:
+  python main.py predict-eval --by-competition && python main.py prediction-log recap --from-db --by-competition
+  查看各联赛准确率与 MAE，再在 data/predict_league_params.json 中针对性微调。
+[2026-03-28 22:17:38] Step 4 完成
+[2026-03-28 22:17:38] ========== daily.sh 结束 ==========

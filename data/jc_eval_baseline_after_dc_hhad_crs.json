@@ -1,0 +1,123 @@
+{
+  "range_label": "全量",
+  "date_from": null,
+  "date_to": null,
+  "year": null,
+  "export_timestamp": "2026-03-25T23:35:26.472399Z",
+  "n": 18107,
+  "outcome_correct": 8329,
+  "outcome_accuracy": 0.4599878500027614,
+  "exact_score_correct": 1702,
+  "exact_score_accuracy": 0.09399679681890981,
+  "single_rec_ok": 9976,
+  "single_rec_n": 18107,
+  "single_rec_accuracy": 0.5509471475120119,
+  "n_high_conf": 14940,
+  "outcome_correct_high_conf": 7235,
+  "outcome_accuracy_high_conf": 0.4842704149933066,
+  "by_single_rec_tier": [
+    {
+      "threshold": 0.5,
+      "n": 18099,
+      "correct": 9972,
+      "accuracy": 0.5509696668324217
+    },
+    {
+      "threshold": 0.55,
+      "n": 18079,
+      "correct": 9962,
+      "accuracy": 0.551026052325903
+    },
+    {
+      "threshold": 0.6,
+      "n": 17128,
+      "correct": 9440,
+      "accuracy": 0.5511443250817375
+    },
+    {
+      "threshold": 0.65,
+      "n": 9867,
+      "correct": 5446,
+      "accuracy": 0.551940812810378
+    },
+    {
+      "threshold": 0.7,
+      "n": 2067,
+      "correct": 1102,
+      "accuracy": 0.5331398161586841
+    },
+    {
+      "threshold": 0.72,
+      "n": 1682,
+      "correct": 826,
+      "accuracy": 0.49108204518430437
+    },
+    {
+      "threshold": 0.75,
+      "n": 1536,
+      "correct": 720,
+      "accuracy": 0.46875
+    }
+  ],
+  "by_confidence_tier": [
+    {
+      "threshold": 0.5,
+      "n": 12542,
+      "correct": 6403,
+      "accuracy": 0.5105246372189444
+    },
+    {
+      "threshold": 0.55,
+      "n": 9911,
+      "correct": 5403,
+      "accuracy": 0.5451518514781556
+    },
+    {
+      "threshold": 0.6,
+      "n": 6402,
+      "correct": 3812,
+      "accuracy": 0.5954389253358325
+    },
+    {
+      "threshold": 0.65,
+      "n": 3408,
+      "correct": 2265,
+      "accuracy": 0.664612676056338
+    },
+    {
+      "threshold": 0.7,
+      "n": 880,
+      "correct": 657,
+      "accuracy": 0.7465909090909091
+    },
+    {
+      "threshold": 0.72,
+      "n": 323,
+      "correct": 252,
+      "accuracy": 0.7801857585139319
+    },
+    {
+      "threshold": 0.75,
+      "n": 100,
+      "correct": 79,
+      "accuracy": 0.79
+    }
+  ],
+  "n_rq": 18064,
+  "rq_ok_odds": 9279,
+  "rq_accuracy_odds": 0.5136736049601417,
+  "rq_ok_model": 6407,
+  "rq_accuracy_model": 0.3546833480956599,
+  "n_rq_jc_rqspf": 16400,
+  "rq_ok_jc_rqspf": 8239,
+  "rq_accuracy_jc_rqspf": 0.5023780487804878,
+  "ext_zjqs_n": 17188,
+  "ext_zjqs_ok": 4054,
+  "ext_zjqs_accuracy": 0.23586222946241564,
+  "ext_bf_n": 17188,
+  "ext_bf_ok": 1991,
+  "ext_bf_accuracy": 0.11583663020712125,
+  "ext_bqc_n": 0,
+  "ext_bqc_ok": 0,
+  "ext_bqc_accuracy": 0.0
+}

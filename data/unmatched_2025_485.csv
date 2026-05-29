@@ -1,0 +1,486 @@
+sporttery_match_id,jc_date,match_date,home_cn,away_cn,home_en,away_en,league
+2036494,2025-12-31,2025-12-31,达曼协定,利雅胜利,Al Ettifaq,Al Nassr,沙职
+2036495,2025-12-31,2025-12-31,奈季沟渠,达马克,Najran SC,Damac,沙职
+2036503,2025-12-31,2025-12-31,新未来SC,吉达联合,NEOM SC,Al Ittihad,沙职
+1029140,2025-01-02,2025-01-02,桑德兰,谢菲联,Sunderland,Sheffield United,英冠
+1029212,2025-01-04,2025-01-04,摩雷伦斯,阿维SAD,Moreirense,Desportivo Aves,葡超
+1029209,2025-01-04,2025-01-04,沃特福德,谢菲联,Watford,Sheffield United,英冠
+1029173,2025-01-04,2025-01-04,葡国民,波尔图,Nacional,FC Porto,葡超
+1029282,2025-01-10,2025-01-10,谢菲联,加的夫城,Sheffield United,Cardiff City,英足总杯
+1029364,2025-01-12,2025-01-12,门兴,拜仁,Borussia Monchengladbach,Bayern Munich,德甲
+1029451,2025-01-16,2025-01-16,拜仁,霍芬海姆,Bayern Munich,1899 Hoffenheim,德甲
+1029530,2025-01-18,2025-01-18,拜仁,沃夫斯堡,Bayern Munich,VfL Wolfsburg,德甲
+1029613,2025-01-22,2025-01-22,贝红星,埃因霍温,Red Star Belgrade,PSV Eindhoven,欧冠
+1029609,2025-01-22,2025-01-22,斯旺西,谢菲联,Swansea City,Sheffield United,英冠
+1029622,2025-01-23,2025-01-23,费耶诺德,拜仁,Feyenoord,Bayern Munich,欧冠
+1029679,2025-01-25,2025-01-25,弗赖堡,拜仁,SC Freiburg,Bayern Munich,德甲
+1029674,2025-01-25,2025-01-25,科隆,埃沃斯堡,1. FC Köln,Erzgebirge Aue,德乙
+1029666,2025-01-25,2025-01-25,谢菲联,赫尔城,Sheffield United,Hull City,英冠
+1029756,2025-02-08,2025-02-08,拜仁,不来梅,Bayern Munich,Werder Bremen,德甲
+1029844,2025-02-11,2025-02-11,山东泰山,光州FC,Shandong Taishan,Gwangju FC,亚冠精英
+1029843,2025-02-11,2025-02-11,神户胜利,上海海港,Vissel Kobe,Shanghai Port,亚冠精英
+1029841,2025-02-11,2025-02-11,中央海岸,柔佛,Central Coast Mariners,Johor Darul Ta'zim,亚冠精英
+1029864,2025-02-12,2025-02-12,中国20,卡塔尔20,China U20,Qatar U20,国际赛
+1029855,2025-02-13,2025-02-13,凯尔特人,拜仁,Celtic,Bayern Munich,欧冠
+1029859,2025-02-14,2025-02-14,圣吉联合,阿贾克斯,Union Saint-Gilloise,Ajax,欧罗巴
+1029934,2025-02-15,2025-02-15,吉尔吉20,中国20,Kyrgyzstan U20,China U20,国际赛
+1029916,2025-02-16,2025-02-16,全北现代,金泉尚武,Jeonbuk Hyundai,Gimcheon Sangmu,韩职
+1029912,2025-02-16,2025-02-16,勒沃库森,拜仁,Bayer Leverkusen,Bayern Munich,德甲
+1029937,2025-02-17,2025-02-17,泰国20,韩国20,Thailand U20,South Korea U20,国际赛
+1029945,2025-02-19,2025-02-19,上海海港,横滨水手,Shanghai Port,Yokohama F. Marinos,亚冠精英
+1029944,2025-02-19,2025-02-19,蔚山现代,山东泰山,Ulsan Hyundai,Shandong Taishan,亚冠精英
+1029943,2025-02-19,2025-02-19,拜仁,凯尔特人,Bayern Munich,Celtic,欧冠
+1029951,2025-02-20,2025-02-20,日本20,韩国20,Japan U20,South Korea U20,国际赛
+1029956,2025-02-21,2025-02-21,阿贾克斯,圣吉联合,Ajax,Union Saint-Gilloise,欧罗巴
+2029991,2025-02-22,2025-02-22,沙特20,中国20,Saudi Arabia U20,China U20,国际赛
+2030016,2025-02-23,2025-02-23,全北现代,光州FC,Jeonbuk Hyundai,Gwangju FC,韩职
+2030035,2025-02-24,2025-02-24,洛城银河,圣迭戈FC,LA Galaxy,San Diego FC,美职
+2030029,2025-02-24,2025-02-24,拜仁,法兰克福,Bayern Munich,Eintracht Frankfurt,德甲
+2030090,2025-02-26,2025-02-26,沙特20,韩国20,Saudi Arabia U20,South Korea U20,国际赛
+2030137,2025-03-01,2025-03-01,蔚山现代,全北现代,Ulsan Hyundai,Jeonbuk Hyundai,韩职
+2030114,2025-03-01,2025-03-01,斯图加特,拜仁,VfB Stuttgart,Bayern Munich,德甲
+2030165,2025-03-02,2025-03-02,大田市民,水原FC,Daejeon Hana Citizen,Suwon FC,韩职
+2030226,2025-03-04,2025-03-04,布里兰,柔佛,Buriram United,Johor Darul Ta'zim,亚冠精英
+2030225,2025-03-04,2025-03-04,上海海港,横滨水手,Shanghai Port,Yokohama F. Marinos,亚冠精英
+2030190,2025-03-04,2025-03-04,比利亚雷,西班牙人,Villarreal,Espanyol,西甲
+2030187,2025-03-04,2025-03-04,迪拜连接,多哈萨德,Al Wasl,Al Sadd,亚冠精英
+2030229,2025-03-05,2025-03-05,赖扬,吉达国民,Al Rayyan,Al Ahli,亚冠精英
+2030227,2025-03-05,2025-03-05,棉农,利雅新月,Pakhtakor,Al Hilal,亚冠精英
+2030238,2025-03-06,2025-03-06,拜仁,勒沃库森,Bayern Munich,Bayer Leverkusen,欧冠
+2030243,2025-03-07,2025-03-07,莫尔德,华沙军团,Molde,Legia Warsaw,欧协联
+2030241,2025-03-07,2025-03-07,费内巴切,流浪者,Fenerbahce,Rangers,欧罗巴
+2030310,2025-03-08,2025-03-08,拜仁,波鸿,Bayern Munich,Vfl Bochum,德甲
+2030301,2025-03-08,2025-03-08,大邱FC,大田市民,Daegu FC,Daejeon Hana Citizen,韩职
+2030278,2025-03-08,2025-03-08,凯泽,埃沃斯堡,1. FC Kaiserslautern,Erzgebirge Aue,德乙
+2030333,2025-03-09,2025-03-09,全北现代,江原FC,Jeonbuk Hyundai,Gangwon FC,韩职
+2030325,2025-03-09,2025-03-09,巴萨,奥萨苏纳,FC Barcelona,Osasuna,西甲
+2030401,2025-03-11,2025-03-11,柔佛,布里兰,Johor Darul Ta'zim,Buriram United,亚冠精英
+2030400,2025-03-11,2025-03-11,横滨水手,上海海港,Yokohama F. Marinos,Shanghai Port,亚冠精英
+2030409,2025-03-12,2025-03-12,谢菲联,布城,Sheffield United,Bristol City,英冠
+2030407,2025-03-12,2025-03-12,勒沃库森,拜仁,Bayer Leverkusen,Bayern Munich,欧冠
+2030405,2025-03-12,2025-03-12,吉达国民,赖扬,Al Ahli,Al Rayyan,亚冠精英
+2030404,2025-03-12,2025-03-12,利雅新月,棉农,Al Hilal,Pakhtakor,亚冠精英
+2030426,2025-03-14,2025-03-14,华沙军团,莫尔德,Legia Warsaw,Molde,欧协联
+2030423,2025-03-14,2025-03-14,流浪者,费内巴切,Rangers,Fenerbahce,欧罗巴
+2030486,2025-03-15,2025-03-15,柏林联合,拜仁,Union Berlin,Bayern Munich,德甲
+2030516,2025-03-16,2025-03-16,谢周三,谢菲联,Sheffield Wednesday,Sheffield United,英冠
+2030513,2025-03-16,2025-03-16,全北现代,浦项制铁,Jeonbuk Hyundai,Pohang Steelers,韩职
+2030585,2025-03-21,2025-03-21,保加利亚,爱尔兰,Bulgaria,Republic of Ireland,欧国联
+2030582,2025-03-21,2025-03-21,土耳其,匈牙利,Turkey,Hungary,欧国联
+2030624,2025-03-22,2025-03-22,罗马尼亚,波黑,Romania,Bosnia and Herzegovina,世预赛
+2030644,2025-03-23,2025-03-23,芬洛,埃因FC,VVV-Venlo,FC Eindhoven,荷乙
+2030658,2025-03-24,2025-03-24,爱尔兰,保加利亚,Republic of Ireland,Bulgaria,欧国联
+2030657,2025-03-24,2025-03-24,匈牙利,土耳其,Hungary,Turkey,欧国联
+2030665,2025-03-25,2025-03-25,波黑,塞浦路斯,Bosnia and Herzegovina,Cyprus,世预赛
+2030713,2025-03-26,2025-03-26,今治FC,德岛漩涡,FC Imabari,Tokushima Vortis,日联赛杯
+2030703,2025-03-26,2025-03-26,北马其顿,威尔士,North Macedonia,Wales,世预赛
+2030786,2025-03-29,2025-03-29,拜仁,圣保利,Bayern Munich,FC St. Pauli,德甲
+2030745,2025-03-29,2025-03-29,谢菲联,考文垂,Sheffield United,Coventry City,英冠
+2030740,2025-03-29,2025-03-29,汉堡,埃沃斯堡,Hamburger SV,Erzgebirge Aue,德乙
+2030823,2025-03-30,2025-03-30,法马利康,阿维SAD,Famalicao,Desportivo Aves,葡超
+2030810,2025-03-30,2025-03-30,安养FC,全北现代,FC Anyang,Jeonbuk Hyundai,韩职
+2030795,2025-03-30,2025-03-30,腓特烈,布兰,Brondby,Brann,挪超
+2030879,2025-04-01,2025-04-01,蔚山现代,大田市民,Ulsan Hyundai,Daejeon Hana Citizen,韩职
+2030934,2025-04-05,2025-04-05,奥格斯堡,拜仁,FC Augsburg,Bayern Munich,德甲
+2030975,2025-04-06,2025-04-06,罗森博格,腓特烈,Rosenborg,Brondby,挪超
+2031050,2025-04-09,2025-04-09,拜仁,国际米兰,Bayern Munich,Inter,欧冠
+2031049,2025-04-09,2025-04-09,谢菲联,米尔沃尔,Sheffield United,Millwall,英冠
+2031059,2025-04-10,2025-04-10,腓特烈,瓦勒伦加,Brondby,Valerenga,挪超
+2031064,2025-04-11,2025-04-11,华沙军团,切尔西,Legia Warsaw,Chelsea,欧协联
+2031165,2025-04-13,2025-04-13,全北现代,济州SK,Jeonbuk Hyundai,Jeju United,韩职
+2031153,2025-04-13,2025-04-13,拜仁,多特蒙德,Bayern Munich,Borussia Dortmund,德甲
+2031185,2025-04-14,2025-04-14,布拉加,阿维SAD,Braga,Desportivo Aves,葡超
+2031188,2025-04-15,2025-04-15,哈尔姆斯,厄斯特什,Halmstad,Ostersunds FK,瑞超
+2031221,2025-04-17,2025-04-17,国际米兰,拜仁,Inter,Bayern Munich,欧冠
+2031228,2025-04-18,2025-04-18,切尔西,华沙军团,Chelsea,Legia Warsaw,欧协联
+2031254,2025-04-19,2025-04-19,海登海姆,拜仁,FC Heidenheim,Bayern Munich,德甲
+2031238,2025-04-19,2025-04-19,谢菲联,加的夫城,Sheffield United,Cardiff City,英冠
+2031475,2025-04-30,2025-04-30,利雅新月,吉达国民,Al Hilal,Al Ahli,亚冠精英
+2031465,2025-04-30,2025-04-30,马尔默,厄斯特什,Malmo FF,Ostersunds FK,瑞超
+2031440,2025-04-29,2025-04-29,芬洛,格拉夫,VVV-Venlo,De Graafschap,荷乙
+2031299,2025-04-21,2025-04-21,卡利亚里,佛罗伦萨,Cagliari,Fiorentina,意甲
+2031296,2025-04-21,2025-04-21,都灵,乌迪内斯,Torino,Udinese,意甲
+2031302,2025-04-22,2025-04-22,伯恩利,谢菲联,Burnley,Sheffield United,英冠
+2031380,2025-04-26,2025-04-26,拜仁,美因茨,Bayern Munich,FSV Mainz 05,德甲
+2031358,2025-04-26,2025-04-26,利雅新月,光州FC,Al Hilal,Gwangju FC,亚冠精英
+2031393,2025-04-27,2025-04-27,吉达国民,布里兰,Al Ahli,Buriram United,亚冠精英
+2031437,2025-04-28,2025-04-28,洛城银河,波特兰,LA Galaxy,Portland Timbers,美职
+2031476,2025-05-01,2025-05-01,利雅胜利,川崎前锋,Al Nassr,Kawasaki Frontale,亚冠精英
+2031526,2025-05-03,2025-05-03,莱红牛,拜仁,RB Leipzig,Bayern Munich,德甲
+2031496,2025-05-03,2025-05-03,汉坎,奥斯KFUM,HamKam,KFUM Oslo,挪超
+2031565,2025-05-04,2025-05-04,厄斯特什,哈马比,Ostersunds FK,Hammarby,瑞超
+2031553,2025-05-04,2025-05-04,纽伦堡,埃沃斯堡,Nurnberg,Erzgebirge Aue,德乙
+2031534,2025-05-04,2025-05-04,吉达国民,川崎前锋,Al Ahli,Kawasaki Frontale,亚冠精英
+2031583,2025-05-05,2025-05-05,堪萨斯城,洛城银河,Sporting Kansas City,LA Galaxy,美职
+2031591,2025-05-06,2025-05-06,阿维SAD,博阿维斯,Desportivo Aves,Boavista,葡超
+2031616,2025-05-09,2025-05-09,布城,谢菲联,Bristol City,Sheffield United,英冠
+2031683,2025-05-11,2025-05-11,克里斯蒂,腓特烈,Kristiansund,Brondby,挪超
+2031667,2025-05-11,2025-05-11,光州FC,全北现代,Gwangju FC,Jeonbuk Hyundai,韩职
+2031665,2025-05-11,2025-05-11,纽约红牛,洛城银河,New York Red Bulls,LA Galaxy,美职
+2031653,2025-05-11,2025-05-11,拜仁,门兴,Bayern Munich,Borussia Monchengladbach,德甲
+2031697,2025-05-13,2025-05-13,谢菲联,布城,Sheffield United,Bristol City,英冠
+2031722,2025-05-14,2025-05-14,大田市民,全北现代,Daejeon Hana Citizen,Jeonbuk Hyundai,韩国杯
+2031758,2025-05-17,2025-05-17,瓦勒伦加,汉坎,Valerenga,HamKam,挪超
+2031749,2025-05-17,2025-05-17,腓特烈,奥斯KFUM,Brondby,KFUM Oslo,挪超
+2031806,2025-05-18,2025-05-18,厄斯特什,盖斯,Ostersunds FK,GAIS,瑞超
+2031803,2025-05-18,2025-05-18,沙尔克04,埃沃斯堡,Schalke 04,Erzgebirge Aue,德乙
+2031775,2025-05-18,2025-05-18,阿维SAD,摩雷伦斯,Desportivo Aves,Moreirense,葡超
+2031875,2025-05-23,2025-05-23,济州SK,全北现代,Jeju United,Jeonbuk Hyundai,韩职
+2031865,2025-05-23,2025-05-23,海登海姆,埃沃斯堡,FC Heidenheim,Erzgebirge Aue,德甲
+2031892,2025-05-24,2025-05-24,布莱尼,腓特烈,Bryne,Brondby,挪超
+2031891,2025-05-24,2025-05-24,谢菲联,桑德兰,Sheffield United,Sunderland,英冠
+2031890,2025-05-24,2025-05-24,韦纳穆,厄斯特什,IFK Varnamo,Ostersunds FK,瑞超
+2031921,2025-05-25,2025-05-25,汉坎,莫尔德,HamKam,Molde,挪超
+2031907,2025-05-25,2025-05-25,圣迭戈FC,洛城银河,San Diego FC,LA Galaxy,美职
+2031901,2025-05-25,2025-05-25,阿维SAD,维兹拉,Desportivo Aves,Vizela,葡超
+2031969,2025-05-27,2025-05-27,大田市民,浦项制铁,Daejeon Hana Citizen,Pohang Steelers,韩职
+2031968,2025-05-27,2025-05-27,大邱FC,全北现代,Daegu FC,Jeonbuk Hyundai,韩职
+2031946,2025-05-27,2025-05-27,埃沃斯堡,海登海姆,Erzgebirge Aue,FC Heidenheim,德甲
+2031974,2025-05-29,2025-05-29,腓特烈,罗森博格,Brondby,Rosenborg,挪超
+2032028,2025-05-31,2025-05-31,斯特罗姆,汉坎,Stromsgodset,HamKam,挪超
+2032026,2025-05-31,2025-05-31,代格福什,厄斯特什,Degerfors,Ostersunds FK,瑞超
+2032024,2025-05-31,2025-05-31,全北现代,蔚山现代,Jeonbuk Hyundai,Ulsan Hyundai,韩职
+2032023,2025-05-31,2025-05-31,安养FC,大田市民,FC Anyang,Daejeon Hana Citizen,韩职
+2032052,2025-06-01,2025-06-01,腓特烈,萨普斯堡,Brondby,Sarpsborg 08,挪超
+2032041,2025-06-01,2025-06-01,洛城银河,盐湖城,LA Galaxy,Real Salt Lake,美职
+2032060,2025-06-02,2025-06-02,维兹拉,阿维SAD,Vizela,Desportivo Aves,葡超
+2032105,2025-06-07,2025-06-07,波黑,圣马力诺,Bosnia and Herzegovina,San Marino,世预赛
+2032095,2025-06-07,2025-06-07,北马其顿,比利时,North Macedonia,Belgium,世预赛
+2032120,2025-06-09,2025-06-09,哈萨克,北马其顿,Kazakhstan,North Macedonia,世预赛
+2032158,2025-06-12,2025-06-12,意大利21,罗马尼21,Italy U21,AS Roma,欧锦赛21
+2032174,2025-06-13,2025-06-13,江原FC,全北现代,Gangwon FC,Jeonbuk Hyundai,韩职
+2032209,2025-06-16,2025-06-16,拜仁,奥克兰城,Bayern Munich,Auckland City,俱世界杯
+2032235,2025-06-17,2025-06-17,全北现代,水原FC,Jeonbuk Hyundai,Suwon FC,韩职
+2032221,2025-06-17,2025-06-17,弗拉门戈,突希望,Flamengo,Esperance Tunis,俱世界杯
+2032248,2025-06-18,2025-06-18,大田市民,金泉尚武,Daejeon Hana Citizen,Gimcheon Sangmu,韩职
+2032244,2025-06-18,2025-06-18,库拉索,萨尔瓦多,Curacao,El Salvador,金杯赛
+2032241,2025-06-18,2025-06-18,罗马尼21,斯洛伐21,AS Roma,Slovakia U21,欧锦赛21
+2032252,2025-06-19,2025-06-19,皇马,利雅新月,Real Madrid,Al Hilal,俱世界杯
+2032249,2025-06-19,2025-06-19,曼城,卡萨热爱,Manchester City,Raja Casablanca,俱世界杯
+2032300,2025-06-21,2025-06-21,全北现代,首尔FC,Jeonbuk Hyundai,FC Seoul,韩职
+2032280,2025-06-21,2025-06-21,拜仁,博卡,Bayern Munich,Boca Juniors,俱世界杯
+2032278,2025-06-21,2025-06-21,洛杉矶FC,突希望,Los Angeles FC,Esperance Tunis,俱世界杯
+2032320,2025-06-22,2025-06-22,汉坎,特罗姆瑟,HamKam,Tromso,挪超
+2032307,2025-06-22,2025-06-22,库拉索,加拿大,Curacao,Canada,金杯赛
+2032327,2025-06-23,2025-06-23,萨尔茨堡,利雅新月,Red Bull Salzburg,Al Hilal,俱世界杯
+2032324,2025-06-23,2025-06-23,维京,腓特烈,Viking,Brondby,挪超
+2032322,2025-06-23,2025-06-23,尤文图斯,卡萨热爱,Juventus,Raja Casablanca,俱世界杯
+2032353,2025-06-25,2025-06-25,洪都拉斯,库拉索,Honduras,Curacao,金杯赛
+2032350,2025-06-25,2025-06-25,突希望,切尔西,Esperance Tunis,Chelsea,俱世界杯
+2032347,2025-06-25,2025-06-25,本菲卡,拜仁,Benfica,Bayern Munich,俱世界杯
+2032386,2025-06-27,2025-06-27,赫尔火花,国际图尔,Hibernian,Inter Turku,芬超
+2032385,2025-06-27,2025-06-27,金泉尚武,全北现代,Gimcheon Sangmu,Jeonbuk Hyundai,韩职
+2032384,2025-06-27,2025-06-27,大田市民,济州SK,Daejeon Hana Citizen,Jeju United,韩职
+2032371,2025-06-27,2025-06-27,利雅新月,帕丘卡,Al Hilal,Pachuca,俱世界杯
+2032370,2025-06-27,2025-06-27,卡萨热爱,阿布艾因,Raja Casablanca,Al Ain,俱世界杯
+2032434,2025-06-29,2025-06-29,腓特烈,特罗姆瑟,Brondby,Tromso,挪超
+2032432,2025-06-29,2025-06-29,布莱尼,汉坎,Bryne,HamKam,挪超
+2032422,2025-06-29,2025-06-29,圣何塞,洛城银河,San Jose Earthquakes,LA Galaxy,美职
+2032407,2025-06-29,2025-06-29,科特卡,雅罗,KTP Kotka,FC Lahti,芬超
+2032437,2025-06-30,2025-06-30,弗拉门戈,拜仁,Flamengo,Bayern Munich,俱世界杯
+2032452,2025-07-01,2025-07-01,库普斯,赫尔火花,KuPS,Hibernian,芬超
+2032446,2025-07-01,2025-07-01,曼城,利雅新月,Manchester City,Al Hilal,俱世界杯
+2032460,2025-07-02,2025-07-02,赫尔辛基,雅罗,HJK Helsinki,FC Lahti,芬超
+2032458,2025-07-02,2025-07-02,坦山猫,科特卡,Ilves,KTP Kotka,芬超
+2032457,2025-07-02,2025-07-02,首尔FC,全北现代,FC Seoul,Jeonbuk Hyundai,韩国杯
+2032486,2025-07-05,2025-07-05,厄斯特什,米亚尔比,Ostersunds FK,Mjallby,瑞超
+2032485,2025-07-05,2025-07-05,汉坎,布兰,HamKam,Brann,挪超
+2032476,2025-07-05,2025-07-05,洛城银河,温哥华,LA Galaxy,Vancouver Whitecaps,美职
+2032512,2025-07-06,2025-07-06,雅罗,玛丽港,FC Lahti,IFK Mariehamn,芬超
+2032492,2025-07-06,2025-07-06,瓦勒伦加,腓特烈,Valerenga,Brondby,挪超
+2032491,2025-07-06,2025-07-06,巴黎圣曼,拜仁,Paris Saint Germain,Bayern Munich,俱世界杯
+2032519,2025-07-07,2025-07-07,科特卡,赫尔火花,KTP Kotka,Hibernian,芬超
+2032529,2025-07-09,2025-07-09,奥林,阿拉木图,Olympiacos Piraeus,Kairat,欧冠
+2032539,2025-07-11,2025-07-11,特斯巴达,赫根,The New Saints,Hacken,欧罗巴
+2032538,2025-07-11,2025-07-11,保克什,克卢日,Paksi,CFR Cluj,欧罗巴
+2032536,2025-07-11,2025-07-11,拉纳卡,贝游击,AEK Larnaca,Partizan Belgrade,欧罗巴
+2032560,2025-07-12,2025-07-12,国际图尔,雅罗,Inter Turku,FC Lahti,芬超
+2032584,2025-07-13,2025-07-13,AC奥卢,科特卡,AC Oulu,KTP Kotka,芬超
+2032582,2025-07-13,2025-07-13,罗森博格,汉坎,Rosenborg,HamKam,挪超
+2032577,2025-07-13,2025-07-13,赫尔火花,哈卡,Hibernian,Haka,芬超
+2032575,2025-07-13,2025-07-13,布鲁马波,厄斯特什,Brommapojkarna,Ostersunds FK,瑞超
+2032571,2025-07-13,2025-07-13,洛城银河,华盛顿,LA Galaxy,DC United,美职
+2032562,2025-07-13,2025-07-13,腓特烈,莫尔德,Brondby,Molde,挪超
+2032607,2025-07-15,2025-07-15,阿拉木图,奥林,Kairat,Olympiacos Piraeus,欧冠
+2032615,2025-07-17,2025-07-17,腓特烈,博德闪耀,Brondby,Bodo/Glimt,挪超
+2032629,2025-07-18,2025-07-18,贝游击,拉纳卡,Partizan Belgrade,AEK Larnaca,欧罗巴
+2032628,2025-07-18,2025-07-18,克卢日,保克什,CFR Cluj,Paksi,欧罗巴
+2032627,2025-07-18,2025-07-18,赫根,特斯巴达,Hacken,The New Saints,欧罗巴
+2032656,2025-07-19,2025-07-19,厄斯特什,马尔默,Ostersunds FK,Malmo FF,瑞超
+2032653,2025-07-19,2025-07-19,江原FC,大田市民,Gangwon FC,Daejeon Hana Citizen,韩职
+2032652,2025-07-19,2025-07-19,浦项制铁,全北现代,Pohang Steelers,Jeonbuk Hyundai,韩职
+2032687,2025-07-20,2025-07-20,雅罗,坦山猫,FC Lahti,Ilves,芬超
+2032681,2025-07-20,2025-07-20,塞伊奈,赫尔火花,SJK Seinajoki,Hibernian,芬超
+2032670,2025-07-20,2025-07-20,洛杉矶FC,洛城银河,Los Angeles FC,LA Galaxy,美职
+2032688,2025-07-21,2025-07-21,汉坎,腓特烈,HamKam,Brondby,挪超
+2032704,2025-07-23,2025-07-23,蔚山现代,大田市民,Ulsan Hyundai,Daejeon Hana Citizen,韩职
+2032703,2025-07-23,2025-07-23,全北现代,江原FC,Jeonbuk Hyundai,Gangwon FC,韩职
+2032699,2025-07-23,2025-07-23,里加足校,马尔默,RFS Riga,Malmo FF,欧冠
+2032710,2025-07-25,2025-07-25,索列夫,布拉加,Slovan Bratislava,Braga,欧罗巴
+2032739,2025-07-26,2025-07-26,海于格松,汉坎,Haugesund,HamKam,挪超
+2032733,2025-07-26,2025-07-26,哈卡,科特卡,Haka,KTP Kotka,芬超
+2032732,2025-07-26,2025-07-26,光州FC,全北现代,Gwangju FC,Jeonbuk Hyundai,韩职
+2032721,2025-07-26,2025-07-26,腓特烈,斯特罗姆,Brondby,Stromsgodset,挪超
+2032720,2025-07-26,2025-07-26,雅罗,瓦萨,FC Lahti,VPS Vaasa,芬超
+2032752,2025-07-27,2025-07-27,索尔纳,厄斯特什,AIK,Ostersunds FK,瑞超
+2032748,2025-07-27,2025-07-27,大田市民,首尔FC,Daejeon Hana Citizen,FC Seoul,韩职
+2032758,2025-07-29,2025-07-29,赫尔火花,赫尔辛基,Hibernian,HJK Helsinki,芬超
+2032770,2025-07-30,2025-07-30,贝红星,红色小鬼,Red Star Belgrade,Lincoln Red Imps,欧冠
+2032772,2025-07-31,2025-07-31,马尔默,里加足校,Malmo FF,RFS Riga,欧冠
+2032779,2025-08-01,2025-08-01,布拉加,索列夫,Braga,Slovan Bratislava,欧罗巴
+2032803,2025-08-02,2025-08-02,特罗姆瑟,腓特烈,Tromso,Brondby,挪超
+2032801,2025-08-02,2025-08-02,埃沃斯堡,纽伦堡,Erzgebirge Aue,Nurnberg,德乙
+2032814,2025-08-03,2025-08-03,塞伊奈,科特卡,SJK Seinajoki,KTP Kotka,芬超
+2032813,2025-08-03,2025-08-03,汉坎,博德闪耀,HamKam,Bodo/Glimt,挪超
+2032807,2025-08-03,2025-08-03,AC奥卢,雅罗,AC Oulu,FC Lahti,芬超
+2032820,2025-08-04,2025-08-04,坦山猫,赫尔火花,Ilves,Hibernian,芬超
+2032836,2025-08-07,2025-08-07,费耶诺德,费内巴切,Feyenoord,Fenerbahce,欧冠
+2032866,2025-08-08,2025-08-08,全北现代,安养FC,Jeonbuk Hyundai,FC Anyang,韩职
+2032838,2025-08-08,2025-08-08,塞萨洛,沃尔夫斯,PAOK,VfL Wolfsburg,欧罗巴
+2032837,2025-08-08,2025-08-08,克卢日,布拉加,CFR Cluj,Braga,欧罗巴
+2032842,2025-08-08,2025-08-08,腓特烈,中日德兰,Brondby,Midtjylland,欧罗巴
+2032893,2025-08-09,2025-08-09,莫尔德,汉坎,Molde,HamKam,挪超
+2032888,2025-08-09,2025-08-09,科特卡,库普斯,KTP Kotka,KuPS,芬超
+2032886,2025-08-09,2025-08-09,雅罗,哈卡,FC Lahti,Haka,芬超
+2032918,2025-08-10,2025-08-10,厄斯特什,布鲁马波,Ostersunds FK,Brommapojkarna,瑞超
+2032906,2025-08-10,2025-08-10,阿罗卡,阿维SAD,Arouca,Desportivo Aves,葡超
+2032898,2025-08-10,2025-08-10,谢菲联,布城,Sheffield United,Bristol City,英冠
+2032897,2025-08-10,2025-08-10,玛丽港,赫尔火花,IFK Mariehamn,Hibernian,芬超
+2032957,2025-08-13,2025-08-13,费内巴切,费耶诺德,Fenerbahce,Feyenoord,欧冠
+2032990,2025-08-15,2025-08-15,阿维SAD,卡萨皮亚,Desportivo Aves,Casa Pia,葡超
+2032970,2025-08-15,2025-08-15,布拉加,克卢日,Braga,CFR Cluj,欧罗巴
+2032967,2025-08-15,2025-08-15,沃尔夫斯,塞萨洛,VfL Wolfsburg,PAOK,欧罗巴
+2032966,2025-08-15,2025-08-15,中日德兰,腓特烈,Midtjylland,Brondby,欧罗巴
+2033008,2025-08-16,2025-08-16,全北现代,大邱FC,Jeonbuk Hyundai,Daegu FC,韩职
+2033025,2025-08-17,2025-08-17,斯图加特,拜仁,VfB Stuttgart,Bayern Munich,德超杯
+2033066,2025-08-19,2025-08-19,雅罗,塞伊奈,FC Lahti,SJK Seinajoki,芬超
+2033088,2025-08-20,2025-08-20,全北现代,江原FC,Jeonbuk Hyundai,Gangwon FC,韩国杯
+2033098,2025-08-20,2025-08-20,贝红星,帕福斯,Red Star Belgrade,Pafos FC,欧冠
+2033091,2025-08-21,2025-08-21,费内巴切,本菲卡,Fenerbahce,Benfica,欧冠
+2033112,2025-08-22,2025-08-22,瓦萨,科特卡,VPS Vaasa,KTP Kotka,芬超
+2033100,2025-08-22,2025-08-22,水晶宫,腓特烈,Crystal Palace,Brondby,欧协联
+2033094,2025-08-22,2025-08-22,兹林尼,乌德勒支,MSK Zilina,Utrecht,欧罗巴
+2033143,2025-08-23,2025-08-23,谢菲联,米尔沃尔,Sheffield United,Millwall,英冠
+2033116,2025-08-23,2025-08-23,拜仁,莱红牛,Bayern Munich,RB Leipzig,德甲
+2033114,2025-08-23,2025-08-23,奥斯KFUM,汉坎,KFUM Oslo,HamKam,挪超
+2033113,2025-08-23,2025-08-23,埃沃斯堡,凯泽,Erzgebirge Aue,1. FC Kaiserslautern,德乙
+2033162,2025-08-24,2025-08-24,浦项制铁,全北现代,Pohang Steelers,Jeonbuk Hyundai,韩职
+2033185,2025-08-26,2025-08-26,赫尔火花,AC奥卢,Hibernian,AC Oulu,芬超
+2033223,2025-08-27,2025-08-27,江原FC,全北现代,Gangwon FC,Jeonbuk Hyundai,韩国杯
+2033222,2025-08-27,2025-08-27,帕福斯,贝红星,Pafos FC,Red Star Belgrade,欧冠
+2033229,2025-08-28,2025-08-28,本菲卡,费内巴切,Benfica,Fenerbahce,欧冠
+2033235,2025-08-29,2025-08-29,乌德勒支,兹林尼,Utrecht,MSK Zilina,欧罗巴
+2033232,2025-08-29,2025-08-29,腓特烈,水晶宫,Brondby,Crystal Palace,欧协联
+2033284,2025-08-30,2025-08-30,蔚山现代,全北现代,Ulsan Hyundai,Jeonbuk Hyundai,韩职
+2033262,2025-08-30,2025-08-30,柏林赫塔,埃沃斯堡,Hertha Berlin,Erzgebirge Aue,德乙
+2033308,2025-08-31,2025-08-31,奥格斯堡,拜仁,FC Augsburg,Bayern Munich,德甲
+2033401,2025-09-05,2025-09-05,格鲁吉亚,土耳其,Georgia,Turkey,世预赛
+2033458,2025-09-07,2025-09-07,休斯敦,洛城银河,Houston Dynamo,LA Galaxy,美职
+2033454,2025-09-07,2025-09-07,圣马力诺,波黑,San Marino,Bosnia and Herzegovina,世预赛
+2033452,2025-09-07,2025-09-07,爱尔兰,匈牙利,Republic of Ireland,Hungary,世预赛
+2033468,2025-09-08,2025-09-08,土耳其,西班牙,Turkey,Spain,世预赛
+2033493,2025-09-10,2025-09-10,波黑,奥地利,Bosnia and Herzegovina,Austria,世预赛
+2033490,2025-09-10,2025-09-10,亚美尼亚,爱尔兰,Armenia,Republic of Ireland,世预赛
+2033552,2025-09-13,2025-09-13,赫尔火花,国际图尔,Hibernian,Inter Turku,芬超
+2033551,2025-09-13,2025-09-13,莫尔德,腓特烈,Molde,Brondby,挪超
+2033533,2025-09-13,2025-09-13,全北现代,大田市民,Jeonbuk Hyundai,Daejeon Hana Citizen,韩职
+2033520,2025-09-13,2025-09-13,伊普斯,谢菲联,Ipswich,Sheffield United,英冠
+2033558,2025-09-14,2025-09-14,拜仁,汉堡,Bayern Munich,Hamburger SV,德甲
+2033604,2025-09-16,2025-09-16,吉达国民,纳萨夫,Al Ahli,Nasaf Qarshi,亚冠精英
+2033599,2025-09-16,2025-09-16,阿布联,吉达联合,Al Jazira,Al Ittihad,亚冠精英
+2033624,2025-09-17,2025-09-17,上海海港,神户胜利,Shanghai Port,Vissel Kobe,亚冠精英
+2033623,2025-09-17,2025-09-17,蔚山现代,成都蓉城,Ulsan Hyundai,Chengdu Rongcheng,亚冠精英
+2033630,2025-09-18,2025-09-18,拜仁,切尔西,Bayern Munich,Chelsea,欧冠
+2033625,2025-09-18,2025-09-18,斯拉维亚,博德闪耀,Slavia Prague,Bodo/Glimt,欧冠
+2033685,2025-09-20,2025-09-20,霍芬海姆,拜仁,1899 Hoffenheim,Bayern Munich,德甲
+2033670,2025-09-20,2025-09-20,全北现代,金泉尚武,Jeonbuk Hyundai,Gimcheon Sangmu,韩职
+2033749,2025-09-23,2025-09-23,坦山猫,赫尔火花,Ilves,Hibernian,芬超
+2033766,2025-09-25,2025-09-25,贝红星,凯尔特人,Red Star Belgrade,Celtic,欧罗巴
+2033820,2025-09-27,2025-09-27,首尔FC,全北现代,FC Seoul,Jeonbuk Hyundai,韩职
+2033812,2025-09-27,2025-09-27,江原FC,大田市民,Gangwon FC,Daejeon Hana Citizen,韩职
+2033805,2025-09-27,2025-09-27,拜仁,不来梅,Bayern Munich,Werder Bremen,德甲
+2033870,2025-09-28,2025-09-28,汉坎,罗森博格,HamKam,Rosenborg,挪超
+2033862,2025-09-28,2025-09-28,布兰,腓特烈,Brann,Brondby,挪超
+2033883,2025-09-29,2025-09-29,纳萨夫,利雅新月,Nasaf Qarshi,Al Hilal,亚冠精英
+2033911,2025-09-30,2025-09-30,成都蓉城,江原FC,Chengdu Rongcheng,Gangwon FC,亚冠精英
+2033910,2025-09-30,2025-09-30,柔佛,町田泽维,Johor Darul Ta'zim,Machida Zelvia,亚冠精英
+2033887,2025-09-30,2025-09-30,厄斯特什,哥德堡,Ostersunds FK,IFK Goteborg,瑞超
+2033932,2025-10-01,2025-10-01,韩国20,巴拉圭20,South Korea U20,Paraguay U20,世界杯20
+2033927,2025-10-01,2025-10-01,国际米兰,斯拉维亚,Inter,Slavia Prague,欧冠
+2033969,2025-10-05,2025-10-05,腓特烈,汉坎,Brondby,HamKam,挪超
+2033946,2025-10-05,2025-10-05,浦项制铁,大田市民,Pohang Steelers,Daejeon Hana Citizen,韩职
+2033988,2025-10-08,2025-10-08,雷丁,米尔顿,Reading,MK Dons,英锦标赛
+2034013,2025-10-10,2025-10-10,摩洛哥20,韩国20,Morocco U20,South Korea U20,世界杯20
+2034000,2025-10-10,2025-10-10,塞浦路斯,波黑,Cyprus,Bosnia and Herzegovina,世预赛
+2034026,2025-10-11,2025-10-11,比利时,北马其顿,Belgium,North Macedonia,世预赛
+2034055,2025-10-12,2025-10-12,洛城银河,达拉斯,LA Galaxy,FC Dallas,美职
+2034048,2025-10-12,2025-10-12,葡萄牙,爱尔兰,Portugal,Republic of Ireland,世预赛
+2034045,2025-10-12,2025-10-12,保加利亚,土耳其,Bulgaria,Turkey,世预赛
+2034068,2025-10-14,2025-10-14,北马其顿,哈萨克,North Macedonia,Kazakhstan,世预赛
+2034092,2025-10-15,2025-10-15,爱尔兰,亚美尼亚,Republic of Ireland,Armenia,世预赛
+2034091,2025-10-15,2025-10-15,土耳其,格鲁吉亚,Turkey,Georgia,世预赛
+2034157,2025-10-18,2025-10-18,谢菲联,沃特福德,Sheffield United,Watford,英冠
+2034191,2025-10-19,2025-10-19,埃夫斯堡,厄斯特什,Elfsborg,Ostersunds FK,瑞超
+2034188,2025-10-19,2025-10-19,赫尔火花,塞伊奈,Hibernian,SJK Seinajoki,芬超
+2034178,2025-10-19,2025-10-19,埃沃斯堡,菲尔特,Erzgebirge Aue,Greuther Furth,德乙
+2034162,2025-10-19,2025-10-19,拜仁,多特蒙德,Bayern Munich,Borussia Dortmund,德甲
+2034232,2025-10-21,2025-10-21,上海海港,町田泽维,Shanghai Port,Machida Zelvia,亚冠精英
+2034230,2025-10-21,2025-10-21,成都蓉城,柔佛,Chengdu Rongcheng,Johor Darul Ta'zim,亚冠精英
+2034212,2025-10-21,2025-10-21,吉达国民,赖扬加拉,Al Ahli,Al Rayyan,亚冠精英
+2034207,2025-10-21,2025-10-21,鲁警察,吉达联合,Police Tero,Al Ittihad,亚冠精英
+2034250,2025-10-22,2025-10-22,国际图尔,赫尔火花,Inter Turku,Hibernian,芬超
+2034246,2025-10-22,2025-10-22,圣吉联合,国际米兰,Union Saint-Gilloise,Inter,欧冠
+2034238,2025-10-22,2025-10-22,布莱克本,谢菲联,Blackburn Rovers,Sheffield United,英冠
+2034233,2025-10-22,2025-10-22,迪拜国青,纳萨夫,United Arab Emirates U21,Nasaf Qarshi,亚冠精英
+2034264,2025-10-23,2025-10-23,曼谷联,狮城水手,Bangkok United,Lion City Sailors,亚冠乙
+2034262,2025-10-23,2025-10-23,亚特兰大,斯拉维亚,Atalanta,Slavia Prague,欧冠
+2034259,2025-10-23,2025-10-23,拜仁,布鲁日,Bayern Munich,Club Brugge,欧冠
+2034302,2025-10-24,2025-10-24,穆拜征服,达曼协定,Al-Fateh,Al Ettifaq,沙职
+2034273,2025-10-24,2025-10-24,欧奈纳伊,吉达国民,Al-Najma,Al Ahli,沙职
+2034270,2025-10-24,2025-10-24,费内巴切,斯图加特,Fenerbahce,VfB Stuttgart,欧罗巴
+2034265,2025-10-24,2025-10-24,布拉加,贝红星,Braga,Red Star Belgrade,欧罗巴
+2034366,2025-10-25,2025-10-25,厄斯特什,代格福什,Ostersunds FK,Degerfors,瑞超
+2034354,2025-10-25,2025-10-25,门兴,拜仁,Borussia Monchengladbach,Bayern Munich,德甲
+2034315,2025-10-25,2025-10-25,普雷斯顿,谢菲联,Preston North End,Sheffield United,英冠
+2034383,2025-10-26,2025-10-26,大田市民,浦项制铁,Daejeon Hana Citizen,Pohang Steelers,韩职
+2034480,2025-10-29,2025-10-29,芬洛,海伦芬,VVV-Venlo,Heerenveen,荷兰杯
+2034469,2025-10-29,2025-10-29,柏林赫塔,埃沃斯堡,Hertha Berlin,Erzgebirge Aue,德国杯
+2034502,2025-10-30,2025-10-30,科隆,拜仁,1. FC Köln,Bayern Munich,德国杯
+2034482,2025-10-30,2025-10-30,哈马永恒,多哈国民,Al Hamriyah,Al Arabi,亚冠乙
+2034557,2025-10-31,2025-10-31,奈季沟渠,欧奈纳伊,Najran SC,Al-Najma,沙职
+2034518,2025-10-31,2025-10-31,拉斯永恒,新未来SC,Al-Kholood,NEOM SC,沙职
+2034515,2025-10-31,2025-10-31,库普斯,赫尔火花,KuPS,Hibernian,芬超
+2034615,2025-11-01,2025-11-01,谢菲联,德比郡,Sheffield United,Derby County,英冠
+2034607,2025-11-01,2025-11-01,赛哈海湾,吉达联合,Sharjah,Al Ittihad,沙职
+2034588,2025-11-01,2025-11-01,大田市民,首尔FC,Daejeon Hana Citizen,FC Seoul,韩职
+2034561,2025-11-01,2025-11-01,埃沃斯堡,汉诺威96,Erzgebirge Aue,Hannover 96,德乙
+2034661,2025-11-02,2025-11-02,盖斯,厄斯特什,GAIS,Ostersunds FK,瑞超
+2034659,2025-11-02,2025-11-02,阿维SAD,通德拉,Desportivo Aves,Tondela,葡超
+2034624,2025-11-02,2025-11-02,拜仁,勒沃库森,Bayern Munich,Bayer Leverkusen,德甲
+2034680,2025-11-03,2025-11-03,纳萨夫,阿布联,Nasaf Qarshi,Al Jazira,亚冠精英
+2034738,2025-11-04,2025-11-04,布里兰,上海海港,Buriram United,Shanghai Port,亚冠精英
+2034737,2025-11-04,2025-11-04,首尔FC,成都蓉城,FC Seoul,Chengdu Rongcheng,亚冠精英
+2034683,2025-11-04,2025-11-04,赫尔火花,赫尔辛基,Hibernian,HJK Helsinki,芬超
+2034681,2025-11-04,2025-11-04,多哈杜海,迪拜国青,Al Duhail,United Arab Emirates U21,亚冠精英
+2034762,2025-11-05,2025-11-05,阿卡达格,多哈国民,Aktobe,Al Arabi,亚冠乙
+2034761,2025-11-05,2025-11-05,迪拜连接,穆哈拉格,Al Wasl,Al Muharraq,亚冠乙
+2034759,2025-11-05,2025-11-05,柔佛,上海申花,Johor Darul Ta'zim,Shanghai Shenhua,亚冠精英
+2034757,2025-11-05,2025-11-05,考文垂,谢菲联,Coventry City,Sheffield United,英冠
+2034756,2025-11-05,2025-11-05,马竞,圣吉联合,Atletico Madrid,Union Saint-Gilloise,欧冠
+2034750,2025-11-05,2025-11-05,巴黎圣曼,拜仁,Paris Saint Germain,Bayern Munich,欧冠
+2034742,2025-11-05,2025-11-05,吉达联合,沙迦,Al Ittihad,Sharjah,亚冠精英
+2034740,2025-11-05,2025-11-05,斯拉维亚,阿森纳,Slavia Prague,Arsenal,欧冠
+2034739,2025-11-05,2025-11-05,多哈萨德,吉达国民,Al Sadd,Al Ahli,亚冠精英
+2034781,2025-11-06,2025-11-06,巴吞联,伊洛卡雅,BG Pathum United,Ilocos United,亚冠乙
+2034778,2025-11-06,2025-11-06,狮城水手,曼谷联,Lion City Sailors,Bangkok United,亚冠乙
+2034767,2025-11-06,2025-11-06,利雅胜利,果阿FC,Al Nassr,FC Goa,亚冠乙
+2034764,2025-11-06,2025-11-06,巴格扎乌,杜独立,Bunyodkor,Independiente del Valle,亚冠乙
+2034826,2025-11-07,2025-11-07,穆拜征服,布赖合作,Al-Fateh,Al Taawoun,沙职
+2034790,2025-11-07,2025-11-07,贝红星,里尔,Red Star Belgrade,Lille,欧罗巴
+2034784,2025-11-07,2025-11-07,胡巴卡德,拉斯永恒,Al-Qadsiah,Al-Kholood,沙职
+2034783,2025-11-07,2025-11-07,利雅得,达马克,Al Hilal,Damac,沙职
+2034895,2025-11-08,2025-11-08,谢菲联,女王巡游,Sheffield United,Queens Park Rangers,英冠
+2034887,2025-11-08,2025-11-08,柏林联合,拜仁,Union Berlin,Bayern Munich,德甲
+2034883,2025-11-08,2025-11-08,萨普斯堡,腓特烈,Sarpsborg 08,Brondby,挪超
+2034874,2025-11-08,2025-11-08,沙尔克04,埃沃斯堡,Schalke 04,Erzgebirge Aue,德乙
+2034827,2025-11-08,2025-11-08,欧奈纳伊,利雅新月,Al-Najma,Al Hilal,沙职
+2034942,2025-11-09,2025-11-09,阿维SAD,吉维森特,Desportivo Aves,Gil Vicente,葡超
+2034927,2025-11-09,2025-11-09,塞伊奈,赫尔火花,SJK Seinajoki,Hibernian,芬超
+2034901,2025-11-09,2025-11-09,维京,汉坎,Viking,HamKam,挪超
+2035020,2025-11-14,2025-11-14,爱尔兰,葡萄牙,Republic of Ireland,Portugal,世预赛
+2035093,2025-11-16,2025-11-16,匈牙利,爱尔兰,Hungary,Republic of Ireland,世预赛
+2035089,2025-11-16,2025-11-16,波黑,罗马尼亚,Bosnia and Herzegovina,Romania,世预赛
+2035081,2025-11-16,2025-11-16,土耳其,保加利亚,Turkey,Bulgaria,世预赛
+2035148,2025-11-19,2025-11-19,西班牙,土耳其,Spain,Turkey,世预赛
+2035144,2025-11-19,2025-11-19,威尔士,北马其顿,Wales,North Macedonia,世预赛
+2035143,2025-11-19,2025-11-19,奥地利,波黑,Austria,Bosnia and Herzegovina,世预赛
+2035185,2025-11-21,2025-11-21,拉斯永恒,拉斯决心,Al-Kholood,Al Raed,沙职
+2035247,2025-11-22,2025-11-22,利雅新月,穆拜征服,Al Hilal,Al-Fateh,沙职
+2035246,2025-11-22,2025-11-22,拜仁,弗赖堡,Bayern Munich,SC Freiburg,德甲
+2035241,2025-11-22,2025-11-22,达曼协定,迈季宽广,Al Ettifaq,Al Hazem,沙职
+2035322,2025-11-22,2025-11-22,厄格里特,北雪平,Odd,IFK Norrkoping,瑞超
+2035238,2025-11-22,2025-11-22,达马克,欧奈纳伊,Damac,Al-Najma,沙职
+2035225,2025-11-22,2025-11-22,浦项制铁,全北现代,Pohang Steelers,Jeonbuk Hyundai,韩职
+2035223,2025-11-22,2025-11-22,大田市民,江原FC,Daejeon Hana Citizen,Gangwon FC,韩职
+2035200,2025-11-22,2025-11-22,芬洛,威廉二世,VVV-Venlo,Willem II,荷乙
+2035187,2025-11-22,2025-11-22,吉达国民,胡巴卡德,Al Ahli,Al-Qadsiah,沙职
+2035289,2025-11-23,2025-11-23,汉坎,海于格松,HamKam,Haugesund,挪超
+2035284,2025-11-23,2025-11-23,卡斯鲁厄,埃沃斯堡,Karlsruhe,Erzgebirge Aue,德乙
+2035306,2025-11-24,2025-11-24,腓特烈,维京,Brondby,Viking,挪超
+2035367,2025-11-25,2025-11-25,上海海港,首尔FC,Shanghai Port,FC Seoul,亚冠精英
+2035366,2025-11-25,2025-11-25,墨尔本城,柔佛,Melbourne City,Johor Darul Ta'zim,亚冠精英
+2035316,2025-11-25,2025-11-25,阿尔梅勒,芬洛,Almere City,VVV-Venlo,荷乙
+2035315,2025-11-25,2025-11-25,吉达国民,沙迦,Al Ahli,Sharjah,亚冠精英
+2035313,2025-11-25,2025-11-25,迪拜国青,赖扬加拉,United Arab Emirates U21,Al Rayyan,亚冠精英
+2035312,2025-11-25,2025-11-25,多哈杜海,吉达联合,Al Duhail,Al Ittihad,亚冠精英
+2035394,2025-11-26,2025-11-26,杜独立,利雅胜利,Independiente del Valle,Al Nassr,亚冠乙
+2035393,2025-11-26,2025-11-26,安集延,阿卡达格,FK Andijan,Aktobe,亚冠乙
+2035392,2025-11-26,2025-11-26,狮城水手,万隆,Lion City Sailors,Persib Bandung,亚冠乙
+2035369,2025-11-26,2025-11-26,加拉塔萨,圣吉联合,Galatasaray,Union Saint-Gilloise,欧冠
+2035368,2025-11-26,2025-11-26,阿布联,多哈萨德,Al Jazira,Al Sadd,亚冠精英
+2035411,2025-11-27,2025-11-27,淡宾尼士,伊洛卡雅,Tampines Rovers,Ilocos United,亚冠乙
+2035401,2025-11-27,2025-11-27,阿森纳,拜仁,Arsenal,Bayern Munich,欧冠
+2035399,2025-11-27,2025-11-27,谢菲联,朴次茅斯,Sheffield United,Portsmouth,英冠
+2035395,2025-11-27,2025-11-27,巴格扎乌,果阿FC,Bunyodkor,FC Goa,亚冠乙
+2035438,2025-11-28,2025-11-28,华沙军团,布斯巴达,Legia Warsaw,Sparta Prague,欧协联
+2035437,2025-11-28,2025-11-28,阿伯丁,阿尔诺亚,Aberdeen,Al Nasr,欧协联
+2035442,2025-11-28,2025-11-28,贝雷达,萨姆松,Beroe Stara Zagora,Samsunspor,欧协联
+2035421,2025-11-28,2025-11-28,贝红星,布星,Red Star Belgrade,FCSB,欧罗巴
+2035440,2025-11-28,2025-11-28,兹林尼,赫根,MSK Zilina,Hacken,欧协联
+2035430,2025-11-28,2025-11-28,琴斯托霍,维快速,Rakow Czestochowa,Rapid Vienna,欧协联
+2035418,2025-11-28,2025-11-28,费内巴切,费伦茨,Fenerbahce,Ferencvaros,欧罗巴
+2035529,2025-11-29,2025-11-29,拜仁,圣保利,Bayern Munich,FC St. Pauli,德甲
+2035528,2025-11-29,2025-11-29,北雪平,厄格里特,IFK Norrkoping,Odd,瑞超
+2035523,2025-11-29,2025-11-29,莱切斯特,谢菲联,Leicester City,Sheffield United,英冠
+2035485,2025-11-29,2025-11-29,吉马良斯,阿维SAD,Vitoria Guimaraes,Desportivo Aves,葡超
+2035478,2025-11-29,2025-11-29,芬洛,海牙,VVV-Venlo,ADO Den Haag,荷乙
+2035575,2025-11-30,2025-11-30,埃沃斯堡,达姆施塔,Erzgebirge Aue,SV Darmstadt 98,德乙
+2035569,2025-11-30,2025-11-30,金泉尚武,大田市民,Gimcheon Sangmu,Daejeon Hana Citizen,韩职
+2035567,2025-11-30,2025-11-30,全北现代,首尔FC,Jeonbuk Hyundai,FC Seoul,韩职
+2035590,2025-12-01,2025-12-01,博德闪耀,腓特烈,Bodo/Glimt,Brondby,挪超
+2035686,2025-12-04,2025-12-04,柏林联合,拜仁,Union Berlin,Bayern Munich,德国杯
+2035776,2025-12-06,2025-12-06,斯图加特,拜仁,VfB Stuttgart,Bayern Munich,德甲
+2035765,2025-12-06,2025-12-06,帕德博恩,埃沃斯堡,Paderborn,Erzgebirge Aue,德乙
+2035758,2025-12-06,2025-12-06,光州FC,全北现代,Gwangju FC,Jeonbuk Hyundai,韩国杯
+2035880,2025-12-09,2025-12-09,柔佛,上海海港,Johor Darul Ta'zim,Shanghai Port,亚冠精英
+2035899,2025-12-10,2025-12-10,雪兰莪,狮城水手,Selangor,Lion City Sailors,亚冠乙
+2035895,2025-12-10,2025-12-10,热刺,斯拉维亚,Tottenham,Slavia Prague,欧冠
+2035891,2025-12-10,2025-12-10,圣吉联合,马赛,Union Saint-Gilloise,Marseille,欧冠
+2035888,2025-12-10,2025-12-10,谢菲联,诺维奇,Sheffield United,Norwich City,英冠
+2035882,2025-12-10,2025-12-10,拜仁,里斯本,Bayern Munich,Sporting CP,欧冠
+2035915,2025-12-11,2025-12-11,伊洛卡雅,浦项制铁,Ilocos United,Pohang Steelers,亚冠乙
+2035927,2025-12-12,2025-12-12,布兰,费内巴切,Brann,Fenerbahce,欧罗巴
+2035920,2025-12-12,2025-12-12,格风暴,贝红星,Sturm Graz,Red Star Belgrade,欧罗巴
+2035971,2025-12-13,2025-12-13,西布罗姆,谢菲联,West Bromwich Albion,Sheffield United,英冠
+2035962,2025-12-13,2025-12-13,登博思,芬洛,Den Bosch,VVV-Venlo,荷乙
+2036029,2025-12-14,2025-12-14,埃沃斯堡,杜塞多夫,Erzgebirge Aue,Fortuna Dusseldorf,德乙
+2036050,2025-12-15,2025-12-15,拜仁,美因茨,Bayern Munich,FSV Mainz 05,德甲
+2036113,2025-12-19,2025-12-19,斯特拉斯,贝雷达,Strasbourg,Beroe Stara Zagora,欧协联
+2036112,2025-12-19,2025-12-19,兹林尼,维快速,MSK Zilina,Rapid Vienna,欧协联
+2036109,2025-12-19,2025-12-19,华沙军团,红色小鬼,Legia Warsaw,Lincoln Red Imps,欧协联
+2036188,2025-12-20,2025-12-20,谢菲联,伯明翰,Sheffield United,Birmingham City,英冠
+2036150,2025-12-20,2025-12-20,芬洛,多德勒支,VVV-Venlo,Dordrecht,荷乙
+2036222,2025-12-21,2025-12-21,阿维SAD,葡国民,Desportivo Aves,Nacional,葡超
+2036209,2025-12-21,2025-12-21,明斯特,埃沃斯堡,Preussen Munster,Erzgebirge Aue,德乙
+2036226,2025-12-22,2025-12-22,海登海姆,拜仁,FC Heidenheim,Bayern Munich,德甲
+2036238,2025-12-23,2025-12-23,赖扬加拉,阿布联,Al Rayyan,Al Jazira,亚冠精英
+2036237,2025-12-23,2025-12-23,鲁警察,吉达国民,Police Tero,Al Ahli,亚冠精英
+2036235,2025-12-23,2025-12-23,沙迦,利雅新月,Sharjah,Al Hilal,亚冠精英
+2036292,2025-12-24,2025-12-24,吉达联合,纳萨夫,Al Ittihad,Nasaf Qarshi,亚冠精英
+2036290,2025-12-24,2025-12-24,多哈萨德,迪拜国青,Al Sadd,United Arab Emirates U21,亚冠精英
+2036301,2025-12-25,2025-12-25,利雅胜利,巴格扎乌,Al Nassr,Bunyodkor,亚冠乙
+2036300,2025-12-25,2025-12-25,果阿FC,杜独立,FC Goa,Independiente del Valle,亚冠乙
+2036299,2025-12-25,2025-12-25,阿卡达格,哈马永恒,Aktobe,Al Hamriyah,亚冠乙
+2036298,2025-12-25,2025-12-25,多哈国民,安集延,Al Arabi,FK Andijan,亚冠乙
+2036297,2025-12-25,2025-12-25,迪拜连接,安曼联,Al Wasl,Al Wehdat,亚冠乙
+2036339,2025-12-26,2025-12-26,拉斯永恒,布赖合作,Al-Kholood,Al Taawoun,沙职
+2036338,2025-12-26,2025-12-26,穆拜征服,吉达国民,Al-Fateh,Al Ahli,沙职
+2036305,2025-12-26,2025-12-26,利雅得,达曼协定,Al Hilal,Al Ettifaq,沙职
+2036304,2025-12-26,2025-12-26,新未来SC,欧奈纳伊,NEOM SC,Al-Najma,沙职
+2036382,2025-12-27,2025-12-27,胡巴卡德,达马克,Al-Qadsiah,Damac,沙职
+2036358,2025-12-27,2025-12-27,雷克斯,谢菲联,Wrexham,Sheffield United,英冠
+2036414,2025-12-29,2025-12-29,赛哈海湾,穆拜征服,Sharjah,Al-Fateh,沙职
+2036491,2025-12-30,2025-12-30,吉达国民,迈季宽广,Al Ahli,Al Hazem,沙职
+2036442,2025-12-30,2025-12-30,波尔图,阿维SAD,FC Porto,Desportivo Aves,葡超
+2036424,2025-12-30,2025-12-30,斯托克城,谢菲联,Stoke City,Sheffield United,英冠
+2036418,2025-12-30,2025-12-30,布赖合作,欧奈纳伊,Al Taawoun,Al-Najma,沙职

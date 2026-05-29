@@ -1,0 +1,160 @@
+{
+  "baseline": {
+    "tag": "baseline",
+    "params": {},
+    "s25": 54.6,
+    "o25": 44.5,
+    "s26": 56.2,
+    "o26": 46.1,
+    "score": 52.335
+  },
+  "results": [
+    {
+      "tag": "baseline",
+      "params": {},
+      "s25": 54.6,
+      "o25": 44.5,
+      "s26": 56.2,
+      "o26": 46.1,
+      "score": 52.335
+    },
+    {
+      "tag": "g1",
+      "params": {
+        "PREDICT_OUTCOME_ML_WEIGHT": 0.35,
+        "PREDICT_ODDS_FUSION_WEIGHT_MODEL": 0.52,
+        "PREDICT_RQSPF_ODDS_FUSION_WEIGHT_MODEL": 0.35,
+        "PREDICT_DRAW_BOOST_COEF": 0.22,
+        "PREDICT_RQSPF_BLEND_DC_WEIGHT": 1.0
+      },
+      "s25": 54.6,
+      "o25": 44.5,
+      "s26": 56.2,
+      "o26": 46.1,
+      "score": 52.335
+    },
+    {
+      "tag": "g2",
+      "params": {
+        "PREDICT_OUTCOME_ML_WEIGHT": 0.37,
+        "PREDICT_ODDS_FUSION_WEIGHT_MODEL": 0.52,
+        "PREDICT_RQSPF_ODDS_FUSION_WEIGHT_MODEL": 0.35,
+        "PREDICT_DRAW_BOOST_COEF": 0.22,
+        "PREDICT_RQSPF_BLEND_DC_WEIGHT": 1.0
+      },
+      "s25": 54.3,
+      "o25": 44.5,
+      "s26": 56.2,
+      "o26": 46.1,
+      "score": 52.239
+    },
+    {
+      "tag": "g3",
+      "params": {
+        "PREDICT_OUTCOME_ML_WEIGHT": 0.35,
+        "PREDICT_ODDS_FUSION_WEIGHT_MODEL": 0.5,
+        "PREDICT_RQSPF_ODDS_FUSION_WEIGHT_MODEL": 0.35,
+        "PREDICT_DRAW_BOOST_COEF": 0.22,
+        "PREDICT_RQSPF_BLEND_DC_WEIGHT": 1.0
+      },
+      "s25": 54.7,
+      "o25": 44.7,
+      "s26": 55.9,
+      "o26": 45.8,
+      "score": 52.296
+    },
+    {
+      "tag": "g4",
+      "params": {
+        "PREDICT_OUTCOME_ML_WEIGHT": 0.35,
+        "PREDICT_ODDS_FUSION_WEIGHT_MODEL": 0.52,
+        "PREDICT_RQSPF_ODDS_FUSION_WEIGHT_MODEL": 0.32,
+        "PREDICT_DRAW_BOOST_COEF": 0.22,
+        "PREDICT_RQSPF_BLEND_DC_WEIGHT": 1.0
+      },
+      "s25": 54.6,
+      "o25": 44.5,
+      "s26": 56.2,
+      "o26": 46.1,
+      "score": 52.335
+    },
+    {
+      "tag": "g5",
+      "params": {
+        "PREDICT_OUTCOME_ML_WEIGHT": 0.35,
+        "PREDICT_ODDS_FUSION_WEIGHT_MODEL": 0.52,
+        "PREDICT_RQSPF_ODDS_FUSION_WEIGHT_MODEL": 0.35,
+        "PREDICT_DRAW_BOOST_COEF": 0.24,
+        "PREDICT_RQSPF_BLEND_DC_WEIGHT": 1.0
+      },
+      "s25": 54.6,
+      "o25": 44.5,
+      "s26": 56.2,
+      "o26": 46.1,
+      "score": 52.335
+    },
+    {
+      "tag": "g6",
+      "params": {
+        "PREDICT_OUTCOME_ML_WEIGHT": 0.33,
+        "PREDICT_ODDS_FUSION_WEIGHT_MODEL": 0.52,
+        "PREDICT_RQSPF_ODDS_FUSION_WEIGHT_MODEL": 0.35,
+        "PREDICT_DRAW_BOOST_COEF": 0.22,
+        "PREDICT_RQSPF_BLEND_DC_WEIGHT": 1.0
+      },
+      "s25": 54.8,
+      "o25": 44.5,
+      "s26": 55.8,
+      "o26": 45.9,
+      "score": 52.264
+    }
+  ],
+  "feasible": [
+    {
+      "tag": "g1",
+      "params": {
+        "PREDICT_OUTCOME_ML_WEIGHT": 0.35,
+        "PREDICT_ODDS_FUSION_WEIGHT_MODEL": 0.52,
+        "PREDICT_RQSPF_ODDS_FUSION_WEIGHT_MODEL": 0.35,
+        "PREDICT_DRAW_BOOST_COEF": 0.22,
+        "PREDICT_RQSPF_BLEND_DC_WEIGHT": 1.0
+      },
+      "s25": 54.6,
+      "o25": 44.5,
+      "s26": 56.2,
+      "o26": 46.1,
+      "score": 52.335
+    },
+    {
+      "tag": "g4",
+      "params": {
+        "PREDICT_OUTCOME_ML_WEIGHT": 0.35,
+        "PREDICT_ODDS_FUSION_WEIGHT_MODEL": 0.52,
+        "PREDICT_RQSPF_ODDS_FUSION_WEIGHT_MODEL": 0.32,
+        "PREDICT_DRAW_BOOST_COEF": 0.22,
+        "PREDICT_RQSPF_BLEND_DC_WEIGHT": 1.0
+      },
+      "s25": 54.6,
+      "o25": 44.5,
+      "s26": 56.2,
+      "o26": 46.1,
+      "score": 52.335
+    },
+    {
+      "tag": "g5",
+      "params": {
+        "PREDICT_OUTCOME_ML_WEIGHT": 0.35,
+        "PREDICT_ODDS_FUSION_WEIGHT_MODEL": 0.52,
+        "PREDICT_RQSPF_ODDS_FUSION_WEIGHT_MODEL": 0.35,
+        "PREDICT_DRAW_BOOST_COEF": 0.24,
+        "PREDICT_RQSPF_BLEND_DC_WEIGHT": 1.0
+      },
+      "s25": 54.6,
+      "o25": 44.5,
+      "s26": 56.2,
+      "o26": 46.1,
+      "score": 52.335
+    }
+  ],
+  "best": null
+}

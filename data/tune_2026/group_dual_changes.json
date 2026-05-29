@@ -1,0 +1,346 @@
+[
+  {
+    "league_cn": "英超",
+    "league_key": "Premier League",
+    "n": 324,
+    "acc": 48.1,
+    "group": "mid",
+    "before": {
+      "last_n": 8,
+      "PREDICT_DRAW_BOOST_COEF": 0.22,
+      "PREDICT_INJURY_KEY_PLAYER_WEIGHT": 4.0
+    },
+    "after": {
+      "last_n": 8,
+      "PREDICT_DRAW_BOOST_COEF": 0.23,
+      "PREDICT_INJURY_KEY_PLAYER_WEIGHT": 4.0,
+      "PREDICT_ODDS_FUSION_WEIGHT_MODEL": 0.49,
+      "PREDICT_RQSPF_ODDS_FUSION_WEIGHT_MODEL": 0.34
+    }
+  },
+  {
+    "league_cn": "德甲",
+    "league_key": "Bundesliga",
+    "n": 270,
+    "acc": 41.1,
+    "group": "low",
+    "before": {
+      "last_n": 8,
+      "PREDICT_DRAW_BOOST_COEF": 0.22,
+      "PREDICT_INJURY_KEY_PLAYER_WEIGHT": 3.5
+    },
+    "after": {
+      "last_n": 8,
+      "PREDICT_DRAW_BOOST_COEF": 0.24,
+      "PREDICT_INJURY_KEY_PLAYER_WEIGHT": 3.5,
+      "PREDICT_ODDS_FUSION_WEIGHT_MODEL": 0.47,
+      "PREDICT_RQSPF_ODDS_FUSION_WEIGHT_MODEL": 0.32
+    }
+  },
+  {
+    "league_cn": "西甲",
+    "league_key": "La Liga",
+    "n": 259,
+    "acc": 45.6,
+    "group": "mid",
+    "before": {
+      "last_n": 12,
+      "PREDICT_DRAW_BOOST_COEF": 0.28,
+      "PREDICT_HOME_ADVANTAGE": 1.05,
+      "PREDICT_ODDS_FUSION_WEIGHT_MODEL": 0.52,
+      "PREDICT_INJURY_KEY_PLAYER_WEIGHT": 3.5
+    },
+    "after": {
+      "last_n": 12,
+      "PREDICT_DRAW_BOOST_COEF": 0.29,
+      "PREDICT_HOME_ADVANTAGE": 1.05,
+      "PREDICT_ODDS_FUSION_WEIGHT_MODEL": 0.49,
+      "PREDICT_INJURY_KEY_PLAYER_WEIGHT": 3.5,
+      "PREDICT_RQSPF_ODDS_FUSION_WEIGHT_MODEL": 0.34
+    }
+  },
+  {
+    "league_cn": "意甲",
+    "league_key": "Serie A",
+    "n": 255,
+    "acc": 47.8,
+    "group": "mid",
+    "before": {
+      "last_n": 8,
+      "PREDICT_DRAW_BOOST_COEF": 0.2,
+      "PREDICT_INJURY_KEY_PLAYER_WEIGHT": 3.25
+    },
+    "after": {
+      "last_n": 8,
+      "PREDICT_DRAW_BOOST_COEF": 0.21,
+      "PREDICT_INJURY_KEY_PLAYER_WEIGHT": 3.25,
+      "PREDICT_ODDS_FUSION_WEIGHT_MODEL": 0.49,
+      "PREDICT_RQSPF_ODDS_FUSION_WEIGHT_MODEL": 0.34
+    }
+  },
+  {
+    "league_cn": "英冠",
+    "league_key": "Championship",
+    "n": 194,
+    "acc": 45.9,
+    "group": "mid",
+    "before": {
+      "last_n": 8,
+      "PREDICT_DRAW_BOOST_COEF": 0.26,
+      "PREDICT_HOME_ADVANTAGE": 1.05,
+      "PREDICT_ODDS_FUSION_WEIGHT_MODEL": 0.34,
+      "PREDICT_INJURY_KEY_PLAYER_WEIGHT": 3.25
+    },
+    "after": {
+      "last_n": 8,
+      "PREDICT_DRAW_BOOST_COEF": 0.27,
+      "PREDICT_HOME_ADVANTAGE": 1.05,
+      "PREDICT_ODDS_FUSION_WEIGHT_MODEL": 0.36,
+      "PREDICT_INJURY_KEY_PLAYER_WEIGHT": 3.25,
+      "PREDICT_RQSPF_ODDS_FUSION_WEIGHT_MODEL": 0.34
+    }
+  },
+  {
+    "league_cn": "日职",
+    "league_key": "J1 League",
+    "n": 188,
+    "acc": 42.6,
+    "group": "low",
+    "before": {
+      "last_n": 10,
+      "PREDICT_DRAW_BOOST_COEF": 0.26,
+      "PREDICT_ODDS_FUSION_WEIGHT_MODEL": 0.44,
+      "PREDICT_INJURY_KEY_PLAYER_WEIGHT": 3.25
+    },
+    "after": {
+      "last_n": 8,
+      "PREDICT_DRAW_BOOST_COEF": 0.28,
+      "PREDICT_ODDS_FUSION_WEIGHT_MODEL": 0.39,
+      "PREDICT_INJURY_KEY_PLAYER_WEIGHT": 3.25,
+      "PREDICT_RQSPF_ODDS_FUSION_WEIGHT_MODEL": 0.32
+    }
+  },
+  {
+    "league_cn": "澳超",
+    "league_key": "A-League",
+    "n": 171,
+    "acc": 38.0,
+    "group": "low",
+    "before": {
+      "last_n": 10,
+      "PREDICT_DRAW_BOOST_COEF": 0.24,
+      "PREDICT_ODDS_FUSION_WEIGHT_MODEL": 0.26,
+      "PREDICT_H2H_BLEND": 0.35,
+      "PREDICT_INJURY_KEY_PLAYER_WEIGHT": 3.0
+    },
+    "after": {
+      "last_n": 8,
+      "PREDICT_DRAW_BOOST_COEF": 0.26,
+      "PREDICT_ODDS_FUSION_WEIGHT_MODEL": 0.34,
+      "PREDICT_H2H_BLEND": 0.35,
+      "PREDICT_INJURY_KEY_PLAYER_WEIGHT": 3.0,
+      "PREDICT_RQSPF_ODDS_FUSION_WEIGHT_MODEL": 0.32
+    }
+  },
+  {
+    "league_cn": "荷甲",
+    "league_key": "Eredivisie",
+    "n": 166,
+    "acc": 47.6,
+    "group": "mid",
+    "before": {
+      "last_n": 12,
+      "PREDICT_DRAW_BOOST_COEF": 0.28,
+      "PREDICT_INJURY_KEY_PLAYER_WEIGHT": 3.25
+    },
+    "after": {
+      "last_n": 12,
+      "PREDICT_DRAW_BOOST_COEF": 0.29,
+      "PREDICT_INJURY_KEY_PLAYER_WEIGHT": 3.25,
+      "PREDICT_ODDS_FUSION_WEIGHT_MODEL": 0.49,
+      "PREDICT_RQSPF_ODDS_FUSION_WEIGHT_MODEL": 0.34
+    }
+  },
+  {
+    "league_cn": "韩职",
+    "league_key": "K League 1",
+    "n": 155,
+    "acc": 40.6,
+    "group": "low",
+    "before": {
+      "last_n": 10,
+      "PREDICT_DRAW_BOOST_COEF": 0.26,
+      "PREDICT_ODDS_FUSION_WEIGHT_MODEL": 0.38,
+      "PREDICT_INJURY_KEY_PLAYER_WEIGHT": 3.25
+    },
+    "after": {
+      "last_n": 8,
+      "PREDICT_DRAW_BOOST_COEF": 0.28,
+      "PREDICT_ODDS_FUSION_WEIGHT_MODEL": 0.34,
+      "PREDICT_INJURY_KEY_PLAYER_WEIGHT": 3.25,
+      "PREDICT_RQSPF_ODDS_FUSION_WEIGHT_MODEL": 0.32
+    }
+  },
+  {
+    "league_cn": "瑞超",
+    "league_key": "Allsvenskan",
+    "n": 135,
+    "acc": 43.0,
+    "group": "low",
+    "before": {
+      "last_n": 12,
+      "PREDICT_DRAW_BOOST_COEF": 0.28,
+      "PREDICT_ODDS_FUSION_WEIGHT_MODEL": 0.5,
+      "PREDICT_INJURY_KEY_PLAYER_WEIGHT": 3.0
+    },
+    "after": {
+      "last_n": 8,
+      "PREDICT_DRAW_BOOST_COEF": 0.3,
+      "PREDICT_ODDS_FUSION_WEIGHT_MODEL": 0.45,
+      "PREDICT_INJURY_KEY_PLAYER_WEIGHT": 3.0,
+      "PREDICT_RQSPF_ODDS_FUSION_WEIGHT_MODEL": 0.32
+    }
+  },
+  {
+    "league_cn": "挪超",
+    "league_key": "Eliteserien",
+    "n": 123,
+    "acc": 48.0,
+    "group": "mid",
+    "before": {
+      "last_n": 12,
+      "PREDICT_DRAW_BOOST_COEF": 0.24,
+      "PREDICT_ODDS_FUSION_WEIGHT_MODEL": 0.5,
+      "PREDICT_INJURY_KEY_PLAYER_WEIGHT": 3.0
+    },
+    "after": {
+      "last_n": 12,
+      "PREDICT_DRAW_BOOST_COEF": 0.25,
+      "PREDICT_ODDS_FUSION_WEIGHT_MODEL": 0.47,
+      "PREDICT_INJURY_KEY_PLAYER_WEIGHT": 3.0,
+      "PREDICT_RQSPF_ODDS_FUSION_WEIGHT_MODEL": 0.34
+    }
+  },
+  {
+    "league_cn": "德乙",
+    "league_key": "2. Bundesliga",
+    "n": 111,
+    "acc": 45.0,
+    "group": "mid",
+    "before": {
+      "last_n": 10,
+      "PREDICT_DRAW_BOOST_COEF": 0.28,
+      "PREDICT_ODDS_FUSION_WEIGHT_MODEL": 0.4,
+      "PREDICT_INJURY_KEY_PLAYER_WEIGHT": 3.0
+    },
+    "after": {
+      "last_n": 10,
+      "PREDICT_DRAW_BOOST_COEF": 0.29,
+      "PREDICT_ODDS_FUSION_WEIGHT_MODEL": 0.37,
+      "PREDICT_INJURY_KEY_PLAYER_WEIGHT": 3.0,
+      "PREDICT_RQSPF_ODDS_FUSION_WEIGHT_MODEL": 0.34
+    }
+  },
+  {
+    "league_cn": "日乙",
+    "league_key": "J2 League",
+    "n": 109,
+    "acc": 39.4,
+    "group": "low",
+    "before": {
+      "last_n": 10,
+      "PREDICT_DRAW_BOOST_COEF": 0.26,
+      "PREDICT_ODDS_FUSION_WEIGHT_MODEL": 0.28,
+      "PREDICT_H2H_BLEND": 0.35,
+      "PREDICT_INJURY_KEY_PLAYER_WEIGHT": 3.0
+    },
+    "after": {
+      "last_n": 8,
+      "PREDICT_DRAW_BOOST_COEF": 0.28,
+      "PREDICT_ODDS_FUSION_WEIGHT_MODEL": 0.34,
+      "PREDICT_H2H_BLEND": 0.35,
+      "PREDICT_INJURY_KEY_PLAYER_WEIGHT": 3.0,
+      "PREDICT_RQSPF_ODDS_FUSION_WEIGHT_MODEL": 0.32
+    }
+  },
+  {
+    "league_cn": "葡超",
+    "league_key": "Primeira Liga",
+    "n": 94,
+    "acc": 35.1,
+    "group": "low",
+    "before": {
+      "last_n": 8,
+      "PREDICT_DRAW_BOOST_COEF": 0.28,
+      "PREDICT_HOME_ADVANTAGE": 1.06,
+      "PREDICT_ODDS_FUSION_WEIGHT_MODEL": 0.52,
+      "PREDICT_INJURY_KEY_PLAYER_WEIGHT": 3.5
+    },
+    "after": {
+      "last_n": 8,
+      "PREDICT_DRAW_BOOST_COEF": 0.3,
+      "PREDICT_HOME_ADVANTAGE": 1.06,
+      "PREDICT_ODDS_FUSION_WEIGHT_MODEL": 0.47,
+      "PREDICT_INJURY_KEY_PLAYER_WEIGHT": 3.5,
+      "PREDICT_RQSPF_ODDS_FUSION_WEIGHT_MODEL": 0.32
+    }
+  },
+  {
+    "league_cn": "沙职",
+    "league_key": "Saudi Pro League",
+    "n": 72,
+    "acc": 48.6,
+    "group": "mid",
+    "before": {
+      "last_n": 10,
+      "PREDICT_DRAW_BOOST_COEF": 0.27,
+      "PREDICT_INJURY_KEY_PLAYER_WEIGHT": 4.0
+    },
+    "after": {
+      "last_n": 10,
+      "PREDICT_DRAW_BOOST_COEF": 0.28,
+      "PREDICT_INJURY_KEY_PLAYER_WEIGHT": 4.0,
+      "PREDICT_ODDS_FUSION_WEIGHT_MODEL": 0.49,
+      "PREDICT_RQSPF_ODDS_FUSION_WEIGHT_MODEL": 0.34
+    }
+  },
+  {
+    "league_cn": "美职",
+    "league_key": "MLS",
+    "n": 65,
+    "acc": 36.9,
+    "group": "low",
+    "before": {
+      "last_n": 8,
+      "PREDICT_DRAW_BOOST_COEF": 0.26,
+      "PREDICT_ODDS_FUSION_WEIGHT_MODEL": 0.38,
+      "PREDICT_INJURY_KEY_PLAYER_WEIGHT": 3.5
+    },
+    "after": {
+      "last_n": 8,
+      "PREDICT_DRAW_BOOST_COEF": 0.28,
+      "PREDICT_ODDS_FUSION_WEIGHT_MODEL": 0.34,
+      "PREDICT_INJURY_KEY_PLAYER_WEIGHT": 3.5,
+      "PREDICT_RQSPF_ODDS_FUSION_WEIGHT_MODEL": 0.32
+    }
+  },
+  {
+    "league_cn": "亚冠精英",
+    "league_key": "AFC Champions League Elite",
+    "n": 64,
+    "acc": 48.4,
+    "group": "mid",
+    "before": {
+      "last_n": 8,
+      "PREDICT_DRAW_BOOST_COEF": 0.2,
+      "PREDICT_INJURY_KEY_PLAYER_WEIGHT": 4.0
+    },
+    "after": {
+      "last_n": 8,
+      "PREDICT_DRAW_BOOST_COEF": 0.21,
+      "PREDICT_INJURY_KEY_PLAYER_WEIGHT": 4.0,
+      "PREDICT_ODDS_FUSION_WEIGHT_MODEL": 0.49,
+      "PREDICT_RQSPF_ODDS_FUSION_WEIGHT_MODEL": 0.34
+    }
+  }
+]

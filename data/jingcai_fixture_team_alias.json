@@ -1,0 +1,12 @@
+{
+  "_comment": "fixture 回填时队名匹配用：键/值可为可读队名，会做归一化。键对应的列表中的队名与键视为同队。与 jingcai_fixture_id_override.json 配合：仍匹配不到的可用 override 按 sporttery_match_id 填 fixture_id。",
+  "Sporting CP": ["Sporting Lisbon", "Sporting Lisbonne"],
+  "Real Madrid": ["Real Madrid CF"],
+  "Desportivo Aves": ["Aves"],
+  "Chaves": ["GD Chaves"],
+  "Rio Ave": ["Rio Ave FC"],
+  "Pacos de Ferreira": ["Paços de Ferreira", "Fereira"],
+  "Sochaux": ["FC Sochaux"],
+  "Caen": ["SM Caen", "Stade Malherbe Caen"],
+  "Vizela": ["FC Vizela"]
+}

@@ -1,0 +1,181 @@
+========== Sat Mar 21 16:14:06 CST 2026 开始 ablation ==========
+已备份到: data/backup/ablation_20260321_161406
+
+############################################
+>>> Sat Mar 21 16:14:06 CST 2026 RUN exp_current
+############################################
+=== jc-predictions-eval --single-rec-only --year 2025 ===
+--- 单场推荐命中率（2025年）---
+  已完赛且有预测场次：2918 场
+  单场推荐（全部）：1544/2918，命中率 52.9%
+  单场推荐分档（推荐概率≥X%）：
+    ≥50%：1542/2916，52.9%
+    ≥55%：1536/2907，52.8%
+    ≥60%：1282/2365，54.2%
+    ≥65%：647/1134，57.1%
+    ≥70%：170/292，58.2%
+    ≥72%：149/262，56.9%
+    ≥75%：130/236，55.1%
+  当前关键配置：
+    SINGLE_REC_MIN_PROB=0.65
+    JC_REC_DEFAULT_MIN_PROB=0.65
+    JC_REC_HIGH_CONFIDENCE_MIN_PROB=0.7
+    PREDICT_USE_CALIBRATION=True
+    PREDICT_USE_OUTCOME_ML=True
+    PREDICT_OUTCOME_ML_WEIGHT=0.16
+    PREDICT_ODDS_FUSION_WEIGHT_MODEL=0.5
+    PREDICT_USE_API_PREDICTIONS=True
+    PREDICT_API_PREDICTIONS_WEIGHT=0.24
+
+############################################
+>>> Sat Mar 21 16:14:09 CST 2026 RUN exp_no_calib
+############################################
+--- predict-jc-from-self-improvement --year 2025 ---
+按年批量：2025 年共 344 个竞彩日。
+
+predict-jc-from-self-improvement：共 344 个竞彩日，总场次 2133，新增预测 2133 条，跳过 0 场；队名解析率 100.0%。
+=== jc-predictions-eval --single-rec-only --year 2025 ===
+--- 单场推荐命中率（2025年）---
+  已完赛且有预测场次：2918 场
+  单场推荐（全部）：1527/2918，命中率 52.3%
+  单场推荐分档（推荐概率≥X%）：
+    ≥50%：1525/2916，52.3%
+    ≥55%：1519/2908，52.2%
+    ≥60%：1262/2367，53.3%
+    ≥65%：610/1097，55.6%
+    ≥70%：153/271，56.5%
+    ≥72%：146/259，56.4%
+    ≥75%：129/235，54.9%
+  当前关键配置：
+    SINGLE_REC_MIN_PROB=0.65
+    JC_REC_DEFAULT_MIN_PROB=0.65
+    JC_REC_HIGH_CONFIDENCE_MIN_PROB=0.7
+    PREDICT_USE_CALIBRATION=False
+    PREDICT_USE_OUTCOME_ML=True
+    PREDICT_OUTCOME_ML_WEIGHT=0.16
+    PREDICT_ODDS_FUSION_WEIGHT_MODEL=0.5
+    PREDICT_USE_API_PREDICTIONS=True
+    PREDICT_API_PREDICTIONS_WEIGHT=0.24
+
+############################################
+>>> Sat Mar 21 16:17:39 CST 2026 RUN exp_no_ml
+############################################
+--- predict-jc-from-self-improvement --year 2025 ---
+按年批量：2025 年共 344 个竞彩日。
+
+predict-jc-from-self-improvement：共 344 个竞彩日，总场次 2133，新增预测 2133 条，跳过 0 场；队名解析率 100.0%。
+=== jc-predictions-eval --single-rec-only --year 2025 ===
+--- 单场推荐命中率（2025年）---
+  已完赛且有预测场次：2918 场
+  单场推荐（全部）：1539/2918，命中率 52.7%
+  单场推荐分档（推荐概率≥X%）：
+    ≥50%：1537/2916，52.7%
+    ≥55%：1531/2907，52.7%
+    ≥60%：1276/2364，54.0%
+    ≥65%：634/1125，56.4%
+    ≥70%：156/276，56.5%
+    ≥72%：147/261，56.3%
+    ≥75%：129/235，54.9%
+  当前关键配置：
+    SINGLE_REC_MIN_PROB=0.65
+    JC_REC_DEFAULT_MIN_PROB=0.65
+    JC_REC_HIGH_CONFIDENCE_MIN_PROB=0.7
+    PREDICT_USE_CALIBRATION=True
+    PREDICT_USE_OUTCOME_ML=False
+    PREDICT_OUTCOME_ML_WEIGHT=0.16
+    PREDICT_ODDS_FUSION_WEIGHT_MODEL=0.5
+    PREDICT_USE_API_PREDICTIONS=True
+    PREDICT_API_PREDICTIONS_WEIGHT=0.24
+
+############################################
+>>> Sat Mar 21 16:20:57 CST 2026 RUN exp_no_calib_no_ml
+############################################
+--- predict-jc-from-self-improvement --year 2025 ---
+按年批量：2025 年共 344 个竞彩日。
+
+predict-jc-from-self-improvement：共 344 个竞彩日，总场次 2133，新增预测 2133 条，跳过 0 场；队名解析率 100.0%。
+=== jc-predictions-eval --single-rec-only --year 2025 ===
+--- 单场推荐命中率（2025年）---
+  已完赛且有预测场次：2918 场
+  单场推荐（全部）：1526/2918，命中率 52.3%
+  单场推荐分档（推荐概率≥X%）：
+    ≥50%：1524/2916，52.3%
+    ≥55%：1518/2908，52.2%
+    ≥60%：1261/2366，53.3%
+    ≥65%：610/1097，55.6%
+    ≥70%：153/271，56.5%
+    ≥72%：146/259，56.4%
+    ≥75%：129/235，54.9%
+  当前关键配置：
+    SINGLE_REC_MIN_PROB=0.65
+    JC_REC_DEFAULT_MIN_PROB=0.65
+    JC_REC_HIGH_CONFIDENCE_MIN_PROB=0.7
+    PREDICT_USE_CALIBRATION=False
+    PREDICT_USE_OUTCOME_ML=False
+    PREDICT_OUTCOME_ML_WEIGHT=0.16
+    PREDICT_ODDS_FUSION_WEIGHT_MODEL=0.5
+    PREDICT_USE_API_PREDICTIONS=True
+    PREDICT_API_PREDICTIONS_WEIGHT=0.24
+
+############################################
+>>> Sat Mar 21 16:24:13 CST 2026 RUN exp_old_weights
+############################################
+--- predict-jc-from-self-improvement --year 2025 ---
+按年批量：2025 年共 344 个竞彩日。
+
+predict-jc-from-self-improvement：共 344 个竞彩日，总场次 2133，新增预测 2133 条，跳过 0 场；队名解析率 100.0%。
+=== jc-predictions-eval --single-rec-only --year 2025 ===
+--- 单场推荐命中率（2025年）---
+  已完赛且有预测场次：2918 场
+  单场推荐（全部）：1539/2918，命中率 52.7%
+  单场推荐分档（推荐概率≥X%）：
+    ≥50%：1537/2916，52.7%
+    ≥55%：1531/2907，52.7%
+    ≥60%：1277/2365，54.0%
+    ≥65%：641/1130，56.7%
+    ≥70%：168/289，58.1%
+    ≥72%：149/262，56.9%
+    ≥75%：130/236，55.1%
+  当前关键配置：
+    SINGLE_REC_MIN_PROB=0.65
+    JC_REC_DEFAULT_MIN_PROB=0.65
+    JC_REC_HIGH_CONFIDENCE_MIN_PROB=0.7
+    PREDICT_USE_CALIBRATION=True
+    PREDICT_USE_OUTCOME_ML=True
+    PREDICT_OUTCOME_ML_WEIGHT=0.16
+    PREDICT_ODDS_FUSION_WEIGHT_MODEL=0.53
+    PREDICT_USE_API_PREDICTIONS=True
+    PREDICT_API_PREDICTIONS_WEIGHT=0.21
+
+############################################
+>>> Sat Mar 21 16:27:41 CST 2026 RUN exp_restore_calib_20260314
+############################################
+已用 data/backup/calibration_params.json.20260314_141607 覆盖 data/calibration_params.json（ML 未改）
+--- predict-jc-from-self-improvement --year 2025 ---
+按年批量：2025 年共 344 个竞彩日。
+
+predict-jc-from-self-improvement：共 344 个竞彩日，总场次 2133，新增预测 2133 条，跳过 0 场；队名解析率 100.0%。
+=== jc-predictions-eval --single-rec-only --year 2025 ===
+--- 单场推荐命中率（2025年）---
+  已完赛且有预测场次：2918 场
+  单场推荐（全部）：1530/2918，命中率 52.4%
+  单场推荐分档（推荐概率≥X%）：
+    ≥50%：1528/2916，52.4%
+    ≥55%：1522/2908，52.3%
+    ≥60%：1267/2370，53.5%
+    ≥65%：612/1098，55.7%
+    ≥70%：153/271，56.5%
+    ≥72%：146/259，56.4%
+    ≥75%：129/235，54.9%
+  当前关键配置：
+    SINGLE_REC_MIN_PROB=0.65
+    JC_REC_DEFAULT_MIN_PROB=0.65
+    JC_REC_HIGH_CONFIDENCE_MIN_PROB=0.7
+    PREDICT_USE_CALIBRATION=True
+    PREDICT_USE_OUTCOME_ML=True
+    PREDICT_OUTCOME_ML_WEIGHT=0.16
+    PREDICT_ODDS_FUSION_WEIGHT_MODEL=0.5
+    PREDICT_USE_API_PREDICTIONS=True
+    PREDICT_API_PREDICTIONS_WEIGHT=0.24
+
+========== Sat Mar 21 16:31:10 CST 2026 ablation 全部结束 ==========

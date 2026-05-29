@@ -1,0 +1,459 @@
+{
+  "meta": {
+    "target_hit_rate": 0.7,
+    "min_n": 20,
+    "generated_from": "jc_predictions_eval_report"
+  },
+  "leagues": {
+    "英超": {
+      "n": 1289,
+      "single_rec_ok": 698,
+      "single_rec_accuracy": 0.5415,
+      "min_prob_70": 0.68
+    },
+    "英冠": {
+      "n": 1077,
+      "single_rec_ok": 531,
+      "single_rec_accuracy": 0.493,
+      "min_prob_70": 0.78
+    },
+    "意甲": {
+      "n": 931,
+      "single_rec_ok": 513,
+      "single_rec_accuracy": 0.551,
+      "min_prob_70": 0.68
+    },
+    "西甲": {
+      "n": 927,
+      "single_rec_ok": 507,
+      "single_rec_accuracy": 0.5469,
+      "min_prob_70": 0.68
+    },
+    "德甲": {
+      "n": 873,
+      "single_rec_ok": 490,
+      "single_rec_accuracy": 0.5613,
+      "min_prob_70": 0.62
+    },
+    "美职": {
+      "n": 781,
+      "single_rec_ok": 440,
+      "single_rec_accuracy": 0.5634,
+      "min_prob_70": 0.7
+    },
+    "日职": {
+      "n": 769,
+      "single_rec_ok": 438,
+      "single_rec_accuracy": 0.5696,
+      "min_prob_70": 0.74
+    },
+    "日乙": {
+      "n": 750,
+      "single_rec_ok": 432,
+      "single_rec_accuracy": 0.576,
+      "min_prob_70": 0.72
+    },
+    "法甲": {
+      "n": 672,
+      "single_rec_ok": 373,
+      "single_rec_accuracy": 0.5551,
+      "min_prob_70": 0.68
+    },
+    "瑞超": {
+      "n": 665,
+      "single_rec_ok": 370,
+      "single_rec_accuracy": 0.5564,
+      "min_prob_70": 0.7
+    },
+    "德乙": {
+      "n": 634,
+      "single_rec_ok": 363,
+      "single_rec_accuracy": 0.5726,
+      "min_prob_70": 0.68
+    },
+    "挪超": {
+      "n": 613,
+      "single_rec_ok": 349,
+      "single_rec_accuracy": 0.5693,
+      "min_prob_70": 0.7
+    },
+    "荷甲": {
+      "n": 607,
+      "single_rec_ok": 312,
+      "single_rec_accuracy": 0.514,
+      "min_prob_70": 0.68
+    },
+    "葡超": {
+      "n": 587,
+      "single_rec_ok": 290,
+      "single_rec_accuracy": 0.494,
+      "min_prob_70": 0.68
+    },
+    "法乙": {
+      "n": 510,
+      "single_rec_ok": 268,
+      "single_rec_accuracy": 0.5255,
+      "min_prob_70": 0.64
+    },
+    "韩职": {
+      "n": 503,
+      "single_rec_ok": 288,
+      "single_rec_accuracy": 0.5726,
+      "min_prob_70": 0.66
+    },
+    "澳超": {
+      "n": 465,
+      "single_rec_ok": 246,
+      "single_rec_accuracy": 0.529,
+      "min_prob_70": 0.5
+    },
+    "巴甲": {
+      "n": 416,
+      "single_rec_ok": 214,
+      "single_rec_accuracy": 0.5144,
+      "min_prob_70": 0.7
+    },
+    "欧冠": {
+      "n": 414,
+      "single_rec_ok": 209,
+      "single_rec_accuracy": 0.5048,
+      "min_prob_70": 0.68
+    },
+    "世预赛": {
+      "n": 391,
+      "single_rec_ok": 191,
+      "single_rec_accuracy": 0.4885,
+      "min_prob_70": 0.68
+    },
+    "荷乙": {
+      "n": 355,
+      "single_rec_ok": 183,
+      "single_rec_accuracy": 0.5155,
+      "min_prob_70": 0.74
+    },
+    "俄超": {
+      "n": 277,
+      "single_rec_ok": 144,
+      "single_rec_accuracy": 0.5199,
+      "min_prob_70": 0.66
+    },
+    "欧罗巴": {
+      "n": 263,
+      "single_rec_ok": 125,
+      "single_rec_accuracy": 0.4753,
+      "min_prob_70": 0.5
+    },
+    "亚冠精英": {
+      "n": 192,
+      "single_rec_ok": 110,
+      "single_rec_accuracy": 0.5729,
+      "min_prob_70": 0.74
+    },
+    "英足总杯": {
+      "n": 163,
+      "single_rec_ok": 69,
+      "single_rec_accuracy": 0.4233,
+      "min_prob_70": 0.68
+    },
+    "欧国联": {
+      "n": 150,
+      "single_rec_ok": 75,
+      "single_rec_accuracy": 0.5,
+      "min_prob_70": 0.7
+    },
+    "解放者杯": {
+      "n": 146,
+      "single_rec_ok": 69,
+      "single_rec_accuracy": 0.4726,
+      "min_prob_70": 0.68
+    },
+    "日联赛杯": {
+      "n": 140,
+      "single_rec_ok": 79,
+      "single_rec_accuracy": 0.5643,
+      "min_prob_70": 0.66
+    },
+    "欧预赛": {
+      "n": 136,
+      "single_rec_ok": 69,
+      "single_rec_accuracy": 0.5074,
+      "min_prob_70": 0.66
+    },
+    "英甲": {
+      "n": 93,
+      "single_rec_ok": 56,
+      "single_rec_accuracy": 0.6022,
+      "min_prob_70": 0.66
+    },
+    "国际赛": {
+      "n": 92,
+      "single_rec_ok": 43,
+      "single_rec_accuracy": 0.4674,
+      "min_prob_70": 0.68
+    },
+    "欧协联": {
+      "n": 84,
+      "single_rec_ok": 36,
+      "single_rec_accuracy": 0.4286,
+      "min_prob_70": 0.68
+    },
+    "英联赛杯": {
+      "n": 77,
+      "single_rec_ok": 40,
+      "single_rec_accuracy": 0.5195,
+      "min_prob_70": 0.68
+    },
+    "德国杯": {
+      "n": 76,
+      "single_rec_ok": 47,
+      "single_rec_accuracy": 0.6184,
+      "min_prob_70": 0.68
+    },
+    "日天皇杯": {
+      "n": 75,
+      "single_rec_ok": 39,
+      "single_rec_accuracy": 0.52,
+      "min_prob_70": 0.68
+    },
+    "欧锦赛21": {
+      "n": 68,
+      "single_rec_ok": 33,
+      "single_rec_accuracy": 0.4853,
+      "min_prob_70": 0.5
+    },
+    "世界杯": {
+      "n": 64,
+      "single_rec_ok": 34,
+      "single_rec_accuracy": 0.5312,
+      "min_prob_70": 0.66
+    },
+    "金杯赛": {
+      "n": 58,
+      "single_rec_ok": 29,
+      "single_rec_accuracy": 0.5,
+      "min_prob_70": 0.68
+    },
+    "英锦标赛": {
+      "n": 58,
+      "single_rec_ok": 30,
+      "single_rec_accuracy": 0.5172,
+      "min_prob_70": 0.64
+    },
+    "欧洲杯": {
+      "n": 58,
+      "single_rec_ok": 27,
+      "single_rec_accuracy": 0.4655,
+      "min_prob_70": 0.68
+    },
+    "芬超": {
+      "n": 57,
+      "single_rec_ok": 33,
+      "single_rec_accuracy": 0.5789,
+      "min_prob_70": 0.66
+    },
+    "巴西杯": {
+      "n": 57,
+      "single_rec_ok": 34,
+      "single_rec_accuracy": 0.5965,
+      "min_prob_70": 0.66
+    },
+    "意大利杯": {
+      "n": 53,
+      "single_rec_ok": 27,
+      "single_rec_accuracy": 0.5094,
+      "min_prob_70": 0.64
+    },
+    "西国王杯": {
+      "n": 53,
+      "single_rec_ok": 25,
+      "single_rec_accuracy": 0.4717,
+      "min_prob_70": 0.5
+    },
+    "法国杯": {
+      "n": 51,
+      "single_rec_ok": 26,
+      "single_rec_accuracy": 0.5098,
+      "min_prob_70": 0.64
+    },
+    "女世界杯": {
+      "n": 50,
+      "single_rec_ok": 34,
+      "single_rec_accuracy": 0.68,
+      "min_prob_70": 0.6
+    },
+    "俱世界杯": {
+      "n": 48,
+      "single_rec_ok": 21,
+      "single_rec_accuracy": 0.4375,
+      "min_prob_70": 0.66
+    },
+    "奥运男足": {
+      "n": 38,
+      "single_rec_ok": 16,
+      "single_rec_accuracy": 0.4211,
+      "min_prob_70": 0.6
+    },
+    "亚洲杯": {
+      "n": 38,
+      "single_rec_ok": 23,
+      "single_rec_accuracy": 0.6053,
+      "min_prob_70": 0.62
+    },
+    "奥运女足": {
+      "n": 34,
+      "single_rec_ok": 13,
+      "single_rec_accuracy": 0.3824,
+      "min_prob_70": 0.62
+    },
+    "世界杯20": {
+      "n": 33,
+      "single_rec_ok": 19,
+      "single_rec_accuracy": 0.5758,
+      "min_prob_70": 0.5
+    },
+    "非洲杯": {
+      "n": 32,
+      "single_rec_ok": 16,
+      "single_rec_accuracy": 0.5,
+      "min_prob_70": 0.64
+    },
+    "亚洲杯23": {
+      "n": 30,
+      "single_rec_ok": 16,
+      "single_rec_accuracy": 0.5333,
+      "min_prob_70": 0.5
+    },
+    "美洲杯": {
+      "n": 28,
+      "single_rec_ok": 14,
+      "single_rec_accuracy": 0.5,
+      "min_prob_70": 0.64
+    },
+    "沙职": {
+      "n": 25,
+      "single_rec_ok": 14,
+      "single_rec_accuracy": 0.56,
+      "min_prob_70": 0.5
+    },
+    "亚运男足": {
+      "n": 24,
+      "single_rec_ok": 14,
+      "single_rec_accuracy": 0.5833,
+      "min_prob_70": 0.64
+    },
+    "韩国杯": {
+      "n": 23,
+      "single_rec_ok": 9,
+      "single_rec_accuracy": 0.3913,
+      "min_prob_70": 0.62
+    },
+    "亚冠乙": {
+      "n": 22,
+      "single_rec_ok": 10,
+      "single_rec_accuracy": 0.4545,
+      "min_prob_70": 0.5
+    },
+    "Nacompetitie": {
+      "n": 17,
+      "single_rec_ok": 9,
+      "single_rec_accuracy": 0.5294,
+      "min_prob_70": null
+    },
+    "公开赛杯": {
+      "n": 15,
+      "single_rec_ok": 3,
+      "single_rec_accuracy": 0.2,
+      "min_prob_70": null
+    },
+    "荷兰杯": {
+      "n": 13,
+      "single_rec_ok": 8,
+      "single_rec_accuracy": 0.6154,
+      "min_prob_70": null
+    },
+    "女东亚锦": {
+      "n": 12,
+      "single_rec_ok": 7,
+      "single_rec_accuracy": 0.5833,
+      "min_prob_70": null
+    },
+    "东亚锦": {
+      "n": 12,
+      "single_rec_ok": 6,
+      "single_rec_accuracy": 0.5,
+      "min_prob_70": null
+    },
+    "西超杯": {
+      "n": 10,
+      "single_rec_ok": 4,
+      "single_rec_accuracy": 0.4,
+      "min_prob_70": null
+    },
+    "葡萄牙杯": {
+      "n": 5,
+      "single_rec_ok": 3,
+      "single_rec_accuracy": 0.6,
+      "min_prob_70": null
+    },
+    "亚运女足": {
+      "n": 5,
+      "single_rec_ok": 0,
+      "single_rec_accuracy": 0.0,
+      "min_prob_70": null
+    },
+    "欧超杯": {
+      "n": 4,
+      "single_rec_ok": 2,
+      "single_rec_accuracy": 0.5,
+      "min_prob_70": null
+    },
+    "英社区盾": {
+      "n": 4,
+      "single_rec_ok": 3,
+      "single_rec_accuracy": 0.75,
+      "min_prob_70": null
+    },
+    "意超杯": {
+      "n": 3,
+      "single_rec_ok": 1,
+      "single_rec_accuracy": 0.3333,
+      "min_prob_70": null
+    },
+    "德超杯": {
+      "n": 3,
+      "single_rec_ok": 0,
+      "single_rec_accuracy": 0.0,
+      "min_prob_70": null
+    },
+    "法超杯": {
+      "n": 2,
+      "single_rec_ok": 1,
+      "single_rec_accuracy": 0.5,
+      "min_prob_70": null
+    },
+    "亚预赛": {
+      "n": 2,
+      "single_rec_ok": 2,
+      "single_rec_accuracy": 1.0,
+      "min_prob_70": null
+    },
+    "挪威杯": {
+      "n": 2,
+      "single_rec_ok": 1,
+      "single_rec_accuracy": 0.5,
+      "min_prob_70": null
+    },
+    "杯赛": {
+      "n": 1,
+      "single_rec_ok": 0,
+      "single_rec_accuracy": 0.0,
+      "min_prob_70": null
+    },
+    "瑞典杯": {
+      "n": 1,
+      "single_rec_ok": 0,
+      "single_rec_accuracy": 0.0,
+      "min_prob_70": null
+    }
+  }
+}

@@ -1,0 +1,568 @@
+{
+  "profiles": {
+    "off": [],
+    "rolling_halfyear_v1": [
+      {
+        "name": "season_early",
+        "month_day_from": "01-01",
+        "month_day_to": "02-15",
+        "params": {
+          "PREDICT_ODDS_FUSION_WEIGHT_MODEL": 0.53,
+          "PREDICT_API_PREDICTIONS_WEIGHT": 0.21,
+          "PREDICT_OUTCOME_ML_WEIGHT": 0.16,
+          "PREDICT_DRAW_BOOST_COEF": 0.22,
+          "PREDICT_DC_RHO": -0.1
+        }
+      },
+      {
+        "name": "season_mid",
+        "month_day_from": "02-16",
+        "month_day_to": "06-30",
+        "params": {
+          "PREDICT_ODDS_FUSION_WEIGHT_MODEL": 0.48,
+          "PREDICT_API_PREDICTIONS_WEIGHT": 0.28,
+          "PREDICT_OUTCOME_ML_WEIGHT": 0.16,
+          "PREDICT_DRAW_BOOST_COEF": 0.22,
+          "PREDICT_DC_RHO": -0.1
+        }
+      }
+    ],
+    "jc_2026": [
+      {
+        "name": "2026-01-01_to_2026-02-15",
+        "date_from": "2026-01-01",
+        "date_to": "2026-02-15",
+        "params": {
+          "PREDICT_ODDS_FUSION_WEIGHT_MODEL": 0.53,
+          "PREDICT_API_PREDICTIONS_WEIGHT": 0.21,
+          "PREDICT_OUTCOME_ML_WEIGHT": 0.16,
+          "PREDICT_DRAW_BOOST_COEF": 0.22,
+          "PREDICT_DC_RHO": -0.1
+        }
+      },
+      {
+        "name": "2026-02-16_to_2026-06-30",
+        "date_from": "2026-02-16",
+        "date_to": "2026-06-30",
+        "params": {
+          "PREDICT_ODDS_FUSION_WEIGHT_MODEL": 0.48,
+          "PREDICT_API_PREDICTIONS_WEIGHT": 0.28,
+          "PREDICT_OUTCOME_ML_WEIGHT": 0.16,
+          "PREDICT_DRAW_BOOST_COEF": 0.22,
+          "PREDICT_DC_RHO": -0.1
+        }
+      }
+    ],
+    "e3_slice_mg_a": [
+      {
+        "name": "season_early",
+        "month_day_from": "01-01",
+        "month_day_to": "02-15",
+        "params": {
+          "PREDICT_ODDS_FUSION_WEIGHT_MODEL": 0.5,
+          "PREDICT_API_PREDICTIONS_WEIGHT": 0.24,
+          "PREDICT_OUTCOME_ML_WEIGHT": 0.16,
+          "PREDICT_DRAW_BOOST_COEF": 0.22,
+          "PREDICT_DC_RHO": -0.1
+        }
+      },
+      {
+        "name": "season_mid",
+        "month_day_from": "02-16",
+        "month_day_to": "06-30",
+        "params": {
+          "PREDICT_ODDS_FUSION_WEIGHT_MODEL": 0.5,
+          "PREDICT_API_PREDICTIONS_WEIGHT": 0.24,
+          "PREDICT_OUTCOME_ML_WEIGHT": 0.16,
+          "PREDICT_DRAW_BOOST_COEF": 0.22,
+          "PREDICT_DC_RHO": -0.1
+        }
+      }
+    ],
+    "e3_slice_mg_b": [
+      {
+        "name": "season_early",
+        "month_day_from": "01-01",
+        "month_day_to": "02-15",
+        "params": {
+          "PREDICT_ODDS_FUSION_WEIGHT_MODEL": 0.52,
+          "PREDICT_API_PREDICTIONS_WEIGHT": 0.22,
+          "PREDICT_OUTCOME_ML_WEIGHT": 0.16,
+          "PREDICT_DRAW_BOOST_COEF": 0.22,
+          "PREDICT_DC_RHO": -0.1
+        }
+      },
+      {
+        "name": "season_mid",
+        "month_day_from": "02-16",
+        "month_day_to": "06-30",
+        "params": {
+          "PREDICT_ODDS_FUSION_WEIGHT_MODEL": 0.48,
+          "PREDICT_API_PREDICTIONS_WEIGHT": 0.26,
+          "PREDICT_OUTCOME_ML_WEIGHT": 0.16,
+          "PREDICT_DRAW_BOOST_COEF": 0.22,
+          "PREDICT_DC_RHO": -0.1
+        }
+      }
+    ],
+    "e3_slice_mg_c": [
+      {
+        "name": "season_early",
+        "month_day_from": "01-01",
+        "month_day_to": "02-15",
+        "params": {
+          "PREDICT_ODDS_FUSION_WEIGHT_MODEL": 0.54,
+          "PREDICT_API_PREDICTIONS_WEIGHT": 0.2,
+          "PREDICT_OUTCOME_ML_WEIGHT": 0.16,
+          "PREDICT_DRAW_BOOST_COEF": 0.22,
+          "PREDICT_DC_RHO": -0.1
+        }
+      },
+      {
+        "name": "season_mid",
+        "month_day_from": "02-16",
+        "month_day_to": "06-30",
+        "params": {
+          "PREDICT_ODDS_FUSION_WEIGHT_MODEL": 0.46,
+          "PREDICT_API_PREDICTIONS_WEIGHT": 0.28,
+          "PREDICT_OUTCOME_ML_WEIGHT": 0.16,
+          "PREDICT_DRAW_BOOST_COEF": 0.22,
+          "PREDICT_DC_RHO": -0.1
+        }
+      }
+    ],
+    "e3_slice_mg_d": [
+      {
+        "name": "season_early",
+        "month_day_from": "01-01",
+        "month_day_to": "02-15",
+        "params": {
+          "PREDICT_ODDS_FUSION_WEIGHT_MODEL": 0.5,
+          "PREDICT_API_PREDICTIONS_WEIGHT": 0.24,
+          "PREDICT_OUTCOME_ML_WEIGHT": 0.16,
+          "PREDICT_DRAW_BOOST_COEF": 0.22,
+          "PREDICT_DC_RHO": -0.1
+        }
+      },
+      {
+        "name": "season_mid",
+        "month_day_from": "02-16",
+        "month_day_to": "06-30",
+        "params": {
+          "PREDICT_ODDS_FUSION_WEIGHT_MODEL": 0.46,
+          "PREDICT_API_PREDICTIONS_WEIGHT": 0.28,
+          "PREDICT_OUTCOME_ML_WEIGHT": 0.16,
+          "PREDICT_DRAW_BOOST_COEF": 0.22,
+          "PREDICT_DC_RHO": -0.1
+        }
+      }
+    ],
+    "e3_slice_mg_e": [
+      {
+        "name": "season_early",
+        "month_day_from": "01-01",
+        "month_day_to": "02-15",
+        "params": {
+          "PREDICT_ODDS_FUSION_WEIGHT_MODEL": 0.5,
+          "PREDICT_API_PREDICTIONS_WEIGHT": 0.24,
+          "PREDICT_OUTCOME_ML_WEIGHT": 0.16,
+          "PREDICT_DRAW_BOOST_COEF": 0.22,
+          "PREDICT_DC_RHO": -0.1
+        }
+      },
+      {
+        "name": "season_mid",
+        "month_day_from": "02-16",
+        "month_day_to": "06-30",
+        "params": {
+          "PREDICT_ODDS_FUSION_WEIGHT_MODEL": 0.49,
+          "PREDICT_API_PREDICTIONS_WEIGHT": 0.25,
+          "PREDICT_OUTCOME_ML_WEIGHT": 0.16,
+          "PREDICT_DRAW_BOOST_COEF": 0.22,
+          "PREDICT_DC_RHO": -0.1
+        }
+      }
+    ],
+    "e3_slice_mg_f": [
+      {
+        "name": "season_early",
+        "month_day_from": "01-01",
+        "month_day_to": "02-15",
+        "params": {
+          "PREDICT_ODDS_FUSION_WEIGHT_MODEL": 0.5,
+          "PREDICT_API_PREDICTIONS_WEIGHT": 0.24,
+          "PREDICT_OUTCOME_ML_WEIGHT": 0.16,
+          "PREDICT_DRAW_BOOST_COEF": 0.22,
+          "PREDICT_DC_RHO": -0.1
+        }
+      },
+      {
+        "name": "season_mid",
+        "month_day_from": "02-16",
+        "month_day_to": "06-30",
+        "params": {
+          "PREDICT_ODDS_FUSION_WEIGHT_MODEL": 0.48,
+          "PREDICT_API_PREDICTIONS_WEIGHT": 0.26,
+          "PREDICT_OUTCOME_ML_WEIGHT": 0.16,
+          "PREDICT_DRAW_BOOST_COEF": 0.22,
+          "PREDICT_DC_RHO": -0.1
+        }
+      }
+    ],
+    "e3_slice_mg_g": [
+      {
+        "name": "season_early",
+        "month_day_from": "01-01",
+        "month_day_to": "02-15",
+        "params": {
+          "PREDICT_ODDS_FUSION_WEIGHT_MODEL": 0.5,
+          "PREDICT_API_PREDICTIONS_WEIGHT": 0.24,
+          "PREDICT_OUTCOME_ML_WEIGHT": 0.16,
+          "PREDICT_DRAW_BOOST_COEF": 0.22,
+          "PREDICT_DC_RHO": -0.1
+        }
+      },
+      {
+        "name": "season_mid",
+        "month_day_from": "02-16",
+        "month_day_to": "06-30",
+        "params": {
+          "PREDICT_ODDS_FUSION_WEIGHT_MODEL": 0.47,
+          "PREDICT_API_PREDICTIONS_WEIGHT": 0.27,
+          "PREDICT_OUTCOME_ML_WEIGHT": 0.16,
+          "PREDICT_DRAW_BOOST_COEF": 0.22,
+          "PREDICT_DC_RHO": -0.1
+        }
+      }
+    ],
+    "e3_slice_mg_h": [
+      {
+        "name": "season_early",
+        "month_day_from": "01-01",
+        "month_day_to": "02-15",
+        "params": {
+          "PREDICT_ODDS_FUSION_WEIGHT_MODEL": 0.5,
+          "PREDICT_API_PREDICTIONS_WEIGHT": 0.24,
+          "PREDICT_OUTCOME_ML_WEIGHT": 0.16,
+          "PREDICT_DRAW_BOOST_COEF": 0.22,
+          "PREDICT_DC_RHO": -0.1
+        }
+      },
+      {
+        "name": "season_mid",
+        "month_day_from": "02-16",
+        "month_day_to": "06-30",
+        "params": {
+          "PREDICT_ODDS_FUSION_WEIGHT_MODEL": 0.47,
+          "PREDICT_API_PREDICTIONS_WEIGHT": 0.25,
+          "PREDICT_OUTCOME_ML_WEIGHT": 0.18,
+          "PREDICT_DRAW_BOOST_COEF": 0.22,
+          "PREDICT_DC_RHO": -0.1
+        }
+      }
+    ],
+    "e3_slice_mg_i": [
+      {
+        "name": "season_early",
+        "month_day_from": "01-01",
+        "month_day_to": "02-15",
+        "params": {
+          "PREDICT_ODDS_FUSION_WEIGHT_MODEL": 0.5,
+          "PREDICT_API_PREDICTIONS_WEIGHT": 0.24,
+          "PREDICT_OUTCOME_ML_WEIGHT": 0.16,
+          "PREDICT_DRAW_BOOST_COEF": 0.22,
+          "PREDICT_DC_RHO": -0.1
+        }
+      },
+      {
+        "name": "season_mid",
+        "month_day_from": "02-16",
+        "month_day_to": "06-30",
+        "params": {
+          "PREDICT_ODDS_FUSION_WEIGHT_MODEL": 0.46,
+          "PREDICT_API_PREDICTIONS_WEIGHT": 0.26,
+          "PREDICT_OUTCOME_ML_WEIGHT": 0.18,
+          "PREDICT_DRAW_BOOST_COEF": 0.22,
+          "PREDICT_DC_RHO": -0.1
+        }
+      }
+    ],
+    "e3_slice_mg_j": [
+      {
+        "name": "season_early",
+        "month_day_from": "01-01",
+        "month_day_to": "02-15",
+        "params": {
+          "PREDICT_ODDS_FUSION_WEIGHT_MODEL": 0.5,
+          "PREDICT_API_PREDICTIONS_WEIGHT": 0.24,
+          "PREDICT_OUTCOME_ML_WEIGHT": 0.16,
+          "PREDICT_DRAW_BOOST_COEF": 0.22,
+          "PREDICT_DC_RHO": -0.1
+        }
+      },
+      {
+        "name": "season_mid",
+        "month_day_from": "02-16",
+        "month_day_to": "06-30",
+        "params": {
+          "PREDICT_ODDS_FUSION_WEIGHT_MODEL": 0.45,
+          "PREDICT_API_PREDICTIONS_WEIGHT": 0.27,
+          "PREDICT_OUTCOME_ML_WEIGHT": 0.18,
+          "PREDICT_DRAW_BOOST_COEF": 0.22,
+          "PREDICT_DC_RHO": -0.1
+        }
+      }
+    ],
+    "e3_three_seg_base": [
+      {
+        "name": "jan_to_jan15",
+        "comment": "三段：1.1-1.15、1.16-4.30、5.1-6.30，全年月日循环；三段均为 E3 统一参数",
+        "month_day_from": "01-01",
+        "month_day_to": "01-15",
+        "params": {
+          "PREDICT_ODDS_FUSION_WEIGHT_MODEL": 0.5,
+          "PREDICT_API_PREDICTIONS_WEIGHT": 0.24,
+          "PREDICT_OUTCOME_ML_WEIGHT": 0.16,
+          "PREDICT_DRAW_BOOST_COEF": 0.22,
+          "PREDICT_DC_RHO": -0.1
+        }
+      },
+      {
+        "name": "jan16_to_apr30",
+        "month_day_from": "01-16",
+        "month_day_to": "04-30",
+        "params": {
+          "PREDICT_ODDS_FUSION_WEIGHT_MODEL": 0.5,
+          "PREDICT_API_PREDICTIONS_WEIGHT": 0.24,
+          "PREDICT_OUTCOME_ML_WEIGHT": 0.16,
+          "PREDICT_DRAW_BOOST_COEF": 0.22,
+          "PREDICT_DC_RHO": -0.1
+        }
+      },
+      {
+        "name": "may_jun",
+        "month_day_from": "05-01",
+        "month_day_to": "06-30",
+        "params": {
+          "PREDICT_ODDS_FUSION_WEIGHT_MODEL": 0.5,
+          "PREDICT_API_PREDICTIONS_WEIGHT": 0.24,
+          "PREDICT_OUTCOME_ML_WEIGHT": 0.16,
+          "PREDICT_DRAW_BOOST_COEF": 0.22,
+          "PREDICT_DC_RHO": -0.1
+        }
+      },
+      {
+        "name": "jul_to_dec",
+        "month_day_from": "07-01",
+        "month_day_to": "12-31",
+        "params": {
+          "PREDICT_ODDS_FUSION_WEIGHT_MODEL": 0.5,
+          "PREDICT_API_PREDICTIONS_WEIGHT": 0.24,
+          "PREDICT_OUTCOME_ML_WEIGHT": 0.16,
+          "PREDICT_DRAW_BOOST_COEF": 0.22,
+          "PREDICT_DC_RHO": -0.1
+        }
+      }
+    ],
+    "e3_three_seg_mid_api": [
+      {
+        "name": "jan_to_jan15",
+        "month_day_from": "01-01",
+        "month_day_to": "01-15",
+        "params": {
+          "PREDICT_ODDS_FUSION_WEIGHT_MODEL": 0.5,
+          "PREDICT_API_PREDICTIONS_WEIGHT": 0.24,
+          "PREDICT_OUTCOME_ML_WEIGHT": 0.16,
+          "PREDICT_DRAW_BOOST_COEF": 0.22,
+          "PREDICT_DC_RHO": -0.1
+        }
+      },
+      {
+        "name": "jan16_to_apr30",
+        "month_day_from": "01-16",
+        "month_day_to": "04-30",
+        "params": {
+          "PREDICT_ODDS_FUSION_WEIGHT_MODEL": 0.47,
+          "PREDICT_API_PREDICTIONS_WEIGHT": 0.27,
+          "PREDICT_OUTCOME_ML_WEIGHT": 0.16,
+          "PREDICT_DRAW_BOOST_COEF": 0.22,
+          "PREDICT_DC_RHO": -0.1
+        }
+      },
+      {
+        "name": "may_jun",
+        "month_day_from": "05-01",
+        "month_day_to": "06-30",
+        "params": {
+          "PREDICT_ODDS_FUSION_WEIGHT_MODEL": 0.5,
+          "PREDICT_API_PREDICTIONS_WEIGHT": 0.24,
+          "PREDICT_OUTCOME_ML_WEIGHT": 0.16,
+          "PREDICT_DRAW_BOOST_COEF": 0.22,
+          "PREDICT_DC_RHO": -0.1
+        }
+      },
+      {
+        "name": "jul_to_dec",
+        "month_day_from": "07-01",
+        "month_day_to": "12-31",
+        "params": {
+          "PREDICT_ODDS_FUSION_WEIGHT_MODEL": 0.5,
+          "PREDICT_API_PREDICTIONS_WEIGHT": 0.24,
+          "PREDICT_OUTCOME_ML_WEIGHT": 0.16,
+          "PREDICT_DRAW_BOOST_COEF": 0.22,
+          "PREDICT_DC_RHO": -0.1
+        }
+      }
+    ],
+    "e3_three_seg_late_api": [
+      {
+        "name": "jan_to_jan15",
+        "month_day_from": "01-01",
+        "month_day_to": "01-15",
+        "params": {
+          "PREDICT_ODDS_FUSION_WEIGHT_MODEL": 0.5,
+          "PREDICT_API_PREDICTIONS_WEIGHT": 0.24,
+          "PREDICT_OUTCOME_ML_WEIGHT": 0.16,
+          "PREDICT_DRAW_BOOST_COEF": 0.22,
+          "PREDICT_DC_RHO": -0.1
+        }
+      },
+      {
+        "name": "jan16_to_apr30",
+        "month_day_from": "01-16",
+        "month_day_to": "04-30",
+        "params": {
+          "PREDICT_ODDS_FUSION_WEIGHT_MODEL": 0.5,
+          "PREDICT_API_PREDICTIONS_WEIGHT": 0.24,
+          "PREDICT_OUTCOME_ML_WEIGHT": 0.16,
+          "PREDICT_DRAW_BOOST_COEF": 0.22,
+          "PREDICT_DC_RHO": -0.1
+        }
+      },
+      {
+        "name": "may_jun",
+        "month_day_from": "05-01",
+        "month_day_to": "06-30",
+        "params": {
+          "PREDICT_ODDS_FUSION_WEIGHT_MODEL": 0.47,
+          "PREDICT_API_PREDICTIONS_WEIGHT": 0.27,
+          "PREDICT_OUTCOME_ML_WEIGHT": 0.16,
+          "PREDICT_DRAW_BOOST_COEF": 0.22,
+          "PREDICT_DC_RHO": -0.1
+        }
+      },
+      {
+        "name": "jul_to_dec",
+        "month_day_from": "07-01",
+        "month_day_to": "12-31",
+        "params": {
+          "PREDICT_ODDS_FUSION_WEIGHT_MODEL": 0.5,
+          "PREDICT_API_PREDICTIONS_WEIGHT": 0.24,
+          "PREDICT_OUTCOME_ML_WEIGHT": 0.16,
+          "PREDICT_DRAW_BOOST_COEF": 0.22,
+          "PREDICT_DC_RHO": -0.1
+        }
+      }
+    ],
+    "e3_three_seg_mid_late_api": [
+      {
+        "name": "jan_to_jan15",
+        "month_day_from": "01-01",
+        "month_day_to": "01-15",
+        "params": {
+          "PREDICT_ODDS_FUSION_WEIGHT_MODEL": 0.5,
+          "PREDICT_API_PREDICTIONS_WEIGHT": 0.24,
+          "PREDICT_OUTCOME_ML_WEIGHT": 0.16,
+          "PREDICT_DRAW_BOOST_COEF": 0.22,
+          "PREDICT_DC_RHO": -0.1
+        }
+      },
+      {
+        "name": "jan16_to_apr30",
+        "month_day_from": "01-16",
+        "month_day_to": "04-30",
+        "params": {
+          "PREDICT_ODDS_FUSION_WEIGHT_MODEL": 0.48,
+          "PREDICT_API_PREDICTIONS_WEIGHT": 0.26,
+          "PREDICT_OUTCOME_ML_WEIGHT": 0.16,
+          "PREDICT_DRAW_BOOST_COEF": 0.22,
+          "PREDICT_DC_RHO": -0.1
+        }
+      },
+      {
+        "name": "may_jun",
+        "month_day_from": "05-01",
+        "month_day_to": "06-30",
+        "params": {
+          "PREDICT_ODDS_FUSION_WEIGHT_MODEL": 0.46,
+          "PREDICT_API_PREDICTIONS_WEIGHT": 0.28,
+          "PREDICT_OUTCOME_ML_WEIGHT": 0.16,
+          "PREDICT_DRAW_BOOST_COEF": 0.22,
+          "PREDICT_DC_RHO": -0.1
+        }
+      },
+      {
+        "name": "jul_to_dec",
+        "month_day_from": "07-01",
+        "month_day_to": "12-31",
+        "params": {
+          "PREDICT_ODDS_FUSION_WEIGHT_MODEL": 0.5,
+          "PREDICT_API_PREDICTIONS_WEIGHT": 0.24,
+          "PREDICT_OUTCOME_ML_WEIGHT": 0.16,
+          "PREDICT_DRAW_BOOST_COEF": 0.22,
+          "PREDICT_DC_RHO": -0.1
+        }
+      }
+    ],
+    "e3_three_seg_early_model": [
+      {
+        "name": "jan_to_jan15",
+        "month_day_from": "01-01",
+        "month_day_to": "01-15",
+        "params": {
+          "PREDICT_ODDS_FUSION_WEIGHT_MODEL": 0.52,
+          "PREDICT_API_PREDICTIONS_WEIGHT": 0.22,
+          "PREDICT_OUTCOME_ML_WEIGHT": 0.16,
+          "PREDICT_DRAW_BOOST_COEF": 0.22,
+          "PREDICT_DC_RHO": -0.1
+        }
+      },
+      {
+        "name": "jan16_to_apr30",
+        "month_day_from": "01-16",
+        "month_day_to": "04-30",
+        "params": {
+          "PREDICT_ODDS_FUSION_WEIGHT_MODEL": 0.48,
+          "PREDICT_API_PREDICTIONS_WEIGHT": 0.26,
+          "PREDICT_OUTCOME_ML_WEIGHT": 0.16,
+          "PREDICT_DRAW_BOOST_COEF": 0.22,
+          "PREDICT_DC_RHO": -0.1
+        }
+      },
+      {
+        "name": "may_jun",
+        "month_day_from": "05-01",
+        "month_day_to": "06-30",
+        "params": {
+          "PREDICT_ODDS_FUSION_WEIGHT_MODEL": 0.5,
+          "PREDICT_API_PREDICTIONS_WEIGHT": 0.24,
+          "PREDICT_OUTCOME_ML_WEIGHT": 0.16,
+          "PREDICT_DRAW_BOOST_COEF": 0.22,
+          "PREDICT_DC_RHO": -0.1
+        }
+      },
+      {
+        "name": "jul_to_dec",
+        "month_day_from": "07-01",
+        "month_day_to": "12-31",
+        "params": {
+          "PREDICT_ODDS_FUSION_WEIGHT_MODEL": 0.5,
+          "PREDICT_API_PREDICTIONS_WEIGHT": 0.24,
+          "PREDICT_OUTCOME_ML_WEIGHT": 0.16,
+          "PREDICT_DRAW_BOOST_COEF": 0.22,
+          "PREDICT_DC_RHO": -0.1
+        }
+      }
+    ]
+  }
+}

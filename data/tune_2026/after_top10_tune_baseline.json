@@ -1,0 +1,123 @@
+{
+  "range_label": "2026年",
+  "date_from": null,
+  "date_to": null,
+  "year": 2026,
+  "export_timestamp": "2026-03-26T13:34:36.668889Z",
+  "n": 803,
+  "outcome_correct": 356,
+  "outcome_accuracy": 0.44333748443337484,
+  "exact_score_correct": 81,
+  "exact_score_accuracy": 0.10087173100871731,
+  "single_rec_ok": 443,
+  "single_rec_n": 803,
+  "single_rec_accuracy": 0.5516811955168119,
+  "n_high_conf": 552,
+  "outcome_correct_high_conf": 271,
+  "outcome_accuracy_high_conf": 0.49094202898550726,
+  "by_single_rec_tier": [
+    {
+      "threshold": 0.5,
+      "n": 799,
+      "correct": 442,
+      "accuracy": 0.5531914893617021
+    },
+    {
+      "threshold": 0.55,
+      "n": 799,
+      "correct": 442,
+      "accuracy": 0.5531914893617021
+    },
+    {
+      "threshold": 0.6,
+      "n": 715,
+      "correct": 400,
+      "accuracy": 0.5594405594405595
+    },
+    {
+      "threshold": 0.65,
+      "n": 400,
+      "correct": 233,
+      "accuracy": 0.5825
+    },
+    {
+      "threshold": 0.7,
+      "n": 125,
+      "correct": 70,
+      "accuracy": 0.56
+    },
+    {
+      "threshold": 0.72,
+      "n": 107,
+      "correct": 62,
+      "accuracy": 0.5794392523364486
+    },
+    {
+      "threshold": 0.75,
+      "n": 88,
+      "correct": 52,
+      "accuracy": 0.5909090909090909
+    }
+  ],
+  "by_confidence_tier": [
+    {
+      "threshold": 0.5,
+      "n": 443,
+      "correct": 235,
+      "accuracy": 0.5304740406320542
+    },
+    {
+      "threshold": 0.55,
+      "n": 361,
+      "correct": 204,
+      "accuracy": 0.5650969529085873
+    },
+    {
+      "threshold": 0.6,
+      "n": 244,
+      "correct": 142,
+      "accuracy": 0.5819672131147541
+    },
+    {
+      "threshold": 0.65,
+      "n": 131,
+      "correct": 82,
+      "accuracy": 0.6259541984732825
+    },
+    {
+      "threshold": 0.7,
+      "n": 65,
+      "correct": 43,
+      "accuracy": 0.6615384615384615
+    },
+    {
+      "threshold": 0.72,
+      "n": 42,
+      "correct": 31,
+      "accuracy": 0.7380952380952381
+    },
+    {
+      "threshold": 0.75,
+      "n": 21,
+      "correct": 19,
+      "accuracy": 0.9047619047619048
+    }
+  ],
+  "n_rq": 797,
+  "rq_ok_odds": 418,
+  "rq_accuracy_odds": 0.5244667503136763,
+  "rq_ok_model": 311,
+  "rq_accuracy_model": 0.39021329987452946,
+  "n_rq_jc_rqspf": 640,
+  "rq_ok_jc_rqspf": 346,
+  "rq_accuracy_jc_rqspf": 0.540625,
+  "ext_zjqs_n": 671,
+  "ext_zjqs_ok": 163,
+  "ext_zjqs_accuracy": 0.2429210134128167,
+  "ext_bf_n": 671,
+  "ext_bf_ok": 84,
+  "ext_bf_accuracy": 0.12518628912071536,
+  "ext_bqc_n": 666,
+  "ext_bqc_ok": 182,
+  "ext_bqc_accuracy": 0.2732732732732733
+}

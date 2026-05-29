@@ -1,0 +1,128 @@
+date,league_cn,home_team,away_team,source
+2026-01-02,英超,Brentford,Tottenham,api_football
+2026-01-02,英超,Crystal Palace,Fulham,api_football
+2026-01-02,英超,Liverpool,Leeds,api_football
+2026-01-02,英超,Sunderland,Manchester City,api_football
+2026-01-03,意甲,Cagliari,AC Milan,api_football
+2026-01-03,法甲,Toulouse,Lens,api_football
+2026-01-03,西甲,Rayo Vallecano,Getafe,api_football
+2026-01-04,意甲,Atalanta,AS Roma,api_football
+2026-01-04,意甲,Juventus,Lecce,api_football
+2026-01-04,法甲,Lille,Rennes,api_football
+2026-01-04,法甲,Monaco,Lyon,api_football
+2026-01-04,法甲,Nice,Strasbourg,api_football
+2026-01-04,英超,Bournemouth,Arsenal,api_football
+2026-01-04,西甲,Elche,Villarreal,api_football
+2026-01-04,西甲,Espanyol,Barcelona,api_football
+2026-01-05,意甲,Inter,Bologna,api_football
+2026-01-05,意甲,Verona,Torino,api_football
+2026-01-05,法甲,Le Havre,Angers,api_football
+2026-01-05,法甲,Lorient,Metz,api_football
+2026-01-05,法甲,Paris Saint Germain,Paris FC,api_football
+2026-01-05,法甲,Stade Brestois 29,Auxerre,api_football
+2026-01-05,英超,Manchester City,Chelsea,api_football
+2026-01-05,西甲,Alaves,Oviedo,api_football
+2026-01-05,西甲,Mallorca,Girona,api_football
+2026-01-05,西甲,Real Sociedad,Atletico Madrid,api_football
+2026-01-07,意甲,Lecce,AS Roma,api_football
+2026-01-07,意甲,Sassuolo,Juventus,api_football
+2026-01-07,英超,West Ham,Nottingham Forest,api_football
+2026-01-08,意甲,Bologna,Atalanta,api_football
+2026-01-08,意甲,Lazio,Fiorentina,api_football
+2026-01-08,意甲,Napoli,Verona,api_football
+2026-01-08,意甲,Parma,Inter,api_football
+2026-01-08,意甲,Torino,Udinese,api_football
+2026-01-08,英超,Bournemouth,Tottenham,api_football
+2026-01-08,英超,Brentford,Sunderland,api_football
+2026-01-08,英超,Burnley,Manchester United,api_football
+2026-01-08,英超,Crystal Palace,Aston Villa,api_football
+2026-01-08,英超,Everton,Wolves,api_football
+2026-01-08,英超,Fulham,Chelsea,api_football
+2026-01-08,英超,Newcastle,Leeds,api_football
+2026-01-09,意甲,AC Milan,Genoa,api_football
+2026-01-09,意甲,Cremonese,Cagliari,api_football
+2026-01-09,英超,Arsenal,Liverpool,api_football
+2026-01-10,德甲,Eintracht Frankfurt,Borussia Dortmund,api_football
+2026-01-10,德甲,FC St. Pauli,RB Leipzig,api_football
+2026-01-10,德甲,Werder Bremen,1899 Hoffenheim,api_football
+2026-01-10,西甲,Getafe,Real Sociedad,api_football
+2026-01-11,德甲,Bayer Leverkusen,VfB Stuttgart,api_football
+2026-01-11,意甲,AS Roma,Sassuolo,api_football
+2026-01-11,意甲,Atalanta,Torino,api_football
+2026-01-11,西甲,Girona,Osasuna,api_football
+2026-01-11,西甲,Valencia,Elche,api_football
+2026-01-12,德甲,Bayern Munich,VfL Wolfsburg,api_football
+2026-01-12,意甲,Inter,Napoli,api_football
+2026-01-12,意甲,Verona,Lazio,api_football
+2026-01-13,意甲,Genoa,Cagliari,api_football
+2026-01-13,意甲,Juventus,Cremonese,api_football
+2026-01-13,西甲,Sevilla,Celta Vigo,api_football
+2026-01-14,德甲,Borussia Dortmund,Werder Bremen,api_football
+2026-01-14,德甲,FSV Mainz 05,FC Heidenheim,api_football
+2026-01-14,德甲,Hamburger SV,Bayer Leverkusen,api_football
+2026-01-14,德甲,VfB Stuttgart,Eintracht Frankfurt,api_football
+2026-01-15,德甲,1. FC Köln,Bayern Munich,api_football
+2026-01-15,德甲,1899 Hoffenheim,Borussia Monchengladbach,api_football
+2026-01-15,德甲,RB Leipzig,SC Freiburg,api_football
+2026-01-15,德甲,VfL Wolfsburg,FC St. Pauli,api_football
+2026-01-15,意甲,Inter,Lecce,api_football
+2026-01-15,意甲,Napoli,Parma,api_football
+2026-01-16,德甲,FC Augsburg,Union Berlin,api_football
+2026-01-16,意甲,Como,AC Milan,api_football
+2026-01-16,意甲,Verona,Bologna,api_football
+2026-01-17,德甲,Werder Bremen,Eintracht Frankfurt,api_football
+2026-01-17,意甲,Pisa,Atalanta,api_football
+2026-01-17,法甲,Monaco,Lorient,api_football
+2026-01-17,法甲,Paris Saint Germain,Lille,api_football
+2026-01-17,西甲,Espanyol,Girona,api_football
+2026-01-18,德甲,RB Leipzig,Bayern Munich,api_football
+2026-01-18,意甲,Cagliari,Juventus,api_football
+2026-01-18,意甲,Napoli,Sassuolo,api_football
+2026-01-18,法甲,Lens,Auxerre,api_football
+2026-01-18,英超,Nottingham Forest,Arsenal,api_football
+2026-01-18,西甲,Osasuna,Oviedo,api_football
+2026-01-18,西甲,Real Betis,Villarreal,api_football
+2026-01-19,德甲,FC Augsburg,SC Freiburg,api_football
+2026-01-19,意甲,AC Milan,Lecce,api_football
+2026-01-19,意甲,Torino,AS Roma,api_football
+2026-01-19,法甲,Lyon,Stade Brestois 29,api_football
+2026-01-19,法甲,Nantes,Paris FC,api_football
+2026-01-19,英超,Aston Villa,Everton,api_football
+2026-01-19,西甲,Celta Vigo,Rayo Vallecano,api_football
+2026-01-19,西甲,Real Sociedad,Barcelona,api_football
+2026-01-20,意甲,Cremonese,Verona,api_football
+2026-01-20,意甲,Lazio,Como,api_football
+2026-01-20,西甲,Elche,Sevilla,api_football
+2026-01-24,德甲,FC St. Pauli,Hamburger SV,api_football
+2026-01-24,意甲,Inter,Pisa,api_football
+2026-01-24,法甲,Auxerre,Paris Saint Germain,api_football
+2026-01-24,西甲,Levante,Elche,api_football
+2026-01-25,德甲,Union Berlin,Borussia Dortmund,api_football
+2026-01-25,意甲,Fiorentina,Cagliari,api_football
+2026-01-25,意甲,Lecce,Lazio,api_football
+2026-01-25,法甲,Le Havre,Monaco,api_football
+2026-01-25,法甲,Marseille,Lens,api_football
+2026-01-25,法甲,Rennes,Lorient,api_football
+2026-01-25,英超,Bournemouth,Liverpool,api_football
+2026-01-25,西甲,Sevilla,Athletic Club,api_football
+2026-01-25,西甲,Villarreal,Real Madrid,api_football
+2026-01-26,德甲,SC Freiburg,1. FC Köln,api_football
+2026-01-26,意甲,AS Roma,AC Milan,api_football
+2026-01-26,意甲,Juventus,Napoli,api_football
+2026-01-26,法甲,Lille,Strasbourg,api_football
+2026-01-26,法甲,Metz,Lyon,api_football
+2026-01-26,法甲,Paris FC,Angers,api_football
+2026-01-26,法甲,Stade Brestois 29,Toulouse,api_football
+2026-01-26,英超,Arsenal,Manchester United,api_football
+2026-01-26,西甲,Alaves,Real Betis,api_football
+2026-01-26,西甲,Real Sociedad,Celta Vigo,api_football
+2026-01-27,意甲,Verona,Udinese,api_football
+2026-01-27,英超,Everton,Leeds,api_football
+2026-01-27,西甲,Girona,Getafe,api_football
+2026-01-28,德甲,FC St. Pauli,RB Leipzig,api_football
+2026-01-28,德甲,Werder Bremen,1899 Hoffenheim,api_football
+2026-02-28,德甲,FC Augsburg,1. FC Köln,api_football
+2026-02-28,意甲,Parma,Cagliari,api_football
+2026-02-28,法甲,Strasbourg,Lens,api_football
+2026-02-28,英超,Wolves,Aston Villa,api_football
+2026-02-28,西甲,Levante,Alaves,api_football

@@ -1,0 +1,86 @@
+{
+  "baseline_2026": {
+    "single": 56.2,
+    "outcome": 45.6
+  },
+  "results": [
+    {
+      "name": "baseline",
+      "single_2026": 56.0,
+      "outcome_2026": 44.8,
+      "delta_single": -0.2,
+      "delta_out": -0.8,
+      "env": {}
+    },
+    {
+      "name": "c1",
+      "single_2026": 56.0,
+      "outcome_2026": 45.7,
+      "delta_single": -0.2,
+      "delta_out": 0.1,
+      "env": {
+        "PREDICT_OUTCOME_ML_WEIGHT": 0.35,
+        "PREDICT_ODDS_FUSION_WEIGHT_MODEL": 0.52,
+        "PREDICT_RQSPF_ODDS_FUSION_WEIGHT_MODEL": 0.35,
+        "PREDICT_DRAW_BOOST_COEF": 0.22,
+        "PREDICT_RQSPF_BLEND_DC_WEIGHT": 1.0
+      }
+    },
+    {
+      "name": "c2",
+      "single_2026": 56.0,
+      "outcome_2026": 45.7,
+      "delta_single": -0.2,
+      "delta_out": 0.1,
+      "env": {
+        "PREDICT_OUTCOME_ML_WEIGHT": 0.36,
+        "PREDICT_ODDS_FUSION_WEIGHT_MODEL": 0.5,
+        "PREDICT_RQSPF_ODDS_FUSION_WEIGHT_MODEL": 0.35,
+        "PREDICT_DRAW_BOOST_COEF": 0.22,
+        "PREDICT_RQSPF_BLEND_DC_WEIGHT": 1.0
+      }
+    },
+    {
+      "name": "c3",
+      "single_2026": 56.1,
+      "outcome_2026": 45.8,
+      "delta_single": -0.1,
+      "delta_out": 0.2,
+      "env": {
+        "PREDICT_OUTCOME_ML_WEIGHT": 0.34,
+        "PREDICT_ODDS_FUSION_WEIGHT_MODEL": 0.55,
+        "PREDICT_RQSPF_ODDS_FUSION_WEIGHT_MODEL": 0.35,
+        "PREDICT_DRAW_BOOST_COEF": 0.22,
+        "PREDICT_RQSPF_BLEND_DC_WEIGHT": 1.0
+      }
+    },
+    {
+      "name": "c4",
+      "single_2026": 55.7,
+      "outcome_2026": 46.2,
+      "delta_single": -0.5,
+      "delta_out": 0.6,
+      "env": {
+        "PREDICT_OUTCOME_ML_WEIGHT": 0.34,
+        "PREDICT_ODDS_FUSION_WEIGHT_MODEL": 0.52,
+        "PREDICT_RQSPF_ODDS_FUSION_WEIGHT_MODEL": 0.38,
+        "PREDICT_DRAW_BOOST_COEF": 0.2,
+        "PREDICT_RQSPF_BLEND_DC_WEIGHT": 1.0
+      }
+    }
+  ],
+  "best": {
+    "name": "c3",
+    "single_2026": 56.1,
+    "outcome_2026": 45.8,
+    "delta_single": -0.1,
+    "delta_out": 0.2,
+    "env": {
+      "PREDICT_OUTCOME_ML_WEIGHT": 0.34,
+      "PREDICT_ODDS_FUSION_WEIGHT_MODEL": 0.55,
+      "PREDICT_RQSPF_ODDS_FUSION_WEIGHT_MODEL": 0.35,
+      "PREDICT_DRAW_BOOST_COEF": 0.22,
+      "PREDICT_RQSPF_BLEND_DC_WEIGHT": 1.0
+    }
+  }
+}

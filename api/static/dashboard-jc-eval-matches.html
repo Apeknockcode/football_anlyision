@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>命中比赛列表 · 竞彩预测统计</title>
+  <style>
+    :root {
+      --bg: #f0f2f5;
+      --card: #fff;
+      --border: #e4e7ec;
+      --text: #1a1f26;
+      --muted: #5c6573;
+      --accent: #0d9488;
+      --accent-bg: #ccfbf1;
+      --radius: 12px;
+      --radius-sm: 8px;
+      --shadow: 0 1px 3px rgba(0,0,0,0.06);
+      --font-sans: "PingFang SC", "Microsoft YaHei", sans-serif;
+    }
+    * { box-sizing: border-box; }
+    body { font-family: var(--font-sans); background: var(--bg); color: var(--text); margin: 0; min-height: 100vh; line-height: 1.5; }
+    .header { background: var(--card); border-bottom: 1px solid var(--border); padding: 1rem 1.5rem; box-shadow: var(--shadow); }
+    .header-inner { max-width: 1200px; margin: 0 auto; }
+    .header h1 { margin: 0 0 0.35rem 0; font-size: 1.25rem; font-weight: 700; }
+    .header p { margin: 0; color: var(--muted); font-size: 0.875rem; }
+    .back-link { display: inline-block; margin-bottom: 0.5rem; font-size: 0.875rem; color: var(--accent); text-decoration: none; }
+    .back-link:hover { text-decoration: underline; }
+    .main { max-width: 1200px; margin: 0 auto; padding: 1.5rem; }
+    .card { background: var(--card); border: 1px solid var(--border); border-radius: var(--radius); padding: 1.25rem; box-shadow: var(--shadow); }
+    .loading, .error { padding: 2rem; text-align: center; color: var(--muted); }
+    .error { color: #dc2626; }
+    .count-bar { margin-bottom: 0.75rem; font-size: 0.8rem; color: var(--muted); }
+    .match-cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 0.75rem; }
+    .match-card { background: var(--card); border: 1px solid var(--border); border-radius: var(--radius-sm); padding: 0.75rem 1rem; font-size: 0.8125rem; }
+    .match-card .card-head { display: flex; justify-content: space-between; align-items: baseline; gap: 0.5rem; margin-bottom: 0.25rem; }
+    .match-card .card-match { font-weight: 600; color: var(--text); }
+    .match-card .card-date { font-size: 0.7rem; color: var(--muted); flex-shrink: 0; }
+    .match-card .card-line { font-size: 0.75rem; color: var(--muted); }
+    .match-card .card-score { padding: 0.1em 0.35em; border-radius: 4px; transition: background 0.15s ease; }
+    .match-card:hover .card-score { background: var(--accent-bg); color: var(--accent); }
+  </style>
+</head>
+<body>
+  <header class="header">
+    <div class="header-inner">
+      <a href="/dashboard/jc" class="back-link">← 返回竞彩仪表盘</a>
+      <h1 id="page-title">命中比赛列表</h1>
+      <p id="page-desc">加载中…</p>
+    </div>
+  </header>
+  <main class="main">
+    <div class="card">
+      <div id="content"><div class="loading">正在加载…</div></div>
+    </div>
+  </main>
+  <script>
+    (function () {
+      var params = {};
+      (location.search || '').slice(1).split('&').forEach(function (pair) {
+        var i = pair.indexOf('=');
+        if (i >= 0) params[decodeURIComponent(pair.slice(0, i))] = decodeURIComponent((pair.slice(i + 1) || '').replace(/\+/g, ' '));
+      });
+      var year = params.year, all = params.all === '1' || params.all === 'true', filter = params.filter || 'tier55';
+      if (filter !== 'tier55' && filter !== 'tier60' && filter !== 'tier65' && filter !== 'single_rec') filter = 'tier55';
+      var qs = 'filter=' + encodeURIComponent(filter);
+      if (all) qs += '&all=1'; else qs += '&year=' + encodeURIComponent(year || '2026');
+      var url = '/api/jc-predictions-eval/matches?' + qs;
+      var titleEl = document.getElementById('page-title');
+      var descEl = document.getElementById('page-desc');
+      var contentEl = document.getElementById('content');
+      function escapeHtml(s) {
+        if (s == null) return '';
+        var t = String(s);
+        return t.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+      }
+      function shortOutcome(s) {
+        if (s == null) return '—';
+        var t = String(s);
+        if (t === '主胜') return '胜';
+        if (t === '客胜') return '负';
+        return t;
+      }
+      function shortRec(s) {
+        if (s == null) return '—';
+        var t = String(s);
+        if (t === '主胜') return '胜';
+        if (t === '客胜') return '负';
+        return t;
+      }
+      fetch(url)
+        .then(function (r) { if (!r.ok) throw new Error(r.statusText || '请求失败'); return r.json(); })
+        .then(function (data) {
+          var rangeLabel = data.range_label || (all ? '全量' : (data.year ? data.year + '年' : ''));
+          var filterLabel = data.filter === 'single_rec' ? '单场推荐命中' : (data.filter === 'tier55' ? '模型推荐(≥55%)命中' : (data.filter === 'tier60' ? '模型推荐(≥60%)命中' : '模型推荐(≥65%)命中'));
+          titleEl.textContent = rangeLabel + ' · ' + filterLabel;
+          var tierDesc = data.filter === 'tier55' ? '按模型胜平负概率≥55%统计（场次多于≥60%），非单场推荐' : (data.filter === 'tier60' ? '按模型胜平负概率≥60%统计，非单场推荐' : (data.filter === 'tier65' ? '按模型胜平负概率≥65%统计，更少更稳' : ''));
+          descEl.textContent = (data.filter === 'tier55' || data.filter === 'tier60' || data.filter === 'tier65') ? '共 ' + (data.count || 0) + ' 场（' + tierDesc + '）' : '共 ' + (data.count || 0) + ' 场';
+          if (!data.matches || data.matches.length === 0) {
+            contentEl.innerHTML = '<div class="count-bar">共 0 场</div><p class="loading">该条件下暂无命中场次。</p>';
+            return;
+          }
+          var html = '<div class="count-bar">共 <strong>' + data.count + '</strong> 场</div><div class="match-cards">';
+          data.matches.forEach(function (m) {
+            var homeVsAway = escapeHtml(m.home_cn || '—') + ' vs ' + escapeHtml(m.away_cn || '—') + (m.handicap != null ? '(' + m.handicap + ')' : '');
+            var scoreStr = (m.score || '—').replace(':', '-');
+            var singleRec = shortRec(m.recommended) + (m.rec_prob != null ? m.rec_prob + '%' : '');
+            var actualStr = shortOutcome(m.actual_outcome) + (m.actual_rq_display ? ' / ' + escapeHtml(m.actual_rq_display) : '');
+            var scorePart = '比分：<span class="card-score">' + escapeHtml(scoreStr) + '</span>';
+            var line = scorePart + ' · 推' + escapeHtml(singleRec) + ' · 果' + actualStr;
+            html += '<article class="match-card">';
+            html += '<div class="card-head"><span class="card-match">' + homeVsAway + '</span><span class="card-date">' + escapeHtml(m.jc_date || '—') + ' ' + escapeHtml(m.league || '—') + '</span></div>';
+            html += '<div class="card-line">' + line + '</div>';
+            html += '</article>';
+          });
+          html += '</div>';
+          contentEl.innerHTML = html;
+        })
+        .catch(function (e) {
+          titleEl.textContent = '命中比赛列表';
+          descEl.textContent = '';
+          contentEl.innerHTML = '<div class="error">加载失败：' + escapeHtml(e && e.message ? e.message : '未知错误') + '</div>';
+        });
+    })();
+  </script>
+</body>
+</html>
